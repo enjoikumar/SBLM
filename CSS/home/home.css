@@ -2,6 +2,7 @@ body {
   font-family: Helvetica, sans-serif;
 }
 
+
 .logo {
   font-weight: bold;
   color: white;
@@ -36,7 +37,7 @@ body {
 }
 
 .link-item:hover {
-  color: rgb(238,60,47);
+  color: rgb(238,60,47) !important;
 }
 
 .fixed-nav-bar {

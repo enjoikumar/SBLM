@@ -1,5 +1,6 @@
 console.log("ice")
 
+
 var $current, $next, $slides = $(".slideshow .slide");
 
 function doSlideShow () {
@@ -11,6 +12,7 @@ function doSlideShow () {
   $slides.removeClass("previous");
   $current.addClass("previous").removeClass("current");
   $next.addClass("current");
-  window.setTimeout(doSlideShow, 5000);
+  window.setTimeout(doSlideShow, 3000);
 }
-window.setTimeout(doSlideShow, 5000);
+window.setTimeout(doSlideShow, 3000);
+
