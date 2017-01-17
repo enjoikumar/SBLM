@@ -1,5 +1,7 @@
 body{
-  background-color: papayawhip;
+  background-image: url(/Users/kamalkumar/Desktop/SBLM/CSS/ASSETS/5.jpg);
+  background-attachment: fixed;
+  background-position: 75% 25%;
 }
 
 .img {
@@ -12,7 +14,6 @@ body{
     background-size: cover;
 }
 
-@import url(//codepen.io/chrisdothtml/pen/ojLzJK.css);
 .tiles {
   width: 1040px;
   font-size: 0;
