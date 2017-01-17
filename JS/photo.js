@@ -1,4 +1,5 @@
-console.log('ice')
+//Testing console
+// console.log('ice')
 
 $(document).ready(function(){
   var isWebkit = navigator && navigator.userAgent.match(/webkit/i);
@@ -18,6 +19,7 @@ $(document).ready(function(){
             .attr('href', '#'+id)
             .appendTo($t);
   });
+  
   $root.keydown(function(e){
     if(e.keyCode != 37 && e.keyCode != 39) return;
     var current = scrolling || 0;

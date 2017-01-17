@@ -6,3 +6,4 @@ $(".logo").hover(
     $(this).text('SBLM') 
   }
 )
+//changes SBLM to SBLM Architects after hovering over it
