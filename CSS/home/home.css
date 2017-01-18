@@ -64,22 +64,30 @@ body {
   outline: 1px solid white;
 }
 
-@media screen and (max-width:560px) {
-  .links {
-    margin: 50px 0 0 0;
-    text-align:left;
-    display: flex;
-    float: none;
-    padding: 0;
-    flex-direction: column;
-  }
-  .link-item {
-    text-align: left;
-    padding-left: 25px
-  }
-   .link-item:hover {
-    color: white;
-    padding-left: 80px;
-    transition: padding .4s;
-  }
+
+/* ############################
+        RESPONSIVE
+############################### */
+
+@media only screen and (max-width: 700px) {
+    .link-item {
+      background-color: lightblue;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
