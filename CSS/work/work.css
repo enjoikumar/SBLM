@@ -1,105 +1,106 @@
-
 body{
-	background-color: white;
+	background-color:white;
 	margin-left: 0;
 }
 
 .img-view {
 	width: 300px;
-  height: 300px;
-  overflow: hidden;
-  position: relative;
-  display: inline-block;
-  float: left;
+	height: 300px;
+	overflow: hidden;
+	position: relative;
+	display: inline-block;
+	float: left;
 }
 
 .img-view img, .img-view .caption {
-  position: absolute;
-  transition: all 0.2s linear;
+	position: absolute;
+	transition: all 0.2s linear;
 }
 
-.img-view img {
-  display: block;
-  width: 300px;
-  transition: all 0.4s linear;
+.img-view img{
+	display: block;
+	width: 300px;
+	transition: all 0.4s linear;
 }
 
 .img-view .caption {
-  z-index: 111;
-  color: #fff;
-  text-align: center;
-  width: 300px;
-  height: 300px;
-  position: absolute;
-  overflow: hidden;
-  top: 0;
-  left: 0;
-  opacity: 0;
-  background-color: rgba(0, 0, 0, 0.8);
+	z-index: 111;
+	color: white;
+	text-align: center;
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	background-color: rgba(0, 0, 0, 0.8);
 }
 
-.img-view .caption:before {
-  content: "";
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
-  margin-right: -0.25em;
+.img-view .caption:before{
+	content: "";
+	display: inline-block;
+	height: 300px;
+	vertical-align: middle;
+	margin-right: -0.25em;
 }
 
 .img-view .caption .content {
-  display: inline-block;
-  vertical-align: middle;
-  transition: all 0.4s linear;
+	display: inline-block;
+	vertical-align: middle;
+	transition: all 0.4s linear;
 }
 
 .img-view:after {
-	content: "";
-  width: 300px;
-  height: 300px;
-  position: absolute;
-  top: 0;
-  box-shadow: #000 0 0 50px inset;
-  display: block;
-  transition: all 0.3s ease;
-  opacity: 0;
+ 	content: "";
+ 	width: 300px;
+ 	height: 300px;
+ 	position: absolute;
+ 	top: 0;
+ 	box-shadow: #000 0 0 50px inset;
+ 	display: block;
+ 	transition: all 0.3s ease;
+ 	opacity: 0;
 }
 
 .img-view h2 {
-  margin: 0 0;
-  font-weight: 100;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-  text-transform: uppercase;
-  opacity: 0;
-  transform: perspective(120px) rotateX(52deg);
-  transition: all 0.4s linear;
+	margin: 0 0;
+	font-weight: 100;
+	border-bottom: 1px solid rgba(255, 255, 0.2);
+	text-transform: uppercase;
+	opacity: 0;
+	transform: perspective(120px) rotateX(52deg);
+	transition: all 0.4s linear;
 }
 
 .img-view p {
-  font-weight: 100;
-  opacity: 0;
-  transform: translate(0, 10px);
-  -webkit-filter: blur(5px);
-  transition: all 0.4s ease;
+	font-weight: 100;
+	opacity: 0;
+	transform: translate(0, 5px);
+	-webkit-filter: blur(5px);
+	transition: all 0.4s ease;
 }
 
 .img-view:hover .caption, .img-view:hover:after {
-  opacity: 1;
+	opacity: 1;
 }
 
 .img-view:hover h2 {
-  transform: translate(0, 0) rotate(0);
-  opacity: 1;
+	transform: translate(0, 0) rotate(0);
+	opacity: 1;
 }
 
 .img-view:hover p {
-  opacity: 1;
-  transform: translate(0, 0);
-  -webkit-filter: blur(0);
+	opacity: 1;
+	transform: translate(0, 0);
+	-webkit-filter: blur(0);
 }
 
 .img-view:hover img {
-  transform: scale(1.1);
+	transform: scale(1.1);
 }
+
+
 
 
 
