@@ -21,7 +21,11 @@ $(document).ready(function(){
             .appendTo($t);
   });
 
+});
 
+
+
+  //FEATURE IS DEPRECATED
   // $root.keydown(function(e){
   //   if(e.keyCode != 37 && e.keyCode != 39) return;
   //   var current = scrolling || 0;
@@ -38,6 +42,4 @@ $(document).ready(function(){
   //   scrolling = current;
   // });
 
-  //FEATURE IS DEPRECATED
 
-});

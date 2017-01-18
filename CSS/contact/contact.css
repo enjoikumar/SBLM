@@ -8,22 +8,21 @@ html, body {
 .img {
   position: relative;
   height: 100%;
-  /* attr data-type doesn't work anywhere for the moment :( */
-  /* Even in chrome canary */
-  /* So we do it the JS way */
-  background-image: attr(data-img url); /* Keep it anyway */
+  /* att data-type doesn't work anywhere for the moment */
+  /* So we had to do it in the JS way */
+  background-image: attr(data-img url);
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
   border-bottom: 3px solid white;
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 28px;
   font-weight: bold;
-  /*letter-spacing: -2px;*/
+  /* letter-spacing: -2px */
   letter-spacing: 5px;
-  color: rgba(255,255,255,0.85);
-  /*-webkit-text-stroke: 1.5px rgba(0,0,0,0.7);*/
+  color: rgba(255, 255, 255, 0.85);
+  /* -webkit-text-stroke: 1.5px rgba(0, 0, 0, 0.7)*/
   cursor: default;
 }
 
@@ -31,8 +30,8 @@ html, body {
   border-bottom: none;
 }
 
-.img:before  {
-  content: '';
+.img:before {
+  content: "";
   display: inline-block;
   height: 100%;
   vertical-align: middle;
@@ -40,27 +39,6 @@ html, body {
 
 .multiline {
   display: inline-block;
-}
-
-.max {
-  display: block;
-  font-size: 60px;
-  letter-spacing: 5px;
-}
-
-.img .permalink {
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 16px;
-  height: 16px;
-  background: url(http://i.imgur.com/wdQCy4F.png) center no-repeat;
-  opacity: .2;
-  transition: opacity .5s;
-}
-
-.img .permalink:hover {
-  opacity: 1;
 }
 
 
