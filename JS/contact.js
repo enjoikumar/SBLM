@@ -1,6 +1,7 @@
 console.log('ice')
 
 $(document).ready(function(){
+
   var isWebkit = navigator && navigator.userAgent.match(/webkit/i);
   var $root = $(isWebkit ? 'body' : 'html');
   var elements = $('div'), elcount = elements.length;
@@ -9,6 +10,7 @@ $(document).ready(function(){
   elements.css('background-image', function(i){
     return 'url('+$(this).data('img')+')';
   });
+
   //Add permalinks
   elements.each(function(i){
     var $t = $(this);
@@ -18,19 +20,24 @@ $(document).ready(function(){
             .attr('href', '#'+id)
             .appendTo($t);
   });
-  $root.keydown(function(e){
-    if(e.keyCode != 37 && e.keyCode != 39) return;
-    var current = scrolling || 0;
-    if(scrolling === false)
-    {
-      var bsT = $root.scrollTop(), t;
-      while(current < elcount && (t = elements.eq(current).offset().top) < bsT)
-        current++;
-    }
-    if(e.keyCode == 37) current--;
-    else if(scrolling !== false || t == bsT) current++;
-    current = (current + elcount) % elcount;
-    $root.stop().animate({scrollTop: elements.eq(current).offset().top}, function(){scrolling = false;});
-    scrolling = current;
-  });
+
+
+  // $root.keydown(function(e){
+  //   if(e.keyCode != 37 && e.keyCode != 39) return;
+  //   var current = scrolling || 0;
+  //   if(scrolling === false)
+  //   {
+  //     var bsT = $root.scrollTop(), t;
+  //     while(current < elcount && (t = elements.eq(current).offset().top) < bsT)
+  //       current++;
+  //   }
+  //   if(e.keyCode == 37) current--;
+  //   else if(scrolling !== false || t == bsT) current++;
+  //   current = (current + elcount) % elcount;
+  //   $root.stop().animate({scrollTop: elements.eq(current).offset().top}, function(){scrolling = false;});
+  //   scrolling = current;
+  // });
+
+  //FEATURE IS DEPRECATED
+
 });
