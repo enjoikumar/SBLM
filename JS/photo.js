@@ -1,6 +1,6 @@
 console.log("ice")
 
-
+//Declaring variables
 var $current, $next, $slides = $(".slideshow .slide");
 
 function doSlideShow () {

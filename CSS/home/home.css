@@ -1,5 +1,6 @@
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
 /* Remove margins and padding from the list, and add a black background color */
 
 
@@ -8,7 +9,7 @@ body{
   font-family: "Open Sans";
 }
 
-ul.topnav {
+.topnav {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -20,18 +21,18 @@ ul.topnav {
 }
 
 /* Float the list items side by side */
-ul.topnav li {
+li {
   float: left;
 }
 
 /* Style the links inside the list items */
-ul.topnav li a {
+a {
   display: inline-block;
-  color: #f2f2f2;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  transition: 1s;
+  transition: .5s;
   font-size: 17px;
 }
 
@@ -41,13 +42,13 @@ ul.topnav li a {
 
 
 /* Change background color of links on hover */
-ul.topnav li a:hover {
+a:hover {
   background-color: #555;
 }
 
 /* Hide the list item that contains the link that 
 should open and close the topnav on small screens */
-ul.topnav li.icon {
+.icon {
   display: none;
 }
 
