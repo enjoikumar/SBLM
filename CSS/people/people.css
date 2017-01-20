@@ -1,7 +1,7 @@
 /*makes the image always fit the size of the screen*/
 img{
   width: 100%;
-  padding: 0;
+  filter: grayscale(100%);
 }
 
 /*makes the font and such*/
@@ -14,9 +14,7 @@ img{
 
 /*styling the box*/
 .box {
-  /*border: 5px solid black;*/
   cursor: pointer;
-  /*height: 182px;*/
   float: left;
   position: relative;
   overflow: hidden;
