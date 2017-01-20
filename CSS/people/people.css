@@ -1,3 +1,9 @@
 img{
   width: 100%;
 }
+
+#mainwrapper {
+  font: 10pt normal Helvetica, sans-serif;
+  height: auto;
+  width: 100%;
+}
