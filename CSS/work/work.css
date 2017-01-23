@@ -1,6 +1,7 @@
 *{
 	margin: 0;
 }
+
 img{
 	width: 300px;
 	height: 300px;
@@ -9,6 +10,7 @@ img{
 	float: left !important;
 	overflow: hidden !important;
 }
+
 .project a{
 	color:black;
 	text-decoration: none;
