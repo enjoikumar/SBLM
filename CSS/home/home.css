@@ -21,12 +21,12 @@ body{
 }
 
 /* Float the list items side by side */
-li {
+.topnav li {
   float: left;
 }
 
 /* Style the links inside the list items */
-a {
+.topnav a {
   display: inline-block;
   color: white;
   text-align: center;
@@ -36,19 +36,19 @@ a {
   font-size: 17px;
 }
 
-.link{
+.topnav .link{
   margin-left: 50px;
 }
 
 
 /* Change background color of links on hover */
-a:hover {
+.topnav a:hover {
   background-color: #555;
 }
 
 /* Hide the list item that contains the link that 
 should open and close the topnav on small screens */
-.icon {
+.topnav .icon {
   display: none;
 }
 
