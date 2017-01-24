@@ -16,6 +16,9 @@ img{
 	text-decoration: none;
 }
 
+.civic{
+  filter: grayscale(100%);
+}
 
 figure{
   width: 300px;
@@ -101,5 +104,6 @@ figure:hover img{
 .filter{
   padding-top:50px;
   text-align:center;
+  /*background-color: black;*/
   /*width: 100%;*/
 }
