@@ -6,21 +6,27 @@ $(document).ready(function(){
 // $("[id = education").css("background-color","yellow");
 
 $education = $("[id = education");
-// console.log("just turned education yellow")
-$education.css("background-color", "yellow")
 
 $retail = $("[id = retail");
-$retail.css("background-color", "red")
 
 $mixed = $("[id = mixed");
-$mixed.css("background-color", "green")
 
 $health = $("[id = health");
-$health.css("background-color", "blue")
 
 $civic = $("[id = civic");
-$civic.css("background-color", "papayawhip")
 
 $all = $("[id = all");
-$all.css("background-color", "black")
+
+// $civic= $(".civic-color");
+$civic = $("[id = civic")
+
+// $education.click(function () {
+//   $education.css("background-color", "yellow");
+// })
+
+$civic.click(function(){
+  $(".civic-color").css("filter", "grayscale(0%)");
+})
+
+
 });
