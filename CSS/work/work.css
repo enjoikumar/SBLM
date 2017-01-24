@@ -16,11 +16,15 @@ img{
 	text-decoration: none;
 }
 
-.education, 
+/*.education, 
 .retail, 
 .mixed,
 .health, 
 .civic {
+  filter: grayscale(100%);
+}*/
+
+.project figure{
   filter: grayscale(100%);
 }
 
@@ -31,6 +35,7 @@ figure{
   position: relative;
   display: inline-block;
   vertical-align: top;
+  margin-right: -10px;
 }
 
 figcaption{

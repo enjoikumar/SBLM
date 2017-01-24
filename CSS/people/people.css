@@ -12,16 +12,19 @@
   width: 100%;
 }
 
-.header{
+/*styling the header*/
+.firm{
   text-align: center;
   font-size: 20px;
-  padding-top: 5px;
+  padding-top: 30px;
 }
 
+/*making the line break 90% of the page*/
 hr{
   width: 90%;
 }
 
+/*width and position of the images*/
 figure {
   width: 175px;
   height: 220px;
@@ -33,6 +36,7 @@ figure {
   margin-right: -40px;
 }
 
+/*captions stay underneath the relative photo*/
 figcaption {
   text-align: center;
   width: 100%;
@@ -41,6 +45,7 @@ figcaption {
   position: relative;
 }
 
+/*same thing as firm, styling the text*/
 .team {
   text-align: center;
   font-size: 20px;

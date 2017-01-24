@@ -4,7 +4,8 @@ $(document).ready(function(){
 
 // testing
 // $("[id = education").css("background-color","yellow");
-
+// calling the id education on a global level
+// so functions are easier to write
 $education = $("[id = education");
 
 $retail = $("[id = retail");
@@ -17,13 +18,14 @@ $civic = $("[id = civic");
 
 $all = $("[id = all");
 
-// $civic= $(".civic-color");
-$civic = $("[id = civic")
-
 // $education.click(function () {
 //   $education.css("background-color", "yellow");
 // })
 
+// each click function changes the grayscale of the item to none
+// making it in color while the others remain in black and white
+// Need to make the functions smaller
+// if else statements
 $education.click(function(){
   $(".education").css("filter", "grayscale(0%)")
   $(".retail").css("filter", "grayscale(100%)")
@@ -31,7 +33,7 @@ $education.click(function(){
   $(".health").css("filter", "grayscale(100%)")
   $(".civic").css("filter", "grayscale(100%)")
   $(".all").css("filter", "grayscale(100%)")
-})
+});
 
 $retail.click(function(){
   $(".education").css("filter", "grayscale(100%)")
@@ -40,7 +42,7 @@ $retail.click(function(){
   $(".health").css("filter", "grayscale(100%)")
   $(".civic").css("filter", "grayscale(100%)")
   $(".all").css("filter", "grayscale(100%)")
-})
+});
 
 $mixed.click(function(){
   $(".education").css("filter", "grayscale(100%)")
@@ -49,7 +51,7 @@ $mixed.click(function(){
   $(".health").css("filter", "grayscale(100%)")
   $(".civic").css("filter", "grayscale(100%)")
   $(".all").css("filter", "grayscale(100%)")
-})
+});
 
 $health.click(function(){
   $(".education").css("filter", "grayscale(100%)")
@@ -58,7 +60,7 @@ $health.click(function(){
   $(".health").css("filter", "grayscale(0%)")
   $(".civic").css("filter", "grayscale(100%)")
   $(".all").css("filter", "grayscale(100%)")
-})
+});
 
 $civic.click(function(){
   $(".education").css("filter", "grayscale(100%)")
@@ -67,7 +69,7 @@ $civic.click(function(){
   $(".health").css("filter", "grayscale(100%)")
   $(".civic").css("filter", "grayscale(0%)")
   $(".all").css("filter", "grayscale(100%)")
-})
+});
 
 $all.click(function(){
   $(".education").css("filter", "grayscale(100%)")
@@ -75,6 +77,35 @@ $all.click(function(){
   $(".mixed").css("filter", "grayscale(100%)")
   $(".health").css("filter", "grayscale(100%)")
   $(".civic").css("filter", "grayscale(100%)")
-})
+});
+
+// $education.click(function(){
+//   if($(".education").css("filter", "grayscale(100%)")){
+//     $(".education").css("filter", "grayscale(0%)")
+//   }else($(".project").css("filter", "grayscale(0%)"))
+// })
+
+// $retail.click(function(){
+//   if($(".retail").css("filter", "grayscale(100%)")){
+//     $(".retail").css("filter", "grayscale(0%)")
+//   }else($(".project").css("filter", "grayscale(0%)"))
+// })
+
+// $health.click(function(){
+//   if($(".health").css("filter", "grayscale(100%)")){
+//     $(".health").css("filter", "grayscale(0%)")
+//   }else($(".project").css("filter", "grayscale(0%)"))
+// })
+
+// $civic.click(function(){
+//   if($(".civic").css("filter", "grayscale(100%)")){
+//     $(".civic").css("filter", "grayscale(0%)")
+//   }else($(".project").css("filter", "grayscale(0%)"))
+// })
+// $mixed.click(function(){
+//   if($(".mixed").css("filter", "grayscale(100%)")){
+//     $(".mixed").css("filter", "grayscale(0%)")
+//   }else($(".project").css("filter", "grayscale(0%)"))
+// })
 
 });
