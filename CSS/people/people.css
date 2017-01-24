@@ -1,5 +1,5 @@
 /*makes the image always fit the size of the screen*/
-img{
+.box img{
   width: 100%;
   filter: grayscale(100%);
 }
@@ -12,37 +12,21 @@ img{
   width: 100%;
 }
 
-/*styling the box*/
-/*.box {
-  cursor: pointer;
-  float: left;
-  position: relative;
-  overflow: hidden;
-}*/
 
-/*styling the image*/
-img {
-  position: relative;
-  -webkit-transition: all 300ms ease-out;
-  -moz-transition: all 300ms ease-out;
-  -o-transition: all 300ms ease-out;
-  -ms-transition: all 300ms ease-out;
-  transition: all 300ms ease-out;
-}
 
-.people{
-  padding-left: 10%;
-}
-
-.people img{
-  height: 200px;
-  width: 200px;
+figure {
+  width: 175px;
+  height: 220px;
   display: inline-block;
-  padding-bottom: 10px;
-  padding-left: 20px;
 }
 
-
+figcaption {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  display: table;
+  position: relative;
+}
 
 
 
