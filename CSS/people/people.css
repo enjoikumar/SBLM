@@ -13,11 +13,12 @@
 }
 
 
-
 figure {
   width: 175px;
   height: 220px;
   display: inline-block;
+  padding-top: 50px;
+  padding-bottom: 75px;
 }
 
 figcaption {
