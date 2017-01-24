@@ -12,34 +12,16 @@ $(document).ready(function(){
   });
 
   //Add permalinks
-  elements.each(function(i){
-    var $t = $(this);
-    var id = $t.attr('id');
-    if(!id) return;
-    $('<a>').addClass('permalink')
-            .attr('href', '#'+id)
-            .appendTo($t);
+elements.each(function(i){
+  var $t = $(this);
+  var id = $t.attr('id');
+  if(!id) return;
+  $('<a>').addClass('permalink')
+          .attr('href', '#'+id)
+            appendTo($t);
   });
 
 });
 
-
-
-//FEATURE IS DEPRECATED
-// $root.keydown(function(e){
-//   if(e.keyCode != 37 && e.keyCode != 39) return;
-//   var current = scrolling || 0;
-//   if(scrolling === false)
-//   {
-//     var bsT = $root.scrollTop(), t;
-//     while(current < elcount && (t = elements.eq(current).offset().top) < bsT)
-//       current++;
-//   }
-//   if(e.keyCode == 37) current--;
-//   else if(scrolling !== false || t == bsT) current++;
-//   current = (current + elcount) % elcount;
-//   $root.stop().animate({scrollTop: elements.eq(current).offset().top}, function(){scrolling = false;});
-//   scrolling = current;
-// });
 
 
