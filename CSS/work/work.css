@@ -85,3 +85,21 @@ figure:hover img{
 }
 
 
+.filter a{
+  padding: 10px 20px;
+  display:inline-block;
+  color:#003;
+  background:#eee;
+  text-decoration:none;
+  transition:all 0.2s;
+}
+
+.filter a:hover{
+  background:#8ad;
+}
+
+.filter{
+  padding-top:50px;
+  text-align:center;
+  /*width: 100%;*/
+}
