@@ -16,7 +16,11 @@ img{
 	text-decoration: none;
 }
 
-.civic-color{
+.education, 
+.retail, 
+.mixed,
+.health, 
+.civic {
   filter: grayscale(100%);
 }
 
@@ -95,6 +99,7 @@ figure:hover img{
   background:#eee;
   text-decoration:none;
   transition:all 0.2s;
+  cursor: pointer;
 }
 
 .filter a:hover{
