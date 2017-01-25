@@ -98,11 +98,13 @@ hr{
 
 .history{
 	padding-top: 60px;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	/*background-color: black;*/
 }
 
 .first span {
+	/*color: white;*/
 }
 
 .second span {
@@ -110,6 +112,7 @@ hr{
 	padding-top: 300px;
 	padding-bottom: 10px;
 	margin-right: -410px;
+	/*color:white;*/
 }
 .second img {
 	float: right;
@@ -122,7 +125,63 @@ hr{
 .third{
 	/*padding-top: 240px;*/
 	margin-top: 315px;
+	padding-bottom: 20px;
 }
+.third span{
+	/*color: white;*/
+}
+
+.project-team {
+	text-align: center;
+	font-size: 20px;
+}
+
+
+
+.team{
+	margin-top: 35px;
+	margin-left: 40px;
+	padding-bottom: 100px;
+}
+
+.profile span {
+	/*overflow: auto;*/
+	float: left;
+	width: 500px;
+}
+
+.profile img{
+	padding-left: 100px;
+	margin-right: -100px;
+	padding-top: -180px;
+	margin-top: -30px;
+}
+.profile .info {
+	float: right;
+	margin-right: -200px;
+	margin-top: -180px;
+	position: relative;
+	overflow: auto;
+}
+
+/*.profile img{
+	margin-left: 100px;
+	margin-top: -44px;
+	padding-left: 80px;
+	padding-bottom: 40px;
+	position: relative;
+}*/
+
+/*.profile .info{
+	float: right;
+	margin-right: -200px;
+	margin-top: -180px;
+	position: relative;
+	overflow: auto;
+}*/
+
+
+
 
 
 
