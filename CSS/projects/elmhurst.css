@@ -2,7 +2,7 @@
 	margin: 0;
 }
 
-.diy-slideshow{
+.slideshow{
 	position: relative;
 	display: block;
 	overflow: hidden;
@@ -12,6 +12,12 @@ figure{
 	position: absolute;
 	opacity: 0;
 	transition: 1s opacity;
+	width: 100%;
+	height: 600px;
+}
+figure img {
+	width: 100%;
+	height: 600px;
 }
 
 figure.show {

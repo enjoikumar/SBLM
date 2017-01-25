@@ -7,7 +7,7 @@ $(document).ready(function(){
 	var counter = 0, 
 
 	// a collection of all of the slides, caching for performance
-  $items = document.querySelectorAll('.diy-slideshow figure'),
+  $items = document.querySelectorAll('.slideshow figure'),
 
   // total number of slides
   numItems = $items.length; 
