@@ -145,42 +145,23 @@ hr{
 }
 
 .profile span {
-	/*overflow: auto;*/
 	float: left;
 	width: 500px;
+	padding-right: 100px;
 }
 
-.profile img{
-	padding-left: 100px;
-	margin-right: -100px;
-	padding-top: -180px;
-	margin-top: -30px;
-}
-.profile .info {
-	float: right;
-	margin-right: -200px;
-	margin-top: -180px;
+.profile img {
 	position: relative;
-	overflow: auto;
+	margin-top: -40px;
 }
 
-/*.profile img{
-	margin-left: 100px;
-	margin-top: -44px;
-	padding-left: 80px;
-	padding-bottom: 40px;
-	position: relative;
-}*/
+.profile .info{
+	margin-top: -20px;
+}
 
-/*.profile .info{
-	float: right;
-	margin-right: -200px;
-	margin-top: -180px;
-	position: relative;
-	overflow: auto;
-}*/
-
-
+#second{
+	padding-top: 50px;
+}
 
 
 
