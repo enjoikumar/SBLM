@@ -68,12 +68,6 @@ hr{
 	margin: auto;
 }
 
-.history{
-	padding-top: 60px;
-	padding-left: 20px;
-	padding-right: 20px;
-}
-
 /*.first span{
 	position: absolute;
 	padding-left: 10px;
@@ -101,20 +95,33 @@ hr{
 	position: absolute;
 	padding-left: 10px;
 }*/
-.first span{
-	position: relative;
-	padding-top: 40px;
+
+.history{
+	padding-top: 60px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.first span {
 }
 
 .second span {
 	float: right;
+	padding-top: 300px;
+	padding-bottom: 10px;
+	margin-right: -410px;
 }
 .second img {
 	float: right;
+	padding-bottom: -10px;
 }
 
+.second{
+	margin-top: -175px;
+}
 .third{
-	padding-top: 240px;
+	/*padding-top: 240px;*/
+	margin-top: 315px;
 }
 
 
