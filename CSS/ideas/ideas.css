@@ -1,3 +1,41 @@
 body{
-  background:papayawhip;
+  background:black;
 }
+
+
+
+* { box-sizing: border-box; }
+
+body {
+  font-family: sans-serif;
+}
+
+/* ---- grid ---- */
+
+.grid {
+	padding-top: 100px;
+  background: black;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+
+.grid-item {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: #0D8;
+  border: 1px solid;
+  border-color: white;
+}
+
+.grid-item--width2 { width: 200px; }
+.grid-item--height2 { height: 200px; }

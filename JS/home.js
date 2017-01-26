@@ -1,5 +1,3 @@
-console.log("youre in the home page")
-
 
 //function enables an extra element to the nav bar
 function myFunction() {
