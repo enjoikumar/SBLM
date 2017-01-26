@@ -1,6 +1,13 @@
 // console.log("project page")
+
+
+
+
 $(document).ready(function(){
 
+  //just another way of writing document.ready
+  //but for some reason, need to have both
+  //could be a conflict of libraries
 	(function(){
 
   // to keep track of current slide
@@ -27,12 +34,13 @@ $(document).ready(function(){
   $items[itemToShow].classList.add('show');
 	};
 
-	// add click events to prev & next buttons 
+	// add click event to next button, as well as adding 1 to the counter 
 	document.querySelector('.next').addEventListener('click', function() {
      counter++;
      showCurrent();
   }, false);
 
+  // click event to prev button and subtracting 1 to the counter 
 	document.querySelector('.prev').addEventListener('click', function() {
      counter--;
      showCurrent();
@@ -40,3 +48,9 @@ $(document).ready(function(){
   
 	})();  
 })
+
+
+
+
+
+
