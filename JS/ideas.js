@@ -7,10 +7,7 @@ $(document).ready(function(){
 	  }
 	});
 
-	// $(".grid").append
-	// ($('<div id="div1"> <img id="myImg" class="grid-item grid-item--width2" src="https://drscdn.500px.org/photo/99282877/q%3D80_h%3D300/562f82a22fda0b74f545b53e36673d17"></div>'))
-	// $(".grid").append($('<div id="div2"><img id="myImg2" class="grid-item grid-item--height2" src="https://drscdn.500px.org/photo/98121159/q%3D80_m%3D1000/7db68a1e085dc492079530dc3cfe00c2"></div>'))
-
+	
 	//gettting elements by id's
 	var modal = document.getElementById("myModal");
 
@@ -24,7 +21,7 @@ $(document).ready(function(){
 	var img8 = document.getElementById("myImg8");
 	var img9 = document.getElementById("myImg9");
 
-
+	//pushing elements into an array to shuffle later
 	var chain = 
 	[
 	document.getElementById("div1"),
@@ -40,7 +37,9 @@ $(document).ready(function(){
 	// console.log(chain)
 
 	var wrapper = document.getElementById("grid");
+	var captionText = document.getElementById("caption");
 
+	//shuffle function version 1
 	// function shuffle(array) {
 	// var currentIndex = array.length, temporaryValue, randomIndex;
 	// 	while (0 !== currentIndex) {
@@ -66,6 +65,8 @@ $(document).ready(function(){
 	// }
 	// window.onpageload=func1;
 
+	//shuffle function version 2
+	//both work, v2 just has less lines of code
 	function shuffle(array){
 		var copy = [], n = array.length, i;
 		//while there remain elements to shuffle
@@ -78,15 +79,19 @@ $(document).ready(function(){
 		return  copy
 	}
 
+	//invoking the function and then displaying it on the console
 	// chain = shuffle(chain)
 	// console.log(chain)
 
 
 	var modalImg = document.getElementById("img01")
 
+	//on click, array would shuffle elements and then
+	//display them on the html
 	img1.onclick = function(){
 		modal.style.display = "block";
 		modalImg.src = this.src;
+		captionText.innerHTML = this.alt;
 		chain = shuffle(chain)
 		chain.push( chain.shift());
 		// console.log("chain got pushed")
@@ -101,6 +106,8 @@ $(document).ready(function(){
 		console.log(chain)
 	}
 
+	//when clicked on image, it would pop up 
+	//
 	img2.onclick = function(){
 		modal.style.display = "block";
 		modalImg.src = this.src;
@@ -145,18 +152,10 @@ $(document).ready(function(){
 	span.onclick = function(){
 		modal.style.display = "none";
 	}
-
-
-
-
- // window.onpageload=func1;
-
-
-
-
-
 })
 
+
+//test functions for shuffling array
 // random function
 // var arr1 = ["dog", "cat", "panda", "tiger","lion"]
 // arr1.sort(function(a,b){
