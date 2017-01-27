@@ -7,6 +7,10 @@ $(document).ready(function(){
 	  }
 	});
 
+	// $(".grid").append
+	// ($('<div id="div1"> <img id="myImg" class="grid-item grid-item--width2" src="https://drscdn.500px.org/photo/99282877/q%3D80_h%3D300/562f82a22fda0b74f545b53e36673d17"></div>'))
+	// $(".grid").append($('<div id="div2"><img id="myImg2" class="grid-item grid-item--height2" src="https://drscdn.500px.org/photo/98121159/q%3D80_m%3D1000/7db68a1e085dc492079530dc3cfe00c2"></div>'))
+
 	//gettting elements by id's
 	var modal = document.getElementById("myModal");
 
@@ -74,8 +78,8 @@ $(document).ready(function(){
 		return  copy
 	}
 
-	chain = shuffle(chain)
-	console.log(chain)
+	// chain = shuffle(chain)
+	// console.log(chain)
 
 
 	var modalImg = document.getElementById("img01")
@@ -83,6 +87,7 @@ $(document).ready(function(){
 	img1.onclick = function(){
 		modal.style.display = "block";
 		modalImg.src = this.src;
+		chain = shuffle(chain)
 		chain.push( chain.shift());
 		// console.log("chain got pushed")
 		for (var i=0, len = chain.length; i < len; i++){
