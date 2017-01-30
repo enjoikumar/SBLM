@@ -1,4 +1,4 @@
-console.log('ice')
+// console.log('ice')
 
 $(document).ready(function(){
 
@@ -18,7 +18,7 @@ elements.each(function(i){
   if(!id) return;
   $('<a>').addClass('permalink')
           .attr('href', '#'+id)
-            appendTo($t);
+          .appendTo($t);
   });
 
 });
