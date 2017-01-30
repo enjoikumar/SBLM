@@ -16,14 +16,6 @@ img{
 	text-decoration: none;
 }
 
-/*.education, 
-.retail, 
-.mixed,
-.health, 
-.civic {
-  filter: grayscale(100%);
-}*/
-
 .project figure{
   filter: grayscale(100%);
 }
@@ -114,6 +106,12 @@ figure:hover img{
 .filter{
   padding-top:50px;
   text-align:center;
-  /*background-color: black;*/
-  /*width: 100%;*/
 }
+
+
+
+
+
+
+
+

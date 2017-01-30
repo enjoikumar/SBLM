@@ -102,6 +102,7 @@ body {
   padding: 10px 0;
   height: 150px;
 }
+
 .modal-content, #caption { 
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
