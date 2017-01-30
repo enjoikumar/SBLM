@@ -129,10 +129,14 @@ hr{
 	padding-right: 40px;
 	/*background-color: black;*/
 }
+.history span {
+	width: 400px;
+}
 
 /*styling for the first caption */
 .first {
 	position: left;
+	width: 400px;
 	/*margin-bottom: 300px;*/
 }
 
@@ -166,11 +170,13 @@ hr{
 	/*padding-top: 240px;*/
 	margin-top: 315px;
 	padding-bottom: 20px;
+	width: 400px;
 }
 
 /*third caption styling*/
 .third span{
 	/*color: white;*/
+	width: 400px;
 }
 
 
@@ -292,6 +298,10 @@ hr{
 	.project-team {
 		text-align: center;
 	}
+	.history span{
+		width: 350px;
+	}
+	}
 }
 
 @media only screen and (max-width: 375px) {
@@ -347,14 +357,24 @@ hr{
 		margin-left: -5px; 
 	}
 
-	.first span {
-		margin-left: -5px;
+	.history span{
+		width: 250px;
 	}
+
+	.first {
+		width: 250px;
+	}
+	
+	.first span {
+		width: 250px;
+	}
+
 	.second span{
 		margin-left: -250px;
 		margin-top: 0px;
 		width: 240px;
 		padding-bottom: 100px;
+		width: 250px;
 	}
 
 	.third {
@@ -363,6 +383,7 @@ hr{
 	}
 	.third span {
 		margin-left: -5px;
+		width: 250px;
 	}
 
 	.team{
