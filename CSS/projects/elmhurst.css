@@ -254,8 +254,8 @@ hr{
 
 	.project-team {
 		padding-top: 200px;
-		float: left;
-		margin-left: -420px;
+		/*float: left;*/
+		/*margin-left: -420px;*/
 	}
 
 	hr {
@@ -269,4 +269,25 @@ hr{
 	}
 }
 
+@media only screen and (max-width: 839px) {
+	.team img {
+		padding-top: 60px;
+		padding-bottom: 30px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.team span {
+		width: 400px;
+	}
+}
+
+@media only screen and (max-width: 470px) {
+	.team span {
+		width: 400px;
+	}
+	.project-team {
+		text-align: center;
+	}
+}
 
