@@ -236,6 +236,12 @@ hr{
 	hr {
 		width: 100%;
 	}
+	.profile{
+		padding-bottom: 100px;
+	}
+	.team .info{
+		margin-top: 20px;
+	}
 
 	.team {
 		margin-top: 35px;
@@ -245,6 +251,7 @@ hr{
 	}
 	.team img {
 		margin-left: 0px;
+		margin-top: 20px;
 	}
 }
 
