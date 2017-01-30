@@ -289,9 +289,7 @@ hr{
 	}
 }
 
-
-/*iphone 5 responsive*/
-@media only screen and (max-width: 470px) {
+/*@media only screen and (max-width: 470px) {
 	.team span {
 		width: 400px;
 	}
@@ -302,7 +300,8 @@ hr{
 		width: 350px;
 	}
 	}
-}
+}*/
+
 
 @media only screen and (max-width: 375px) {
 	.slideshow {
@@ -312,6 +311,9 @@ hr{
 		width: 280px;
 		height: 380px;
 		margin-left: -5px;
+	}
+	.first{
+		width: 280px;
 	}
 	.first span {
 		margin-left: -5px;
@@ -344,6 +346,7 @@ hr{
 }
 
 
+/*iphone 5 responsive*/
 @media only screen and (max-width: 320px) {
 	.slideshow {
 		width: 320px;
@@ -364,7 +367,7 @@ hr{
 	.first {
 		width: 250px;
 	}
-	
+
 	.first span {
 		width: 250px;
 	}
@@ -388,9 +391,10 @@ hr{
 
 	.team{
 		margin-top: 0px;
+		width: 280px;
 	}
 	.team span {
-		width: 250px;
+		width: 240px;
 	}
 	.team img{
 		margin-left: 0px;
