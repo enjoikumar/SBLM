@@ -283,6 +283,8 @@ hr{
 	}
 }
 
+
+/*iphone 5 responsive*/
 @media only screen and (max-width: 470px) {
 	.team span {
 		width: 400px;
@@ -292,12 +294,52 @@ hr{
 	}
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 375px) {
 	.slideshow {
 		width: 100%;
 	}
+	.history img {
+		width: 280px;
+		height: 380px;
+		margin-left: -5px;
+	}
+	.first span {
+		margin-left: -5px;
+		width: 280px;
+	}
+	.second span{
+		margin-left: -280px;
+		margin-top: 85px;
+		width: 280px;
+		padding-bottom: 160px;
+	}
+	.third {
+		margin-top: 480px;
+		height: 420px;
+	}
+	.third span {
+		margin-left: -5px;
+		width: 280px;
+	}
+
+	.team{
+		margin-top: 0px;
+	}
+	.team span {
+		width: 250px;
+	}
+	.team img{
+		margin-left: 0px;
+	}
+}
+
+
+@media only screen and (max-width: 320px) {
+	.slideshow {
+		width: 320px;
+	}
 	h2{
-		width: 100%
+		width: 320px;
 	}
 	.history img {
 		width: 250px;
@@ -333,6 +375,7 @@ hr{
 		margin-left: 0px;
 	}
 }
+
 
 
 
