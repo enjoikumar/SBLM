@@ -69,6 +69,12 @@ figure.show {
 	border-bottom-right-radius: 3px;
 }
 
+
+
+
+
+
+
 /*aligning the header*/
 .project-history{
 	padding-top: 20px;
@@ -110,6 +116,12 @@ hr{
 	padding-left: 10px;
 }*/
 
+
+
+
+
+
+
 /*positions the section*/
 .history{
 	padding-top: 60px;
@@ -119,8 +131,14 @@ hr{
 }
 
 /*styling for the first caption */
+.first {
+	position: left;
+	/*margin-bottom: 300px;*/
+}
+
 .first span {
 	/*color: white;*/
+	padding-bottom: 10px;
 }
 
 /*styling for the second caption*/
@@ -154,6 +172,12 @@ hr{
 .third span{
 	/*color: white;*/
 }
+
+
+
+
+
+
 /*font sizing and aligns the project team header*/
 .project-team {
 	text-align: center;
@@ -175,7 +199,8 @@ hr{
 .profile img {
 	position: relative;
 	margin-top: -40px;
-	z-index: 1;
+	/*margin-left: 100px;*/
+	/*z-index: 1;*/
 }
 
 .profile .info{
@@ -192,5 +217,80 @@ hr{
 }
 
 
+
+
+
+
+
+@media only screen and (max-width: 950px) {
+	.history {
+		padding-top: 60px;
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	.first {
+		padding-bottom: 20px;
+	}
+
+	.second {
+		padding-top: 190px;
+		padding-bottom: 20px;
+	}
+	.second img {
+		float: left;
+	}
+	.second span {
+		float: left;
+		margin-left: -400px;
+	}
+
+	.third {
+		padding-top: 200px;
+		padding-bottom: 80px;
+	}
+	.third span {
+		float: left;
+	}
+
+	.project-team {
+		padding-top: 200px;
+		float: left;
+		margin-left: -420px;
+	}
+
+	hr {
+		width: 100%;
+	}
+
+	.team {
+		margin-top: 35px;
+		padding-bottom: 100px;
+		padding-top: 35px;
+	}
+
+	.team p {
+		float: left;
+		margin-top: -20px;
+	}
+
+	.team span {
+		margin-left: -63px;
+	}
+
+	.profile img {
+		margin-top: -30px;
+	}
+	.profile .info {
+		margin-top: 10px;
+		padding-bottom: 80px;
+	}
+	.profile .info {
+		margin-right: 100px;
+	}
+
+	#second {
+
+	}
+}
 
 
