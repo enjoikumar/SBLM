@@ -145,3 +145,63 @@ body {
         width: 100%;
     }
 }
+
+/*Iphone 6 and 6 plus*/
+@media only screen and (max-width: 414px) {
+  .grid-item {
+  float: left;
+  width: 175px;
+  height: 175px;
+  border: 1px solid;
+  border-color: white;
+  }
+  .grid-item--width2 { width: 350px; }
+  .grid-item--height2 { height: 350px; }
+}
+
+@media only screen and (max-width: 375px) {
+  .grid-item {
+    float: left;
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+    border-color: white;
+  }
+  .grid-item--width2 {
+    width: 300px;
+  }
+  .grid-item--height2 {
+    height: 300px; 
+  }
+}
+
+/*Iphone 5 responsive*/
+@media only screen and (max-width: 320px) {
+  .grid-item {
+  float: left;
+  width: 150px;
+  height: 150px;
+  border: 1px solid;
+  border-color: white;
+  }
+  .grid-item--width2 { 
+    width: 300px; 
+  }
+  .grid-item--height2 { 
+    height: 300px; 
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
