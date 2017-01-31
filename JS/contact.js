@@ -2,6 +2,7 @@
 
 $(document).ready(function(){
 
+  //parallax type shit
   var isWebkit = navigator && navigator.userAgent.match(/webkit/i);
   var $root = $(isWebkit ? 'body' : 'html');
   var elements = $('div'), elcount = elements.length;
