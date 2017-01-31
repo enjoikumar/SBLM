@@ -11,6 +11,15 @@ img{
 	overflow: hidden !important;
 }
 
+body{
+  background-color: black;
+}
+
+.project {
+  margin-left: 40px;
+  margin-right: 10px;
+}
+
 .project a{
 	color:black;
 	text-decoration: none;
@@ -92,8 +101,8 @@ figure:hover img{
 .filter a{
   padding: 10px 20px;
   display:inline-block;
-  color:#003;
-  background:#eee;
+  color:white;
+  background:#B0BEC5;
   text-decoration:none;
   transition:all 0.2s;
   cursor: pointer;
@@ -106,9 +115,42 @@ figure:hover img{
 .filter{
   padding-top:50px;
   text-align:center;
+  background-color: #263238;
 }
 
+@media only screen and (max-width: 414px) {
+  img{
+    width: 300px;
+    height: 300px;
+  }
+  .project {
+    margin-left: 50px;
+  }
+}
 
+@media only screen and (max-width: 375px) {
+  .filter {
+    font-size: 15px;
+    margin-left: -10px;
+  }
+  .filter a {
+    text-align: center;
+  }
+  .project {
+    margin-left: 40px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  img {
+    width: 275px;
+    height: 275px;
+  }
+  .project {
+    margin-left: -15px;
+  }
+
+}
 
 
 
