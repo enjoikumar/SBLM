@@ -13,6 +13,7 @@ img{
 
 body{
   background-color: black;
+  font-family: "Helvetica";
 }
 
 .project {
@@ -152,7 +153,6 @@ figure:hover img{
   #education {
     margin-left: 8px;
   }
-
 }
 
 
