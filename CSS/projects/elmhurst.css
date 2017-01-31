@@ -111,9 +111,9 @@ hr{
 /*styling for the second caption*/
 .second span {
 	float: right;
-	padding-top: 300px;
+	padding-top: 305px;
 	padding-bottom: 10px;
-	margin-right: -410px;
+	margin-right: -400px;
 }
 
 /*styling the second image so it stays on the right*/
@@ -177,11 +177,6 @@ hr{
 }
 
 
-iframe {
-	width: 500px;
-	height: 500px;
-	padding-left: 250px;
-}
 
 @media only screen and (max-width: 950px) {
 	.history {
@@ -281,7 +276,7 @@ iframe {
 	}
 }
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 414px) {
 	.history img{
 		height: 200px;
 		width: 300px;
@@ -307,9 +302,32 @@ iframe {
 	.team span {
 		width: 300px;
 	}
-	iframe {
-		margin-right: 30px;
-		margin-left: -70px;
+}
+@media only screen and (max-width: 400px){
+	.history img{
+		height: 200px;
+		width: 300px;
+	}
+	.history span {
+		width: 300px;
+	}
+	.first{
+		width: 300px;
+	}
+	.first span{
+		width: 300px;
+	}
+	.second{
+		width: 300px;
+	}
+	.second span{
+		width: 300px;
+		margin-left: -300px;
+		margin-top: -100px;
+	}
+
+	.team span {
+		width: 300px;
 	}
 }
 /*iphone 6 responsive*/
@@ -355,11 +373,8 @@ iframe {
 	.team img{
 		margin-left: 0px;
 	}
-
-	iframe{
-		width: 50%;
-		height: 200px;
-		margin-left: -30px;
+	hr{
+		width: 375px;
 	}
 }
 /*iphone 5 responsive*/
@@ -370,7 +385,6 @@ iframe {
 	h2{
 		width: 320px;
 	}
-
 
 	.history img {
 		width: 250px;
@@ -415,13 +429,6 @@ iframe {
 	}
 }
 
-
-
-div#chart {
-	padding-left: 200px;
-  padding-top: 40px;
-  width: 50%;
-}
 
 
 

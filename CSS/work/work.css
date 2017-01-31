@@ -147,7 +147,10 @@ figure:hover img{
     height: 275px;
   }
   .project {
-    margin-left: -15px;
+    margin-left: 25px;
+  }
+  #education {
+    margin-left: 8px;
   }
 
 }
