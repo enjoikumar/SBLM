@@ -3,6 +3,7 @@
 html, body {
   height: 100%;
   margin: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 .img {
@@ -37,6 +38,20 @@ html, body {
 }
 
 .multiline {
+  display: inline-block;
+}
+
+footer{
+  background-color: black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+footer p {
+  color:white;
+}
+.social {
+  position: relative;
   display: inline-block;
 }
 

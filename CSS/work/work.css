@@ -13,7 +13,7 @@ img{
 
 body{
   background-color: black;
-  font-family: "Helvetica";
+  font-family: 'Roboto', sans-serif;
 }
 
 .project {
@@ -101,24 +101,27 @@ figure:hover img{
 
 
 .filter a{
-  padding: 10px 20px;
+  padding: 10px;
   display:inline-block;
   color:white;
   background:black;
   text-decoration:none;
   transition:all 0.5s;
   cursor: pointer;
+  margin-left: 30px;
+  margin-right: -40px;
+
 }
 
 .filter a:hover{
   background:#8ad;
 }
 
-.filter{
+.filter {
   padding-top:50px;
-  /*text-align:center;*/
   background-color: black;
   overflow: hidden;
+  /*margin-left: 20px;*/
 }
 
 /*@media only screen and (max-width: 578px){

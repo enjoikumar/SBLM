@@ -7,7 +7,7 @@ body{
 * { box-sizing: border-box; }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 
@@ -168,7 +168,7 @@ body {
 
 @media only screen and (max-width: 375px) {
   .grid {
-    margin-left: 35px;
+    margin-left: 35 spx;
   }
   .grid-item {
     float: left;
@@ -208,7 +208,11 @@ body {
 
 
 
-
+footer{
+  background-color: black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
 
 
 
