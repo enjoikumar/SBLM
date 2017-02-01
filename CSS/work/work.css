@@ -105,7 +105,7 @@ figure:hover img{
   color:white;
   background:#B0BEC5;
   text-decoration:none;
-  transition:all 0.2s;
+  transition:all 0.5s;
   cursor: pointer;
 }
 
@@ -117,6 +117,7 @@ figure:hover img{
   padding-top:50px;
   text-align:center;
   background-color: #263238;
+  overflow: hidden;
 }
 
 @media only screen and (max-width: 414px) {
@@ -126,6 +127,10 @@ figure:hover img{
   }
   .project {
     margin-left: 50px;
+  }
+
+  .filter {
+    display: none;
   }
 }
 
