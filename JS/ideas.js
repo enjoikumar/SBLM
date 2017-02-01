@@ -22,6 +22,7 @@ $(document).ready(function(){
 	var img9 = document.getElementById("myImg9");
 
 
+
 	var wrapper = document.getElementById("grid");
 	var captionText = document.getElementById("caption");
 
@@ -169,18 +170,18 @@ $(document).ready(function(){
 
 
 //pushing elements into an array to shuffle later
-// var chain = 
-// [
-// document.getElementById("div1"),
-// document.getElementById("div2"),
-// document.getElementById("div3"),
-// document.getElementById("div4"),
-// document.getElementById("div5"),
-// document.getElementById("div6"),
-// document.getElementById("div7"),
-// document.getElementById("div8"),
-// document.getElementById("div9")
-// ];
+var chain = 
+[
+document.getElementById("div1"),
+document.getElementById("div2"),
+document.getElementById("div3"),
+document.getElementById("div4"),
+document.getElementById("div5"),
+document.getElementById("div6"),
+document.getElementById("div7"),
+document.getElementById("div8"),
+document.getElementById("div9")
+];
 // console.log(chain)
 
 
