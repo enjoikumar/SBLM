@@ -178,6 +178,10 @@ hr{
 	font-size: 20px;
 }
 
+.stats p{
+	padding-top: 20px;
+	padding-left: 30px;
+}
 
 
 @media only screen and (max-width: 950px) {
@@ -305,6 +309,7 @@ hr{
 		width: 300px;
 	}
 }
+
 @media only screen and (max-width: 400px){
 	.history img{
 		height: 200px;
@@ -332,6 +337,7 @@ hr{
 		width: 300px;
 	}
 }
+
 /*iphone 6 responsive*/
 @media only screen and (max-width: 375px) {
 	.slideshow {
@@ -378,7 +384,13 @@ hr{
 	hr{
 		width: 375px;
 	}
+
+	.stats p{
+	padding-top: 20px;
+	padding-left: 130px;
+	}
 }
+
 /*iphone 5 responsive*/
 @media only screen and (max-width: 320px) {
 	.slideshow {
@@ -428,6 +440,11 @@ hr{
 	}
 	.team img{
 		margin-left: 0px;
+	}
+
+	.stats p{
+	padding-top: 20px;
+	padding-left: 100px;
 	}
 }
 
