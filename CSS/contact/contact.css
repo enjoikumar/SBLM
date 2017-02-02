@@ -1,6 +1,6 @@
 
 body {
-  background-image: url(/Users/kamalkumar/Desktop/SBLM/CSS/ASSETS/1.jpg);
+  /*background-image: url(/Users/kamalkumar/Desktop/SBLM/CSS/ASSETS/1.jpg);*/
   background-size: cover;
   font-family: 'Roboto', sans-serif;
 }
@@ -12,15 +12,19 @@ body {
   padding-top: 100px;
   padding-bottom: 200px;
   padding-left: 40px;
-  color: white;
+  color: black;
   width: 300px;
+}
+.caption b {
+  font-size: 20px;
+  font-weight: 900;
 }
 
 .office {
   overflow: hidden;
   position: relative;
   padding-left: 40px;
-  color: white;
+  color: black;
   display: inline-block;
   display: flex;
 }
@@ -48,11 +52,11 @@ body {
   overflow: hidden;
   position: relative;
   padding-left: 40px;
-  color:white;
+  color: black;
 }
 a{
   text-decoration: none;
-  color:white;
+  color:black;
 }
 a:visited{
   text-decoration: none;
