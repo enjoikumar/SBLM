@@ -32,6 +32,7 @@ $(document).ready(function(){
 
 	var modalImg = document.getElementById("img01")
 
+
 	//click function that will allow the image to be 
 	//enlarged as well as display the caption
 	img1.onclick = function(){
