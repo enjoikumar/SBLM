@@ -1,15 +1,13 @@
-body{
-  background:black;
-}
-
-
-
-* { box-sizing: border-box; }
-
+/*match the nav bar*/
 body {
+  background:black;
   font-family: 'Roboto', sans-serif;
 }
 
+
+* { 
+  box-sizing: border-box; 
+}
 
 
 
@@ -45,13 +43,16 @@ body {
 
 
 
-.grid img{
-  /*filter: grayscale(25%);*/
-}
-
-
 /*-----MODAL/IMAGE POP UP-----*/
-#myImg, #myImg2, #myImg3, #myImg4, #myImg5, #myImg6, #myImg7, #myImg8, #myImg9 {
+#myImg, 
+#myImg2, 
+#myImg3, 
+#myImg4, 
+#myImg5, 
+#myImg6, 
+#myImg7, 
+#myImg8, 
+#myImg9 {
 	cursor: pointer;
 	transition: 0.3s;
 }

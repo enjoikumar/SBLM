@@ -1,3 +1,7 @@
+
+
+
+
 $(document).ready(function(){
 
 	$('.grid').isotope({
@@ -28,16 +32,14 @@ $(document).ready(function(){
 
 	var modalImg = document.getElementById("img01")
 
-	//on click, array would shuffle elements and then
-	//display them on the html
+	//click function that will allow the image to be 
+	//enlarged as well as display the caption
 	img1.onclick = function(){
 		modal.style.display = "block";
 		modalImg.src = this.src;
 		captionText.innerHTML = this.alt;
 	}
 
-	//when clicked on image, it would pop up 
-	//
 	img2.onclick = function(){
 		modal.style.display = "block";
 		modalImg.src = this.src;
@@ -170,18 +172,18 @@ $(document).ready(function(){
 
 
 //pushing elements into an array to shuffle later
-var chain = 
-[
-document.getElementById("div1"),
-document.getElementById("div2"),
-document.getElementById("div3"),
-document.getElementById("div4"),
-document.getElementById("div5"),
-document.getElementById("div6"),
-document.getElementById("div7"),
-document.getElementById("div8"),
-document.getElementById("div9")
-];
+// var chain = 
+// [
+// document.getElementById("div1"),
+// document.getElementById("div2"),
+// document.getElementById("div3"),
+// document.getElementById("div4"),
+// document.getElementById("div5"),
+// document.getElementById("div6"),
+// document.getElementById("div7"),
+// document.getElementById("div8"),
+// document.getElementById("div9")
+// ];
 // console.log(chain)
 
 
