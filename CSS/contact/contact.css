@@ -38,7 +38,7 @@ body {
 }
 .miami {
   width: 175px;
-  padding-right: 20px;
+  padding-right: 40px;
 }
 .dallas {
   width: 175px;
@@ -63,6 +63,53 @@ a:visited{
   text-decoration: none;
 }
 
+@media screen and (max-width: 414px) {
+  .caption {
+    padding-left: 40px;
+  }
+
+  .office {
+    overflow: none;
+    position: relative;
+    display: block;
+    color: black;
+    padding-top: -40px;
+    margin-top: -120px;
+    width: 300px;
+  }
+
+  .nyc {
+    padding-bottom: 20px;
+  }
+  .island {
+    padding-bottom: 20px;
+  }
+  .miami {
+    padding-bottom: 20px;
+  }
+  .dallas {
+    padding-bottom: 20px;
+  }
+  .ire {
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .caption {
+    width: 265px;
+    padding-left: 30px;
+  }
+  .caption b {
+    font-size: 30px;
+  }
+  .office {
+    padding-left: 30px;
+  }
+  .inq {
+    padding-left: 30px;
+  }
+}
 
 
 
