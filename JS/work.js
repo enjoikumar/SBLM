@@ -1,4 +1,3 @@
-console.log("you're in the work page");
 
 $(document).ready(function(){
 

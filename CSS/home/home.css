@@ -1,13 +1,10 @@
-
-
 /* Remove margins and padding from the list, and add a black background color */
-
-
 body{
   margin: 0;
   font-family: 'Roboto', sans-serif;
 }
 
+/*nav styling*/
 .topnav {
   list-style-type: none;
   margin: 0;
@@ -35,6 +32,7 @@ body{
   font-size: 17px;
 }
 
+/*moving them x amount of pixels to the right*/
 .topnav .link{
   margin-left: 50px;
 }
