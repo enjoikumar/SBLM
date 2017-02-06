@@ -6,6 +6,8 @@ body {
 }
 
 
+
+/*styling for caption*/
 .caption {
   overflow: hidden;
   position: relative;
@@ -15,11 +17,15 @@ body {
   color: black;
   width: 300px;
 }
+
 .caption b {
   font-size: 36px;
   font-weight: 900;
 }
 
+
+
+/*styling for offices*/
 .office {
   overflow: hidden;
   position: relative;
@@ -28,40 +34,52 @@ body {
   display: inline-block;
   display: flex;
 }
-.nyc{
-  width: 175px;
-  padding-right: 40px;
-}
-.island{
-  width: 175px;
-  padding-right: 40px;
-}
-.miami {
-  width: 175px;
-  padding-right: 40px;
-}
-.dallas {
+
+.nyc {
   width: 175px;
   padding-right: 20px;
 }
-.ire{
+
+.island {
+  width: 175px;
+  padding-right: 20px;
+}
+
+.miami {
+  width: 175px;
+  padding-right: 20px;
+}
+
+.dallas {
+  width: 175px;
+  padding-right: 0px;
+}
+
+.ire {
   width: 175px;
 }
 
-.inq{
+.inq {
   overflow: hidden;
   position: relative;
   padding-left: 40px;
   color: black;
   padding-bottom: 20px;
 }
-a{
+
+
+
+/*styling for email link*/
+a {
   text-decoration: none;
   color:black;
 }
-a:visited{
+
+a:visited {
   text-decoration: none;
 }
+
+
 
 @media screen and (max-width: 414px) {
   .caption {
@@ -81,15 +99,19 @@ a:visited{
   .nyc {
     padding-bottom: 20px;
   }
+
   .island {
     padding-bottom: 20px;
   }
+
   .miami {
     padding-bottom: 20px;
   }
+
   .dallas {
     padding-bottom: 20px;
   }
+
   .ire {
     padding-bottom: 40px;
   }

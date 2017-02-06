@@ -87,7 +87,7 @@ $(document).ready(function(){
   // $health.click(function(){
   //   if($(".health").css("filter", "grayscale(100%)")){
   //     $(".health").css("filter", "grayscale(0%)")
-  //   }else($(".project").css("filter", "grayscale(0%)"))
+  //   }else($(".project").css("filter", "grayscale(0%)")) 
   // })
 
   // $civic.click(function(){
