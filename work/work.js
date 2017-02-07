@@ -64,13 +64,31 @@ $(document).ready(function(){
     $(".all").css("filter", "grayscale(100%)")
   });
 
+    var count = 1
   $all.click(function(){
+    count++;
+    if(count%2){
     $(".education").css("filter", "grayscale(100%)")
     $(".retail").css("filter", "grayscale(100%)")
     $(".mixed").css("filter", "grayscale(100%)")
     $(".health").css("filter", "grayscale(100%)")
     $(".civic").css("filter", "grayscale(100%)")
-  });
+    } else{
+    $(".education").css("filter", "grayscale(0%)")
+    $(".retail").css("filter", "grayscale(0%)")
+    $(".mixed").css("filter", "grayscale(0%)")
+    $(".health").css("filter", "grayscale(0%)")
+    $(".civic").css("filter", "grayscale(0%)")
+    }
+  })
+
+    // $all.click(function(){
+  //   $(".education").css("filter", "grayscale(100%)")
+  //   $(".retail").css("filter", "grayscale(100%)")
+  //   $(".mixed").css("filter", "grayscale(100%)")
+  //   $(".health").css("filter", "grayscale(100%)")
+  //   $(".civic").css("filter", "grayscale(100%)")
+  // });
 
   // $education.click(function(){
   //   if($(".education").css("filter", "grayscale(100%)")){
