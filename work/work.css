@@ -37,6 +37,9 @@ body {
 .project figure {
   filter: grayscale(100%);
 }
+.bk {
+  font-size: 14px !important;
+}
  
 
 /*styling of each square*/

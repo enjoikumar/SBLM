@@ -24,7 +24,6 @@ body {
 }
 
 
-
 /*styling for offices*/
 .office {
   overflow: hidden;
@@ -35,7 +34,7 @@ body {
   display: flex;
 }
 
-
+/*giving spaces to each of the offices*/
 .nyc {
   width: 175px;
   padding-right: 20px;
