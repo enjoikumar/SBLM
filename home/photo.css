@@ -1,0 +1,63 @@
+/*starting the page with a black background
+so it has a positive ux/ui feel*/
+.slideshow {
+  background: #000;
+}
+
+/*setting the positions and width, etc*/
+.slideshow, .slideshow .slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*opacity is smoother and that the images fit the width*/
+.slideshow .slide {
+  background-position: center;
+  background-size: cover;
+  opacity: 0;
+}
+
+/*makes sure the image before is stacked and cant be seen*/
+.slideshow .slide.previous {
+  z-index: 1;
+  opacity: 1;
+}
+
+/*stacked as wekk but is put in the forefront*/
+.slideshow .slide.current {
+  z-index: 2;
+  -webkit-animation: fadein 5000ms linear both;
+          animation: fadein 5000ms linear both;
+}
+
+/*transition affects*/
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+

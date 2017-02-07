@@ -1,0 +1,143 @@
+
+body {
+  /*background-image: url(/Users/kamalkumar/Desktop/SBLM/CSS/ASSETS/1.jpg);*/
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+/*styling for caption*/
+.caption {
+  overflow: hidden;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  padding-left: 40px;
+  color: black;
+  width: 300px;
+}
+
+.caption b {
+  font-size: 36px;
+  font-weight: 900;
+}
+
+
+
+/*styling for offices*/
+.office {
+  overflow: hidden;
+  position: relative;
+  padding-left: 40px;
+  color: black;
+  display: inline-block;
+  display: flex;
+}
+
+.nyc {
+  width: 175px;
+  padding-right: 20px;
+}
+
+.island {
+  width: 175px;
+  padding-right: 20px;
+}
+
+.miami {
+  width: 175px;
+  padding-right: 20px;
+}
+
+.dallas {
+  width: 175px;
+  padding-right: 0px;
+}
+
+.ire {
+  width: 175px;
+}
+
+.inq {
+  overflow: hidden;
+  position: relative;
+  padding-left: 40px;
+  color: black;
+  padding-bottom: 20px;
+}
+
+
+
+/*styling for email link*/
+a {
+  text-decoration: none;
+  color:black;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 414px) {
+  .caption {
+    padding-left: 40px;
+  }
+
+  .office {
+    overflow: none;
+    position: relative;
+    display: block;
+    color: black;
+    padding-top: -40px;
+    margin-top: -120px;
+    width: 300px;
+  }
+
+  .nyc {
+    padding-bottom: 20px;
+  }
+
+  .island {
+    padding-bottom: 20px;
+  }
+
+  .miami {
+    padding-bottom: 20px;
+  }
+
+  .dallas {
+    padding-bottom: 20px;
+  }
+
+  .ire {
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .caption {
+    width: 265px;
+    padding-left: 30px;
+  }
+  .caption b {
+    font-size: 30px;
+  }
+  .office {
+    padding-left: 30px;
+  }
+  .inq {
+    padding-left: 30px;
+  }
+}
+
+
+
+
+
+
+
+
+

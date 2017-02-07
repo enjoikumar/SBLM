@@ -1,0 +1,191 @@
+* {
+	margin: 0;
+}
+
+/*sizes the building images*/
+img {
+	width: 300px;
+	height: 300px;
+	display: inline-block;
+	position: relative;
+	float: left;
+	overflow: hidden;
+}
+
+body {
+  background-color: black;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+/*styling for the project name*/
+.project {
+  margin-left: 40px;
+  margin-right: 10px;
+}
+
+.project a {
+	color: #212121;
+	text-decoration: none;
+  font-size: 15px;
+}
+
+.project figure {
+  filter: grayscale(100%);
+}
+ 
+
+/*styling of each square*/
+figure {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: -10px;
+}
+
+/*styling of each caption*/
+figcaption {
+  position: absolute;
+  left: 0; right: 0;
+  top: 0; bottom: 0;
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+
+/*the text of the caption*/
+figcaption div {
+  display: table-cell;
+  vertical-align: middle;
+  position: relative;
+  top: 20px;
+  opacity: 0;
+  color: black;
+  text-transform: uppercase;
+}
+
+/*after the hover*/
+figcaption div:after {
+  position: absolute;
+  content: "";
+  left: 0; right: 0;
+  bottom: 40%;
+  text-align: center;
+  margin: auto;
+  width: 0%;
+  height: 2px;
+  background: black;
+}
+
+figure img {
+  -webkit-transition: all 0.5s linear;
+          transition: all 0.5s linear;
+  -webkit-transform: scale3d(1, 1, 1);
+          transform: scale3d(1, 1, 1);
+}
+
+figure:hover figcaption {
+ background: rgba(255,255,255,0.6);
+}
+
+figcaption:hover div {
+  opacity: 1;
+  top: 0;
+}
+
+figcaption:hover div:after {
+  width: 50%;
+}
+
+figure:hover img {
+  -webkit-transform: scale3d(1.2, 1.2, 1);
+          transform: scale3d(1.2, 1.2, 1);
+}
+
+
+.filter a {
+  padding: 10px;
+  display:inline-block;
+  color:white;
+  background:black;
+  text-decoration:none;
+  transition:all 0.5s;
+  cursor: pointer;
+  margin-left: 30px;
+  margin-right: -40px;
+
+}
+
+.filter a:hover {
+  background:#8ad;
+}
+
+.filter {
+  padding-top:50px;
+  background-color: black;
+  overflow: hidden;
+}
+
+/*@media only screen and (max-width: 578px){
+  .filter a {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 559px){
+  .filter a {
+    font-size: 12px;
+  }
+}*/
+
+
+@media only screen and (max-width: 414px) {
+  img{
+    width: 300px;
+    height: 300px;
+  }
+  .project {
+    margin-left: 50px;
+  }
+
+  .filter {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .filter {
+    font-size: 15px;
+    margin-left: -10px;
+  }
+  .filter a {
+    text-align: center;
+  }
+  .project {
+    margin-left: 40px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  img {
+    width: 275px;
+    height: 275px;
+  }
+  .project {
+    margin-left: 25px;
+  }
+  #education {
+    margin-left: 8px;
+  }
+}
+
+
+
+
+
+
