@@ -18,6 +18,33 @@ body {
   background: black;
   margin-left: 20px;
   margin-right: 10px;
+  -webkit-animation: fadein 4000ms linear both;
+          animation: fadein 4000ms linear both;
+}
+
+/*transition*/
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /* clear fix */

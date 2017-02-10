@@ -26,7 +26,33 @@ body {
 .project {
   margin-left: 50px;
   width: 100%;
+  -webkit-animation: fadein 3000ms linear both;
+          animation: fadein 3000ms linear both;
 }
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: .5
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  0%{
+    opacity: 0;
+  }
+  30% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 
 .project a {
 	color: #212121;

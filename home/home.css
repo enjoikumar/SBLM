@@ -14,7 +14,35 @@ body{
   position: fixed;
   z-index: 3;
   width: 100%;
+  -webkit-animation: slidein 7000ms linear both;
+          animation: slidein 7000ms linear both;
 }
+
+/*transition*/
+@-webkit-keyframes slidein {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 
 /* Float the list items side by side */
 .topnav li {
