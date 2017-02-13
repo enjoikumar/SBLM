@@ -38,6 +38,7 @@ $(document).ready(function(){
      showCurrent();
   }, false);
 
+
   // click event to prev button and subtracting 1 to the counter 
 	document.querySelector('.prev').addEventListener('click', function() {
      counter--;
