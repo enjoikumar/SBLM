@@ -363,7 +363,7 @@ hr {
 		padding-bottom: 20px;
 	}
 }
-
+/*iphone 5*/
 @media only screen and (max-width: 320px) {
 	figure{
 		height: 300px;
@@ -385,14 +385,25 @@ hr {
 	}
 	.history2 {
 		width: 275px;
-		margin-left: 25px !important; 
+		margin-left: 25px !important;
+		margin-top: -350px; 
 	}
 	.history3 {
-		margin-left: -38px !important;
+		margin-left: -120px !important;
 	}
-	.history4{
-		margin-top: 450px !important;
+	.history4, .history5, .history6{
+		margin-left: 60px !important;
 	}
+
+	.history7 img{
+		width: 300px;
+		height: 250px;
+	}
+	.history7{
+		width: 300px;
+		margin-left: 10px !important;
+	}
+
 	.team1{
 		width: 275px;
 		padding-left: 22.5px;
