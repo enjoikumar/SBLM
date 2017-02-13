@@ -339,20 +339,24 @@ hr {
 		margin-left: 25px !important;
 	}
 	.history3 {
-		margin-left: -10px;
+		margin-left: -90px;
+	}
+	.history4{
+		margin-top: -20px;
+	}
+	.history4, .history5, .history6{
+		margin-left: 90px !important;
 	}
 
-	.history7 img{
-		width: 300px;
-	}
 	.history7 {
 		width: 300px;
-		margin-left: 37.5px;
+		margin-left: 15px;
 		/*margin-top: 100px !important;*/
 	}
 
+
 	#team{
-		margin-top: -650px;
+		margin-top: -350px;
 	}
 	.team1{
 		padding-left: 30px;
