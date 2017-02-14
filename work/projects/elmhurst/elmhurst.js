@@ -34,48 +34,17 @@ $(document).ready(function(){
 	};
 
 	// add click event to next button, as well as adding 1 to the counter 
-	document.querySelector('.next').addEventListener('click', function() {
-     counter++;
-     showCurrent();
-  }, false);
+  	document.querySelector('.next').addEventListener('click', function() {
+       counter++;
+       showCurrent();
+    }, false);
 
-  // click event to prev button and subtracting 1 to the counter 
-	document.querySelector('.prev').addEventListener('click', function() {
-     counter--;
-     showCurrent();
-  }, false);
-  
-	})(); 
-
-
-
-
-  var $animation_elements = $('.animation-element');
-  var $window = $(window);
-
-  $window.on('scroll', check_if_in_view);
-  $window.on('scroll resize', check_if_in_view);
-  $window.trigger('scroll');
-
-  function check_if_in_view() {
-    var window_height = $window.height();
-    var window_top_position = $window.scrollTop();
-    var window_bottom_position = (window_top_position + window_height);
-
-    $.each($animation_elements, function(){
-      var $element = $(this);
-      var element_height = $element.outerHeight();
-      var element_top_position = $element.offset().top;
-      var element_bottom_position = (element_top_position + element_height);
-
-      if ((element_bottom_position >= window_top_position) &&
-        (element_top_position <= window_bottom_position)) {
-        $element.addClass('in-view');
-      } else {
-        $element.removeClass('in-view');
-      }
-    })
-  }
+    // click event to prev button and subtracting 1 to the counter 
+  	document.querySelector('.prev').addEventListener('click', function() {
+       counter--;
+       showCurrent();
+    }, false);
+  })(); 
 })
 
 
