@@ -243,7 +243,7 @@ hr {
 	}
 	.history1{
 		width: 400px;
-		margin-left: -170px;
+		margin-left: -157.5px;
 	}
 
 	.history2 img{
@@ -301,6 +301,8 @@ hr {
 		display: none;
 	}
 }
+
+
 /*iphone 6*/
 @media only screen and (max-width: 375px) {
 	figure{
@@ -310,8 +312,8 @@ hr {
 		height: 350px;
 	}
 	.history1{
-		padding-left: 15px !important;
 		width: 350px;
+		margin-left: -190px;
 	}
 	.history2 img{
 		width: 325px;
