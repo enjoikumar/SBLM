@@ -311,9 +311,13 @@ hr {
 	figure img{
 		height: 350px;
 	}
+	.history1 img{
+		width: 340px;
+		height: 400px;
+	}
 	.history1{
-		width: 350px;
-		margin-left: -190px;
+		width: 340px;
+		margin-left: -155px;
 	}
 	.history2 img{
 		width: 325px;
@@ -324,7 +328,12 @@ hr {
 		float: left;
 		margin-left: 25px !important;
 	}
+	.history3 img, .history4 img{
+		width: 320px;
+		height: 320px;
+	}
 	.history3, .history4 {
+		width: 320px;
 		margin-left: 37.5px !important;
 	}
 
@@ -336,6 +345,7 @@ hr {
 		padding-bottom: 20px;
 	}
 }
+
 /*iphone 5*/
 @media only screen and (max-width: 320px) {
 	figure{
@@ -344,13 +354,14 @@ hr {
 	figure img{
 		height: 300px;
 	}
+
 	.history1 img{
 		width: 250px;
-		height: 200px;
+		height: 300px;
 	}
 	.history1 {
 		width: 250px;
-		padding-left: 37.5px !important;
+		margin-left: -135px;
 	}
 	.history2 img{
 		width: 275px;
@@ -364,10 +375,10 @@ hr {
 		width: 275px;
 	}
 	.history3, .history4 {
-		margin-left: 22.5px !important;
+		width: 275px;
+		margin-left: 33px !important;
 	}
-	.history4{
-	}
+
 	.team1{
 		width: 275px;
 		padding-left: 22.5px;
