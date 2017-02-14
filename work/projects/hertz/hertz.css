@@ -223,7 +223,7 @@ hr {
 		padding-left: 400px;
 	}
 }
-/*iphone 6+*/
+/*iphone 6 plus*/
 @media only screen and (max-width: 414px) {
 	figure{
 		height: 375px;
@@ -247,6 +247,7 @@ hr {
 	.history2 {
 		width: 350px;
 		margin-left: 32px !important;
+		margin-top: -260px;
 	}
 
 	.history3{
