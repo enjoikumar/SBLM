@@ -191,6 +191,7 @@ figure:hover img {
     height: 300px;
   }
   .project {
+    padding-top: 60px;
     margin-left: 50px;
   }
 
@@ -200,14 +201,15 @@ figure:hover img {
 }
 
 @media only screen and (max-width: 375px) {
-  .filter {
+/*  .filter {
     font-size: 15px;
     margin-left: -10px;
   }
   .filter a {
     text-align: center;
-  }
+  }*/
   .project {
+    padding-top: 60px;
     margin-left: 40px;
   }
 }
