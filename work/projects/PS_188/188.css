@@ -93,22 +93,19 @@ hr {
 }
 
 .history2{
-	width: 400px;
+	width: 500px;
 	float: right;
 	margin-top: -300px;
 	padding-right: 180px;
 }
 
 .history3 {
-	width: 200px;
+	width: 400px;
 	display: inline-block;
 	padding-left: 180px;
 	padding-top: 80px;
 }
-.history4 {
-	width: 200px;
-	display: inline-block;
-}
+
 
 
 
@@ -223,7 +220,10 @@ hr {
 		padding-left: 400px;
 	}
 }
-/*iphone 6+*/
+
+
+
+/*iphone 6 plus*/
 @media only screen and (max-width: 414px) {
 	figure{
 		height: 375px;
@@ -231,6 +231,8 @@ hr {
 	figure img{
 		height: 375px;
 	}
+
+
 	.history1 img{
 		width: 350px;
 		height: 250px;
@@ -239,6 +241,7 @@ hr {
 		padding-left: 35px;
 		width: 300px;
 	}
+
 
 	.history2 img{
 		width: 350px;
@@ -249,18 +252,16 @@ hr {
 		margin-left: 32px !important;
 	}
 
-	.history3{
-		margin-right: -200px !important;
-		padding-left: 100px;
+
+	.history3 img{
+		width: 350px;
 	}
-	.history4{
-		margin-top: 400px;
-		padding-left: 130px;
+	.history3{
+		width: 350px;
+		margin-left: -153px;
+		padding-bottom: 40px;
 	}
 
-	#team{
-		padding-top: 740px;
-	}
 
 	.team1 {
 		padding-left: 60px;
@@ -284,6 +285,7 @@ hr {
 		display: none;
 	}
 }
+
 /*iphone 6*/
 @media only screen and (max-width: 375px) {
 	figure{
@@ -292,6 +294,8 @@ hr {
 	figure img{
 		height: 350px;
 	}
+
+
 	.history1{
 		padding-left: 15px !important;
 	}
@@ -299,18 +303,22 @@ hr {
 		width: 325px;
 		height: 550px;
 	}
+
+
 	.history2{
 		width: 325px;
 		float: left;
 		margin-left: 25px !important;
 	}
+
+	.history3 img{
+		width: 325px;
+	}
 	.history3 {
-		margin-left: -10px;
+		width: 325px;
+		margin-left: -155px !important;
 	}
 
-	#team{
-		padding-top: 770px;
-	}
 	.team1{
 		padding-left: 30px;
 		padding-bottom: 20px;
@@ -324,6 +332,8 @@ hr {
 	figure img{
 		height: 300px;
 	}
+
+
 	.history1 img{
 		width: 250px;
 		height: 200px;
@@ -332,6 +342,8 @@ hr {
 		width: 250px;
 		padding-left: 37.5px !important;
 	}
+
+
 	.history2 img{
 		width: 275px;
 		height: 375px;
@@ -340,12 +352,16 @@ hr {
 		width: 275px;
 		margin-left: 25px !important; 
 	}
+
+
+	.history3 img{
+		width: 275px;
+	}
 	.history3 {
-		margin-left: -38px !important;
+		width: 275px;
 	}
-	.history4{
-		margin-top: 450px !important;
-	}
+
+
 	.team1{
 		width: 275px;
 		padding-left: 22.5px;
