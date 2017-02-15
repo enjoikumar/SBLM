@@ -238,12 +238,12 @@ hr {
 		height: 375px;
 	}
 	.history1 img{
-		width: 400px;
+		width: 375px;
 		height: 450px;
 	}
 	.history1{
-		width: 400px;
-		margin-left: -157.5px;
+		width: 375px;
+		margin-left: -157.5px !important;
 	}
 
 	.history2 img{
