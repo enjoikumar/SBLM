@@ -1,3 +1,18 @@
+
+h2{
+  font-family: 'Roboto', sans-serif;
+  color:white;
+  position: absolute;
+  left: 0;
+  margin-top: -100px;
+  margin-left: 20px;
+}
+
+img{
+  width: 100%;
+  height: 100%
+}
+
 /*starting the page with a black background
 so it has a positive ux/ui feel*/
 .slideshow {
