@@ -238,7 +238,9 @@ hr {
 		padding-left: 400px;
 	}
 }
-/*iphone 6 pluse*/
+
+
+/*iphone 6 plus*/
 @media only screen and (max-width: 414px) {
 	figure{
 		height: 375px;
@@ -316,6 +318,8 @@ hr {
 		display: none;
 	}
 }
+
+
 /*iphone 6*/
 @media only screen and (max-width: 375px) {
 	figure{
@@ -331,7 +335,7 @@ hr {
 	.history2 img{
 		width: 325px;
 		height: 550px;
-		margin-top: 100px;
+		margin-top: 0px;
 	}
 	.history2{
 		width: 325px;
@@ -349,7 +353,7 @@ hr {
 	}
 
 	.history7 {
-		width: 300px;
+		width: 350px;
 		margin-left: 15px;
 		/*margin-top: 100px !important;*/
 	}
@@ -363,6 +367,8 @@ hr {
 		padding-bottom: 20px;
 	}
 }
+
+
 /*iphone 5*/
 @media only screen and (max-width: 320px) {
 	figure{
@@ -371,6 +377,8 @@ hr {
 	figure img{
 		height: 300px;
 	}
+
+
 	.history1 img{
 		width: 250px;
 		height: 200px;
@@ -379,6 +387,8 @@ hr {
 		width: 250px;
 		padding-left: 37.5px !important;
 	}
+
+
 	.history2 img{
 		width: 275px;
 		height: 375px;
@@ -386,11 +396,15 @@ hr {
 	.history2 {
 		width: 275px;
 		margin-left: 25px !important;
-		margin-top: -350px; 
+		margin-top: -275px; 
 	}
+
+
 	.history3 {
 		margin-left: -120px !important;
 	}
+
+
 	.history4, .history5, .history6{
 		margin-left: 60px !important;
 	}

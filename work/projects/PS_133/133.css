@@ -361,8 +361,9 @@ hr {
 	}
 	.history1 {
 		width: 250px;
-		margin-left: -135px;
+		margin-left: -145px !important;
 	}
+
 	.history2 img{
 		width: 275px;
 		height: 375px;
@@ -371,12 +372,13 @@ hr {
 		width: 275px;
 		margin-left: 25px !important; 
 	}
+
 	.history3 img, .history4 img{
 		width: 275px;
 	}
 	.history3, .history4 {
 		width: 275px;
-		margin-left: 33px !important;
+		margin-left: 23px !important;
 	}
 
 	.team1{

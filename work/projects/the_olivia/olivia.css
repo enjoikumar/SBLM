@@ -361,15 +361,18 @@ hr {
 	}
 
 	.history3 img{
-		width: 300px;
+		width: 275px;
 		height: 250px;
 	}
 	.history3 {
-		width: 300px;
-		margin-left: -10px !important;
+		width: 275px;
+		margin-left: -155px !important;
 	}
-	
 
+
+	#team{
+		margin-top: 0;
+	}
 	.team1{
 		width: 275px;
 		padding-left: 22.5px;
