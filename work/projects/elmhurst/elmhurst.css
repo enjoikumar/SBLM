@@ -73,7 +73,10 @@ figure.show {
 
 
 
-
+.break1{
+	background-color: rgb(38, 38, 38);
+	color:white;
+}
 .project-history {
 	padding-top: 20px;
 	font-size: 20px;
@@ -86,6 +89,12 @@ hr {
 
 
 /*project history stuff*/
+.history{
+	background-color: rgb(38, 38, 38);
+}
+.history span{
+	color: white;
+}
 .history1 {
 	padding-top: 30px;
 	padding-left: 180px;
@@ -127,11 +136,20 @@ hr {
 	margin-top: -150px;
 }
 
+
 /*team stuff*/
+.break2 {
+	background-color: rgb(24, 23, 23);
+	color: white;
+}
+.team {
+	background-color: rgb(24, 23, 23);
+}
 .team1 {
 	padding-top: 40px;
 	width: 300px;
 	padding-left: 120px;
+	color:white;
 }
 .team1 img {
 	padding-left: 800px;
@@ -141,9 +159,15 @@ hr {
 
 
 /*detail stuff*/
+.break3{
+	background-color: rgb(13, 13, 13);
+	color: white;
+}
 .details {
 	padding-top: 40px;
 	padding-left: 120px;
+	background-color: rgb(13, 13, 13);
+	color: white;
 }
 .stat {
 	width: 300px;
@@ -151,12 +175,18 @@ hr {
 }
 
 
-
+.break4 {
+	background-color: rgb(13, 13, 13);
+	color: white;
+	padding-top: 20px;
+	padding-left: 50px;
+	font-size: 20px;
+}
 
 /*slider at the bottom stuff*/
 .carousel {
-	padding-top: 40px;
-  /*background: #EEE;*/
+	padding-top: 20px;
+  background: rgb(13, 13, 13);
 }
 
 .carousel-cell {
