@@ -18,6 +18,9 @@ body{
           animation: slidein 7000ms linear both;
 }
 
+.sblm{
+  margin-left: 40px;
+}
 /*transition*/
 @-webkit-keyframes slidein {
   0% {

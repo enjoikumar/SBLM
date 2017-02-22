@@ -16,7 +16,7 @@ body {
 .grid {
 	padding-top: 100px;
   background: black;
-  margin-left: 20px;
+  margin-left: 40px;
   margin-right: 10px;
   -webkit-animation: fadein 4000ms linear both;
           animation: fadein 4000ms linear both;
