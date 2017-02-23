@@ -1,29 +1,29 @@
-* {
+/** {
 	margin: 0;
     -webkit-box-sizing: border-box; 
   -moz-box-sizing: border-box;    
   box-sizing: border-box; 
-}
+}*/
 
 /*sizes the building images*/
-img {
+/*img {
 	width: 300px;
 	height: 300px;
 	display: inline-block;
 	position: relative;
 	float: left;
 	overflow: hidden;
-}
+}*/
 
-body {
+/*body {
   background-color: black;
   font-family: 'Roboto', sans-serif;
 }
-
+*/
 
 
 /*styling for the project name*/
-.project {
+/*.project {
   margin-left: 50px;
   width: 100%;
   -webkit-animation: fadein 1000ms linear both;
@@ -65,11 +65,11 @@ body {
 }
 .bk {
   font-size: 14px !important;
-}
+}*/
  
 
 /*styling of each square*/
-figure {
+/*figure {
   width: 300px;
   height: 300px;
   overflow: hidden;
@@ -77,10 +77,10 @@ figure {
   display: inline-block;
   vertical-align: top;
   margin-right: -10px;
-}
+}*/
 
 /*styling of each caption*/
-figcaption {
+/*figcaption {
   position: absolute;
   left: 0; right: 0;
   top: 0; bottom: 0;
@@ -89,10 +89,10 @@ figcaption {
   width: 100%;
   height: 100%;
   display: table;
-}
+}*/
 
 /*the text of the caption*/
-figcaption div {
+/*figcaption div {
   display: table-cell;
   vertical-align: middle;
   position: relative;
@@ -100,7 +100,7 @@ figcaption div {
   opacity: 0;
   color: black;
   text-transform: uppercase;
-}
+}*/
 
 /*after the hover*/
 figcaption div:after {
@@ -229,6 +229,158 @@ figure:hover img {
 
 
 
+
+
+
+
+
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.wrap {
+  overflow: hidden;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 48px;
+}
+
+.box {
+  float: left;
+  position: relative;
+  width: 20%;
+  padding-bottom: 20%;
+}
+
+.boxInner {
+  position: absolute;
+  overflow: hidden;
+  height: 100%;
+  -webkit-transition: background-color 1s ease-out;
+  -moz-transition: background-color 1s ease-out;
+  -o-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
+}
+
+.boxInner img { 
+  filter: grayscale(100%);
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+  transition: 1s ease;
+  backface-visibility: hidden; 
+}
+
+.middle {
+  transition: 0s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.boxInner:hover img {
+  opacity: 0.175;
+}
+.boxInner:hover {
+  background-color: black;
+}
+
+.boxInner:hover .middle {
+  color:black;
+  opacity: 1;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.text { 
+  white-space: nowrap;
+  font-size: 32px;
+  -webkit-animation: fadein 3000ms linear both;
+          animation: fadein 3000ms linear both;
+}
+
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: .5;
+  }
+  75% {
+    opacity: .75;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: .5;
+  }
+  75% {
+    opacity: .75;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+
+
+
+@media only screen and (max-width:480px) { 
+  /* Smartphone view: 1 tile */
+  .box {
+    width: 100%;
+    padding-bottom: 100%;
+  }
+}
+@media only screen and (max-width:650px) and (min-width:481px) { 
+  /* Tablet view: 2 tiles */
+  .box {
+    width: 50%;
+    padding-bottom: 50%;
+  }
+}
+@media only screen and (max-width:1050px) and (min-width:651px) { 
+  /* Small desktop / ipad view: 3 tiles */
+  .box {
+    width: 33.3%;
+    padding-bottom: 33.3%;
+  }
+}
+@media only screen and (max-width:1290px) and (min-width:1051px) { 
+  /* Medium desktop: 4 tiles */
+  .box {
+    width: 25%;
+    padding-bottom: 25%;
+  }
+}
 
 
 
