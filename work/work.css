@@ -4,6 +4,37 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+
+.module {
+  background: white;
+  padding-top: 48px;
+}
+
+.module > h2 {
+  padding: 1rem;
+  margin:0 0 0.5rem 0;
+}
+.stripe {
+  color: blue;
+  text-align: center;
+  align-content: center;
+  font-size: 36px;
+  background: -webkit-repeating-linear-gradient(330deg, white, white 20px, black 20px, black 40px);
+  background: repeating-linear-gradient(120deg, white, white 20px, black 20px, black 40px);
+}
+p.text{
+  color:white;
+  padding: 10px;
+  width: 40%;
+  text-align: center;
+  margin: auto;
+  background-color: black;
+}
+
+p i{
+  font-size: 28px;
+}
+
 .filter a {
   padding: 10px;
   display:inline-block;
@@ -22,9 +53,10 @@ body {
 }
 
 .filter {
-  padding-top:50px;
+  /*padding-top:50px;*/
   background-color: black;
   overflow: hidden;
+  margin-top: -10px;
 }
 
 
@@ -138,12 +170,12 @@ a {
   .wrap{
     padding-top: 52px;
   }
-  .project {
+  .project{
     padding-top: 60px;
     margin-left: 50px;
   }
 
-  .filter {
+  .filter{
     display: none;
   }
 }
@@ -152,7 +184,7 @@ a {
   .wrap{
     padding-top: 51px;
   }
-  .project {
+  .project{
     padding-top: 60px;
     margin-left: 40px;
   }
