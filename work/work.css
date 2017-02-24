@@ -16,7 +16,7 @@ body {
 }
 .stripe {
   text-align: center;
-  align-content: center;
+  /*align-content: center;*/
   font-size: 36px;
 /*  background: -webkit-repeating-linear-gradient(90deg, white, white 20px, black 20px, black 40px);
   background: repeating-linear-gradient(90deg, white, white 20px, black 20px, black 40px);*/
@@ -26,8 +26,8 @@ p.text{
   margin-top: 30px !important;
   padding: 10px;
   width: 40%;
-  text-align: center;
-  margin: auto;
+  /*text-align: center;*/
+  /*margin: auto;*/
   background-color: black;
   font-family: 'Roboto', sans-serif;
 }
