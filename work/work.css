@@ -5,6 +5,8 @@ body {
 }
 
 
+
+/*for the off white pattern*/
 .module {
   background: white;
   padding-top: 48px;
@@ -32,9 +34,13 @@ p.text{
 }
 
 p i{
-  font-size: 28px;
+  font-size: 80%;
+  width: 40%;
 }
 
+
+
+/*filter*/
 .filter a {
   padding: 10px;
   display:inline-block;
@@ -60,6 +66,8 @@ p i{
 }
 
 
+
+/*project styling*/
 .wrap {
   overflow: hidden;
   max-width: 100%;
@@ -166,7 +174,11 @@ a {
 
 
 
+/*mobile responsiveness*/
 @media only screen and (max-width: 414px) {
+  .module{
+    display: none;
+  }
   .wrap{
     padding-top: 52px;
   }
