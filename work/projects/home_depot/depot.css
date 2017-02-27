@@ -72,7 +72,7 @@ figure.show {
 }
 
 strong {
-	color: red;
+	font-weight: bold;
 }
 
 
@@ -81,10 +81,11 @@ strong {
 	font-size: 1.5em;
 	text-align: center;
 }
-hr {
+
+/*hr {
 	width: 80%;
 	margin: auto;
-}
+}*/
 
 
 /*project history stuff*/
@@ -185,6 +186,12 @@ hr {
 /*team stuff*/
 #team {
 	margin-top: 150px;
+	background-color: rgb(38, 38, 38);
+	color: white;
+}
+.team {
+	background-color: rgb(38, 38, 38);
+	color: white;
 }
 .team1 {
 	padding-top: 40px;
@@ -194,14 +201,20 @@ hr {
 .team1 img {
 	padding-left: 800px;
 	margin-top: -130px;
+	padding-bottom: 40px;
 }
 
+.team p {
+	font-weight: 900;
+}
 
 
 /*detail stuff*/
 .details {
 	padding-top: 40px;
 	padding-left: 120px;
+	background-color: rgb(24, 23, 23);
+	color: white;
 }
 .stat {
 	width: 300px;
@@ -243,64 +256,199 @@ hr {
 
 
 
-@media only screen and (max-width: 1170px) {
-	.history2 {
-		width: 400px;
+@media screen and (max-width: 414px) {
+	figure, figure img{
+		height: 375px;
+	}
+
+	.history{
+		width: 414px;
+	}
+
+	.history1 img{
+		width: 414px;
+		height: 500px;
+	}
+	.history1 span{
+		width: 200px !important;
+		font-size: 1.1em;
+		margin-top: -150px;
+	}
+
+	.history2{
+		width: 414px;
+	}
+	.history2 img{
+		width: 414px;
+		height: 500px;
+	}
+	.history2 span{
+		font-size: 1.1em;
+		width: 375px !important;
+		position: relative;
 		float: left;
-		margin-left: 180px;
-		padding-top: 330px;
+		margin-left: -55px;
+		margin-top: -160px;
+		padding-bottom: 60px;
 	}
 
 	.history3{
-		margin-top: -1195px;
-		float: right;
-		margin-right: 18%;
-		position: relative;
-		display: inline-block;
+		width: 414px;
 	}
+	.history3 img{
+		width: 414px;
+		height: 700px;
+	}
+
 	.history4{
-		padding-top: 30px;
-		position: relative;
-		margin-right: 0%;
+		width: 414px;
 	}
-	#team {
-		padding-top: 400px;
+	.history4 img{
+		width: 414px;
+		margin-left: -40px;
+	}
+	.history4 span{
+		font-size: 1.1em;
+		float: left;
+		width: 375px !important;
+		margin-left: -10px;
+		margin-top: -80px;
+	}
+
+
+	#team{
+		margin-top: 35px !important;
+	}
+	.team1 {
+		padding-left: 60px;
+		padding-bottom: 80px;
+	}
+	.team1 img{
+		width: 200px;
+		height: 200px;
+		padding-left: 60px;
+		padding-top: 180px;
+	}
+
+	.details{
+		padding-left: 40px;
+	}
+
+	.flickity-prev-next-button.next {
+		display: none;
+	}
+	.flickity-prev-next-button {
+		display: none;
 	}
 }
-@media only screen and (max-width: 1120px) {
-	.team1 img {
-		padding-left: 500px;
+
+@media screen and (max-width: 375px){
+	figure{
+		height: 350px;
+	}
+	figure img{
+		height: 350px;
+	}
+
+	.history{
+		width: 375px;
+	}
+
+	.history1{
+		width: 375px;
 	}
 }
-@media only screen and (max-width: 970px) {
+
+
+/*iphone 6*/
+/*@media only screen and (max-width: 375px) {
+	figure{
+		height: 350px;
+	}
+	figure img{
+		height: 350px;
+	}
+	.history1{
+		padding-left: 15px !important;
+	}
+	.history2 img{
+		width: 325px;
+		height: 550px;
+	}
+	.history2{
+		width: 325px;
+		float: left;
+		margin-left: 25px !important;
+	}
+
+	.history3 img{
+		width: 340px;
+		height: 300px;
+
+	}
 	.history3 {
-		padding-top: 1250px;
-		display: inline-block;
-		position: relative;
-		float: left;
+		width: 340px;
 	}
-	.history4 {
-		padding-top: 55px;
-		float: left;
-		margin-left: -160px !important;
+
+	.team1{
+		padding-left: 30px;
+		padding-bottom: 20px;
 	}
-	#team {
-		margin-top: 800px;
+}*/
+
+
+
+@media only screen and (max-width: 320px) {
+	figure{
+		height: 300px;
 	}
-}
-@media only screen and (max-width: 768px) {
-	.history4 {
-		margin-left: -130px !important;
+	figure img{
+		height: 300px;
 	}
-	.team1 img {
-		padding-left: 400px;
+	.history1 img{
+		width: 250px;
+		height: 200px;
+	}
+	.history1 {
+		width: 250px;
+		padding-left: 37.5px !important;
+	}
+	.history2 img{
+		width: 275px;
+		height: 375px;
+	}
+	.history2 {
+		width: 275px;
+		margin-left: 25px !important; 
+	}
+
+	.history3 img{
+		width: 280px;
+		height: 250px;
+	}
+	.history3 {
+		width: 280px;
+	}
+
+	.team1{
+		width: 275px;
+		padding-left: 22.5px;
+	}
+	.team1 img{
+		padding-left: 40px;
+	}
+	.details {
+		width: 275px;
+		padding-left: 10px;
 	}
 }
 
 
+/*.flickity-prev-next-button.next
+.flickity-prev-next-button*/
 
 /*iphone 6 plus*/
-@media only screen and (max-width: 414px) {
+/*@media only screen and (max-width: 414px) {
 	figure{
 		height: 375px;
 	}
@@ -360,98 +508,7 @@ hr {
 	.flickity-prev-next-button {
 		display: none;
 	}
-}
-
-
-
-/*iphone 6*/
-@media only screen and (max-width: 375px) {
-	figure{
-		height: 350px;
-	}
-	figure img{
-		height: 350px;
-	}
-	.history1{
-		padding-left: 15px !important;
-	}
-	.history2 img{
-		width: 325px;
-		height: 550px;
-	}
-	.history2{
-		width: 325px;
-		float: left;
-		margin-left: 25px !important;
-	}
-
-	.history3 img{
-		width: 340px;
-		height: 300px;
-
-	}
-	.history3 {
-		width: 340px;
-	}
-
-	.team1{
-		padding-left: 30px;
-		padding-bottom: 20px;
-	}
-}
-
-
-
-@media only screen and (max-width: 320px) {
-	figure{
-		height: 300px;
-	}
-	figure img{
-		height: 300px;
-	}
-	.history1 img{
-		width: 250px;
-		height: 200px;
-	}
-	.history1 {
-		width: 250px;
-		padding-left: 37.5px !important;
-	}
-	.history2 img{
-		width: 275px;
-		height: 375px;
-	}
-	.history2 {
-		width: 275px;
-		margin-left: 25px !important; 
-	}
-
-	.history3 img{
-		width: 280px;
-		height: 250px;
-	}
-	.history3 {
-		width: 280px;
-	}
-
-	.team1{
-		width: 275px;
-		padding-left: 22.5px;
-	}
-	.team1 img{
-		padding-left: 40px;
-	}
-	.details {
-		width: 275px;
-		padding-left: 10px;
-	}
-}
-
-
-/*.flickity-prev-next-button.next
-.flickity-prev-next-button*/
-
-
+}*/
 
 
 
