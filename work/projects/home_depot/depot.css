@@ -357,8 +357,115 @@ strong {
 	.history1{
 		width: 375px;
 	}
+	.history1 img{
+		width: 375px;
+		height: 500px;
+	}
+
+	.history2{
+		width: 375px;
+	}
+	.history2 img{
+		width: 375px;
+	}
+	.history2 span{
+		width: 345px !important;
+	}
+
+
+	.history3{
+		width: 375px;
+	}
+	.history3{
+		width: 375px;	
+	}
+
+	.history4{
+		width: 375px;
+	}
+	.history4 img{
+		width: 375px;
+	}
+	.history4 span{
+		width: 345px !important;
+		margin-left: -25px;
+	}
+
+	.team1{
+		padding-left: 30px;
+		padding-bottom: 20px;
+	}
 }
 
+@media screen and (max-width: 320px){
+	figure{
+		height: 300px;
+	}
+	figure img{
+		width: 100%;
+		height: 300px;
+	}
+
+	.history{
+		width: 320px;
+	}
+
+	.history1{
+		width: 320px;
+	}
+	.history1 img{
+		width: 320px;
+		height: 320px;
+	}
+	.history1 span{
+		font-size: 1em;
+		padding-left: 20px;
+	}
+
+	.history2{
+		width: 320px;
+	}
+	.history2 img{
+		width: 320px;
+		height: 300px;
+	}
+	.history2 span{
+		font-size: 1em;
+		width: 290px !important;
+		margin-left: -60px;
+	}
+
+	.history3{
+		width: 320px;
+	}
+	.history3 img{
+		width: 320px;
+	}
+
+	.history4{
+		width: 320px;
+	}
+	.history4 img{
+		width: 320px;
+	}
+	.history4 span{
+		font-size: 1em;
+		width: 290px !important;
+	}
+
+	.team1{
+		width: 275px;
+		padding-left: 22.5px;
+	}
+	.team1 img{
+		padding-left: 40px;
+	}
+
+	.details {
+		width: 320px;
+		padding-left: 10px;
+	}
+}
 
 /*iphone 6*/
 /*@media only screen and (max-width: 375px) {
@@ -398,7 +505,7 @@ strong {
 
 
 
-@media only screen and (max-width: 320px) {
+/*@media only screen and (max-width: 320px) {
 	figure{
 		height: 300px;
 	}
@@ -441,7 +548,7 @@ strong {
 		width: 275px;
 		padding-left: 10px;
 	}
-}
+}*/
 
 
 /*.flickity-prev-next-button.next
