@@ -76,7 +76,7 @@ figure.show {
 
 .project-history {
 	padding-top: 20px;
-	font-size: 20px;
+	font-size: 1.5em;
 	text-align: center;
 }
 hr {
@@ -86,7 +86,54 @@ hr {
 
 
 /*project history stuff*/
-.history1 {
+.history{
+	padding-top: 40px;
+}
+
+
+.history1 img {
+	width: 100%;
+	height: 600px;
+}
+.history1 span {
+	font-size: 1.5em;
+	color: white;
+	width: 400px !important;
+	position: absolute;
+	margin-top: -200px;
+	padding-left: 40px;
+}
+
+
+.history2 img {
+	width: 700px;
+	height: 500px;
+}
+.history2 span {
+	font-size: 1.25em;
+	width: 400px !important;
+	position: absolute;
+	padding-top: 100px;
+	padding-left: 80px;
+}
+
+
+.history3 {
+	width: 900px;
+	float: right;
+}
+.history3 img {
+	width: 900px;
+	height: 1200px;
+	padding-bottom: 20px;
+}
+.history3 span {
+	width: 500px;
+	font-size: 1.25em;
+	position: absolute;
+}
+
+/*.history1 {
 	padding-top: 30px;
 	padding-left: 180px;
 	width: 400px;
@@ -108,11 +155,14 @@ hr {
 .history4 {
 	width: 200px;
 	display: inline-block;
-}
+}*/
 
 
 
 /*team stuff*/
+#team {
+	margin-top: 1400px;
+}
 .team1 {
 	padding-top: 40px;
 	width: 300px;
