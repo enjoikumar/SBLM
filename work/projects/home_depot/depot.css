@@ -13,6 +13,7 @@ body{
 	overflow: hidden;
 }
 
+
 /*makes the slideshow width fit the screen and height, also the transition speed 
 and how opaque the image can be*/
 figure{
@@ -22,6 +23,7 @@ figure{
 	width: 100%;
 	height: 600px;
 }
+
 /*image is the same height and width of slideshow aka no whitespace*/
 figure img {
 	width: 100%;
@@ -71,6 +73,8 @@ figure.show {
 	border-bottom-right-radius: 3px;
 }
 
+
+
 strong {
 	font-weight: bold;
 }
@@ -82,17 +86,18 @@ strong {
 	text-align: center;
 }
 
-/*hr {
-	width: 80%;
-	margin: auto;
-}*/
-
-
 /*project history stuff*/
 .history{
 	padding-top: 40px;
 }
 
+#trig{
+	font-size: 2em;
+	position: absolute;
+	margin-top: -250px;
+	padding-left: 40px;
+	color: white;
+}
 
 .history1 img {
 	width: 100%;
@@ -136,10 +141,6 @@ strong {
   filter: flip;
   -ms-filter: "flip";
 }
-/*.history3 span {
-	width: 500px;
-	font-size: 1.25em;
-}*/
 
 
 .history4 {
@@ -155,31 +156,6 @@ strong {
 .history4 span {
 	font-size: 1.25em;
 }
-
-
-/*.history1 {
-	padding-top: 30px;
-	padding-left: 180px;
-	width: 400px;
-}
-
-.history2{
-	width: 400px;
-	float: right;
-	margin-top: -400px;
-	padding-right: 180px;
-}
-
-.history3 {
-	width: 400px;
-	display: inline-block;
-	padding-left: 180px;
-	padding-top: 80px;
-}
-.history4 {
-	width: 200px;
-	display: inline-block;
-}*/
 
 
 
@@ -209,6 +185,7 @@ strong {
 }
 
 
+
 /*detail stuff*/
 .details {
 	padding-top: 40px;
@@ -216,11 +193,11 @@ strong {
 	background-color: rgb(24, 23, 23);
 	color: white;
 }
+
 .stat {
 	width: 300px;
 	padding-bottom: 20px;
 }
-
 
 
 
@@ -252,9 +229,11 @@ strong {
 	margin-top: 0px;
 }
 
-
-
-
+@media screen and (min-width: 415px){
+	#trig{
+		display: none;
+	}
+}
 
 @media screen and (max-width: 414px) {
 	figure, figure img{
@@ -270,9 +249,14 @@ strong {
 		height: 500px;
 	}
 	.history1 span{
+		display: none;
 		width: 200px !important;
 		font-size: 1.1em;
 		margin-top: -150px;
+	}
+
+	#trig{
+		margin-top: -150px !important;
 	}
 
 	.history2{
@@ -466,159 +450,5 @@ strong {
 		padding-left: 10px;
 	}
 }
-
-/*iphone 6*/
-/*@media only screen and (max-width: 375px) {
-	figure{
-		height: 350px;
-	}
-	figure img{
-		height: 350px;
-	}
-	.history1{
-		padding-left: 15px !important;
-	}
-	.history2 img{
-		width: 325px;
-		height: 550px;
-	}
-	.history2{
-		width: 325px;
-		float: left;
-		margin-left: 25px !important;
-	}
-
-	.history3 img{
-		width: 340px;
-		height: 300px;
-
-	}
-	.history3 {
-		width: 340px;
-	}
-
-	.team1{
-		padding-left: 30px;
-		padding-bottom: 20px;
-	}
-}*/
-
-
-
-/*@media only screen and (max-width: 320px) {
-	figure{
-		height: 300px;
-	}
-	figure img{
-		height: 300px;
-	}
-	.history1 img{
-		width: 250px;
-		height: 200px;
-	}
-	.history1 {
-		width: 250px;
-		padding-left: 37.5px !important;
-	}
-	.history2 img{
-		width: 275px;
-		height: 375px;
-	}
-	.history2 {
-		width: 275px;
-		margin-left: 25px !important; 
-	}
-
-	.history3 img{
-		width: 280px;
-		height: 250px;
-	}
-	.history3 {
-		width: 280px;
-	}
-
-	.team1{
-		width: 275px;
-		padding-left: 22.5px;
-	}
-	.team1 img{
-		padding-left: 40px;
-	}
-	.details {
-		width: 275px;
-		padding-left: 10px;
-	}
-}*/
-
-
-/*.flickity-prev-next-button.next
-.flickity-prev-next-button*/
-
-/*iphone 6 plus*/
-/*@media only screen and (max-width: 414px) {
-	figure{
-		height: 375px;
-	}
-	figure img{
-		height: 375px;
-	}
-	.history1 img{
-		width: 350px;
-		height: 250px;
-	}
-	.history1{
-		padding-left: 35px;
-		width: 300px;
-	}
-
-	.history2 img{
-		width: 350px;
-		height: 550px;
-	}
-	.history2 {
-		width: 350px;
-		margin-left: 32px !important;
-		margin-top: -260px;
-	}
-
-	.history3 img{
-		width: 380px;
-		height: 350px;
-	}
-	.history3{
-		width: 380px;
-		margin-left: -163.5px !important;
-		padding-bottom: 40px;
-	}
-
-	#team{
-	}
-
-	.team1 {
-		padding-left: 60px;
-		padding-bottom: 80px;
-	}
-	.team1 img{
-		width: 200px;
-		height: 200px;
-		padding-left: 60px;
-		padding-top: 180px;
-	}
-
-	.details{
-		padding-left: 40px;
-	}
-
-	.flickity-prev-next-button.next {
-		display: none;
-	}
-	.flickity-prev-next-button {
-		display: none;
-	}
-}*/
-
-
-
-
 
 

@@ -44,7 +44,16 @@ $(document).ready(function(){
      showCurrent();
   }, false);
   
-	})();  
+	})(); 
+
+  var trig = document.getElementById("trig")
+  var first = document.getElementById("first")
+  console.log (trig + " " + first)
+
+  trig.onclick = function(){
+    trig.style.display = "none";
+    first.style.display = "inline";
+  }
 })
 
 
