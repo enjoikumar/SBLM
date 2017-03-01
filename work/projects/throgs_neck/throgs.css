@@ -76,7 +76,7 @@ figure.show {
 
 .project-history {
 	padding-top: 20px;
-	font-size: 20px;
+	font-size: 1.5em;
 	text-align: center;
 }
 hr {
@@ -86,33 +86,48 @@ hr {
 
 
 /*project history stuff*/
-.history1 {
-	padding-top: 30px;
-	padding-left: 180px;
-	width: 400px;
+.history1 img {
+	padding-top: 40px;
 }
-
-.history2{
-	width: 400px;
+.history1 span {
+	font-family: 'Roboto', sans-serif;
+	position: absolute;
 	float: right;
-	margin-top: -400px;
-	padding-right: 180px;
+	width: 300px;
+	margin-top: 200px;
+	padding-left: 75px;
+	font-size: 1.25em;
 }
 
-.history3 {
-	width: 400px;
-	display: inline-block;
-	padding-left: 180px;
-	padding-top: 80px;
+.history3 img {
+	width: 75%;
+	margin-top: 100px; 
 }
-.history4 {
-	width: 200px;
-	display: inline-block;
+
+.history4 img {
+	width: 75%;
+	float:right;
+	margin-top: -4px;
+}
+
+.history5 img {
+	padding-top: 80px;
+	float: right;
+}
+.history5 span {
+	float: left;
+	width: 300px;
+	margin-top: 240px;
+	padding-left: 50px;
+	font-size: 1.25em;
 }
 
 
 
 /*team stuff*/
+#team {
+	margin-top: 1100px;
+}
 .team1 {
 	padding-top: 40px;
 	width: 300px;
@@ -166,63 +181,6 @@ hr {
 	margin-top: 0px;
 }
 
-
-
-
-
-@media only screen and (max-width: 1170px) {
-	.history2 {
-		width: 400px;
-		float: left;
-		margin-left: 180px;
-		padding-top: 330px;
-	}
-
-	.history3{
-		margin-top: -1195px;
-		float: right;
-		margin-right: 18%;
-		position: relative;
-		display: inline-block;
-	}
-	.history4{
-		padding-top: 30px;
-		position: relative;
-		margin-right: 0%;
-	}
-	#team {
-		padding-top: 400px;
-	}
-}
-@media only screen and (max-width: 1120px) {
-	.team1 img {
-		padding-left: 500px;
-	}
-}
-@media only screen and (max-width: 970px) {
-	.history3 {
-		padding-top: 1250px;
-		display: inline-block;
-		position: relative;
-		float: left;
-	}
-	.history4 {
-		padding-top: 55px;
-		float: left;
-		margin-left: -160px !important;
-	}
-	#team {
-		margin-top: 800px;
-	}
-}
-@media only screen and (max-width: 768px) {
-	.history4 {
-		margin-left: -130px !important;
-	}
-	.team1 img {
-		padding-left: 400px;
-	}
-}
 
 
 
