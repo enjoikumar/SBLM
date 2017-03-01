@@ -190,64 +190,8 @@ hr {
 
 
 
-@media only screen and (max-width: 1170px) {
-	.history2 {
-		width: 400px;
-		float: left;
-		margin-left: 180px;
-		padding-top: 330px;
-	}
-
-	.history3{
-		margin-top: -1195px;
-		float: right;
-		margin-right: 18%;
-		position: relative;
-		display: inline-block;
-	}
-	.history4{
-		padding-top: 30px;
-		position: relative;
-		margin-right: 0%;
-	}
-	#team {
-		padding-top: 400px;
-	}
-}
-@media only screen and (max-width: 1120px) {
-	.team1 img {
-		padding-left: 500px;
-	}
-}
-@media only screen and (max-width: 970px) {
-	.history3 {
-		padding-top: 1250px;
-		display: inline-block;
-		position: relative;
-		float: left;
-	}
-	.history4 {
-		padding-top: 55px;
-		float: left;
-		margin-left: -160px !important;
-	}
-	#team {
-		margin-top: 800px;
-	}
-}
-@media only screen and (max-width: 768px) {
-	.history4 {
-		margin-left: -130px !important;
-	}
-	.team1 img {
-		padding-left: 400px;
-	}
-}
-
-
-
 /*iphone 6 plus*/
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 414px){
 	figure{
 		height: 375px;
 	}
@@ -255,37 +199,50 @@ hr {
 		height: 375px;
 	}
 
-
 	.history1 img{
-		width: 350px;
-		height: 250px;
+		width: 414px;
+		height: 500px;
 	}
-	.history1{
-		padding-left: 35px;
-		width: 350px;
+	.history1 span{
+		font-size: 1.1em;
+		margin-top: 520px;
+		width: 350px !important;
+		padding-left: 32px;
 	}
-
 
 	.history2 img{
-		width: 350px;
-		height: 550px;
+		width: 414px;
+		height: 500px;
+		margin-top: 250px;
+		margin-left: -37px;
 	}
-	.history2 {
+	.history2 span{
 		width: 350px;
-		margin-left: 32px !important;
-		margin-top: -280px;
+		float: left;
+		font-size: 1.1em;
+		margin-top: 10px;
+		padding-left: 32px;
 	}
 
 	.history3 img{
-		width: 375px;
-		height: 300px;
+		width: 414px;
+		height: 500px;
+		margin-top: 50px;
+		float: left;
 	}
-	.history3{
-		width: 375px;
-		margin-left: -160px;
+	.history3 span{
+		width: 350px;
+		float: left;
+		font-size: 1.1em;
+		margin-top: 15px;
+		margin-left: -43px;
 		padding-bottom: 40px;
 	}
 
+
+	#team{
+		margin-top: 100px !important;
+	}
 	.team1 {
 		padding-left: 60px;
 		padding-bottom: 80px;
@@ -310,9 +267,8 @@ hr {
 }
 
 
-
 /*iphone 6*/
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 375px){
 	figure{
 		height: 350px;
 	}
@@ -320,30 +276,29 @@ hr {
 		height: 350px;
 	}
 
-
-	.history1{
-		padding-left: 15px !important;
+	.history1 img{
+		width: 375px;
 	}
-
+	.history1 span{
+		width: 300px !important;
+		margin-left: 10px;
+	}
 
 	.history2 img{
-		width: 325px;
-		height: 550px;
+		width: 375px;
 	}
-	.history2{
-		width: 325px;
-		float: left;
-		margin-left: 25px !important;
+	.history2 span{
+		width: 300px;
+		margin-left: 5px;
 	}
 
 	.history3 img{
-		width: 350px;
+		width: 375px;
 	}
-	.history3 {
-		width: 350px;
-		margin-left: -165px;
+	.history3 span{
+		width: 300px !important;
+		margin-left: -30px;
 	}
-
 
 	.team1{
 		padding-left: 30px;
@@ -351,7 +306,9 @@ hr {
 	}
 }
 
-@media only screen and (max-width: 320px) {
+
+/*iphone 5*/
+@media only screen and (max-width: 320px){
 	figure{
 		height: 300px;
 	}
@@ -360,30 +317,30 @@ hr {
 	}
 
 	.history1 img{
-		width: 250px;
-		height: 200px;
+		width: 320px;
 	}
-	.history1 {
-		width: 250px;
-		padding-left: 37.5px !important;
+	.history1 span{
+		width: 280px !important;
+		font-size: 1em;
+		margin-left: -8.5px;
 	}
-
 
 	.history2 img{
-		width: 275px;
-		height: 375px;
+		width: 320px;
 	}
-	.history2 {
-		width: 275px;
-		margin-left: 25px !important; 
+	.history2 span{
+		width: 290px;
+		font-size: 1em;
+		margin-left: -10px;
 	}
 
 	.history3 img{
-		width: 285px;
+		width: 320px;
 	}
-	.history3 {
-		width: 285px;
-		margin-left: -160px;
+	.history3 span{
+		width: 280px !important;
+		font-size: 1em;
+		margin-left: -55px;
 	}
 
 
@@ -396,13 +353,9 @@ hr {
 	}
 	.details {
 		width: 275px;
-		padding-left: 10px;
+		padding-left: 20px;
 	}
 }
-
-
-/*.flickity-prev-next-button.next
-.flickity-prev-next-button*/
 
 
 
