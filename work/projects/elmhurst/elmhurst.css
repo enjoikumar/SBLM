@@ -88,15 +88,6 @@ hr {
 }
 
 
-.history2 img {
-	opacity: 0.1;
-}
-.history2 img:hover {
-	opacity: 1;
-}
-
-
-
 /*project history stuff*/
 .history { 
 	padding-top: 40px;
@@ -104,6 +95,7 @@ hr {
 .history1 img {
 	padding-left: 20px;
 }
+
 .history1 span {
 	font-size: 1.25em;
 	width: 400px;
