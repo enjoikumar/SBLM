@@ -260,6 +260,46 @@ strong {
 	margin-top: 0px;
 }
 
+@media screen and (min-width: 1920px){
+	figure{
+		height: 1000px;
+	}
+	figure img{
+		height: 1000px;
+	}
+
+	.history1 img{
+		height: 800px;
+	}
+
+	.history2 img{
+		width: 1000px;
+		height: 800px;
+	}
+	.history2 span{
+		padding-left: 300px;
+	}
+
+	.history3 img{
+		width: 900px;
+		height: 1100px;
+		float: right;
+	}
+
+
+	.history4 img{
+		width: 600px;
+		height: 800px;
+	}
+
+	.history4 span{
+		float: left;
+		width: 400px;
+		margin-left: 100px;
+	}
+
+}
+
 @media screen and (min-width: 415px){
 	#trig{
 		display: none;

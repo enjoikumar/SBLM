@@ -124,7 +124,7 @@ hr {
 	float: right;
 	width: 300px;
 	margin-top: 200px;
-	padding-left: 75px;
+	padding-left: 10%;
 	font-size: 1.25em;
 }
 
@@ -142,12 +142,13 @@ hr {
 .history5 img {
 	padding-top: 80px;
 	float: right;
+	width: 65%;
 }
 .history5 span {
 	float: left;
 	width: 300px;
 	margin-top: 240px;
-	padding-left: 50px;
+	padding-left: 5%;
 	font-size: 1.25em;
 }
 
@@ -209,6 +210,37 @@ hr {
 .flickity-prev-next-button.next {
 	margin-top: 0px;
 }
+
+
+@media only screen and (max-width: 1920px){
+	figure{
+		height: 1000px;
+	}
+	figure img{
+		height: 1000px;
+	}
+	.history1 img{
+		width: 1000px;
+		height: 800px;
+	}
+	.history3 img, 
+	.history4 img{
+		height: 800px;
+	}
+
+	.history5 img{
+		height: 800px;
+	}
+
+	#team{
+		margin-top: 1800px !important;
+	}
+
+}
+
+
+
+
 
 
 /*iphone 6 plus*/
@@ -407,30 +439,6 @@ hr {
   transform: translate3d(0px, 0px, 0px);
 }
 
-.bounce-up .subject {
-  opacity: 0;
-  -moz-transition: all 700ms ease-out;
-  -webkit-transition: all 700ms ease-out;
-  -o-transition: all 700ms ease-out;
-  transition: all 700ms ease-out;
-  -moz-transform: translate3d(0px, 200px, 0px);
-  -webkit-transform: translate3d(0px, 200px, 0px);
-  -o-transform: translate(0px, 200px);
-  -ms-transform: translate(0px, 200px);
-  transform: translate3d(0px, 200, 0px);
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-.bounce-up.in-view .subject {
-  opacity: 1;
-  -moz-transform: translate3d(0px, 0px, 0px);
-  -webkit-transform: translate3d(0px, 0px, 0px);
-  -o-transform: translate(0px, 0px);
-  -ms-transform: translate(0px, 0px);
-  transform: translate3d(0px, 0px, 0px);
-}
 
 
 
