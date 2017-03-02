@@ -219,6 +219,10 @@ hr {
 	figure img{
 		height: 1000px;
 	}
+
+	.history span{
+		font-size: 1.75em;
+	}
 	.history1 img{
 		width: 1000px;
 		height: 800px;
