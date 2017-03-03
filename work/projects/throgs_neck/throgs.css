@@ -246,7 +246,6 @@ hr {
 
 
 
-
 /*iphone 6 plus*/
 @media only screen and (max-width: 414px) {
 	figure{
@@ -264,7 +263,7 @@ hr {
 		font-size: 1.1em;
 		margin-top: 10px;
 		width: 375px;
-		margin-left: -50px;
+		margin-left: -15px;
 	}
 
 	.history3 img{
@@ -286,7 +285,7 @@ hr {
 		font-size: 1.1em;
 		width: 375px;
 		margin-top: 25px;
-		margin-left: -20px;
+		margin-left: 0px;
 		padding-bottom: 40px;
 	}
 
@@ -333,7 +332,7 @@ hr {
 	}
 	.history1 span{
 		width: 350px;
-		margin-left: -50px;
+		margin-left: -15px;
 	}
 
 	.history3 img{
@@ -348,7 +347,7 @@ hr {
 	}
 	.history5 span{
 		width: 350px;
-		margin-left: -30px;
+		margin-left: 0px;
 	}
 
 	.team1{
@@ -368,18 +367,18 @@ hr {
 	}
 
 	.history1 span{
-		width: 300px;
+		width: 290px;
 		font-size: 1em;
-		margin-left: -65px;
+		margin-left: 0px;
 	}
 
 	.history5 span{
-		width: 300px;
+		width: 290px;
 		font-size: 1em;
-		margin-left: -35px;
+		margin-left: 10px;
 	}
 
-		.team1{
+	.team1{
 		width: 275px;
 		padding-left: 22.5px;
 	}

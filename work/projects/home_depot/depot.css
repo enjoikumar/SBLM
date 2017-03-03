@@ -415,6 +415,7 @@ strong {
 
 	#trig{
 		margin-left: 300px;
+		margin-top: -400px !important;
 	}
 
 	.history{
@@ -426,7 +427,7 @@ strong {
 	}
 	.history1 img{
 		width: 375px;
-		height: 500px;
+		height: 400px;
 	}
 
 	.history2{
@@ -473,7 +474,6 @@ strong {
 		height: 300px;
 	}
 	#trig{
-		color: red;
 		margin-top: -320px !important;
 		margin-left: 240px;
 	}
