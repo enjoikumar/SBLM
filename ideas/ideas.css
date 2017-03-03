@@ -21,6 +21,9 @@ body {
   -webkit-animation: fadein 4000ms linear both;
           animation: fadein 4000ms linear both;
 }
+.grid img{
+  filter: grayscale(100%);
+}
 
 /*transition*/
 @-webkit-keyframes fadein {
@@ -111,7 +114,7 @@ body {
 #myImg16:hover,
 #myImg17:hover,
 #myImg18:hover {
-	opacity: 0.5;
+	filter: grayscale(0%);
 }
 
 .modal {

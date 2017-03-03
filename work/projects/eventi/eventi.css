@@ -88,54 +88,57 @@ hr {
 
 
 /*project history stuff*/
-
-.history1 {
+.history{
 	padding-top: 40px;
-	padding-left: 100px;
-	width: 500px;
-}
-.history1 span {
-	width: 400px;
-	position: absolute;
-	margin-left: 600px;
-	margin-top: -700px;
-	font-size: 1.25em;
 }
 
+.history1 img{
+	float: left;
+	padding-left: 40px;
+}
 
-.history2 {
-	width: 400px;
+.history1 span{
 	float: right;
-	margin-top: -50px;
-	padding-right: 180px;
-}
-.history2 span {
 	width: 400px;
-	position: absolute;
-	margin-left: -600px;
-	margin-top: -500px;
 	font-size: 1.25em;
+	margin-right: 200px;
+	margin-top: 300px;
+}
+
+.history2 img{
+	float: right;
+	margin-top: 300px;
+	padding-right: 100px;
+}
+.history2 span{
+	float: left;
+	width: 400px;
+	font-size: 1.25em;
+	margin-top: 100px;
+	margin-left: 100px;
+}
+
+.history3 img{
+	margin-top: 150px;
+	padding-left: 40px;
+}
+.history3 span{
+	float: right;
+	width: 400px;
+	font-size: 1.25em;
+	margin-right: 200px;
+	margin-top: -300px;
 }
 
 
-.history3 {
-	width: 400px;
-	padding-left: 100px;
-	margin-top: 725px;
-	padding-bottom: 40px;
-}
-.history3 span {
-	width: 400px;
-	position: absolute;
-	margin-left: 600px;
-	margin-top: -400px;
-	font-size: 1.25em;
-}
 
 
 
 
 /*team stuff*/
+#team{
+	margin-top: 40px;
+}
 .team1 {
 	padding-top: 40px;
 	width: 300px;
@@ -191,7 +194,33 @@ hr {
 
 
 
+@media only screen and (max-width: 414px) {
+	figure{
+		height: 375px;
+	}
+	figure img{
+		height: 375px;
+	}
 
+	.history img{
+		width: 414px;
+	}
+
+	.history1 img{
+		margin-left: -100px;
+		height: 700px;
+	}
+	.history1 span{
+		width: 375px;
+		font-size: 1.1em;
+		float: left;
+		position: absolute;
+	}
+
+	.history2 img{
+		margin-top: 400px;
+	}
+}
 
 
 /*iphone 6 plus*/

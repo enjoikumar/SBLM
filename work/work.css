@@ -6,8 +6,8 @@ body {
 
 /*for the off white pattern*/
 .module {
-  background: #ccc;
-  padding-top: 48px;
+  background: gray;
+  padding-top: 0px;
 }
 
 .module > h2 {
@@ -15,20 +15,23 @@ body {
   margin:0 0 0.5rem 0;
 }
 .stripe {
-  text-align: center;
+  background: #333;
+  /*text-align: center;*/
   /*align-content: center;*/
   font-size: 36px;
 /*  background: -webkit-repeating-linear-gradient(90deg, white, white 20px, black 20px, black 40px);
   background: repeating-linear-gradient(90deg, white, white 20px, black 20px, black 40px);*/
 }
 p.text{
+  background: #333;
   color:white;
-  margin-top: 30px !important;
-  padding: 10px;
+  /*margin-top: 30px !important;*/
+  margin-left: 0px !important;
+  /*padding: 10px;*/
   width: 40%;
   /*text-align: center;*/
   /*margin: auto;*/
-  background-color: black;
+  background-color: #333;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -61,6 +64,7 @@ p i{
   background-color: black;
   overflow: hidden;
   margin-top: -10px;
+  border-top: solid 1px #ccc;
 }
 
 
