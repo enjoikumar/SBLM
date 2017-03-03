@@ -306,7 +306,7 @@ hr {
 
 
 
-/*.animation-element {
+.animation-element {
   opacity: 0;
   position: relative;
 }
@@ -405,7 +405,7 @@ hr {
   -o-transform: translate(0px, 0px);
   -ms-transform: translate(0px, 0px);
   transform: translate3d(0px, 0px, 0px);
-}*/
+}
 
 
 

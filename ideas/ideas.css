@@ -60,8 +60,8 @@ body {
   float: left;
   width: 200px;
   height: 200px;
-  border: 1px solid;
-  border-color: white;
+  /*border: 1px solid;*/
+  /*border-color: white;*/
 }
 
 .grid-item--width2 { width: 400px; }
@@ -79,7 +79,16 @@ body {
 #myImg6, 
 #myImg7, 
 #myImg8, 
-#myImg9 {
+#myImg9,
+#myImg10,
+#myImg11,
+#myImg12,
+#myImg13,
+#myImg14,
+#myImg15,
+#myImg16,
+#myImg17,
+#myImg18 {
 	cursor: pointer;
 	transition: 0.3s;
 }
@@ -92,7 +101,16 @@ body {
 #myImg6:hover,
 #myImg7:hover,
 #myImg8:hover,
-#myImg9:hover {
+#myImg9:hover,
+#myImg10:hover,
+#myImg11:hover,
+#myImg12:hover,
+#myImg13:hover,
+#myImg14:hover,
+#myImg15:hover,
+#myImg16:hover,
+#myImg17:hover,
+#myImg18:hover {
 	opacity: 0.5;
 }
 
@@ -112,7 +130,7 @@ body {
 .modal-content {
   margin: auto;
   display: block;
-  width: 80%;
+  width: 50%;
   max-width: 700px;
 }
 .modal-content { 

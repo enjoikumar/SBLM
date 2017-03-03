@@ -99,6 +99,7 @@ hr {
 	position: absolute;
 	margin-left: 600px;
 	margin-top: -700px;
+	font-size: 1.25em;
 }
 
 
@@ -113,6 +114,7 @@ hr {
 	position: absolute;
 	margin-left: -600px;
 	margin-top: -500px;
+	font-size: 1.25em;
 }
 
 
@@ -127,6 +129,7 @@ hr {
 	position: absolute;
 	margin-left: 600px;
 	margin-top: -400px;
+	font-size: 1.25em;
 }
 
 
@@ -190,63 +193,9 @@ hr {
 
 
 
-@media only screen and (max-width: 1170px) {
-	.history2 {
-		width: 400px;
-		float: left;
-		margin-left: 180px;
-		padding-top: 330px;
-	}
-
-	.history3{
-		margin-top: -1195px;
-		float: right;
-		margin-right: 18%;
-		position: relative;
-		display: inline-block;
-	}
-	.history4{
-		padding-top: 30px;
-		position: relative;
-		margin-right: 0%;
-	}
-	#team {
-		padding-top: 400px;
-	}
-}
-@media only screen and (max-width: 1120px) {
-	.team1 img {
-		padding-left: 500px;
-	}
-}
-@media only screen and (max-width: 970px) {
-	.history3 {
-		padding-top: 1250px;
-		display: inline-block;
-		position: relative;
-		float: left;
-	}
-	.history4 {
-		padding-top: 55px;
-		float: left;
-		margin-left: -160px !important;
-	}
-	#team {
-		margin-top: 800px;
-	}
-}
-@media only screen and (max-width: 768px) {
-	.history4 {
-		margin-left: -130px !important;
-	}
-	.team1 img {
-		padding-left: 400px;
-	}
-}
-
 
 /*iphone 6 plus*/
-@media only screen and (max-width: 414px) {
+/*@media only screen and (max-width: 414px) {
 	figure{
 		height: 375px;
 	}
@@ -308,7 +257,7 @@ hr {
 	.flickity-prev-next-button {
 		display: none;
 	}
-}
+}*/
 
 
 /*iphone 6*/
