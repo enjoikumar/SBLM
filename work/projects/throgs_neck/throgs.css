@@ -222,6 +222,7 @@ hr {
 
 	.history span{
 		font-size: 1.75em;
+		width: 400px;
 	}
 	.history1 img{
 		width: 1000px;
@@ -238,6 +239,12 @@ hr {
 
 	#team{
 		margin-top: 1800px !important;
+	}
+	.team, .details{
+		font-size: 1.25em;
+	}
+	.team{
+		padding-bottom: 40px;
 	}
 
 }

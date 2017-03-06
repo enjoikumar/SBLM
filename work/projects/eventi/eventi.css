@@ -192,6 +192,61 @@ hr {
 	margin-top: 0px;
 }
 
+@media only screen and (min-width: 1920px) {
+	figure{
+		height: 1000px;
+	}
+	figure img{
+		height: 1000px;
+	}
+
+	.project-history{
+		font-size: 1.5em;
+	}
+
+	.history span{
+		font-size: 1.75em;
+	}
+	.history1 img{
+		width: 700px;
+		height: 1200px;
+		padding-left: 100px;
+	}
+	.history1 span{
+		width: 600px;
+		margin-right: 350px;
+	}
+
+	.history2 img{
+		float: right;
+		width: 700px;
+		height: 1000px;
+	}
+	.history2 span{
+		margin-left: -650px;
+		margin-top: 850px;
+		float: left;
+		width: 600px;
+	}
+
+	.history3 img{
+		width: 700px;
+		height: 900px;
+		padding-left: 100px;
+	}
+	.history3 span{
+		width: 600px;
+		margin-right: 350px;
+		margin-top: -500px;
+	}
+
+	.team, .details{
+		font-size: 1.25em;
+	}
+	.team{
+		padding-bottom: 40px;
+	}
+}
 
 
 @media only screen and (max-width: 414px) {
@@ -201,7 +256,6 @@ hr {
 	figure img{
 		height: 375px;
 	}
-
 	.history img{
 		width: 414px;
 	}
@@ -390,6 +444,80 @@ hr {
 
 
 
+.animation-element {
+  opacity: 0;
+  position: relative;
+}
+/*animation element sliding left*/
+
+.animation-element.slide-left {
+  opacity: 0;
+  -moz-transition: all 1000ms linear;
+  -webkit-transition: all 1000ms linear;
+  -o-transition: all 1000ms linear;
+  transition: all 1000ms linear;
+  -moz-transform: translate3d(-100px, 0px, 0px);
+  -webkit-transform: translate3d(-100px, 0px, 0px);
+  -o-transform: translate(-100px, 0px);
+  -ms-transform: translate(-100px, 0px);
+  transform: translate3d(-100px, 0px, 0px);
+}
+
+.animation-element.slide-left.in-view {
+  opacity: 1;
+  -moz-transform: translate3d(0px, 0px, 0px);
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  -o-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
+}
+
+.animation-element.slide-right {
+  opacity: 0;
+  -moz-transition: all 1000ms linear;
+  -webkit-transition: all 1000ms linear;
+  -o-transition: all 1000ms linear;
+  transition: all 1000ms linear;
+  -moz-transform: translate3d(100px, 0px, 0px);
+  -webkit-transform: translate3d(100px, 0px, 0px);
+  -o-transform: translate(100px, 0px);
+  -ms-transform: translate(100px, 0px);
+  transform: translate3d(100px, 0px, 0px);
+}
+
+.animation-element.slide-right.in-view {
+  opacity: 1;
+  -moz-transform: translate3d(0px, 0px, 0px);
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  -o-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
+}
+
+.animation-element.fade-in {
+	opacity: 0;
+	-moz-transition: all 1000ms linear;
+  -webkit-transition: all 1000ms linear;
+  -o-transition: all 1000ms linear;
+  transition: all 1000ms linear;
+  -moz-transform: translate3d(0px, 100px, 0px);
+  -webkit-transform: translate3d(0px, 100px, 0px);
+  -o-transform: translate(0px, 100px);
+  -ms-transform: translate(0px, 100px);
+  transform: translate3d(0px, 100px, 0px);
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.animation-element.fade-in.in-view {
+	opacity: 1;
+	-moz-transform: translate3d(0px, 0px, 0px);
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  -o-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
+}
 
 
 
