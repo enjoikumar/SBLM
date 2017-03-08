@@ -86,33 +86,64 @@ hr {
 
 
 /*project history stuff*/
-.history1 {
-	padding-top: 30px;
-	padding-left: 180px;
-	width: 400px;
+.history{
+	padding-top: 40px;
+	font-size: 1.1em;
 }
 
-.history2{
+.history1 img{
+	padding-left: 40px;
+}
+.history1 span{
 	width: 400px;
 	float: right;
-	margin-top: -300px;
-	padding-right: 180px;
+	margin-right: 150px;
+	margin-top: 50px;
 }
 
-.history3 {
-	width: 200px;
-	display: inline-block;
-	padding-left: 180px;
-	padding-top: 80px;
+.history2 img{
+	float: right;
+	padding-right: 40px;
 }
-.history4 {
-	width: 200px;
-	display: inline-block;
+.history2 span{
+	width: 400px;
+	float: left;
+	margin-left: 120px;
+	margin-top: 140px;
 }
 
+.history3 img{
+	padding-left: 40px;
+	margin-top: 140px;
+}
+.history3 span{
+	width: 400px;
+	float: right;
+	margin-right: 150px;
+	margin-top: -500px;
+}
 
+.history4 img{
+	float: right;
+	margin-right: 150px;
+	margin-top: -350px;
+}
+
+.history5 img{
+	padding-left: 40px;
+	margin-top: 20px;
+}
+
+.history6 img{
+	float: right;
+	margin-right: 150px;
+	margin-top: -355px;
+}
 
 /*team stuff*/
+#team{
+	margin-top: 300px;
+}
 .team1 {
 	padding-top: 40px;
 	width: 300px;
