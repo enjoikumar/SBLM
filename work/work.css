@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
+  background-color: black;
 }
 
 /*for the off white pattern*/
@@ -56,7 +57,8 @@ p i{
 }
 
 .filter a:hover {
-  background:#8ad;
+  background: white;
+  color: black;
 }
 
 .filter {
