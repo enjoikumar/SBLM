@@ -7,6 +7,26 @@ $(document).ready(function(){
 	    columnWidth: 100
 	  }
 	});
+
+	 $grid.on( 'click', '.small', function() {
+    $( this ).parent('.grid-item').toggleClass('is-expanded');
+    $grid.isotope('layout');
+  });
+
+  $grid.on( 'click', '.width', function() {
+    $( this ).parent('.grid-item').toggleClass('is-expanded');
+    $grid.isotope('layout');
+  });
+      
+  $grid.on( 'click', '.height', function() {
+    $( this ).parent('.grid-item').toggleClass('is-expanded');
+    $grid.isotope('layout');
+  });
+        
+  $grid.on( 'click', '.big', function() {
+    $( this ).parent('.grid-item').toggleClass('is-expanded');
+    $grid.isotope('layout');
+  });
 })
 
 
