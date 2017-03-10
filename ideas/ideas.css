@@ -61,14 +61,60 @@ body {
 
 .grid-item {
   float: left;
-  width: 200px;
-  height: 200px;
-  /*border: 1px solid;*/
-  /*border-color: white;*/
 }
 
-.grid-item--width2 { width: 400px; }
-.grid-item--height2 { height: 400px; }
+.small{
+  width: 200px;
+  height: 200px;
+}
+.width{
+  width: 400px;
+  height: 200px;
+}
+.height{
+  width: 200px;
+  height: 400px;
+}
+.big{
+  width: 400px;
+  height: 400px;
+}
+
+.grid-item.is-expanded,
+.grid-item.is-expanded .grid-item-content{
+  width: 400px;
+  height: 400px;
+}
+
+.grid-item.is-expanded,
+.grid-item.is-expanded .small{
+  width: 400px;
+  height: 400px;
+}
+
+.grid-item.is-expanded,
+.grid-item.is-expanded .width{
+  width: 800px;
+  height: 400px;
+}
+
+.grid-item.is-expanded,
+.grid-item.is-expanded .height{
+  width: 400px;
+  height: 800px;
+}
+
+.grid-item.is-expanded,
+.grid-item.is-expanded .big{
+  width: 800px;
+  height: 800px;
+}
+
+
+.grid-item.is-expanded {
+  z-index: 2;
+}
+
 
 
 
