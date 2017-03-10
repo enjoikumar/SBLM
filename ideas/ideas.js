@@ -4,37 +4,33 @@ $(document).ready(function(){
 	var $grid = $('.grid').isotope({
 	  itemSelector: '.grid-item',
 	  masonry: {
-	    columnWidth: 100
+	  	columnWidth: 100
 	  }
 	});
 
 	 $grid.on( 'click', '.small', function() {
     $( this ).parent('.grid-item').toggleClass('is-expanded');
     $grid.isotope('layout');
-    console.log('small')
-
   });
 
   $grid.on( 'click', '.width', function() {
     $( this ).parent('.grid-item').toggleClass('is-expanded');
     $grid.isotope('layout');
-    console.log('width')
-
   });
       
   $grid.on( 'click', '.height', function() {
     $( this ).parent('.grid-item').toggleClass('is-expanded');
     $grid.isotope('layout');
-    console.log('height')
-
   });
         
   $grid.on( 'click', '.big', function() {
     $( this ).parent('.grid-item').toggleClass('is-expanded');
     $grid.isotope('layout');
-    console.log('bigs')
-
   });
+
+ //  $(document).ready(function() {
+ //  	$grid.isotope('shuffle');
+	// });
 })
 
 

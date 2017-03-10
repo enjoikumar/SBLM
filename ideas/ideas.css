@@ -16,13 +16,15 @@ body {
 .grid {
 	padding-top: 100px;
   background: black;
-  margin-left: 40px;
-  margin-right: 10px;
+/*  margin-left: 40px;
+  margin-right: 10px;*/
   -webkit-animation: fadein 4000ms linear both;
           animation: fadein 4000ms linear both;
 }
 .grid img{
-  filter: grayscale(100%);
+  /*filter: grayscale(100%);*/
+  display: inline-block;
+  margin: 0 auto;
 }
 
 /*transition*/
@@ -61,23 +63,28 @@ body {
 
 .grid-item {
   float: left;
+  margin-top: -4px;
 }
 
 .small{
   width: 200px;
   height: 200px;
+  margin-top: 0px;
 }
 .width{
   width: 400px;
   height: 200px;
+  margin-top: 0px;
 }
 .height{
   width: 200px;
   height: 400px;
+  margin-top: 0px;
 }
 .big{
   width: 400px;
   height: 400px;
+  margin-top: 0px;
 }
 
 .grid-item.is-expanded,
@@ -116,71 +123,115 @@ body {
 }
 
 
-
-
-#myImg:hover, 
-#myImg2:hover,
-#myImg3:hover,
-#myImg4:hover,
-#myImg5:hover,
-#myImg6:hover,
-#myImg7:hover,
-#myImg8:hover,
-#myImg9:hover,
-#myImg10:hover,
-#myImg11:hover,
-#myImg12:hover,
-#myImg13:hover,
-#myImg14:hover,
-#myImg15:hover,
-#myImg16:hover,
-#myImg17:hover,
-#myImg18:hover {
-	filter: grayscale(0%);
+@media only screen and (min-width: 1920px) {
 }
+/*@media only screen and (min-width: 1280px) {
 
-
-/* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
-  .modal-content {
-    width: 100%;
+  .small{
+    width: 160px;
+    height: 160px;
   }
-}
+  .width{
+    width: 320px;
+    height: 160px;
+  }
+  .height{
+    width: 160px;
+    height: 320px;
+  }
+  .big{
+    width: 320px;
+    height: 320px;
+  }
+}*/
 
 /*Iphone 6 and 6 plus*/
 @media only screen and (max-width: 414px) {
   .grid-item {
-  float: left;
-  width: 175px;
-  height: 175px;
-  border: 1px solid;
-  border-color: white;
+    margin-left: 17px;
+  /*float: left;*/
+  /*border: 1px solid white;*/
+    margin-top: -4px;
   }
-  .grid-item--width2 { 
-    width: 350px; 
+  .small{
+    width: 150px;
+    height: 150px;
   }
-  .grid-item--height2 { 
-    height: 350px; 
+  .width{
+    width: 300px;
+    height: 150px;
+  }
+  .height{
+    width: 150px;
+    height: 300px;
+  }
+  .big{
+    width: 300px;
+    height: 300px;
+  }
+
+  .grid-item.is-expanded,
+  .grid-item.is-expanded .grid-item-content{
+    width: 150px;
+    height: 150px;
+  }
+
+  .grid-item.is-expanded,
+  .grid-item.is-expanded .small{
+    width: 150px;
+    height: 150px;
+  }
+
+  .grid-item.is-expanded,
+  .grid-item.is-expanded .width{
+    width: 300px;
+    height: 150px;
+  }
+
+  .grid-item.is-expanded,
+  .grid-item.is-expanded .height{
+    width: 150px;
+    height: 300px;
+  }
+
+  .grid-item.is-expanded,
+  .grid-item.is-expanded .big{
+    width: 300px;
+    height: 300px;
+  }
+
+  .grid-item.is-expanded {
+  z-index: 2;
   }
 }
 
 @media only screen and (max-width: 375px) {
   .grid {
-    margin-left: 35 spx;
+    margin-left: 35px;
   }
   .grid-item {
     float: left;
-    width: 150px;
-    height: 150px;
-    border: 1px solid;
-    border-color: white;
+/*    border: 1px solid;
+    border-color: white;*/
   }
-  .grid-item--width2 {
-    width: 300px;
+  .small{
+    width: 175px;
+    height: 175px
   }
-  .grid-item--height2 {
-    height: 300px; 
+  .width{
+    width: 350px;
+    height: 175px;
   }
+  .height{
+    width: 175px;
+    height: 350px;
+  }
+  .big{
+    width: 350px;
+    height: 350px;
+  }
+
+
 }
 
 /*Iphone 5 responsive*/
