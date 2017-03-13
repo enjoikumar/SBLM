@@ -4,7 +4,8 @@ $(document).ready(function(){
 	var $grid = $('.grid').isotope({
 	  itemSelector: '.grid-item',
 	  masonry: {
-	  	columnWidth: 100
+	  	columnWidth: 100,
+	  	fitWidth: true;
 	  }
 	});
 
@@ -28,9 +29,9 @@ $(document).ready(function(){
     $grid.isotope('layout');
   });
 
- //  $(document).ready(function() {
- //  	$grid.isotope('shuffle');
-	// });
+  $(document).ready(function() {
+  	$grid.isotope('shuffle');
+	});
 })
 
 
