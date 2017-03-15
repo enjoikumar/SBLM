@@ -4,8 +4,8 @@ $(document).ready(function(){
 	var $grid = $('.grid').isotope({
 	  itemSelector: '.grid-item',
 	  masonry: {
-	  	columnWidth: 100,
-	  	fitWidth: true;
+	  	columnWidth: 100
+	  	// fitWidth: true;
 	  }
 	});
 
