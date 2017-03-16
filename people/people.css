@@ -52,7 +52,7 @@ body{
 
 
 .filter{
-  margin-left: 350px;
+  margin-left: 40px;
   margin-top: 180px;
 }
 
@@ -104,6 +104,88 @@ body{
   .staff img{
     width: 187.5px;
     height: 187.5px;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .office img{
+    height: 375px;
+  }
+
+  .container{
+    margin-left: 0px;
+  }
+
+  .container img{
+    width: 414px;
+    height: 207px;
+  }
+  .overlay{
+    width: 414px;
+    height: 207px;
+  }
+
+  .filter{
+    display: none;
+  }
+
+  .staff{
+    margin-left: 9px;
+    margin-top: 2050px !important;
+  }
+  .staff img{
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .office img{
+    height: 350px;
+  }
+
+  .container img{
+    width: 375px;
+    height: 187.5px;
+  }
+
+  .overlay{
+    width: 375px;
+    height: 187.5px;
+  }
+
+  .staff{
+    margin-left: 10px;
+    margin-top: 1850px !important;
+  }
+  .staff img{
+    width: 180px;
+    height: 180px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .office img{
+    height: 300px;
+  }
+
+  .container img{
+    width: 320px;
+    height: 160px;
+  }
+
+  .overlay{
+    width: 320px;
+    height: 160px;
+  }
+  
+  .staff{
+    margin-left: 13px;
+    margin-top: 1580px !important;
+  }
+  .staff img{
+    width: 150px;
+    height: 150px;
   }
 }
 
