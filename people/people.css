@@ -62,6 +62,9 @@ body{
 .filter a{
   color: white;
 }
+.filter a:hover{
+  cursor: pointer;
+}
 
 
 
