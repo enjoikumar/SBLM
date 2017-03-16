@@ -2,6 +2,10 @@ body{
   font-family: 'Roboto', sans-serif;
   background-color: #0d0d0d;
 }
+.office img{
+  width: 100%;
+  height: 650px;
+}
 
 .table{
   padding-top: 40px;
@@ -52,8 +56,11 @@ body{
   height: 150px;
 }
 
-.space{
+.filter{
   height: 250px;
+}
+.filter a{
+  color: white;
 }
 
 

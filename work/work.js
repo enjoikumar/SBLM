@@ -1,17 +1,17 @@
 
 $(document).ready(function(){
 
-  $education = $("[id = education");
+  $education = $("[id = education]");
 
-  $retail = $("[id = retail");
+  $retail = $("[id = retail]");
 
-  $mixed = $("[id = mixed");
+  $mixed = $("[id = mixed]");
 
-  $health = $("[id = health");
+  $health = $("[id = health]");
 
-  $civic = $("[id = civic");
+  $civic = $("[id = civic]");
 
-  $all = $("[id = all");
+  $all = $("[id = all]");
 
   // each click function changes the grayscale of the item to none
   // making it in color while the others remain in black and white
