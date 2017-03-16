@@ -2,6 +2,7 @@
 body {
   /*background-image: url(/Users/kamalkumar/Desktop/SBLM/CSS/ASSETS/1.jpg);*/
   background-size: cover;
+  background-color: black;
   font-family: 'Roboto', sans-serif;
   -webkit-animation: fadein 1000ms linear both;
           animation: fadein 1000ms linear both;
@@ -31,33 +32,23 @@ body {
   }
 }
 
-
-/*styling for caption*/
-.caption {
-  overflow: hidden;
+.topnav{
   position: relative;
-  padding-top: 100px;
-  padding-bottom: 200px;
-  padding-left: 40px;
-  color: black;
-  width: 300px;
-  font-family: 'Roboto', sans-serif;
-}
-
-.caption b {
-  font-size: 36px;
-  font-weight: 900;
 }
 
 
 /*styling for offices*/
 .office {
+  margin-top: 100px;
   overflow: hidden;
   position: relative;
   padding-left: 40px;
-  color: black;
+  color: white;
   display: inline-block;
   display: flex;
+}
+strong{
+  color: #f20;
 }
 
 /*giving spaces to each of the offices*/
@@ -89,7 +80,7 @@ body {
   overflow: hidden;
   position: relative;
   padding-left: 40px;
-  color: black;
+  color: white;
   padding-bottom: 20px;
 }
 
@@ -98,7 +89,7 @@ body {
 /*styling for email link*/
 a {
   text-decoration: none;
-  color:black;
+  color:#f20;
 }
 
 a:visited {
