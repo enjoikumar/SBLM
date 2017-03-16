@@ -2,14 +2,84 @@ body{
   font-family: 'Roboto', sans-serif;
   background-color: #0d0d0d;
 }
-.office img{
-  width: 100%;
-  height: 650px;
+
+.topnav{
+  position: relative;
 }
 
+/*starting the page with a black background
+so it has a positive ux/ui feel*/
+.slideshow {
+  background: black;
+  margin-top: 50px;
+}
+
+.slideshow img{
+  width: 100%;
+  height: 500px;
+  filter: grayscale(100%);
+}
+
+
+/*setting the positions and width, etc*/
+.slideshow, .slideshow .slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*opacity is smoother and that the images fit the width*/
+.slideshow .slide {
+  background-position: center;
+  background-size: cover;
+  opacity: 0;
+}
+
+/*makes sure the image before is stacked and cant be seen*/
+.slideshow .slide.previous {
+  z-index: 1;
+  opacity: 1;
+}
+
+/*stacked as wekk but is put in the forefront*/
+.slideshow .slide.current {
+  z-index: 2;
+  -webkit-animation: fadein 5000ms linear both;
+          animation: fadein 5000ms linear both;
+}
+
+/*transition affects*/
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
 .table{
-  padding-top: 40px;
-  padding-bottom: 100px;
+  margin-top: 550px;
+  /*padding-top: 40px;*/
+  /*padding-bottom: 100px;*/
   margin-left: 3.5px;
 }
 
@@ -53,7 +123,6 @@ body{
 
 .filter{
   margin-left: 40px;
-  margin-top: 180px;
 }
 
 .filter a{
@@ -80,10 +149,23 @@ body{
 
 
 @media only screen and (min-width: 1920px) {
+  .slideshow img{
+    height: 1000px;
+
+  }
+
+  .filter{
+    margin-top: 1048px !important;
+  }
+
+  .table{
+    margin-left: 7px;
+    margin-top: 48px !important;
+  }
   .container img{
     width: 375px;
     height: 187.5px;
-    margin-left: 7px;
+    /*margin-left: 7px;*/
   }
   .overlay{
     position: absolute;
@@ -96,10 +178,11 @@ body{
     opacity: 0;
     transition: .5s ease;
     background-color: black;
-    margin-left: 7px;
+    /*margin-left: 7px;*/
   }
   .staff{
     margin-left: 7px;
+    margin-top: 0px !important;
   }
   .staff img{
     width: 187.5px;
@@ -108,10 +191,13 @@ body{
 }
 
 @media only screen and (max-width: 414px) {
-  .office img{
+  .slideshow img{
     height: 375px;
   }
 
+  .table{
+    margin-top: 400px;
+  }
   .container{
     margin-left: 0px;
   }
@@ -131,7 +217,7 @@ body{
 
   .staff{
     margin-left: 9px;
-    margin-top: 2050px !important;
+    margin-top: 2600px !important;
   }
   .staff img{
     width: 200px;
@@ -140,7 +226,7 @@ body{
 }
 
 @media only screen and (max-width: 375px) {
-  .office img{
+  .slideshow img{
     height: 350px;
   }
 
@@ -156,7 +242,7 @@ body{
 
   .staff{
     margin-left: 10px;
-    margin-top: 1850px !important;
+    margin-top: 2350px !important;
   }
   .staff img{
     width: 180px;
@@ -165,7 +251,7 @@ body{
 }
 
 @media only screen and (max-width: 320px) {
-  .office img{
+  .slideshow img{
     height: 300px;
   }
 
@@ -178,17 +264,16 @@ body{
     width: 320px;
     height: 160px;
   }
-  
+
   .staff{
     margin-left: 13px;
-    margin-top: 1580px !important;
+    margin-top: 2080px !important;
   }
   .staff img{
     width: 150px;
     height: 150px;
   }
 }
-
 
 
 
