@@ -4,6 +4,7 @@
 <head>
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="../home/home.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="ideas.css">
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
   <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
@@ -18,9 +19,18 @@
     <li><a class="link" href="../work/work.html">Work</a></li>
     <li><a class="link" href="../contact/contact.html">Contact</a></li>
     <li class="icon">
-      <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+      <span class="burger" onclick="clicker()">&#9776;</span>
     </li>
   </ul>
+
+  <div id="myNav" class="overlay">
+    <div class="overlay-content">
+      <a href="../people/people.html">People</a>
+      <a href="../ideas/ideas.html">Ideas</a>
+      <a href="../work/work.html">Work</a>
+      <a href="../contact/contact.html">Contact</a>
+    </div>
+  </div>
 
 
   <div class="grid" id="grid">

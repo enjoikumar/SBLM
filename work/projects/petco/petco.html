@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Petco Distribution Center</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="petco.css">
 	<link rel="stylesheet" type="text/css" href="../../../home/home.css">
@@ -11,14 +12,25 @@
 </head>
 <body>
 
-	<ul class="topnav" id="myTopnav">
-	  <li><a class="sblm" href="../../../home/home.html">SBLM</a></li>
-	  <li><a class="link" href="../../../people/people.html">People</a></li>
-	  <li><a class="link" href="../../../ideas/ideas.html">Ideas</a></li>
-	  <li><a class="link" href="../../../work/work.html">Work</a></li>
-	  <li><a class="link" href="../../../contact/contact.html">Contact</a></li>
-	  <li class="icon"><a href="javascript:void(0);" onclick="myFunction()">&#9776;</a></li>
-	</ul>
+  <ul class="topnav" id="myTopnav">
+    <li><a class="sblm" href="../../../home/home.html">SBLM</a></li>
+    <li><a class="link" href="../../../people/people.html">People</a></li>
+    <li><a class="link" href="../../../ideas/ideas.html">Ideas</a></li>
+    <li><a class="link" href="../../../work/work.html">Work</a></li>
+    <li><a class="link" href="../../../contact/contact.html">Contact</a></li>
+    <li class="icon">
+      <span class="burger" onclick="clicker()">&#9776;</span>
+    </li>
+  </ul>
+
+  <div id="myNav" class="overlay">
+    <div class="overlay-content">
+      <a href="../../../people/people.html">People</a>
+      <a href="../../../ideas/ideas.html">Ideas</a>
+      <a href="../../../work/work.html">Work</a>
+      <a href="../../../contact/contact.html">Contact</a>
+    </div>
+  </div>
 
 
 	<div class="slideshow">
