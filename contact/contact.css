@@ -46,6 +46,7 @@ body {
   color: white;
   display: inline-block;
   display: flex;
+  font-size: 20px;
 }
 strong{
   color: #f20;
@@ -54,22 +55,22 @@ strong{
 /*giving spaces to each of the offices*/
 .nyc {
   width: 175px;
-  padding-right: 20px;
+  padding-right: 60px;
 }
 
 .island {
   width: 175px;
-  padding-right: 20px;
+  padding-right: 60px;
 }
 
 .miami {
   width: 175px;
-  padding-right: 20px;
+  padding-right: 60px;
 }
 
 .dallas {
   width: 175px;
-  padding-right: 0px;
+  padding-right: 60px;
 }
 
 .ire {
@@ -81,7 +82,7 @@ strong{
   position: relative;
   padding-left: 40px;
   color: white;
-  padding-bottom: 20px;
+  margin-top: 40px;
 }
 
 
@@ -99,54 +100,49 @@ a:visited {
 
 
 @media screen and (max-width: 414px) {
-  .caption {
-    padding-left: 40px;
-  }
-
   .office {
     overflow: none;
     position: relative;
     display: block;
-    color: black;
-    padding-top: -40px;
-    margin-top: -120px;
-    width: 300px;
+    color: white;
+    /*width: 400px !important;*/
+    margin-top: 40px;
+    margin-left: 89.5px;
   }
 
   .nyc {
-    padding-bottom: 20px;
+    padding-bottom: 40px;
   }
 
   .island {
-    padding-bottom: 20px;
+    padding-bottom: 40px;
   }
 
   .miami {
-    padding-bottom: 20px;
+    padding-bottom: 40px;
   }
 
   .dallas {
-    padding-bottom: 20px;
+    padding-bottom: 40px;
   }
 
   .ire {
+    padding-bottom: 20px;
+  }
+  .inq{
     padding-bottom: 40px;
   }
 }
 
+@media screen and (max-width: 375px) {
+  .office{
+    margin-left: 70px;
+  }
+}
+
 @media screen and (max-width: 320px) {
-  .caption {
-    width: 265px;
-    padding-left: 30px;
-  }
-  .caption b {
-    font-size: 30px;
-  }
-  .office {
-    padding-left: 30px;
-  }
-  .inq {
-    padding-left: 30px;
+  .office{
+    margin-left: 45px;
   }
 }
 
