@@ -236,6 +236,7 @@ strong {
 .carousel {
 	padding-top: 40px;
   /*background: #EEE;*/
+  background-color: rgb(24,23,23)
 }
 
 .carousel-cell {
@@ -259,6 +260,8 @@ strong {
 .flickity-prev-next-button.next {
 	margin-top: 0px;
 }
+
+
 
 @media screen and (min-width: 1920px){
 	figure{

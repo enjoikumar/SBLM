@@ -9,7 +9,6 @@
 //   }
 // }
 
-
 var myNav = document.getElementById("myNav");
 
 var count = 0
@@ -22,5 +21,7 @@ function clicker(){
 	}
 }
 
+
+	
 
 

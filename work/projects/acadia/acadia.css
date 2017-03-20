@@ -73,18 +73,6 @@ figure.show {
 
 
 
-
-.project-history {
-	padding-top: 20px;
-	font-size: 20px;
-	text-align: center;
-}
-hr {
-	width: 80%;
-	margin: auto;
-}
-
-
 /*project history stuff*/
 .history{
 	padding-top: 40px;
@@ -125,20 +113,48 @@ hr {
 	margin-top: 140px;
 }
 
+.project-history{
+	padding-top: 20px;
+	padding-left: 40px;
+	font-size: 1.75em;
+}
 
 
 /*team stuff*/
 #team{
+	background-color: rgb(38,38,38);
 	margin-top: 500px;
-}
-.team1 {
-	padding-top: 40px;
-	width: 300px;
 	padding-left: 120px;
+	color: white;
 }
-.team1 img {
-	padding-left: 800px;
-	margin-top: -130px;
+
+.team{
+	background-color: rgb(38,38,38) !important;
+	color: white;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.team1 img{
+	padding-left: 60%;
+	margin-top: -100px;
+	padding-bottom: 60px;
+}
+.team1 span, .team1 p{
+	padding-left: 10%;
+	font-size: 1.3em;
+}
+
+.team2{
+	background-color: rgb(38,38,38);
+}
+.team2 img{
+	float: right;
+	padding-right: 20%;
+}
+.team2 span{
+	float: left;
+	padding-left: 20%;
+	font-size: 1.5em;
 }
 
 
@@ -147,19 +163,29 @@ hr {
 .details {
 	padding-top: 40px;
 	padding-left: 120px;
+	padding-bottom: 40px;
+	background-color: rgb(24,23,23);
+	color: white;
 }
 .stat {
 	width: 300px;
 	padding-bottom: 20px;
+	font-size: 1.5em;
 }
 
 
-
+.other{
+	font-size: 1.75em;
+	background-color: black;
+	color: white;
+	padding-top: 40px;
+	padding-left: 40px;
+}
 
 /*slider at the bottom stuff*/
 .carousel {
-	padding-top: 40px;
-  /*background: #EEE;*/
+	padding-top:10px;
+	background-color: black;
 }
 
 .carousel-cell {
