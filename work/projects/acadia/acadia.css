@@ -316,6 +316,10 @@ figure.show {
 		padding-bottom: 40px;
 	}
 
+	#team{
+	/*	padding-top: 60px;*/
+		margin-top: 580px;
+	}
 	.team1 {
 		padding-left: 60px;
 		padding-bottom: 80px;
@@ -355,6 +359,9 @@ figure.show {
 		height: 300px;
 	}
 
+	#team{
+		margin-top: 600px;
+	}
 	.team1{
 		padding-left: 30px;
 		padding-bottom: 20px;
@@ -394,7 +401,8 @@ figure.show {
 	}
 
 	#team{
-		margin-top: 0px;
+		margin-top: 410px;
+		margin-left: -110px;
 	}
 	.team1{
 		width: 275px;
@@ -403,8 +411,7 @@ figure.show {
 	.team1 img{
 		padding-left: 40px;
 	}
-	.details {
-		width: 275px;
+	.details{
 		padding-left: 10px;
 	}
 }
@@ -414,8 +421,8 @@ figure.show {
   opacity: 0;
   position: relative;
 }
-/*animation element sliding left*/
 
+/*animation element sliding left*/
 .animation-element.slide-left {
   opacity: 0;
   -moz-transition: all 1000ms linear;
