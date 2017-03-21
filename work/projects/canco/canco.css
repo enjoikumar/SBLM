@@ -331,13 +331,17 @@ figure.show {
 	}
 
 	#team{
-		margin-top: 1000px;
+		margin-top: 1060px;
 		margin-left: -115px;
 	}
 
-	.team1 {
+	.team1{
 		padding-left: 60px;
 		padding-bottom: 80px;
+		font-size: 1em;
+	}
+	.team1 span{
+		font-size: 1em;
 	}
 	.team1 img{
 		width: 200px;
@@ -348,6 +352,9 @@ figure.show {
 
 	.details{
 		padding-left: 40px;
+	}
+	.stat{
+		font-size: 1em;
 	}
 
 	.flickity-prev-next-button.next {
@@ -371,6 +378,10 @@ figure.show {
 	.history span{
 		width: 320px;
 		margin-right: 23.5px;
+	}
+
+	#team{
+		margin-top: 1080px;
 	}
 	
 	.team1{
@@ -403,7 +414,7 @@ figure.show {
 	}
 
 	#team{
-		margin-top: 675px;
+		margin-top: 700px;
 	}
 	.team1{
 		width: 275px;

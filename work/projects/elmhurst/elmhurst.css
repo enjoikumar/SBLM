@@ -147,6 +147,7 @@ figure.show {
 	padding-left: 40px;
 	font-size: 1.75em;
 }
+
 /*team stuff*/
 #team{
 	background-color: rgb(38,38,38);
@@ -367,8 +368,13 @@ figure.show {
 		margin-top: 0px;
 		height: 300px;
 	}
+
 	#team{
-		margin-top: 0px;
+		margin-top: 20px;
+		margin-left: -115px;
+	}
+	.team1 p{
+		font-size: 1em;
 	}
 	.team1 img{
 		width: 200px;
@@ -378,6 +384,9 @@ figure.show {
 	}
 	.details{
 		padding-left: 40px;
+	}
+	.stat{
+		font-size: 1em;
 	}
 
 	.flickity-prev-next-button.next {

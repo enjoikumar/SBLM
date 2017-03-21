@@ -303,12 +303,15 @@ figure.show {
 
 	#team{
 		margin-top: 140px;
-		margin-left: -115px;
+		margin-left: -10px;
 	}
 
 	.team1 {
 		padding-left: 60px;
 		padding-bottom: 80px;
+	}
+	.team1 p{
+		font-size: 1em;
 	}
 	.team1 img{
 		width: 200px;
@@ -319,6 +322,9 @@ figure.show {
 
 	.details{
 		padding-left: 40px;
+	}
+	.stat{
+		font-size: 1em;
 	}
 
 	.flickity-prev-next-button.next {
