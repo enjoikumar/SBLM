@@ -72,19 +72,6 @@ figure.show {
 }
 
 
-
-
-.project-history {
-	padding-top: 20px;
-	font-size: 20px;
-	text-align: center;
-}
-hr {
-	width: 80%;
-	margin: auto;
-}
-
-
 /*project history stuff*/
 .history1 {
 	padding-top: 40px;
@@ -128,19 +115,33 @@ hr {
 	margin-top: 140px;
 }
 
+.project-history{
+	padding-top: 20px;
+	padding-left: 40px;
+	font-size: 1.75em;
+}
 
 /*team stuff*/
 #team{
+	background-color: rgb(38,38,38);
 	margin-top: 550px;
-}
-.team1 {
-	padding-top: 40px;
-	width: 300px;
 	padding-left: 120px;
+	color: white;
 }
-.team1 img {
-	padding-left: 800px;
-	margin-top: -130px;
+.team{
+	background-color: rgb(38,38,38) !important;
+	color: white;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.team1 img{
+	padding-left: 60%;
+	margin-top: -100px;
+	padding-bottom: 60px;
+}
+.team1 span, .team1 p{
+	padding-left: 10%;
+	font-size: 1.3em;
 }
 
 
@@ -149,19 +150,31 @@ hr {
 .details {
 	padding-top: 40px;
 	padding-left: 120px;
+	padding-bottom: 40px;
+	background-color: rgb(24,23,23);
+	color: white;
 }
 .stat {
 	width: 300px;
 	padding-bottom: 20px;
+	font-size: 1.5em;
 }
 
+
+.other{
+	font-size: 1.75em;
+	background-color: black;
+	color: white;
+	padding-top: 40px;
+	padding-left: 40px;
+}
 
 
 
 /*slider at the bottom stuff*/
 .carousel {
-	padding-top: 40px;
-  /*background: #EEE;*/
+	padding-top:10px;
+	background-color: black;
 }
 
 .carousel-cell {
@@ -186,6 +199,43 @@ hr {
 	margin-top: 0px;
 }
 
+@media only screen and (min-width: 1920px) {
+	figure{
+		height: 1000px;
+	}
+	figure img{
+		height: 1000px;
+	}
+
+	.history span{
+		font-size: 1.75em;
+		width: 500px;
+		overflow: hidden;
+	}
+
+	.history1 img{
+		width: 900px;
+		height: 800px;
+	}
+
+	.history2 img{
+		width: 700px;
+		height: 700px;
+		margin-top: 800px;
+	}
+	.history2 span {
+		margin-top: -400px;
+	}
+
+	.history3 img{
+		width: 850px;
+		height: 750px;
+	}
+
+	#team{
+		margin-top: 800px;
+	}
+}
 
 
 
@@ -241,7 +291,11 @@ hr {
 
 
 	#team{
-		margin-top: 100px !important;
+		margin-top: 840px !important;
+		margin-left: -115px;
+	}
+	.team p{
+		font-size: 1em;
 	}
 	.team1 {
 		padding-left: 60px;
@@ -256,6 +310,9 @@ hr {
 
 	.details{
 		padding-left: 40px;
+	}
+	.stat{
+		font-size: 1em;
 	}
 
 	.flickity-prev-next-button.next {
@@ -300,6 +357,9 @@ hr {
 		margin-left: -30px;
 	}
 
+	#team{
+		margin-top: 880px !important;
+	}
 	.team1{
 		padding-left: 30px;
 		padding-bottom: 20px;
@@ -352,7 +412,6 @@ hr {
 		padding-left: 40px;
 	}
 	.details {
-		width: 275px;
 		padding-left: 20px;
 	}
 }
