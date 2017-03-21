@@ -3,6 +3,13 @@
 
 $(document).ready(function(){
 
+
+  $(".carousel").flickity({
+    "wrapAround": true, 
+    "pageDots": false, 
+    "autoPlay": true
+  });
+
   //just another way of writing document.ready
   //but for some reason, need to have both
   //could be a conflict of libraries
@@ -73,4 +80,11 @@ $(document).ready(function(){
 })
 
 
-// 
+
+
+
+
+
+
+
+
