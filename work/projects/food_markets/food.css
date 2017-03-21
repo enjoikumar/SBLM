@@ -360,6 +360,9 @@ figure.show {
 		margin-top: 650px;
 		margin-left: -115px;
 	}
+	.team1 p{
+		font-size: 1em;
+	}
 	.team1 {
 		padding-left: 60px;
 		padding-bottom: 80px;
@@ -373,6 +376,9 @@ figure.show {
 
 	.details{
 		padding-left: 40px;
+	}
+	.stat{
+		font-size: 1em;
 	}
 
 	.flickity-prev-next-button.next {

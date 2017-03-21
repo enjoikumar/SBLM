@@ -80,12 +80,6 @@ strong {
 }
 
 
-.project-history {
-	padding-top: 20px;
-	font-size: 1.5em;
-	text-align: center;
-}
-
 
 .history span {
   -webkit-animation: fadein 5000ms linear both;
@@ -189,6 +183,11 @@ strong {
 }
 
 
+.project-history{
+	padding-top: 20px;
+	padding-left: 40px;
+	font-size: 1.75em;
+}
 
 /*team stuff*/
 #team {
@@ -196,23 +195,20 @@ strong {
 	background-color: rgb(38, 38, 38);
 	color: white;
 }
-.team {
-	background-color: rgb(38, 38, 38);
+.team{
+	background-color: rgb(38,38,38) !important;
 	color: white;
-}
-.team1 {
 	padding-top: 40px;
-	width: 300px;
-	padding-left: 120px;
-}
-.team1 img {
-	padding-left: 800px;
-	margin-top: -130px;
 	padding-bottom: 40px;
 }
-
-.team p {
-	font-weight: 900;
+.team1 img{
+	padding-left: 60%;
+	margin-top: -100px;
+	padding-bottom: 60px;
+}
+.team1 span, .team1 p{
+	padding-left: 10%;
+	font-size: 1.3em;
 }
 
 
@@ -221,22 +217,31 @@ strong {
 .details {
 	padding-top: 40px;
 	padding-left: 120px;
-	background-color: rgb(24, 23, 23);
+	padding-bottom: 40px;
+	background-color: rgb(24,23,23);
 	color: white;
 }
-
 .stat {
 	width: 300px;
 	padding-bottom: 20px;
+	font-size: 1.5em;
+}
+
+
+.other{
+	font-size: 1.75em;
+	background-color: black;
+	color: white;
+	padding-top: 40px;
+	padding-left: 40px;
 }
 
 
 
 /*slider at the bottom stuff*/
 .carousel {
-	padding-top: 40px;
-  /*background: #EEE;*/
-  background-color: rgb(24,23,23)
+	padding-top:10px;
+	background-color: black;
 }
 
 .carousel-cell {
@@ -384,6 +389,10 @@ strong {
 
 	#team{
 		margin-top: 35px !important;
+		margin-left: -30px;
+	}
+	.team1 p{
+		font-size: 1em;
 	}
 	.team1 {
 		padding-left: 60px;
@@ -396,8 +405,12 @@ strong {
 		padding-top: 180px;
 	}
 
+
 	.details{
 		padding-left: 40px;
+	}
+	.stat{
+		font-size: 1em;
 	}
 
 	.flickity-prev-next-button.next {
