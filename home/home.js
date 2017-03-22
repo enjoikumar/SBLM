@@ -11,6 +11,8 @@
 
 var myNav = document.getElementById("myNav");
 
+html = "stuff"
+
 var count = 0
 function clicker(){
 	count++;
@@ -20,8 +22,5 @@ function clicker(){
   	myNav.style.height = "0%";
 	}
 }
-
-
-	
 
 
