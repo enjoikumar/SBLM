@@ -200,7 +200,51 @@ figure.show {
 }
 
 
+@media only screen and (min-width: 1920px) {
+	figure{
+		height: 1000px;
+	}
+	figure img{
+		height: 1000px;
+	}
 
+	.history span{
+		width: 500px;
+		font-size: 1.5em;
+	}
+
+	.history1 img{
+		width: 900px;
+		height: 700px;
+		padding-left: 80px;
+	}
+	.history1 span{
+		margin-top: 200px;
+		margin-right: 200px;
+	}
+
+	.history2 img{
+		width: 700px;
+		height: 800px;
+		margin-right: 100px;
+	} 
+	.history2 span{
+		margin-top: 200px;
+		margin-left: 200px;
+	}
+
+	.history3 img{
+		width: 900px;
+		height: 700px;
+		padding-left: 80px;
+	}
+
+	.history4 img{
+		width: 1300px;
+		height: 800px;
+		margin-left: 310px;
+	}
+}
 
 @media only screen and (max-width: 414px) {
 	figure{
