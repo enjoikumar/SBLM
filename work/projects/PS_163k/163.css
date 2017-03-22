@@ -72,19 +72,6 @@ figure.show {
 }
 
 
-
-
-.project-history {
-	padding-top: 20px;
-	font-size: 20px;
-	text-align: center;
-}
-hr {
-	width: 80%;
-	margin: auto;
-}
-
-
 /*project history stuff*/
 .history {
 	padding-top: 40px;
@@ -110,37 +97,64 @@ hr {
 }
 
 
+.project-history{
+	padding-top: 20px;
+	padding-left: 40px;
+	font-size: 1.75em;
+}
 
 /*team stuff*/
-.team1 {
-	padding-top: 40px;
-	width: 300px;
+#team{
+	background-color: rgb(38,38,38);
+	margin-top: 40px;
 	padding-left: 120px;
+	color: white;
 }
-.team1 img {
-	padding-left: 800px;
-	margin-top: -130px;
+.team{
+	background-color: rgb(38,38,38) !important;
+	color: white;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
-
+.team1 img{
+	padding-left: 60%;
+	margin-top: -100px;
+	padding-bottom: 60px;
+}
+.team1 span, .team1 p{
+	padding-left: 10%;
+	font-size: 1em;
+}
 
 
 /*detail stuff*/
 .details {
 	padding-top: 40px;
 	padding-left: 120px;
+	padding-bottom: 40px;
+	background-color: rgb(24,23,23);
+	color: white;
 }
 .stat {
 	width: 300px;
 	padding-bottom: 20px;
+	font-size: 1em;
 }
 
 
+.other{
+	font-size: 1.75em;
+	background-color: black;
+	color: white;
+	padding-top: 40px;
+	padding-left: 40px;
+}
 
 
 /*slider at the bottom stuff*/
 .carousel {
-	padding-top: 40px;
-  /*background: #EEE;*/
+	padding-top:10px;
+	background-color: black;
 }
 
 .carousel-cell {
@@ -165,66 +179,39 @@ hr {
 	margin-top: 0px;
 }
 
-
-
-
-
-@media only screen and (max-width: 1170px) {
-	.history2 {
-		width: 400px;
-		float: left;
-		margin-left: 180px;
-		padding-top: 330px;
+@media only screen and (max-width: 1920px) {
+	figure{
+		height: 1000px;
+	}
+	figure img{
+		height: 1000px;
 	}
 
-	.history3{
-		margin-top: -1195px;
-		float: right;
-		margin-right: 18%;
-		position: relative;
-		display: inline-block;
+	.history1 img,
+	.history2 img{
+		width: 900px;
+		height: 700px;
 	}
-	.history4{
-		padding-top: 30px;
-		position: relative;
-		margin-right: 0%;
+
+	.history3 img{
+		width: 900px;
+		height: 600px;
 	}
-	#team {
-		padding-top: 400px;
+
+	.history4 img{
+		width: 700px;
+		height: 600px;
+		margin-top: -600px;
 	}
-}
-@media only screen and (max-width: 1120px) {
-	.team1 img {
-		padding-left: 500px;
-	}
-}
-@media only screen and (max-width: 970px) {
-	.history3 {
-		padding-top: 1250px;
-		display: inline-block;
-		position: relative;
-		float: left;
-	}
-	.history4 {
-		padding-top: 55px;
-		float: left;
-		margin-left: -160px !important;
-	}
-	#team {
-		margin-top: 800px;
-	}
-}
-@media only screen and (max-width: 768px) {
-	.history4 {
-		margin-left: -130px !important;
-	}
-	.team1 img {
-		padding-left: 400px;
+
+	.history5 img{
+		width: 1200px;
+		height: 800px;
+		margin-left: 360px;
 	}
 }
 
 
-/*iphone 6+*/
 @media only screen and (max-width: 414px) {
 	figure{
 		height: 375px;
@@ -232,37 +219,38 @@ hr {
 	figure img{
 		height: 375px;
 	}
+
+	.history img{
+		width: 100%;
+	}
 	.history1 img{
-		width: 350px;
-		height: 250px;
+		padding-left: 0px;
+		padding-bottom: 0px;
 	}
-	.history1{
-		padding-left: 35px;
-		width: 300px;
-	}
-
 	.history2 img{
-		width: 350px;
-		height: 550px;
+		padding-left: 0px;
+		padding-bottom: 0px;
+		margin-top: 40px;
 	}
-	.history2 {
-		width: 350px;
-		margin-left: 32px !important;
+	.history3 img{
+		margin-top: 40px;
 	}
-
-	.history3{
-		margin-right: -200px !important;
-		padding-left: 100px;
+	.history4 img{
+		margin-top: 40px;
 	}
-	.history4{
-		margin-top: 400px;
-		padding-left: 130px;
+	.history5 img{
+		padding-top: 0px;
+		margin-top: 40px;
+		height: 400px;
 	}
 
 	#team{
-		padding-top: 740px;
+		margin-left: -115px;
 	}
 
+	.team p{
+		font-size: 1em;
+	}
 	.team1 {
 		padding-left: 60px;
 		padding-bottom: 80px;
@@ -277,6 +265,9 @@ hr {
 	.details{
 		padding-left: 40px;
 	}
+	.stat{
+		font-size: 1em;
+	}
 
 	.flickity-prev-next-button.next {
 		display: none;
@@ -285,7 +276,7 @@ hr {
 		display: none;
 	}
 }
-/*iphone 6*/
+
 @media only screen and (max-width: 375px) {
 	figure{
 		height: 350px;
@@ -293,31 +284,39 @@ hr {
 	figure img{
 		height: 350px;
 	}
-	.history1{
-		padding-left: 15px !important;
-	}
-	.history2 img{
-		width: 325px;
-		height: 550px;
-	}
-	.history2{
-		width: 325px;
-		float: left;
-		margin-left: 25px !important;
-	}
-	.history3 {
-		margin-left: -10px;
-	}
 
-	#team{
-		padding-top: 770px;
-	}
 	.team1{
 		padding-left: 30px;
 		padding-bottom: 20px;
 	}
 }
 
+
+@media only screen and (max-width: 320px) {
+	figure{
+		height: 300px;
+	}
+	figure img{
+		height: 350px;
+	}
+
+	.history img{
+		height: 250px;
+	}
+
+	.team1{
+		width: 275px;
+		padding-left: 22.5px;
+	}
+	.team1 img{
+		padding-left: 40px;
+	}
+	.details {
+		padding-left: 10px;
+	}
+}
+
+/*
 @media only screen and (max-width: 320px) {
 	figure{
 		height: 300px;
@@ -359,7 +358,7 @@ hr {
 		padding-left: 10px;
 	}
 }
-
+*/
 
 .animation-element {
   opacity: 0;

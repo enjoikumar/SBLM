@@ -144,19 +144,6 @@ figure.show {
 	font-size: 1.3em;
 }
 
-.team2{
-	background-color: rgb(38,38,38);
-}
-.team2 img{
-	float: right;
-	padding-right: 20%;
-}
-.team2 span{
-	float: left;
-	padding-left: 20%;
-	font-size: 1.5em;
-}
-
 
 
 /*detail stuff*/
