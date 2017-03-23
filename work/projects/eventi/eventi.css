@@ -270,9 +270,9 @@ figure.show {
 		margin-left: -40px;
 	}
 	.history1 span{
-		position: relative;
 		margin-top: 20px;
-		margin-left: 23px;
+		margin-right: 12px;
+		font-size: 1.1em;
 		width: 375px !important;
 	}
 
