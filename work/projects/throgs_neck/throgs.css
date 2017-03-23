@@ -279,14 +279,16 @@ figure.show {
 	.history img{
 		width: 100%;
 	}
+	.history span{
+		font-size: 1em;
+		width: 375px;
+	}
 
 	.history1 img{
 		height: 500px;
 	}
 	.history1 span{
-		font-size: 1.1em;
 		margin-top: 10px;
-		width: 375px;
 		margin-left: -15px;
 	}
 
@@ -347,8 +349,6 @@ figure.show {
 		height: 350px;
 	}
 
-	.history img{
-	}
 
 	.history1 img{
 		width: 400px;

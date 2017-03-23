@@ -326,12 +326,15 @@ strong {
 		height: 375px;
 	}
 
-	.history{
-		width: 414px;
+	.history img{
+		width: 100%;
+	}
+	.history span{
+		width: 375px;
+		font-size: 1em;
 	}
 
 	.history1 img{
-		width: 414px;
 		height: 500px;
 	}
 	.history1 span{
@@ -346,42 +349,24 @@ strong {
 		margin-left: 325px;
 	}
 
-	.history2{
-		width: 414px;
-	}
 	.history2 img{
-		width: 414px;
 		height: 500px;
 	}
 	.history2 span{
-		font-size: 1.1em;
-		width: 375px !important;
 		position: relative;
-		float: left;
 		margin-left: -55px;
 		margin-top: -160px;
 		padding-bottom: 60px;
 	}
 
-	.history3{
-		width: 414px;
-	}
 	.history3 img{
-		width: 414px;
 		height: 700px;
 	}
 
-	.history4{
-		width: 414px;
-	}
 	.history4 img{
-		width: 414px;
 		margin-left: -40px;
 	}
 	.history4 span{
-		font-size: 1.1em;
-		float: left;
-		width: 375px !important;
 		margin-left: -10px;
 		margin-top: -80px;
 	}

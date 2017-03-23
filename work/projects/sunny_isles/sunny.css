@@ -258,15 +258,14 @@ figure.show {
 		height: 375px;
 	}
 
-	.history{
-		font-size: 1.1em;
-	}
+
+
 	.history span{
 		width: 375px;
+		font-size: 1em;
 	}
-
 	.history img{
-		width: 414px;
+		width: 100%;
 	}
 
 	.history1 img{

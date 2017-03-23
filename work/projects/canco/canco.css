@@ -287,34 +287,32 @@ figure.show {
 	}
 
 	.history img{
-		width: 414px;
+		width: 100%;
 	}
 	.history span{
 		font-size: 1.1em;
+		width: 375px;
 	}
 
 	.history1 img{
 		padding-left: 0px;
 	}
+
 	.history1 span{
-		width: 375px;
 		margin-right: 13px;
 		margin-top: 20px;
 	}
 
 	.history2 img{
-		width: 414px;
 		margin-right: 0px;
 		margin-top: 20px !important;
 	}
 
 	.history3 img{
-		width: 414px;
 		padding-left: 0px;
 		margin-top: 40px;
 	}
 	.history3 span{
-		width: 375px;
 		margin-right: 13px;
 		margin-top: 20px;
 	}
@@ -373,7 +371,7 @@ figure.show {
 		height: 350px
 	}
 	.history img{
-		width: 375px;
+		width: 100%;
 	}
 	.history span{
 		width: 320px;
@@ -399,7 +397,7 @@ figure.show {
 	}
 
 	.history img{
-		width: 320px;
+		width: 100%;
 	}
 	.history span{
 		width: 290px;

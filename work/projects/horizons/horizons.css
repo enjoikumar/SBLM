@@ -184,7 +184,6 @@ figure.show {
 }
 
 
-
 /*slider at the bottom stuff*/
 .carousel {
 	padding-top:10px;
@@ -286,6 +285,7 @@ figure.show {
 	}
 }
 
+
 @media only screen and (max-width: 414px) {
 	figure{
 		height: 375px;
@@ -376,6 +376,7 @@ figure.show {
 	}
 }
 
+
 @media only screen and (max-width: 375px) {
 	figure{
 		height: 350px;
@@ -403,6 +404,7 @@ figure.show {
 		padding-bottom: 20px;
 	}
 }
+
 
 @media only screen and (max-width: 320px) {
 	figure{
@@ -468,6 +470,7 @@ figure.show {
   opacity: 0;
   position: relative;
 }
+
 /*animation element sliding left*/
 
 .animation-element.slide-left {
