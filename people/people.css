@@ -325,3 +325,50 @@ so it has a positive ux/ui feel*/
   margin: auto;
 }*/
 
+
+
+/* The Overlay (background) */
+.overlay {
+  height: 0;
+  width: 100%;
+  position: fixed; /* Stay in place */
+  z-index: 8;
+  left: 0;
+  top: 0;
+  background-color: black; 
+  opacity: 0.95;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.5s; 
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+  position: relative;
+  top: 15%; 
+  width: 100%; 
+  text-align: center;
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+  padding: 30px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block; /* Display block instead of inline */
+  transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.burger{
+  color:white;
+  margin-right: 20px;
+  margin-top: 20px;
+  font-size: 28px;
+  cursor: pointer;
+  transform: scale(2,3);
+}
