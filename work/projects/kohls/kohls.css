@@ -265,7 +265,7 @@ figure.show {
 	.history2 img{
 		width: 414px;
 		height: 500px;
-		margin-top: 250px;
+		margin-top: 200px;
 		margin-left: -37px;
 	}
 	.history2 span{
@@ -279,7 +279,7 @@ figure.show {
 	.history3 img{
 		width: 414px;
 		height: 500px;
-		margin-top: 50px;
+		margin-top: 20px;
 		float: left;
 	}
 	.history3 span{
@@ -293,7 +293,7 @@ figure.show {
 
 
 	#team{
-		margin-top: 840px !important;
+		margin-top: 780px !important;
 		margin-left: -115px;
 	}
 	.team p{
@@ -353,6 +353,7 @@ figure.show {
 
 	.history3 img{
 		width: 375px;
+		margin-top: 20px;
 	}
 	.history3 span{
 		width: 300px !important;

@@ -411,46 +411,33 @@ strong {
 		margin-top: -400px !important;
 	}
 
-	.history{
-		width: 375px;
+	.history img{
+		width: 100%;
+	}
+	.history span{
+		width: 320px !important;
 	}
 
-	.history1{
-		width: 375px;
-	}
 	.history1 img{
-		width: 375px;
 		height: 400px;
 	}
 
-	.history2{
-		width: 375px;
-	}
 	.history2 img{
 		width: 375px;
 	}
 	.history2 span{
-		width: 345px !important;
+		padding-left: 0px;
+		margin-left: 27px;
 	}
 
-
-	.history3{
-		width: 375px;
-	}
-	.history3{
-		width: 375px;	
+	.history3 img{
+		margin-top: 120px;	
 	}
 
-	.history4{
-		width: 375px;
-	}
-	.history4 img{
-		width: 375px;
-	}
 	.history4 span{
-		width: 345px !important;
-		margin-left: -25px;
+		width: 320px !important;
 	}
+
 
 	.team1{
 		padding-left: 30px;
