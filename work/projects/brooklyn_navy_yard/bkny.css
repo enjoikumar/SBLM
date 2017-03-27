@@ -255,6 +255,55 @@ figure.show {
 	}
 }
 
+@media only screen and (max-width: 736px) {
+	figure{
+		height: 414px;
+	}
+	figure img{
+		height: 414px;
+	}
+
+	.history1 img{
+		width: 696px;
+		padding-left: 20px;
+	}
+	.history1 span{
+		width: 696px;
+		margin-top: 20px;
+		margin-right: 20px;
+		text-align: center;
+	}
+
+	.history2 img{
+		width: 328px;
+		margin-top: 40px;
+		margin-right: 20px;
+	}
+	.history2 span{
+		position: absolute;
+		width: 328px;
+		margin-left: 20px;
+		margin-top: 865px;
+		text-align: left;
+	}
+	.history3 img{
+		width: 328px;
+		height: 700px;
+		padding-left: 20px;
+		margin-top: 40px;
+	}
+	.history3 span{
+		width: 328px;
+		margin-right: 20px;
+		margin-top: 20px;
+		text-align: left;
+	}
+
+	#team{
+		margin-top: 200px;
+		margin-left: -115px;
+	}
+}
 
 @media only screen and (max-width: 414px) {
 	figure{
@@ -406,12 +455,12 @@ figure.show {
 }
 
 
-
+/*
 .animation-element {
   opacity: 0;
   position: relative;
 }
-/*animation element sliding left*/
+
 
 .animation-element.slide-left {
   opacity: 0;
@@ -481,4 +530,4 @@ figure.show {
   -ms-transform: translate(0px, 0px);
   transform: translate3d(0px, 0px, 0px);
 }
-
+*/
