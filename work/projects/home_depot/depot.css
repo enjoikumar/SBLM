@@ -173,7 +173,11 @@ strong {
 	height: 600px;
 }
 .history4 span {
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 400px;
 	font-size: 1.25em;
+	float: left;
 }
 
 
@@ -185,7 +189,7 @@ strong {
 
 /*team stuff*/
 #team {
-	margin-top: 150px;
+	margin-top: 400px;
 	background-color: rgb(38, 38, 38);
 	color: white;
 }
