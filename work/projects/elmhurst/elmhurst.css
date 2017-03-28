@@ -568,7 +568,7 @@ figure.show {
 
 
 
-/*.animation-element {
+.animation-element {
   opacity: 0;
   position: relative;
 }
@@ -668,4 +668,3 @@ figure.show {
   -ms-transform: translate(0px, 0px);
   transform: translate3d(0px, 0px, 0px);
 }
-*/

@@ -256,6 +256,57 @@ figure.show {
 	}
 }
 
+@media only screen and (max-width: 736px) {
+	figure{
+		height: 414px;
+	}
+	figure img{
+		height: 414px;
+	}
+
+	.history1 img{
+		padding-left: 0px;
+		margin-left: 118px; 
+	}
+	.history1 span{
+		width: 696px;
+		margin-top: 20px;
+		margin-right: 20px;
+		text-align: center;
+	}
+
+	.history2 img{
+		padding-right: 0px;
+		margin-left: 118px;
+		margin-top: 40px;
+		float: left;
+	}
+	.history2 span{
+		width: 696px;
+		margin-left: 20px;
+		margin-top: 20px;
+		text-align: center;
+	}
+	
+	.history3 img{
+		padding-left: 0px;
+		margin-left: 118px;
+		margin-top: 40px;
+		float: left;
+	}
+	.history3 span{
+		width: 696px;
+		margin-right: 20px;
+		margin-top: 20px;
+		text-align: center;
+	}
+
+	#team{
+		margin-top: 2900px;
+		margin-left: -30px;
+	}
+}
+
 
 @media only screen and (max-width: 414px) {
 	figure{
@@ -425,11 +476,10 @@ figure.show {
 
 
 
-.animation-element {
+/*.animation-element {
   opacity: 0;
   position: relative;
 }
-/*animation element sliding left*/
 
 .animation-element.slide-left {
   opacity: 0;
@@ -498,7 +548,7 @@ figure.show {
   -o-transform: translate(0px, 0px);
   -ms-transform: translate(0px, 0px);
   transform: translate3d(0px, 0px, 0px);
-}
+}*/
 
 
 
