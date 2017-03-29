@@ -97,9 +97,41 @@ a:visited {
   text-decoration: none;
 }
 
+@media only screen and (max-width: 736px) {
+  .office{
+    font-size: 18px;
+    padding-left: 0px;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .nyc {
+    width: 150px;
+    padding-right: 20px;
+  }
 
+  .island {
+    width: 150px;
+    padding-right: 20px;
+  }
 
-@media screen and (max-width: 414px) {
+  .miami {
+    width: 150px;
+    padding-right: 20px;
+  }
+
+  .dallas {
+    width: 150px;
+    padding-right: 20px;
+  }
+
+  .ire {
+    width: 150px;
+  }
+
+}
+
+@media only screen and (max-width: 414px) {
   .office {
     overflow: none;
     position: relative;
@@ -134,13 +166,13 @@ a:visited {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media only screen and (max-width: 375px) {
   .office{
     margin-left: 70px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media only screen and (max-width: 320px) {
   .office{
     margin-left: 45px;
   }
