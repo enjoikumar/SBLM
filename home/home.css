@@ -170,6 +170,74 @@ This class makes the topnav look good on small screens */
   }
 }
 
+@media only screen and (max-width: 667px) {
+    ul.topnav li:not(:first-child) {
+    display: none;
+  }
+
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+
+  ul.topnav.responsive {
+    position: relative;
+  }
+
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+    text-align: center;
+  }
+  /*After responsive can change the text color, size, etc*/
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+  .topnav {
+    width: 667px;
+  }
+}
+
+@media only screen and (max-width: 568px) {
+    ul.topnav li:not(:first-child) {
+    display: none;
+  }
+
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+
+  ul.topnav.responsive {
+    position: relative;
+  }
+
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+    text-align: center;
+  }
+  /*After responsive can change the text color, size, etc*/
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+  .topnav {
+    width: 568px;
+  }
+}
+
 @media screen and (max-width: 414px){
     ul.topnav li:not(:first-child) {
     display: none;
