@@ -103,8 +103,8 @@ figure.show {
 
 
 /*project history stuff*/
-.history1 img {
-	padding-top: 40px;
+.history {
+	padding-top: 20px;
 }
 .history1 span {
 	font-family: 'Roboto', sans-serif;
@@ -263,6 +263,59 @@ figure.show {
 
 }
 
+@media only screen and (max-width: 736px) {
+	figure{
+		height: 414px;
+	}
+	figure img{
+		height: 414px;
+	}
+
+	.history1 img{
+		width: 696px;
+		padding-top: 0px;
+		margin-left: 20px;
+	}
+	.history1 span{
+		width: 696px;
+		padding-left: 0px;
+		margin-right: 20px;
+		margin-top: 20px;
+		position: relative;
+		text-align: center;
+	}
+
+	.history3 img{
+		width: 696px;
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+
+	.history4 img{
+		width: 696px;
+		margin-top: 20px;
+		margin-right: 20px;
+	}
+
+	.history5 img{
+		width: 696px;
+		padding-top: 0px;
+		margin-top: 20px;
+		margin-right: 20px;
+	}
+	.history5 span{
+		width: 696px;
+		padding-left: 0px;
+		margin-left: 20px;
+		margin-top: 20px;
+		text-align: center;
+	}
+
+	#team{
+		margin-top: 1140px;
+		margin-left: -115px;
+	}
+}
 
 
 
@@ -404,11 +457,11 @@ figure.show {
 }
 
 
-.animation-element {
+/*.animation-element {
   opacity: 0;
   position: relative;
 }
-/*animation element sliding left*/
+
 
 .animation-element.slide-left {
   opacity: 0;
@@ -477,7 +530,7 @@ figure.show {
   -o-transform: translate(0px, 0px);
   -ms-transform: translate(0px, 0px);
   transform: translate3d(0px, 0px, 0px);
-}
+}*/
 
 
 
