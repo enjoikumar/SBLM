@@ -302,6 +302,51 @@ figure.show {
 	}
 }
 
+@media only screen and (max-width: 667px) {
+	figure{
+		height: 375px;
+	}
+	figure img{
+		height: 375px;
+	}
+
+	.history1 img{
+		width: 627px;
+		padding-left: 0px;
+		margin-left: 20px;
+	}
+	.history1 span{
+		width: 627px;
+		margin-right: 20px;
+		margin-top: 20px;
+		text-align: center;
+	}
+
+	.history2 img{
+		margin-top: 20px;
+		margin-right: 83.5px;
+	}
+	.history2 span{
+		width: 627px;
+		margin-left: 20px;
+		margin-top: 20px;
+		text-align: center;
+	}
+
+	.history3 img{
+		width: 627px;
+		padding-left: 0px;
+		margin-left: 20px;
+		margin-top: 20px;
+	}
+
+	.history4 img{
+		width: 627px;
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+}
+
 @media only screen and (max-width: 414px) {
 	figure{
 		height: 375px;
