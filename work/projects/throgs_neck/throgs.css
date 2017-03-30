@@ -318,7 +318,52 @@ figure.show {
 }
 
 
+@media only screen and (max-width: 667px) {
+	figure{
+		height: 375px;
+	}
+	figure img{
+		height: 375px;
+	}
 
+	.history1 img{
+		width: 627px;
+		padding-top: 0px;
+		margin-left: 20px;
+	}
+	.history1 span{
+		width: 627px;
+		padding-left: 0px;
+		margin-right: 20px;
+		margin-top: 20px;
+		position: relative;
+		text-align: center;
+	}
+
+	.history3 img{
+		width: 627px;
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+
+	.history4 img{
+		width: 627px;
+		margin-top: 20px;
+		margin-right: 20px;
+	}
+
+	.history5 img{
+		width: 627px;
+		height: 400px;
+		padding-top: 0px;
+		margin-top: 20px;
+		margin-right: 20px;
+	}
+
+	#team{
+		margin-top: 1150px;
+	}
+}
 
 /*iphone 6 plus*/
 @media only screen and (max-width: 414px) {
