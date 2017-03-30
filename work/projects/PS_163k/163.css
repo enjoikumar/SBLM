@@ -286,6 +286,56 @@ figure.show {
 	}
 }
 
+@media only screen and (max-width: 667px) {
+	figure{
+		height: 375px;
+	}
+	figure img{
+		height: 375px;
+	}
+
+	.history span{
+		width: 627px;
+		margin-top: 20px;
+		margin-right: 20px;
+		text-align: center;
+	}
+
+	.history1 img{
+		width: 627px;
+		padding-left: 0px;
+		padding-bottom: 0px;
+		margin-left: 20px;
+	}
+
+	.history2 img{
+		width: 627px;
+		padding-left: 0px;
+		padding-bottom: 0px;
+		margin-left: 20px;
+		margin-top: 20px;
+	}
+
+	.history3 img{
+		width: 627px;
+		margin-left: 20px;
+		margin-top: 20px;
+	}
+
+	.history4 img{
+		width: 627px;
+		margin-right: 20px;
+		margin-top: 20px;
+	}
+
+	.history5 img{
+		width: 627px;
+		padding-top: 0px;
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+}
+
 
 @media only screen and (max-width: 414px) {
 	figure{
