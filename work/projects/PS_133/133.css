@@ -380,6 +380,83 @@ figure.show {
 	}
 }
 
+@media only screen and (max-width: 667px) {
+	figure{
+		height: 375px;
+	}
+	figure img{
+		height: 375px;
+	}
+
+	.history1 img{
+		width: 627px;
+		padding-left: 0px;
+		margin-left: 20px;
+	}
+	.history1 span{
+		width: 627px;
+		margin-right: 20px;
+		margin-top: 20px;
+		text-align: center;
+	}
+
+	.history2 img{
+		width: 627px;
+		margin-right: 20px;
+		margin-top: 20px;
+	}
+
+	.history3 img{
+		width: 500px;
+		margin-left: 83.5px;
+		margin-top: 20px;
+	}
+	.history3 span{
+		width: 627px;
+		margin-left: 20px;
+		margin-top: 20px;
+		text-align: center;
+	}
+
+	.history4 img{
+		width: 500px;
+		padding-top: 0px;
+		margin-left: 83.5px;
+		margin-top: 20px;
+	}
+
+	.history5 img{
+		width: 500px;
+		margin-left: 83.5px;
+		margin-top: 20px;
+	}
+
+	.history6 img{
+		width: 500px;
+		margin-right: 83.5px;
+		margin-top: 443px;
+	}
+
+	.history7 img{
+		width: 500px;
+		padding-top: 0px;
+		margin-left: 83.5px;
+		margin-top: 20px;
+	}
+	.history7 span{
+		width: 627px;
+		margin-right: 20px;
+		margin-top: 20px;
+		text-align: center;
+	}
+	.history8  img{
+		width: 627px;
+		margin-left: 20px;
+		margin-top: 20px;
+	}
+
+}
+
 @media only screen and (max-width: 414px) {
 	figure{
 		height: 375px;
