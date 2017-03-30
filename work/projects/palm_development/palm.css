@@ -13,6 +13,12 @@ body{
 	overflow: hidden;
 }
 
+.slideshow:hover > .next{
+	background-color: white;
+}
+.slideshow:hover > .prev{
+	background-color: white;
+}
 /*makes the slideshow width fit the screen and height, also the transition speed 
 and how opaque the image can be*/
 figure{
@@ -20,12 +26,12 @@ figure{
 	opacity: 0;
 	transition: .5s opacity;
 	width: 100%;
-	height: 600px;
+	height: 648px;
 }
 /*image is the same height and width of slideshow aka no whitespace*/
 figure img {
 	width: 100%;
-	height: 600px;
+	height: 648px;
 }
 
 /*first image when shown has a little flash 
@@ -38,7 +44,7 @@ figure.show {
 
 /*styling the toggles to go next or right*/
 .next, .prev {
-	color: #fff;
+	color: #000;
 	position: absolute;
 	background: rgba(0, 0, 0, 0.6);
 	top: 50%;
@@ -136,12 +142,18 @@ hr {
 }
 
 
-
+.other{
+	font-size: 1.75em;
+	background-color: black;
+	color: white;
+	padding-top: 40px;
+	padding-left: 40px;
+}
 
 /*slider at the bottom stuff*/
 .carousel {
-	padding-top: 40px;
-  /*background: #EEE;*/
+	padding-top:10px;
+	background-color: black;
 }
 
 .carousel-cell {

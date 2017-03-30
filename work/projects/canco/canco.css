@@ -13,6 +13,12 @@ body{
 	overflow: hidden;
 }
 
+.slideshow:hover > .next{
+	background-color: white;
+}
+.slideshow:hover > .prev{
+	background-color: white;
+}
 /*makes the slideshow width fit the screen and height, also the transition speed 
 and how opaque the image can be*/
 figure{
@@ -39,7 +45,7 @@ figure.show {
 
 /*styling the toggles to go next or right*/
 .next, .prev {
-	color: #fff;
+	color: #000;
 	position: absolute;
 	background: rgba(0, 0, 0, 0.6);
 	top: 50%;
