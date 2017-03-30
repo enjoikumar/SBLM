@@ -318,6 +318,7 @@ figure.show {
 	figure img{
 		height: 375px;
 	}
+	
 	.history1 img{
 		width: 627px;
 		padding-left: 20px;
@@ -356,7 +357,54 @@ figure.show {
 		margin-top: 590px;
 		margin-left: -115px;
 	}
+}
 
+@media only screen and (max-width: 568px) {
+	figure{
+		height: 320px;
+	}
+	figure img{
+		height: 320px;
+	}
+
+	.history1 img{
+		width: 528px;
+		padding-left: 20px;
+	}
+	.history1 span{
+		width: 528px;
+		margin-top: 20px;
+		margin-right: 20px;
+		text-align: center;
+	}
+
+	.history2 img{
+		width: 348px;
+		margin-top: 40px;
+		margin-right: 110px;
+	}
+
+	.history3 img{
+		width: 528px;
+		margin-top: 20px;
+		margin-left: -20px;
+	}
+ 	
+ 	.history4 img{
+ 		width: 528px;
+ 		margin-right: 20px;
+	}
+	.history4 span{
+		width: 528px;
+		margin-left: 20px;
+		margin-top: 20px;
+		text-align: center;
+	}
+
+	#team{
+		margin-top: 590px;
+		margin-left: -115px;
+	}
 }
 
 @media only screen and (max-width: 414px) {
