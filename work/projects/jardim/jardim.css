@@ -1,0 +1,119 @@
+*{
+	margin: 0;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+
+/*makes the images stack upon one another*/
+.slideshow{
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+
+.slideshow:hover > .next{
+	background-color: white;
+}
+.slideshow:hover > .prev{
+	background-color: white;
+}
+/*makes the slideshow width fit the screen and height, also the transition speed 
+and how opaque the image can be*/
+figure{
+	position: absolute;
+	opacity: 0;
+	transition: .5s opacity;
+	width: 100%;
+	height: 600px;
+}
+/*image is the same height and width of slideshow aka no whitespace*/
+figure img {
+	width: 100%;
+	height: 600px;
+}
+
+/*first image when shown has a little flash 
+to inidicate its the first one*/
+figure.show {
+	opacity: 1;
+	position: static;
+	transition: .5s opacity;
+}
+
+/*styling the toggles to go next or right*/
+.next, .prev {
+	color: #000;
+	position: absolute;
+	background: rgba(0, 0, 0, 0.6);
+	top: 50%;
+	z-index: 1;
+	font-size: 2em;
+	margin-top: -.75em;
+	opacity: .5;
+	user-select: none;
+}
+
+/*when hovering, the cursor changes along with the opaquness*/
+.next:hover, .prev:hover {
+	cursor: pointer;
+	opacity: 1;
+}
+
+/*position styling for next and also making the edges smooth*/
+.next{
+	right: 0;
+	padding: 10px 5px 15px 10px;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+/*position styling for prev and also making the edges smooth*/
+.prev{
+	left: 0;
+	padding: 10px 10px 15px 5px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+
+.other{
+	font-size: 1.75em;
+	background-color: black;
+	color: white;
+	padding-top: 40px;
+	padding-left: 40px;
+}
+
+
+/*slider at the bottom stuff*/
+.carousel {
+	padding-top:10px;
+	background-color: black;
+}
+
+
+.carousel-cell {
+  width: 200px;
+  height: 200px;
+  margin-right: 10px;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(carousel-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: black;
+}
+
+.flickity-prev-next-button.next {
+	margin-top: 0px;
+}
+
+
