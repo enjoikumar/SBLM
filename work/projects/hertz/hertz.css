@@ -381,6 +381,58 @@ figure.show {
 	}
 }
 
+@media only screen and (max-width: 568px) {
+	figure{
+		height: 320px;
+	}
+	figure img{
+		height: 320px;
+	}
+
+	.history1 img{
+		width: 528px;
+		padding-left: 0px;
+		margin-left: 20px;
+	}
+	.history1 span{
+		width: 528px;
+		margin-right: 20px;
+		margin-top: 20px;
+		text-align: center;
+	}
+
+	.history2 img{
+		margin-right: 34px;
+		margin-top: 20px;
+	}
+	.history2 span{
+		width: 528px;
+		margin-left: 20px;
+		margin-top: 20px;
+		text-align: center;
+	}
+
+	.history3 img{
+		width: 528px;
+		padding-left: 0px;
+		margin-left: 20px;
+		margin-top: 20px;
+	}
+	.history3 span{
+		width: 528px;
+		margin-right: 20px;
+		margin-top: 20px;
+		text-align: center;
+	}
+
+	.history4 img{
+		width: 100%;
+		margin-left: 00px;
+		margin-top: 20px;
+		padding-bottom: 0px;
+	}
+}
+
 @media only screen and (max-width: 414px) {
 	figure{
 		height: 375px;
