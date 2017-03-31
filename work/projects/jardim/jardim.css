@@ -77,6 +77,13 @@ figure.show {
 	border-bottom-right-radius: 3px;
 }
 
+.history1 {
+	padding-top: 20px;
+}
+.history1 img{
+	margin-left: 240px;
+}
+
 
 .other{
 	font-size: 1.75em;
@@ -86,6 +93,11 @@ figure.show {
 	padding-left: 40px;
 }
 
+.project-history{
+	padding-top: 20px;
+	padding-left: 40px;
+	font-size: 1.75em;
+}
 
 /*slider at the bottom stuff*/
 .carousel {
