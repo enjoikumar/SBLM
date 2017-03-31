@@ -39,5 +39,12 @@ $(document).ready(function(){
 			$burger.html('&#9776;')
 		}
 	})
+
+	$(document).ready(function(){
+    $("li:contains(Ideas)").css("display", "none");
+    $("a:contains(Ideas)").css("display", "none");
+    $("li:contains(People)").css("display", "none");
+    $("a:contains(People)").css("display", "none");
+	});
 })
 
