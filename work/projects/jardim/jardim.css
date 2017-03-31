@@ -209,6 +209,114 @@ figure.show {
 	}
 }
 
+@media only screen and (max-width: 736px) {
+	figure{
+		height: 414px;
+	}
+	figure img{
+		height: 414px;
+	}
+
+	.history1 img{
+		width: 696px;
+	}
+
+	.history2 img{
+		width: 696px;
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+	.history2 span{
+		width: 696px;
+		margin-left: 20px;
+	}
+
+	.history4 img{
+		width: 100%;
+		margin-top: 20px;
+	}
+	.history5 img{
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	.other{
+		margin-top: 1080px;
+	}
+}
+
+@media only screen and (max-width: 667px) {
+	figure{
+		height: 375px;
+	}
+	figure img{
+		height: 375px;
+	}
+
+	.history1 img{
+		width: 627px;
+	}
+
+	.history2 img{
+		width: 627px;
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+	.history2 span{
+		width: 627px;
+		margin-left: 20px;
+	}
+
+	.history4 img{
+		width: 100%;
+		margin-top: 20px;
+	}
+	.history5 img{
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	.other{
+		margin-top: 1080px;
+	}
+}
+
+@media only screen and (max-width: 568px) {
+	figure{
+		height: 320px;
+	}
+	figure img{
+		height: 320px
+	}
+
+	.history1 img{
+		width: 528px;
+	}
+
+	.history2 img{
+		width: 528px;
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+	.history2 span{
+		width: 528px;
+		margin-left: 20px;
+	}
+
+	.history4 img{
+		width: 100%;
+		margin-top: 20px;
+	}
+	.history5 img{
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	.other{
+		margin-top: 1080px;
+	}
+}
+
 @media only screen and (max-width: 414px) {
 	figure{
 		height: 375px;
