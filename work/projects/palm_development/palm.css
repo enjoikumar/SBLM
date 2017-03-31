@@ -56,6 +56,14 @@ figure.show {
 	}
 }
 
+@media only screen and (max-width: 568px) {
+	figure{
+		height: 320px;
+	}
+	figure img{
+		height: 320px;
+	}
+}
 
 /*iphone 6 plus*/
 @media only screen and (max-width: 414px) {
