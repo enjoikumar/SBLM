@@ -3,6 +3,7 @@
 }
 body{
 	font-family: 'Roboto', sans-serif;
+	width: 100%;
 }
 
 
@@ -153,6 +154,12 @@ figure.show {
 .history7 img{
 	width: 100%;
 	padding-top: 20px;
+}
+
+.history8 img{
+	width: 100%;
+	height: 66%;
+	padding-bottom: 20px;
 }
 
 
