@@ -78,7 +78,9 @@ $(document).ready(function(){
     }
   })
 
-  var edu = function(){
+
+
+  $.edu = function(){
     $(".education").css("filter", "grayscale(0%)")
     $(".retail").css("filter", "grayscale(100%)")
     $(".mixed").css("filter", "grayscale(100%)")
@@ -87,7 +89,7 @@ $(document).ready(function(){
     $(".all").css("filter", "grayscale(100%)")
   }
 
-  var ret = function(){
+  $.ret = function(){
     $(".education").css("filter", "grayscale(100%)")
     $(".retail").css("filter", "grayscale(0%)")
     $(".mixed").css("filter", "grayscale(100%)")
@@ -96,7 +98,7 @@ $(document).ready(function(){
     $(".all").css("filter", "grayscale(100%)")
   }
 
-  var hea = function(){
+  $.hea = function(){
     $(".education").css("filter", "grayscale(100%)")
     $(".retail").css("filter", "grayscale(100%)")
     $(".mixed").css("filter", "grayscale(100%)")
@@ -105,7 +107,7 @@ $(document).ready(function(){
     $(".all").css("filter", "grayscale(100%)")
   }
 
-  var mix = function(){
+  $.mix = function(){
     $(".education").css("filter", "grayscale(100%)")
     $(".retail").css("filter", "grayscale(100%)")
     $(".mixed").css("filter", "grayscale(0%)")
@@ -114,7 +116,7 @@ $(document).ready(function(){
     $(".all").css("filter", "grayscale(100%)")
   }
 
-  var civ = function(){
+  $.civ = function(){
     $(".education").css("filter", "grayscale(100%)")
     $(".retail").css("filter", "grayscale(100%)")
     $(".mixed").css("filter", "grayscale(100%)")
@@ -124,6 +126,9 @@ $(document).ready(function(){
   }
 
 
+
+  //RANDOMIZE THE DIVS
+  //=============================
   // var elements = $(".first");
   // var elementsInnerHtmls = [];
   // var numberOfElements = elements.length;

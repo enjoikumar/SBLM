@@ -92,6 +92,61 @@ $(document).ready(function(){
     $(".civic").css("filter", "grayscale(0%)")
     $(".all").css("filter", "grayscale(100%)")
   }
+
+  $slide1 = $("[id = slide1]");
+
+  $slide2 = $("[id = slide2]");
+
+  $slide3 = $("[id = slide3]");
+
+  $slide4 = $("[id = slide4]");
+
+  $slide5 = $("[id = slide5]");
+
+  $slide6 = $("[id = slide6]");  
+
+  $slide7 = $("[id = slide7]");
+
+  $slide8 = $("[id = slide8]");
+
+  $slide9 = $("[id = slide9]");
+
+  $slide1.click(function(){
+    $edu()
+  })
+
+  $slide1.click(function(){
+    $.ret()
+  })
+
+  $slide1.click(function(){
+    $.edu()
+  })
+  
+  $slide1.click(function(){
+    $.hea()
+  })
+  
+  $slide1.click(function(){
+    $.mix()
+  })
+  
+  $slide1.click(function(){
+    $.civ()
+  })
+  
+  $slide1.click(function(){
+    $.edu()
+  })
+  
+  $slide1.click(function(){
+    $.ret()
+  })
+  
+  $slide1.click(function(){
+    $.civ()
+  })
+
 })
 
 

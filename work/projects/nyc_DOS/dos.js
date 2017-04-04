@@ -3,7 +3,7 @@
 
 $(document).ready(function(){
 
-    $(".carousel").flickity({
+  $(".carousel").flickity({
     "wrapAround": true, 
     "pageDots": false, 
     "autoPlay": true
