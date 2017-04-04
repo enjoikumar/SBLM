@@ -1,6 +1,21 @@
 
 $(document).ready(function(){
 
+  // if(clicker = 1){
+  //   $(".education").css("filter", "grayscale(0%)")
+  //   $(".retail").css("filter", "grayscale(100%)")
+  //   $(".mixed").css("filter", "grayscale(100%)")
+  //   $(".health").css("filter", "grayscale(100%)")
+  //   $(".civic").css("filter", "grayscale(100%)")
+  //   $(".all").css("filter", "grayscale(100%)")
+  // }else{
+  //   $(".education").css("filter", "grayscale(0%)")
+  //   $(".retail").css("filter", "grayscale(0%)")
+  //   $(".mixed").css("filter", "grayscale(0%)")
+  //   $(".health").css("filter", "grayscale(0%)")
+  //   $(".civic").css("filter", "grayscale(0%)")
+  // }
+
   $education = $("[id = education]");
 
   $retail = $("[id = retail]");
@@ -16,12 +31,13 @@ $(document).ready(function(){
   // each click function changes the grayscale of the item to none
   // making it in color while the others remain in black and white
   $education.click(function(){
-    $(".education").css("filter", "grayscale(0%)")
-    $(".retail").css("filter", "grayscale(100%)")
-    $(".mixed").css("filter", "grayscale(100%)")
-    $(".health").css("filter", "grayscale(100%)")
-    $(".civic").css("filter", "grayscale(100%)")
-    $(".all").css("filter", "grayscale(100%)")
+    // $(".education").css("filter", "grayscale(0%)")
+    // $(".retail").css("filter", "grayscale(100%)")
+    // $(".mixed").css("filter", "grayscale(100%)")
+    // $(".health").css("filter", "grayscale(100%)")
+    // $(".civic").css("filter", "grayscale(100%)")
+    // $(".all").css("filter", "grayscale(100%)")
+    $edu()
   });
 
   $retail.click(function(){
@@ -80,7 +96,7 @@ $(document).ready(function(){
 
 
 
-  $.edu = function(){
+  var $edu = function(){
     $(".education").css("filter", "grayscale(0%)")
     $(".retail").css("filter", "grayscale(100%)")
     $(".mixed").css("filter", "grayscale(100%)")
@@ -89,7 +105,7 @@ $(document).ready(function(){
     $(".all").css("filter", "grayscale(100%)")
   }
 
-  $.ret = function(){
+  var $ret = function(){
     $(".education").css("filter", "grayscale(100%)")
     $(".retail").css("filter", "grayscale(0%)")
     $(".mixed").css("filter", "grayscale(100%)")
@@ -98,7 +114,7 @@ $(document).ready(function(){
     $(".all").css("filter", "grayscale(100%)")
   }
 
-  $.hea = function(){
+  var $hea = function(){
     $(".education").css("filter", "grayscale(100%)")
     $(".retail").css("filter", "grayscale(100%)")
     $(".mixed").css("filter", "grayscale(100%)")
@@ -107,7 +123,7 @@ $(document).ready(function(){
     $(".all").css("filter", "grayscale(100%)")
   }
 
-  $.mix = function(){
+  var $mix = function(){
     $(".education").css("filter", "grayscale(100%)")
     $(".retail").css("filter", "grayscale(100%)")
     $(".mixed").css("filter", "grayscale(0%)")
@@ -116,7 +132,7 @@ $(document).ready(function(){
     $(".all").css("filter", "grayscale(100%)")
   }
 
-  $.civ = function(){
+  var $civ = function(){
     $(".education").css("filter", "grayscale(100%)")
     $(".retail").css("filter", "grayscale(100%)")
     $(".mixed").css("filter", "grayscale(100%)")
@@ -129,21 +145,21 @@ $(document).ready(function(){
 
   //RANDOMIZE THE DIVS
   //=============================
-  // var elements = $(".first");
-  // var elementsInnerHtmls = [];
-  // var numberOfElements = elements.length;
+  var elements = $(".first");
+  var elementsInnerHtmls = [];
+  var numberOfElements = elements.length;
 
-  // for( var i = 0 ; i < numberOfElements ; i++){
-  //   elementsInnerHtmls.push(elements[i].innerHTML); 
-  // }
+  for( var i = 0 ; i < numberOfElements ; i++){
+    elementsInnerHtmls.push(elements[i].innerHTML); 
+  }
 
-  // var checkedIndexes = [];
-  // for( var i = 0 ; i < numberOfElements ; i++){
-  //   var randomIndex = Math.floor(Math.random()*10) % numberOfElements;
-  //   while(checkedIndexes[randomIndex] != undefined){
-  //       randomIndex = Math.floor(Math.random()*10) % numberOfElements;    
-  //   }
-  //   checkedIndexes[randomIndex] = true;
-  //   elements[i].innerHTML = elementsInnerHtmls[randomIndex];    
-  // }
+  var checkedIndexes = [];
+  for( var i = 0 ; i < numberOfElements ; i++){
+    var randomIndex = Math.floor(Math.random()*10) % numberOfElements;
+    while(checkedIndexes[randomIndex] != undefined){
+        randomIndex = Math.floor(Math.random()*10) % numberOfElements;    
+    }
+    checkedIndexes[randomIndex] = true;
+    elements[i].innerHTML = elementsInnerHtmls[randomIndex];    
+  }
 });

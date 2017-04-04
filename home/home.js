@@ -93,6 +93,8 @@ $(document).ready(function(){
     $(".all").css("filter", "grayscale(100%)")
   }
 
+  var clicker = 1;
+
   $slide1 = $("[id = slide1]");
 
   $slide2 = $("[id = slide2]");
@@ -112,39 +114,32 @@ $(document).ready(function(){
   $slide9 = $("[id = slide9]");
 
   $slide1.click(function(){
-    $edu()
+    clicker++
+    console.log("clicked")
   })
 
   $slide1.click(function(){
-    $.ret()
   })
 
   $slide1.click(function(){
-    $.edu()
   })
   
   $slide1.click(function(){
-    $.hea()
   })
   
   $slide1.click(function(){
-    $.mix()
   })
   
   $slide1.click(function(){
-    $.civ()
   })
   
   $slide1.click(function(){
-    $.edu()
   })
   
   $slide1.click(function(){
-    $.ret()
   })
   
   $slide1.click(function(){
-    $.civ()
   })
 
 })
