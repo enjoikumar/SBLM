@@ -46,5 +46,51 @@ $(document).ready(function(){
     $("li:contains(People)").css("display", "none");
     $("a:contains(People)").css("display", "none");
 	});
+
+
+	var edu = function(){
+    $(".education").css("filter", "grayscale(0%)")
+    $(".retail").css("filter", "grayscale(100%)")
+    $(".mixed").css("filter", "grayscale(100%)")
+    $(".health").css("filter", "grayscale(100%)")
+    $(".civic").css("filter", "grayscale(100%)")
+    $(".all").css("filter", "grayscale(100%)")
+  }
+
+  var ret = function(){
+    $(".education").css("filter", "grayscale(100%)")
+    $(".retail").css("filter", "grayscale(0%)")
+    $(".mixed").css("filter", "grayscale(100%)")
+    $(".health").css("filter", "grayscale(100%)")
+    $(".civic").css("filter", "grayscale(100%)")
+    $(".all").css("filter", "grayscale(100%)")
+  }
+
+  var hea = function(){
+    $(".education").css("filter", "grayscale(100%)")
+    $(".retail").css("filter", "grayscale(100%)")
+    $(".mixed").css("filter", "grayscale(100%)")
+    $(".health").css("filter", "grayscale(0%)")
+    $(".civic").css("filter", "grayscale(100%)")
+    $(".all").css("filter", "grayscale(100%)")
+  }
+
+  var mix = function(){
+    $(".education").css("filter", "grayscale(100%)")
+    $(".retail").css("filter", "grayscale(100%)")
+    $(".mixed").css("filter", "grayscale(0%)")
+    $(".health").css("filter", "grayscale(100%)")
+    $(".civic").css("filter", "grayscale(100%)")
+    $(".all").css("filter", "grayscale(100%)")
+  }
+
+  var civ = function(){
+    $(".education").css("filter", "grayscale(100%)")
+    $(".retail").css("filter", "grayscale(100%)")
+    $(".mixed").css("filter", "grayscale(100%)")
+    $(".health").css("filter", "grayscale(100%)")
+    $(".civic").css("filter", "grayscale(0%)")
+    $(".all").css("filter", "grayscale(100%)")
+  }
 })
 

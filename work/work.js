@@ -60,7 +60,7 @@ $(document).ready(function(){
     $(".all").css("filter", "grayscale(100%)")
   });
 
-    var count = 1
+  var count = 1
   $all.click(function(){
     count++;
     if(count%2){
@@ -77,4 +77,68 @@ $(document).ready(function(){
       $(".civic").css("filter", "grayscale(0%)")
     }
   })
+
+  var edu = function(){
+    $(".education").css("filter", "grayscale(0%)")
+    $(".retail").css("filter", "grayscale(100%)")
+    $(".mixed").css("filter", "grayscale(100%)")
+    $(".health").css("filter", "grayscale(100%)")
+    $(".civic").css("filter", "grayscale(100%)")
+    $(".all").css("filter", "grayscale(100%)")
+  }
+
+  var ret = function(){
+    $(".education").css("filter", "grayscale(100%)")
+    $(".retail").css("filter", "grayscale(0%)")
+    $(".mixed").css("filter", "grayscale(100%)")
+    $(".health").css("filter", "grayscale(100%)")
+    $(".civic").css("filter", "grayscale(100%)")
+    $(".all").css("filter", "grayscale(100%)")
+  }
+
+  var hea = function(){
+    $(".education").css("filter", "grayscale(100%)")
+    $(".retail").css("filter", "grayscale(100%)")
+    $(".mixed").css("filter", "grayscale(100%)")
+    $(".health").css("filter", "grayscale(0%)")
+    $(".civic").css("filter", "grayscale(100%)")
+    $(".all").css("filter", "grayscale(100%)")
+  }
+
+  var mix = function(){
+    $(".education").css("filter", "grayscale(100%)")
+    $(".retail").css("filter", "grayscale(100%)")
+    $(".mixed").css("filter", "grayscale(0%)")
+    $(".health").css("filter", "grayscale(100%)")
+    $(".civic").css("filter", "grayscale(100%)")
+    $(".all").css("filter", "grayscale(100%)")
+  }
+
+  var civ = function(){
+    $(".education").css("filter", "grayscale(100%)")
+    $(".retail").css("filter", "grayscale(100%)")
+    $(".mixed").css("filter", "grayscale(100%)")
+    $(".health").css("filter", "grayscale(100%)")
+    $(".civic").css("filter", "grayscale(0%)")
+    $(".all").css("filter", "grayscale(100%)")
+  }
+
+
+  // var elements = $(".first");
+  // var elementsInnerHtmls = [];
+  // var numberOfElements = elements.length;
+
+  // for( var i = 0 ; i < numberOfElements ; i++){
+  //   elementsInnerHtmls.push(elements[i].innerHTML); 
+  // }
+
+  // var checkedIndexes = [];
+  // for( var i = 0 ; i < numberOfElements ; i++){
+  //   var randomIndex = Math.floor(Math.random()*10) % numberOfElements;
+  //   while(checkedIndexes[randomIndex] != undefined){
+  //       randomIndex = Math.floor(Math.random()*10) % numberOfElements;    
+  //   }
+  //   checkedIndexes[randomIndex] = true;
+  //   elements[i].innerHTML = elementsInnerHtmls[randomIndex];    
+  // }
 });

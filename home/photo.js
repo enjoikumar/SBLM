@@ -18,21 +18,6 @@ window.setTimeout(doSlideShow, 4000);
 
 
 $(document).ready(function(){
-	console.log("hello");
-
-	var chain = 
-	[
-	document.getElementById("slide1"),
-	document.getElementById("slide2"),
-	document.getElementById("slide3"),
-	document.getElementById("slide4"),
-	document.getElementById("slide5"),
-	document.getElementById("slide6"),
-	document.getElementById("slide7"),
-	document.getElementById("slide8"),
-	document.getElementById("slide9")
-	];
-
 	var elements = $(".slide");
 	var elementsInnerHtmls = [];
 	var numberOfElements = elements.length;
