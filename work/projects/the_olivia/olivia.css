@@ -39,20 +39,21 @@ figure.show {
 
 /*styling the toggles to go next or right*/
 .next, .prev {
-	color: #fff;
+	color: #000;
 	position: absolute;
 	background: rgba(0, 0, 0, 0.6);
-	top: 50%;
+	top: 0%;
 	z-index: 1;
 	font-size: 2em;
 	margin-top: -.75em;
 	opacity: .5;
 	user-select: none;
+	height: 100%;
 }
 
 /*when hovering, the cursor changes along with the opaquness*/
 .next:hover, .prev:hover {
-	cursor: pointer;
+	/*cursor: pointer;*/
 	opacity: 1;
 }
 
@@ -62,6 +63,13 @@ figure.show {
 	padding: 10px 5px 15px 10px;
 	border-top-left-radius: 3px;
 	border-bottom-left-radius: 3px;
+	text-align: center;
+}
+.next:hover{
+	cursor: url("../../assets/right.png"), wait;
+}
+.prev:hover{
+	cursor: url("../../assets/left.png"), wait;
 }
 
 /*position styling for prev and also making the edges smooth*/
