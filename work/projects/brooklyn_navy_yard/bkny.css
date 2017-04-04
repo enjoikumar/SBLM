@@ -93,6 +93,7 @@ figure.show {
 	font-size: 1.1em;
 }
 
+
 .history1 img{
 	padding-left: 40px;
 }
@@ -124,6 +125,12 @@ figure.show {
 	float: right;
 	margin-top: -180px;
 	margin-right: 150px;
+}
+
+.history4 img{
+	width: 100%;
+	height: 66%;
+	padding-bottom: 20px;
 }
 
 
