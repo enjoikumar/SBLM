@@ -153,9 +153,9 @@ $(document).ready(function(){
 
   var checkedIndexes = [];
   for( var i = 0 ; i < numberOfElements ; i++){
-    var randomIndex = Math.floor(Math.random()*10) % numberOfElements;
+    var randomIndex = Math.floor(Math.random()*20) % numberOfElements;
     while(checkedIndexes[randomIndex] != undefined){
-        randomIndex = Math.floor(Math.random()*10) % numberOfElements;    
+        randomIndex = Math.floor(Math.random()*20) % numberOfElements;    
     }
     checkedIndexes[randomIndex] = true;
     elements[i].innerHTML = elementsInnerHtmls[randomIndex];    
