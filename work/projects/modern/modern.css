@@ -86,6 +86,7 @@ figure.show {
 	border-bottom-right-radius: 3px;
 }
 
+
 .title{
 	font-size: 40px !important;
 	position: absolute;
@@ -98,12 +99,18 @@ figure.show {
 }
 
 
+.history2 img{
+	width: 100%;
+	height: 66%;
+}
+
 .other{
 	font-size: 1.75em;
 	background-color: black;
 	color: white;
 	padding-top: 40px;
 	padding-left: 40px;
+	margin-top: -4px;
 }
 
 
