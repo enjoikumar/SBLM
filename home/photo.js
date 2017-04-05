@@ -18,23 +18,23 @@ window.setTimeout(doSlideShow, 4000);
 
 
 $(document).ready(function(){
-	// var elements = $(".slide");
-	// var elementsInnerHtmls = [];
-	// var numberOfElements = elements.length;
+	var elements = $(".slide");
+	var elementsInnerHtmls = [];
+	var numberOfElements = elements.length;
 
-	// for( var i = 0 ; i < numberOfElements ; i++){
-	// 	elementsInnerHtmls.push(elements[i].innerHTML); 
-	// }
+	for( var i = 0 ; i < numberOfElements ; i++){
+		elementsInnerHtmls.push(elements[i].innerHTML); 
+	}
 
-	// var checkedIndexes = [];
-	// for( var i = 0 ; i < numberOfElements ; i++){
-	//   var randomIndex = Math.floor(Math.random()*10) % numberOfElements;
-	//   while(checkedIndexes[randomIndex] != undefined){
-	//       randomIndex = Math.floor(Math.random()*10) % numberOfElements;    
-	//   }
-	//   checkedIndexes[randomIndex] = true;
-	//   elements[i].innerHTML = elementsInnerHtmls[randomIndex];    
-	// }
+	var checkedIndexes = [];
+	for( var i = 0 ; i < numberOfElements ; i++){
+	  var randomIndex = Math.floor(Math.random()*10) % numberOfElements;
+	  while(checkedIndexes[randomIndex] != undefined){
+	      randomIndex = Math.floor(Math.random()*10) % numberOfElements;    
+	  }
+	  checkedIndexes[randomIndex] = true;
+	  elements[i].innerHTML = elementsInnerHtmls[randomIndex];    
+	}
 })
 
 
