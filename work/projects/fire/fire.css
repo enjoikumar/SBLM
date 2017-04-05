@@ -89,7 +89,7 @@ figure.show {
 	font-size: 40px !important;
 	position: absolute;
 	z-index: 2;
-  padding: 20px 20px 20px 20px;
+  padding: 20px 40px 20px 20px;
 	margin-top: -87px;
 	color: white;
 	background-color: black;
@@ -150,10 +150,10 @@ figure.show {
 
 @media only screen and (min-width: 1920px) {
 	figure{
-		height: 1000px;
+		height: 960px;
 	}
 	figure img{
-		height: 1000px;
+		height: 960px;
 	}
 }
 
