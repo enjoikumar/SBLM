@@ -139,6 +139,17 @@ figure.show {
 	margin-left: 88px;
 }
 
+.history5 span{
+	font-size: 36px;
+	color: white;
+	width: 500px;
+	position: absolute;
+	margin-top: -850px;
+	margin-left: 1350px;
+	background-color: black;
+	padding: 40px 40px 40px 40px;
+}
+
 
 .project-history{
 	padding-top: 20px;

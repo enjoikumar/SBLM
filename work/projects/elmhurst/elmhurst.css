@@ -164,7 +164,8 @@ figure.show {
 
 .history7 img{
 	width: 100%;
-	padding-top: 20px;
+	/*padding-top: 20px;*/
+	margin-top: 5px;
 }
 
 .history8 img{
@@ -172,6 +173,16 @@ figure.show {
 	height: 66%;
 	padding-bottom: 20px;
 	margin-top: -40px;
+}
+.history8 span{
+	width: 800px;
+	position: absolute;
+	margin-top: -850px;
+	margin-left: 900px;
+	color: white !important;
+	background-color: black;
+	padding: 40px 40px 40px 40px;
+	/*opacity: .7;*/
 }
 
 
