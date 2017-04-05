@@ -13,12 +13,12 @@ body{
 	overflow: hidden;
 }
 
-.slideshow:hover > .next{
+/*.slideshow:hover > .next{
 	background-color: white;
 }
 .slideshow:hover > .prev{
 	background-color: white;
-}
+}*/
 
 /*makes the slideshow width fit the screen and height, also the transition speed 
 and how opaque the image can be*/
