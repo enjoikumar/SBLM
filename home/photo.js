@@ -12,9 +12,9 @@ function doSlideShow () {
   $slides.removeClass("previous");
   $current.addClass("previous").removeClass("current");
   $next.addClass("current");
-  window.setTimeout(doSlideShow, 4000);
+  window.setTimeout(doSlideShow, 3000);
 }
-window.setTimeout(doSlideShow, 4000);
+window.setTimeout(doSlideShow, 3000);
 
 
 $(document).ready(function(){
