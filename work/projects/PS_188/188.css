@@ -54,6 +54,7 @@ figure.show {
 	opacity: .5;
 	user-select: none;
 	height: 100%;
+	width: 48px;
 }
 
 /*when hovering, the cursor changes along with the opaquness*/
@@ -85,6 +86,14 @@ figure.show {
 	border-bottom-right-radius: 3px;
 }
 
+.title{
+	font-size: 40px !important;
+	position: absolute;
+	z-index: 2;
+	margin-top: -80px;
+	margin-left: 80px;
+	color: white;
+}
 
 
 /*project history stuff*/
@@ -210,6 +219,52 @@ figure.show {
 
 .flickity-prev-next-button.next {
 	margin-top: 0px;
+}
+
+@media only screen and (min-width: 1920px) {
+	figure{
+		height: 1000px
+	}
+	figure img{
+		height: 1000px;
+	}
+
+	.history span{
+		width: 500px;
+		font-size: 1.5em;
+	}
+
+	.history1 img{
+		width: 900px;
+		height: 700px;
+	}
+	.history1 span{
+		margin-right: 300px;
+		margin-top: 100px;
+	}
+
+	.history2 img{
+		width: 900px;
+		height: 800px;
+	}
+	.history2 span{
+		margin-top: 300px;
+		margin-left: 200px;
+	}
+
+	.history3 img{
+		width: 700px;
+		height: 900px;
+	}
+	.history4 img{
+		width: 900px;
+		height: 600px;
+	}
+
+	#team{
+		margin-top: 260px;
+	}
+
 }
 
 @media only screen and (max-width: 736px) {
