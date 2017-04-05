@@ -55,6 +55,7 @@ figure.show {
 	opacity: .5;
 	user-select: none;
 	height: 100%;
+	width: 48px;
 }
 
 /*when hovering, the cursor changes along with the opaquness*/
@@ -85,6 +86,14 @@ figure.show {
 	border-bottom-right-radius: 3px;
 }
 
+.title{
+	font-size: 40px !important;
+	position: absolute;
+	z-index: 2;
+	margin-top: -80px;
+	margin-left: 80px;
+	color: white;
+}
 
 
 /*project history stuff*/
