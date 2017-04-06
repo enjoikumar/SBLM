@@ -20,13 +20,13 @@ figure{
 	opacity: 0;
 	transition: .5s opacity;
 	width: 100%;
-	height: 600px;
+	height: 627px;
 }
 
 /*image is the same height and width of slideshow aka no whitespace*/
 figure img {
 	width: 100%;
-	height: 600px;
+	height: 627px;
 }
 
 /*first image when shown has a little flash 
@@ -137,6 +137,17 @@ figure.show {
 	height: 66%;
 	margin-top: -40px;
 	padding-bottom: 20px;
+}
+
+.down{
+	width: 100%;
+	height: 85px;
+	margin-top: -88px;
+	z-index: 5;
+	position: absolute;
+}
+.down:hover{
+	cursor: url("../../assets/down.png"), wait;
 }
 
 .project-history{

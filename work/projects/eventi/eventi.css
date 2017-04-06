@@ -147,6 +147,17 @@ figure.show {
 	margin-top: -40px;
 }
 
+.down{
+	width: 100%;
+	height: 85px;
+	margin-top: -88px;
+	z-index: 5;
+	position: absolute;
+}
+.down:hover{
+	cursor: url("../../assets/down.png"), wait;
+}
+
 
 .project-history{
 	padding-top: 20px;

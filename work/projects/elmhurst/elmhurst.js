@@ -93,6 +93,14 @@ $(document).ready(function(){
       $expand.html('&#x254B;')
     }
   })
+
+  $down = $('.down')
+
+  $down.click(function() {
+    $('html, body').animate({
+        scrollTop: $(".history8").offset().top
+    }, 500);
+  });
 })
 
 

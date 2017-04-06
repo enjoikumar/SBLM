@@ -172,6 +172,16 @@ figure.show {
 	color: black;
 }
 
+.down{
+	width: 100%;
+	height: 85px;
+	margin-top: -88px;
+	z-index: 5;
+	position: absolute;
+}
+.down:hover{
+	cursor: url("../../assets/down.png"), wait;
+}
 
 
 .project-history{

@@ -51,6 +51,14 @@ $(document).ready(function(){
   }, false);
   
 	})();  
+
+  $down = $('.down')
+
+  $down.click(function() {
+    $('html, body').animate({
+        scrollTop: $(".history5").offset().top
+    }, 500);
+  });
 })
 
 

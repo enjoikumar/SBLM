@@ -83,7 +83,7 @@ $(document).ready(function(){
     $('html, body').animate({
         scrollTop: $(".history1").offset().top
     }, 500);
-});
+  });
 
 })
 
