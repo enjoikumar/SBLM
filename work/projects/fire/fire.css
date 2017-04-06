@@ -109,7 +109,6 @@ figure.show {
 	margin-top: -85px;
 	z-index: 5;
 	position: absolute;
-	border: solid 2px red;
 }
 .down:hover{
 	cursor: pointer

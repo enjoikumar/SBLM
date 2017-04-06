@@ -79,10 +79,6 @@ $(document).ready(function(){
 
   $down = $('.down')
 
-  // $down.click(function(){
-  //   // window.scrollTo(0, 600)
-  // })
-
   $down.click(function() {
     $('html, body').animate({
         scrollTop: $(".history1").offset().top
