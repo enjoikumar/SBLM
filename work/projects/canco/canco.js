@@ -77,6 +77,15 @@ $(document).ready(function(){
 
   $window.on('scroll resize', check_if_in_view);
   $window.trigger('scroll');
+
+
+  $down = $('.down')
+
+  $down.click(function() {
+    $('html, body').animate({
+        scrollTop: $(".history6").offset().top
+    }, 500);
+  });
 })
 
 
