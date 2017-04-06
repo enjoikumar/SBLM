@@ -77,45 +77,23 @@ $(document).ready(function(){
   $window.on('scroll resize', check_if_in_view);
   $window.trigger('scroll');
 
+  $history = $(".history9")
 
-  // $acc = $("[id = acc]");
+  $expand = $('.expand')
 
-  // $acc1 = $("[id = acc1]");
-  // $details = $(".details");
+  var count = 0
 
-  // var count = 1
-  // var count1 = 1
-
-  // $acc.click(function(){
-  //   console.log("clicling")
-  //   count++;
-  //   if(count%2){
-  //     $team.css("display", "none")
-  //   } else{
-  //     $team.css("display", "block")
-  //   }
-  // })
-
-  var acc = document.getElementsByClassName("acc");
-  var i;
-  $team = $(".team");
-
-  for (i = 0; i < acc.length; i++) {
-      acc[i].onclick = function(){
-          /* Toggle between adding and removing the "active" class,
-          to highlight the button that controls the panel */
-          this.classList.toggle("active");
-
-          /* Toggle between hiding and showing the active panel */
-          var panel = this.nextElementSibling;
-          if (panel.style.display === "block") {
-              panel.style.display = "none";
-          } else {
-              panel.style.display = "block";
-          }
-      }
-  }
+  $expand.click(function(){
+    count++;
+    if(count%2){
+      $history.css("display", "block")
+      $expand.html('&#x2501;')
+    } else{
+      $history.css("display", "none")
+      $expand.html('&#x254B;')
+    }
   })
+})
 
 
 
