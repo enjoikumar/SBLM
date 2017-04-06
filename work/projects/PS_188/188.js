@@ -76,6 +76,24 @@ $(document).ready(function(){
 
   $window.on('scroll resize', check_if_in_view);
   $window.trigger('scroll');
+
+
+  $history = $(".history6")
+
+  $expand = $('.expand')
+
+  var count = 0
+
+  $expand.click(function(){
+    count++;
+    if(count%2){
+      $history.css("display", "block")
+      $expand.html('&#x2501;')
+    } else{
+      $history.css("display", "none")
+      $expand.html('&#x254B;')
+    }
+  })
 })
 
 

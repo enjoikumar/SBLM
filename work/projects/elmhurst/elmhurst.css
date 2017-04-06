@@ -188,6 +188,7 @@ figure.show {
 }
 .expand{
 	float: right;
+	cursor: pointer;
 }
 .history9{
 	display: none;
