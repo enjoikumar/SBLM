@@ -26,13 +26,13 @@ figure{
 	opacity: 0;
 	transition: .5s opacity;
 	width: 100%;
-	height: 600px;
+	height: 627px;
 }
 
 /*image is the same height and width of slideshow aka no whitespace*/
 figure img {
 	width: 100%;
-	height: 600px;
+	height: 627px;
 }
 
 /*first image when shown has a little flash 

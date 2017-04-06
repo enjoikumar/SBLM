@@ -26,12 +26,12 @@ figure{
 	opacity: 0;
 	transition: .5s opacity;
 	width: 100%;
-	height: 600px;
+	height: 627px;
 }
 /*image is the same height and width of slideshow aka no whitespace*/
 figure img {
 	width: 100%;
-	height: 600px;
+	height: 627px;
 }
 
 /*first image when shown has a little flash 
@@ -140,14 +140,14 @@ figure.show {
 }
 
 .history5 span{
-	font-size: 36px;
+	font-size: 24px;
 	color: white;
-	width: 500px;
+	width: 300px;
 	position: absolute;
-	margin-top: -850px;
-	margin-left: 1350px;
+	margin-top: -430px;
+	margin-left: 895px;
 	background-color: black;
-	padding: 40px 40px 40px 40px;
+	padding: 20px 20px 20px 20px;
 }
 
 
@@ -280,6 +280,18 @@ figure.show {
 		height: 800px;
 		margin-left: 310px;
 	}
+
+	.history5 span{
+		font-size: 36px;
+		color: white;
+		width: 500px;
+		position: absolute;
+		margin-top: -850px;
+		margin-left: 1350px;
+		background-color: black;
+		padding: 40px 40px 40px 40px;
+	}
+
 }
 
 @media only screen and (max-width: 736px) {
