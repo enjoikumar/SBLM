@@ -298,6 +298,28 @@ figure.show {
 		height: 600px;
 	}
 
+	.history5 span{
+		width: 800px;
+		position: absolute;
+		margin-top: -950px;
+		margin-left: 1050px;
+		color: white !important;
+		background-color: black;
+		padding: 40px 40px 40px 40px;
+	}
+
+	.history6{
+		display: none;
+		color: black;
+		width: 800px;
+		position: absolute;
+		margin-top: -670px;
+		margin-left: 1050px;
+		color: white !important;
+		background-color: white;
+		padding: 40px 40px 40px 40px;
+	}
+
 	#team{
 		margin-top: 260px;
 	}

@@ -159,6 +159,17 @@ figure.show {
 	margin-top: -250px;
 }
 
+.history7{
+	font-size: 24px;
+	color: white;
+	width: 300px;
+	position: absolute;
+	margin-top: -490px;
+	margin-left: 940px;
+	background-color: black;
+	padding: 20px 20px 20px 20px;
+}
+
 
 
 /*team stuff*/
@@ -305,6 +316,17 @@ figure.show {
 		width: 600px;
 		height: 800px;
 		margin-right: 320px;
+	}
+
+	.history7{
+		font-size: 24px;
+		color: white;
+		width: 500px;
+		position: absolute;
+		margin-top: -690px;
+		margin-left: 1380px;
+		background-color: black;
+		padding: 20px 20px 20px 20px;
 	}
 
 	#team{
