@@ -169,6 +169,40 @@ figure.show {
 }
 
 
+.history8 img{
+	width: 100%;
+	height: 66%;
+	padding-bottom: 20px;
+	margin-top: -40px;
+}
+.history8 span{
+	width: 500px;
+	position: absolute;
+	margin-top: -650px;
+	margin-left: 700px;
+	color: white !important;
+	background-color: black;
+	padding: 40px 40px 40px 40px;
+}
+.expand{
+	float: right;
+}
+.history9{
+	display: none;
+	color: black;
+	width: 500px;
+	position: absolute;
+	margin-top: -480px;
+	margin-left: 700px;
+	color: white !important;
+	background-color: white;
+	padding: 40px 40px 40px 40px;
+}
+.history9 span{
+	color: black;
+}
+
+
 
 
 .project-history{
@@ -324,11 +358,11 @@ figure.show {
 	}
 
 	.history8 img{
-	width: 100%;
-	height: 66%;
-	padding-bottom: 20px;
-	margin-top: -40px;
-}
+		width: 100%;
+		height: 66%;
+		padding-bottom: 20px;
+		margin-top: -40px;
+	}
 	.history8 span{
 		width: 800px;
 		position: absolute;
