@@ -13,12 +13,6 @@ body{
 	overflow: hidden;
 }
 
-/*.slideshow:hover > .next{
-	background-color: white;
-}
-.slideshow:hover > .prev{
-	background-color: white;
-}*/
 /*makes the slideshow width fit the screen and height, also the transition speed 
 and how opaque the image can be*/
 figure{
@@ -40,49 +34,6 @@ figure.show {
 	opacity: 1;
 	position: static;
 	transition: .5s opacity;
-}
-
-/*styling the toggles to go next or right*/
-.next, .prev {
-	color: #000;
-	position: absolute;
-	background: rgba(0, 0, 0, 0.6);
-	top: 0%;
-	z-index: 1;
-	font-size: 2em;
-	margin-top: -.75em;
-	opacity: .5;
-	user-select: none;
-	height: 100%;
-}
-
-/*when hovering, the cursor changes along with the opaquness*/
-.next:hover, .prev:hover {
-	/*cursor: pointer;*/
-	opacity: 1;
-}
-
-/*position styling for next and also making the edges smooth*/
-.next{
-	right: 0;
-	padding: 10px 5px 15px 10px;
-	border-top-left-radius: 3px;
-	border-bottom-left-radius: 3px;
-	text-align: center;
-}
-.next:hover{
-	cursor: url("../../assets/right.png"), wait;
-}
-.prev:hover{
-	cursor: url("../../assets/left.png"), wait;
-}
-
-/*position styling for prev and also making the edges smooth*/
-.prev{
-	left: 0;
-	padding: 10px 10px 15px 5px;
-	border-top-right-radius: 3px;
-	border-bottom-right-radius: 3px;
 }
 
 .title{
@@ -119,46 +70,6 @@ figure.show {
 	height: 66%;
 }
 
-
-.other{
-	font-size: 1.75em;
-	background-color: black;
-	color: white;
-	padding-top: 40px;
-	padding-left: 40px;
-	margin-top: -4px;
-}
-
-
-
-/*slider at the bottom stuff*/
-.carousel {
-	padding-top:10px;
-	background-color: black;
-}
-
-
-.carousel-cell {
-  width: 200px;
-  height: 200px;
-  margin-right: 10px;
-  border-radius: 5px;
-  counter-increment: carousel-cell;
-}
-
-/* cell number */
-.carousel-cell:before {
-  display: block;
-  text-align: center;
-  content: counter(carousel-cell);
-  line-height: 200px;
-  font-size: 80px;
-  color: black;
-}
-
-.flickity-prev-next-button.next {
-	margin-top: 0px;
-}
 
 @media only screen and (min-width: 1920px) {
 	figure{
