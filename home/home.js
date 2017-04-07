@@ -50,52 +50,14 @@ $(document).ready(function(){
 	});
 
 
-	var edu = function(){
-    $(".education").css("filter", "grayscale(0%)")
-    $(".retail").css("filter", "grayscale(100%)")
-    $(".mixed").css("filter", "grayscale(100%)")
-    $(".health").css("filter", "grayscale(100%)")
-    $(".civic").css("filter", "grayscale(100%)")
-    $(".all").css("filter", "grayscale(100%)")
-  }
 
-  var ret = function(){
-    $(".education").css("filter", "grayscale(100%)")
-    $(".retail").css("filter", "grayscale(0%)")
-    $(".mixed").css("filter", "grayscale(100%)")
-    $(".health").css("filter", "grayscale(100%)")
-    $(".civic").css("filter", "grayscale(100%)")
-    $(".all").css("filter", "grayscale(100%)")
-  }
 
-  var hea = function(){
-    $(".education").css("filter", "grayscale(100%)")
-    $(".retail").css("filter", "grayscale(100%)")
-    $(".mixed").css("filter", "grayscale(100%)")
-    $(".health").css("filter", "grayscale(0%)")
-    $(".civic").css("filter", "grayscale(100%)")
-    $(".all").css("filter", "grayscale(100%)")
-  }
+  var civ = 0;
+  var edu = 0;
+  var hea = 0;
+  var mix = 0;
+  var ret = 0;
 
-  var mix = function(){
-    $(".education").css("filter", "grayscale(100%)")
-    $(".retail").css("filter", "grayscale(100%)")
-    $(".mixed").css("filter", "grayscale(0%)")
-    $(".health").css("filter", "grayscale(100%)")
-    $(".civic").css("filter", "grayscale(100%)")
-    $(".all").css("filter", "grayscale(100%)")
-  }
-
-  var civ = function(){
-    $(".education").css("filter", "grayscale(100%)")
-    $(".retail").css("filter", "grayscale(100%)")
-    $(".mixed").css("filter", "grayscale(100%)")
-    $(".health").css("filter", "grayscale(100%)")
-    $(".civic").css("filter", "grayscale(0%)")
-    $(".all").css("filter", "grayscale(100%)")
-  }
-
-  var clicker = 1;
 
   $slide1 = $("[id = slide1]");
 
@@ -107,43 +69,54 @@ $(document).ready(function(){
 
   $slide5 = $("[id = slide5]");
 
-  $slide6 = $("[id = slide6]");  
-
-  $slide7 = $("[id = slide7]");
-
-  $slide8 = $("[id = slide8]");
-
-  $slide9 = $("[id = slide9]");
 
   $slide1.click(function(){
-    clicker++
-    console.log("clicked")
+    civ = 1
+    edu = 0
+    hea = 0
+    mix = 0
+    ret = 0
+    console.log(civ)
   })
 
-  $slide1.click(function(){
+  $slide2.click(function(){
+    civ = 0
+    edu = 1
+    hea = 0
+    mix = 0
+    ret = 0
+    console.log(edu)
   })
 
-  $slide1.click(function(){
+  $slide3.click(function(){
+    civ = 0
+    edu = 0
+    hea = 1
+    mix = 0
+    ret = 0
+    console.log(hea)
   })
   
-  $slide1.click(function(){
+  $slide4.click(function(){
+    civ = 0
+    edu = 0
+    hea = 0
+    mix = 1
+    ret = 0
+    console.log(mix)
   })
   
-  $slide1.click(function(){
-  })
-  
-  $slide1.click(function(){
-  })
-  
-  $slide1.click(function(){
-  })
-  
-  $slide1.click(function(){
-  })
-  
-  $slide1.click(function(){
+  $slide5.click(function(){
+    civ = 0
+    edu = 0
+    hea = 0
+    mix = 0
+    ret = 1
+    console.log(ret)
   })
 
+
+  console.log($education)
 })
 
 

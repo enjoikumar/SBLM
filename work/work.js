@@ -1,7 +1,23 @@
 
 $(document).ready(function(){
 
-  // if(clicker = 1){
+
+  // if(civ = 1){
+  //   $(".education").css("filter", "grayscale(100%)")
+  //   $(".retail").css("filter", "grayscale(100%)")
+  //   $(".mixed").css("filter", "grayscale(100%)")
+  //   $(".health").css("filter", "grayscale(100%)")
+  //   $(".civic").css("filter", "grayscale(0%)")
+  //   $(".all").css("filter", "grayscale(100%)")
+  // }else{
+  //   $(".education").css("filter", "grayscale(0%)")
+  //   $(".retail").css("filter", "grayscale(0%)")
+  //   $(".mixed").css("filter", "grayscale(0%)")
+  //   $(".health").css("filter", "grayscale(0%)")
+  //   $(".civic").css("filter", "grayscale(0%)")
+  // }
+
+  // if(edu = 1){
   //   $(".education").css("filter", "grayscale(0%)")
   //   $(".retail").css("filter", "grayscale(100%)")
   //   $(".mixed").css("filter", "grayscale(100%)")
@@ -15,6 +31,59 @@ $(document).ready(function(){
   //   $(".health").css("filter", "grayscale(0%)")
   //   $(".civic").css("filter", "grayscale(0%)")
   // }
+
+  // if(hea = 1){
+  //   $(".education").css("filter", "grayscale(100%)")
+  //   $(".retail").css("filter", "grayscale(100%)")
+  //   $(".mixed").css("filter", "grayscale(100%)")
+  //   $(".health").css("filter", "grayscale(0%)")
+  //   $(".civic").css("filter", "grayscale(100%)")
+  //   $(".all").css("filter", "grayscale(100%)")
+  // }else{
+  //   $(".education").css("filter", "grayscale(0%)")
+  //   $(".retail").css("filter", "grayscale(0%)")
+  //   $(".mixed").css("filter", "grayscale(0%)")
+  //   $(".health").css("filter", "grayscale(0%)")
+  //   $(".civic").css("filter", "grayscale(0%)")
+  // }
+
+  // if(mix = 1){
+  //   $(".education").css("filter", "grayscale(100%)")
+  //   $(".retail").css("filter", "grayscale(100%)")
+  //   $(".mixed").css("filter", "grayscale(0%)")
+  //   $(".health").css("filter", "grayscale(100%)")
+  //   $(".civic").css("filter", "grayscale(100%)")
+  //   $(".all").css("filter", "grayscale(100%)")
+  // }else{
+  //   $(".education").css("filter", "grayscale(0%)")
+  //   $(".retail").css("filter", "grayscale(0%)")
+  //   $(".mixed").css("filter", "grayscale(0%)")
+  //   $(".health").css("filter", "grayscale(0%)")
+  //   $(".civic").css("filter", "grayscale(0%)")
+  // }
+
+  // if(ret = 1){
+  //   $(".education").css("filter", "grayscale(100%)")
+  //   $(".retail").css("filter", "grayscale(0%)")
+  //   $(".mixed").css("filter", "grayscale(100%)")
+  //   $(".health").css("filter", "grayscale(100%)")
+  //   $(".civic").css("filter", "grayscale(100%)")
+  //   $(".all").css("filter", "grayscale(100%)")
+  // }else{
+  //   $(".education").css("filter", "grayscale(0%)")
+  //   $(".retail").css("filter", "grayscale(0%)")
+  //   $(".mixed").css("filter", "grayscale(0%)")
+  //   $(".health").css("filter", "grayscale(0%)")
+  //   $(".civic").css("filter", "grayscale(0%)")
+  // }
+
+
+    // civ--;
+    // edu--;
+    // hea--;
+    // mix--;
+    // ret--;
+
 
   $education = $("[id = education]");
 
