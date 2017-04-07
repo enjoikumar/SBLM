@@ -55,7 +55,6 @@ figure.show {
 
 /*when hovering, the cursor changes along with the opaquness*/
 .next:hover, .prev:hover {
-	/*cursor: pointer;*/
 	opacity: 0;
 }
 
