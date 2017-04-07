@@ -180,83 +180,6 @@ figure.show {
 	font-size: 1.75em;
 }
 
-/*team stuff*/
-#team{
-	background-color: rgb(38,38,38);
-	padding-left: 120px;
-	color: white;
-}
-.team{
-	background-color: rgb(38,38,38) !important;
-	color: white;
-	padding-top: 40px;
-	padding-bottom: 40px;
-}
-.team1 img{
-	padding-left: 60%;
-	margin-top: -100px;
-	padding-bottom: 60px;
-}
-.team1 span, .team1 p{
-	padding-left: 10%;
-	font-size: 1.3em;
-}
-
-
-
-/*detail stuff*/
-.details {
-	padding-top: 40px;
-	padding-left: 120px;
-	padding-bottom: 40px;
-	background-color: rgb(24,23,23);
-	color: white;
-}
-.stat {
-	width: 300px;
-	padding-bottom: 20px;
-	font-size: 1.5em;
-}
-
-
-.other{
-	font-size: 1.75em;
-	background-color: black;
-	color: white;
-	padding-top: 40px;
-	padding-left: 40px;
-}
-
-
-
-/*slider at the bottom stuff*/
-.carousel {
-	padding-top:10px;
-	background-color: black;
-}
-
-.carousel-cell {
-  width: 200px;
-  height: 200px;
-  margin-right: 10px;
-  border-radius: 5px;
-  counter-increment: carousel-cell;
-}
-
-/* cell number */
-.carousel-cell:before {
-  display: block;
-  text-align: center;
-  content: counter(carousel-cell);
-  line-height: 200px;
-  font-size: 80px;
-  color: black;
-}
-
-.flickity-prev-next-button.next {
-	margin-top: 0px;
-}
-
 
 @media only screen and (min-width: 1920px) {
 	figure{
@@ -264,56 +187,6 @@ figure.show {
 	}
 	figure img{
 		height: 960px;
-	}
-
-	.history{
-		font-size: 1.5em;
-	}
-
-	.history1 img{
-		width: 800px;
-		height: 600px;
-		padding-left: 80px;
-	}
-	.history1 span{
-		width: 600px;
-		margin-right: 250px;
-	}
-
-	.history2 img{
-		width: 700px;
-		height: 800px;
-		margin-right: 250px;
-	}
-	.history2 span{
-		width: 600px;
-		margin-left: 150px;
-	}
-
-	.history3 img{
-		width: 800px;
-		height: 600px;
-		padding-left: 80px;
-		margin-top: 200px;
-	}
-	.history3 span{
-		width: 600px;
-		margin-right: 250px;
-		margin-top: -200px;
-	}
-
-	.history4 img{
-		width: 900px;
-		height: 700px;
-		margin-left: 500px;
-		padding-bottom: 80px;
-	}
-
-	.team, .details{
-		font-size: 1.25em;
-	}
-	.team{
-		padding-bottom: 40px;
 	}
 }
 
@@ -324,53 +197,6 @@ figure.show {
 	figure img{
 		height: 414px;
 	}
-
-	.history1 img{
-		width: 696px;
-		padding-left: 0px;
-		margin-left: 20px;
-	}
-	.history1 span{
-		width: 696px;
-		margin-right: 20px;
-		margin-top: 20px;
-		text-align: center;
-	}
-
-	.history2 img{
-		margin-right: 118px;
-		margin-top: 20px;
-	}
-	.history2 span{
-		width: 696px;
-		margin-left: 20px;
-		margin-top: 20px;
-		text-align: center;
-	}
-
-	.history3 img{
-		width: 696px;
-		padding-left: 0px;
-		margin-left: 68px;
-		margin-top: 20px;
-	}
-	.history3 span{
-		width: 696px;
-		margin-right: 20px;
-		margin-top: 20px;
-		text-align: center;
-	}
-
-	.history4 img{
-		margin-left: 18px;
-		margin-top: 20px;
-		padding-bottom: 0px;
-	}
-
-	#team{
-		margin-top: 20px;
-		margin-left: -115px;
-	}
 }
 
 @media only screen and (max-width: 667px) {
@@ -379,54 +205,6 @@ figure.show {
 	}
 	figure img {
 		height: 375px;
-	}
-
-	.history1 img{
-		width: 627px;
-		padding-left: 0px;
-		margin-left: 20px;
-	}
-	.history1 span{
-		width: 627px;
-		margin-right: 20px;
-		margin-top: 20px;
-		text-align: center;
-	}
-
-	.history2 img{
-		margin-right: 83.5px;
-		margin-top: 20px;
-	}
-	.history2 span{
-		width: 627px;
-		margin-left: 20px;
-		margin-top: 20px;
-		text-align: center;
-	}
-
-	.history3 img{
-		width: 627px;
-		padding-left: 0px;
-		margin-left: 20px;
-		margin-top: 20px;
-	}
-	.history3 span{
-		width: 627px;
-		margin-right: 20px;
-		margin-top: 20px;
-		text-align: center;
-	}
-
-	.history4 img{
-		width: 100%;
-		margin-left: 00px;
-		margin-top: 20px;
-		padding-bottom: 0px;
-	}
-
-	#team{
-		margin-top: 20px;
-		margin-left: -115px;
 	}
 }
 
@@ -437,49 +215,6 @@ figure.show {
 	figure img{
 		height: 320px;
 	}
-
-	.history1 img{
-		width: 528px;
-		padding-left: 0px;
-		margin-left: 20px;
-	}
-	.history1 span{
-		width: 528px;
-		margin-right: 20px;
-		margin-top: 20px;
-		text-align: center;
-	}
-
-	.history2 img{
-		margin-right: 34px;
-		margin-top: 20px;
-	}
-	.history2 span{
-		width: 528px;
-		margin-left: 20px;
-		margin-top: 20px;
-		text-align: center;
-	}
-
-	.history3 img{
-		width: 528px;
-		padding-left: 0px;
-		margin-left: 20px;
-		margin-top: 20px;
-	}
-	.history3 span{
-		width: 528px;
-		margin-right: 20px;
-		margin-top: 20px;
-		text-align: center;
-	}
-
-	.history4 img{
-		width: 100%;
-		margin-left: 00px;
-		margin-top: 20px;
-		padding-bottom: 0px;
-	}
 }
 
 @media only screen and (max-width: 414px) {
@@ -488,80 +223,6 @@ figure.show {
 	}
 	figure img{
 		height: 375px;
-	}
-
-	.history img{
-		width: 100%;
-	}
-	.history span{
-		width: 375px;
-		font-size: 1em;
-	}
-
-	.history1 img{
-		padding-left: 0px;
-	}
-	.history1 span{
-		margin-right: 18px;
-		margin-top: 20px;
-	}
-
-	.history2 img{
-		margin-right: 0px;
-		margin-top: 20px;
-	}
-	.history2 span{
-		margin-left: 35px;
-		margin-top: 20px;
-	}
-
-	.history3 img{
-		height: 300px;
-		padding-left: 0px;
-		margin-top: 20px;
-	}
-	.history3 span{
-		margin-right: 17px;
-		margin-top: 20px;
-	}
-
-	.history4 img{
-		margin-left: 0px;
-		margin-top: 20px;
-		height: 300px;
-		padding-bottom: 0px;
-	}
-
-	#team{
-		margin-top: 20px;
-		margin-left: -115px;
-	}
-	.team1 p{
-		font-size: 1em;
-	}
-	.team1 {
-		padding-left: 60px;
-		padding-bottom: 80px;
-	}
-	.team1 img{
-		width: 200px;
-		height: 200px;
-		padding-left: 60px;
-		padding-top: 180px;
-	}
-
-	.details{
-		padding-left: 40px;
-	}
-	.stat{
-		font-size: 1em;
-	}
-
-	.flickity-prev-next-button.next {
-		display: none;
-	}
-	.flickity-prev-next-button {
-		display: none;
 	}
 }
 
@@ -572,26 +233,6 @@ figure.show {
 	figure img{
 		height: 350px;
 	}
-	.history span{
-		width: 320px;
-	}
-
-	.history1 span{
-		margin-right: 27.5px;
-	}
-
-	.history2 span{
-		margin-left: 27.5px;
-	}
-
-	.history3 span{
-		margin-right: 27.5px;
-	}
-
-	.team1{
-		padding-left: 30px;
-		padding-bottom: 20px;
-	}
 }
 
 @media only screen and (max-width: 320px) {
@@ -601,109 +242,5 @@ figure.show {
 	figure img{
 		height: 300px;
 	}
-
-	.history span{
-		width: 290px;
-		font-size: .9em;
-	}
-
-	.history1 img,
-	.history3 img{
-		height: 213.33px;
-	}
-	.history1 span,
-	.history3 span{
-		margin-right: 15px;
-	}
-	.history2 span{
-		margin-left: 10px;
-	}
-
-	.team1{
-		width: 275px;
-		padding-left: 22.5px;
-	}
-	.team1 img{
-		padding-left: 40px;
-	}
-	.details {
-		padding-left: 10px;
-	}
 }
 
-
-
-
-.animation-element {
-  opacity: 0;
-  position: relative;
-}
-
-.animation-element.slide-left {
-  opacity: 0;
-  -moz-transition: all 1000ms linear;
-  -webkit-transition: all 1000ms linear;
-  -o-transition: all 1000ms linear;
-  transition: all 1000ms linear;
-  -moz-transform: translate3d(-100px, 0px, 0px);
-  -webkit-transform: translate3d(-100px, 0px, 0px);
-  -o-transform: translate(-100px, 0px);
-  -ms-transform: translate(-100px, 0px);
-  transform: translate3d(-100px, 0px, 0px);
-}
-
-.animation-element.slide-left.in-view {
-  opacity: 1;
-  -moz-transform: translate3d(0px, 0px, 0px);
-  -webkit-transform: translate3d(0px, 0px, 0px);
-  -o-transform: translate(0px, 0px);
-  -ms-transform: translate(0px, 0px);
-  transform: translate3d(0px, 0px, 0px);
-}
-
-.animation-element.slide-right {
-  opacity: 0;
-  -moz-transition: all 1000ms linear;
-  -webkit-transition: all 1000ms linear;
-  -o-transition: all 1000ms linear;
-  transition: all 1000ms linear;
-  -moz-transform: translate3d(100px, 0px, 0px);
-  -webkit-transform: translate3d(100px, 0px, 0px);
-  -o-transform: translate(100px, 0px);
-  -ms-transform: translate(100px, 0px);
-  transform: translate3d(100px, 0px, 0px);
-}
-
-.animation-element.slide-right.in-view {
-  opacity: 1;
-  -moz-transform: translate3d(0px, 0px, 0px);
-  -webkit-transform: translate3d(0px, 0px, 0px);
-  -o-transform: translate(0px, 0px);
-  -ms-transform: translate(0px, 0px);
-  transform: translate3d(0px, 0px, 0px);
-}
-
-.animation-element.fade-in {
-	opacity: 0;
-	-moz-transition: all 1000ms linear;
-  -webkit-transition: all 1000ms linear;
-  -o-transition: all 1000ms linear;
-  transition: all 1000ms linear;
-  -moz-transform: translate3d(0px, 100px, 0px);
-  -webkit-transform: translate3d(0px, 100px, 0px);
-  -o-transform: translate(0px, 100px);
-  -ms-transform: translate(0px, 100px);
-  transform: translate3d(0px, 100px, 0px);
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-.animation-element.fade-in.in-view {
-	opacity: 1;
-	-moz-transform: translate3d(0px, 0px, 0px);
-  -webkit-transform: translate3d(0px, 0px, 0px);
-  -o-transform: translate(0px, 0px);
-  -ms-transform: translate(0px, 0px);
-  transform: translate3d(0px, 0px, 0px);
-}
