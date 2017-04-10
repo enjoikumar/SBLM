@@ -182,11 +182,15 @@ figure.show {
 		height: 375px;
 	}
 
-	.flickity-prev-next-button.next {
-		display: none;
-	}
-	.flickity-prev-next-button {
-		display: none;
+	.title{
+		font-size: 20px !important;
+		position: absolute;
+		z-index: 2;
+	  padding: 10px 20px 10px 10px;
+		margin-top: -44px;
+		color: white;
+		background-color: black;
+		opacity: .8;
 	}
 }
 

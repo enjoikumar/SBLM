@@ -491,6 +491,12 @@ strong {
 		height: 375px;
 	}
 
+	.title{
+		font-size: 20px !important;
+	  padding: 10px 20px 10px 10px;
+		margin-top: -44px;
+	}
+
 	.history img{
 		width: 100%;
 	}
@@ -532,7 +538,6 @@ strong {
 		margin-right: 40px;
 		padding-bottom: 20px;
 	}
-
 
 
 	#team{

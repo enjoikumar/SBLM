@@ -622,6 +622,12 @@ figure.show {
 		height: 375px;
 	}
 
+	.title{
+		font-size: 20px !important;
+	  padding: 10px 20px 10px 10px;
+		margin-top: -44px;
+	}
+
 	.history img{
 		width: 100%;
 	}
@@ -639,6 +645,7 @@ figure.show {
 
 	.history2 img{
 		margin-top: 200px;
+		margin-right: 0px;
 	}
 	.history2 span{
 		position: absolute;
@@ -681,6 +688,7 @@ figure.show {
 		margin-left: -400px;
 	}
 	.history7 img{
+		margin-left: 0px !important;
 		margin-top: 0px;
 		height: 300px;
 	}

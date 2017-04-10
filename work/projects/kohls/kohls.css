@@ -191,6 +191,14 @@ figure.show {
 	figure img{
 		height: 375px;
 	}
+	.title{
+		font-size: 20px !important;
+	  padding: 10px 20px 10px 10px;
+		margin-top: -44px;
+	}
+	.history4 span{
+		display: none;
+	}
 }
 
 

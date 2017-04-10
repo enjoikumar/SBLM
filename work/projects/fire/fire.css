@@ -80,6 +80,43 @@ figure.show {
 	}
 }
 
+@media only screen and (max-width: 414px) {
+	figure{
+		height: 365px;
+	}
+	figure img{
+		height: 375px;
+	}
+	
+	.title{
+		font-size: 20px !important;
+		position: absolute;
+		z-index: 2;
+	  padding: 10px 20px 10px 10px;
+		margin-top: -44px;
+		color: white;
+		background-color: black;
+		opacity: .8;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	figure{
+		height: 350px;
+	}
+	figure img{
+		height: 350px;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	figure{
+		height: 300px;
+	}
+	figure img{
+		height: 300px;
+	}
+}
 
 
 
