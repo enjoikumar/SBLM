@@ -470,12 +470,13 @@ strong {
 	.history4 img{
 		width: 528px;
 		margin-top: 20px;
-		margin-left: 20px;
+		margin-left: 0px;
 	}
 	.history4 span{
 		width: 528px;
 		margin-left: 20px;
 		margin-top: 20px;
+		padding-bottom: 20px;
 		text-align: center;
 	}
 }
@@ -525,13 +526,15 @@ strong {
 		height: 500px;
 	}
 	.history2 span{
-		margin-left: -70px;
-		margin-top: -160px;
+		width: 375px !important;
+		margin-left: 15px;
+		margin-top: 0px;
 	}
 
 	.history3 img{
 		height: 700px;
-		margin-top: 80px;
+		margin-top: 110px;
+		margin-right: 0px !important;
 	}
 
 	.history4 img{
@@ -646,6 +649,7 @@ strong {
 		height: 320px;
 	}
 	.history1 span{
+		width: 200px !important;
 		font-size: 1em;
 		padding-left: 20px;
 	}
@@ -660,7 +664,7 @@ strong {
 	.history2 span{
 		font-size: 1em;
 		width: 290px !important;
-		margin-left: -60px;
+		margin-left: 15px;
 	}
 
 	.history3{

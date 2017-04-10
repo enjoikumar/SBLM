@@ -416,6 +416,10 @@ figure.show {
 		margin-top: 20px;
 	}
 
+	.history6 span{
+		display: none;
+	}
+
 	.other{
 		margin-top: 880px;
 	}
