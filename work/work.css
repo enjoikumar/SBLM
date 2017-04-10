@@ -146,6 +146,10 @@ a {
 
 /*mobile responsiveness*/
 @media only screen and (max-width: 414px) {
+  .boxInner{
+    width: 100%;
+  }
+
   .module{
     display: none;
   }

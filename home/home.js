@@ -114,9 +114,6 @@ $(document).ready(function(){
     ret = 1
     console.log(ret)
   })
-
-
-  console.log($education)
 })
 
 
