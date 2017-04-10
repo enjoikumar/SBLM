@@ -202,6 +202,15 @@ so it has a positive ux/ui feel*/
   }
 }
 
+@media only screen and (max-width: 414px) {
+  h2{
+    font-size: 20px !important;
+    padding: 10px 20px 10px 10px;
+    margin-top: -48px;
+  }
+  
+}
+
 @media only screen and (max-width: 320px){
   .slideshow{
     background: #000;

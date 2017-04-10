@@ -474,7 +474,8 @@ figure.show {
 	}
 
 	.history1 img{
-		margin-left: -40px;
+		margin-left: 0px;
+		padding-left: 0px;
 	}
 	.history1 span{
 		margin-top: 20px;
@@ -484,6 +485,7 @@ figure.show {
 	.history2 img{
 		margin-top: 20px;
 		margin-right: -100px !important;
+		margin-left: 0px;
 	}
 	.history2 span{
 		margin-left: 23px !important;
@@ -492,7 +494,7 @@ figure.show {
 
 	.history3 img{
 		margin-top: 20px !important;
-		margin-left: -40px !important;
+		margin-left: 0px !important;
 	}
 	.history3 span{
 		margin-right: 17px !important;

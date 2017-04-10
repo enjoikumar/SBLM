@@ -508,6 +508,7 @@ figure.show {
 	.history1 span{
 		margin-right: 13px;
 		margin-top: 20px;
+		text-align: left;
 	}
 
 	.history2 img{
@@ -522,6 +523,7 @@ figure.show {
 	.history3 span{
 		margin-right: 13px;
 		margin-top: 20px;
+		text-align: left;
 	}
 
 	.history4 img{
