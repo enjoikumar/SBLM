@@ -421,6 +421,7 @@ figure.show {
 	}
 }
 
+
 @media only screen and (max-width: 414px) {
 	figure{
 		height: 375px
@@ -446,6 +447,7 @@ figure.show {
 	.history1 img{
 		padding-left: 0px;
 		height: 400px;
+		margin-left: 0px;
 	}
 	.history1 span{
 		margin-top: 20px;
@@ -455,6 +457,7 @@ figure.show {
 	.history2 img{
 		padding-right: 0px;
 		margin-top: 20px;
+		margin-right: 0px;
 	}
 	.history2 span{
 		margin-top: 20px;
@@ -465,6 +468,7 @@ figure.show {
 		padding-left: 0px;
 		margin-top: 20px;
 		height: 400px;
+		margin-left: 0px;
 	}
 
 	.history4 img{

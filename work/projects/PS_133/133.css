@@ -594,7 +594,8 @@ figure.show {
 
 	.history1 img{
 		height: 414px;
-		padding-left: 0px;
+		padding-left: 0px !important;
+		margin-left: 0px;
 	}
 	.history1 span{
 		margin-top: 20px;
@@ -618,6 +619,7 @@ figure.show {
  	.history4 img{
  		padding-top: 0px;
  		margin-top: 20px;
+ 		margin-left: 0px;
  	}
 
 	.history5 img{
@@ -627,6 +629,7 @@ figure.show {
 
 	.history6 img{
 		margin-top: 440px;
+		margin-right: 0px;
 	} 
 
 	.history7 img{

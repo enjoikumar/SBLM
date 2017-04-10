@@ -455,20 +455,22 @@ figure.show {
 	.history2 img{
 		padding-right: 0px;
 		margin-top: 20px;
+		margin-right: 0px;
 	}
 	.history2 span{
-		padding-left: 25px;
 		margin-top: 20px;
 		padding-bottom: 20px;
 	}
 
 	.history3 img{
 		padding-left: 0px;
+		margin-left: 0px;
 	}
 
 	.history4 img{
 		height: 300px;
 		margin-top: 20px;
+		margin-left: 0px;
 	}
 
 	#team{
@@ -526,7 +528,7 @@ figure.show {
 
 	.history2 span{
 		width: 320px;
-		padding-left: 27.5px;
+
 	}
 	
 	.history3 img{
@@ -568,7 +570,6 @@ figure.show {
 
 	.history2 span{
 		width: 290px;
-		padding-left: 15px;
 	}
 
 	.history3 img,

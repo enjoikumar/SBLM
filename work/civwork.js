@@ -1,4 +1,3 @@
-
 $(document).ready(function(){
 
   $education = $("[id = education]");
