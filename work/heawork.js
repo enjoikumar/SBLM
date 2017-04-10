@@ -173,17 +173,8 @@ $(document).ready(function(){
   })
 
 
-  var clicks = [
-    $('#education'),
-    $('#retail'),
-    $('#mixed'),
-    $('#health'),
-    $('#civic')
-  ]
 
-  var click = clicks[Math.floor(Math.random()*clicks.length)]; 
-
-  click.trigger('click')
+  $health.trigger('click')
 
 
 

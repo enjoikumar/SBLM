@@ -183,7 +183,7 @@ $(document).ready(function(){
 
   var click = clicks[Math.floor(Math.random()*clicks.length)]; 
 
-  click.trigger('click')
+  $mixed.trigger('click')
 
 
 
