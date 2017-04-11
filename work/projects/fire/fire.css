@@ -70,6 +70,31 @@ figure.show {
 	height: 66%;
 }
 
+.expand{
+	position: relative;
+	font-size: 30px;
+	float: right;
+	cursor: pointer;
+	color: white;
+	z-index: 3;
+	margin-top: -150px;
+	margin-right: 40px;
+}
+
+.history2{
+	display: none;
+	font-size: 30px;
+	background-color: black;
+	width: 93.8%;
+	position: absolute;
+	color: white !important;
+	background-color: black;
+	padding: 40px 40px 40px 40px;
+}
+.history2 p{
+	width: 1000px;
+}
+
 
 @media only screen and (min-width: 1920px) {
 	figure{
@@ -82,7 +107,7 @@ figure.show {
 
 @media only screen and (max-width: 414px) {
 	figure{
-		height: 365px;
+		height: 375px;
 	}
 	figure img{
 		height: 375px;
@@ -97,6 +122,12 @@ figure.show {
 		color: white;
 		background-color: black;
 		opacity: .8;
+	}
+	.expand{
+		display: none;
+	}
+	.history2{
+		display: block;
 	}
 }
 
