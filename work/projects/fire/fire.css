@@ -136,14 +136,26 @@ figure.show {
 	figure img{
 		height: 350px;
 	}
+	.history2{
+		margin-top: -220px;
+	}
+	.history2 p{
+		width: 320px;
+	}
 }
 
 @media only screen and (max-width: 320px) {
 	figure{
 		height: 300px;
-	}
+	}	
 	figure img{
 		height: 300px;
+	}
+	.history2{
+		margin-top: -200px;
+	}
+	.history2 p{
+		width: 290px;
 	}
 }
 

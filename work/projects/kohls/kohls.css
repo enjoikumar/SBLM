@@ -251,6 +251,9 @@ figure.show {
 	figure img{
 		height: 350px;
 	}
+	.history5{
+		margin-top: -235px;
+	}
 }
 
 
@@ -261,6 +264,12 @@ figure.show {
 	}
 	figure img{
 		height: 300px;
+	}
+	.history5{
+		margin-top: -205px;
+	}
+	.history5 p{
+		width: 280px;
 	}
 }
 

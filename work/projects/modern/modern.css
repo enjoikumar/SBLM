@@ -185,6 +185,13 @@ figure.show {
 	figure img{
 		height: 320px;
 	}
+
+	.history3{
+		margin-top: -215px;
+	}
+	.history3 p{
+		width: 320px;
+	}
 }
 
 @media only screen and (max-width: 320px){
@@ -193,6 +200,12 @@ figure.show {
 	}
 	figure img{
 		height: 300px;
+	}
+	.history3{
+		margin-top: -184px;
+	}
+	.history3 p{
+		width: 270px;
 	}
 }
 

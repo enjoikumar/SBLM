@@ -242,6 +242,13 @@ figure.show {
 	figure img{
 		height: 350px;
 	}
+
+	.history2{
+		margin-top: -215px;
+	}
+	.history2 p{
+		width: 320px;
+	}
 }
 
 @media only screen and (max-width: 320px) {
@@ -250,6 +257,15 @@ figure.show {
 	}
 	figure img{
 		height: 300px;
+	}
+	.title{
+		margin-top: -66px;
+	}
+	.history2{
+		margin-top: -183px;
+	}
+	.history2 p{
+		width: 280px;
 	}
 }
 
