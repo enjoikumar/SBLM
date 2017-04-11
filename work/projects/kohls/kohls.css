@@ -119,6 +119,32 @@ figure.show {
 	padding: 40px 40px 40px 40px;
 }
 
+.expand{
+	position: relative;
+	font-size: 30px;
+	float: right;
+	cursor: pointer;
+	color: white;
+	z-index: 3;
+	margin-top: -150px;
+	margin-right: 40px;
+}
+
+.history5{
+	display: none;
+	font-size: 30px;
+	background-color: black;
+	width: 93.8%;
+	position: absolute;
+	color: white !important;
+	background-color: black;
+	padding: 40px 40px 40px 40px;
+	margin-top: -25px;
+}
+.history5 p{
+	width: 1000px;
+}
+
 .down{
 	width: 100%;
 	height: 85px;
@@ -198,6 +224,17 @@ figure.show {
 	}
 	.history4 span{
 		display: none;
+	}
+
+	.expand{
+		display: none;
+	}
+	.history5{
+		display: block;
+		font-size: 20px;
+	}
+	.history5 p{
+		width: 320px;
 	}
 }
 
