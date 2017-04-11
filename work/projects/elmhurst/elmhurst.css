@@ -692,6 +692,10 @@ figure.show {
 		margin-top: 20px;
 		height: 300px;
 	}
+	.history8 span, 
+	.history9{
+		display: none;
+	}
 
 	#team{
 		margin-top: 20px;

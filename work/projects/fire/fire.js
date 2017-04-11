@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
  
-  $down = $('.down')
+  $down = $('.slideshow')
 
 
   $down.click(function() {

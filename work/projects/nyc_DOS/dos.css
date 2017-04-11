@@ -122,6 +122,31 @@ figure.show {
 	height: 66%;
 }
 
+.expand{
+	position: relative;
+	font-size: 30px;
+	float: right;
+	cursor: pointer;
+	color: white;
+	z-index: 3;
+	margin-top: -150px;
+	margin-right: 40px;
+}
+
+.history2{
+	display: none;
+	font-size: 30px;
+	background-color: black;
+	width: 93.8%;
+	position: absolute;
+	color: white !important;
+	background-color: black;
+	padding: 40px 40px 40px 40px;
+}
+.history2 p{
+	width: 1000px;
+}
+
 
 .other{
 	font-size: 1.75em;
