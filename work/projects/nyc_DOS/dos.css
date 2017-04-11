@@ -217,6 +217,17 @@ figure.show {
 		background-color: black;
 		opacity: .8;
 	}
+
+	.expand{
+		display: none;
+	}
+	.history2{
+		display: block;
+		font-size: 20px;
+	}
+	.history2 p{
+		width: 350px;
+	}
 }
 
 /*iphone 6*/

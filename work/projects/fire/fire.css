@@ -121,6 +121,10 @@ figure.show {
 	}
 	.history2{
 		display: block;
+		font-size: 20px;
+	}
+	.history2 p{
+		width: 350px;
 	}
 }
 

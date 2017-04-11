@@ -10,7 +10,7 @@ $(document).ready(function(){
     }, 500);
   });
 
-
+  //div should be the item that will be displayed and not
   $history = $('.history2');
   $expand = $('.expand');
 
