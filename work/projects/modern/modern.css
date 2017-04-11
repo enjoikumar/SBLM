@@ -162,6 +162,20 @@ figure.show {
 	  padding: 10px 20px 10px 10px;
 		margin-top: -44px;
 	}
+
+	.expand{
+		display: none;
+	}
+	.history3{
+		display: block;
+		font-size: 20px;
+		margin-top: -238px;
+		padding: 20px 20px 20px 20px;
+		width: 100%;
+	}
+	.history3 p{
+		width: 350px;
+	}
 }
 
 @media only screen and (max-width: 375px) {

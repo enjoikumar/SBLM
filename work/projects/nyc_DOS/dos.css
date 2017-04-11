@@ -3,6 +3,7 @@
 }
 body{
 	font-family: 'Roboto', sans-serif;
+	background-color: black;
 }
 
 
@@ -224,6 +225,9 @@ figure.show {
 	.history2{
 		display: block;
 		font-size: 20px;
+		margin-top: -238px;
+		padding: 20px 20px 20px 20px;
+		width: 100%;
 	}
 	.history2 p{
 		width: 350px;

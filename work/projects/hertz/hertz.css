@@ -243,6 +243,9 @@ figure.show {
 	.history7{
 		display: block;
 		font-size: 20px;
+		margin-top: -237px;
+		padding: 20px 20px 20px 20px;
+		width: 100%;
 	}
 	.history7 p{
 		width: 350px;
