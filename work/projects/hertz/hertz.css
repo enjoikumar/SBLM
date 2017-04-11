@@ -105,13 +105,13 @@ figure.show {
 	padding-top: 40px;
 }
 
-.history5 img{
+.history2 img{
 	width: 100%;
 	height: 66%;
 	margin-top: -40px;
 }
 
-.history6 span{
+.history1 span{
 	font-size: 24px;
 	color: white;
 	width: 300px;
@@ -133,7 +133,7 @@ figure.show {
 	margin-right: 40px;
 }
 
-.history7{
+.history3{
 	display: none;
 	font-size: 30px;
 	background-color: black;
@@ -143,7 +143,7 @@ figure.show {
 	background-color: black;
 	padding: 40px 40px 40px 40px;
 }
-.history7 p{
+.history3 p{
 	width: 1000px;
 }
 
@@ -175,7 +175,7 @@ figure.show {
 		height: 960px;
 	}
 
-	.history6 span{
+	.history1 span{
 		font-size: 24px;
 		width: 500px;
 		margin-top: -600px;
@@ -190,7 +190,7 @@ figure.show {
 	figure img{
 		height: 414px;
 	}
-	.history6 span{
+	.history1 span{
 		font-size: 15px;
 		width: 200px;
 		margin-top: -300px;
@@ -205,7 +205,7 @@ figure.show {
 	figure img {
 		height: 375px;
 	}
-	.history6 span{
+	.history1 span{
 		margin-top: -300px;
 		margin-left: 427px;
 	}
@@ -218,7 +218,7 @@ figure.show {
 	figure img{
 		height: 320px;
 	}
-	.history6 span{
+	.history1 span{
 		display: none;
 	}
 }
@@ -240,14 +240,14 @@ figure.show {
 	.expand{
 		display: none;
 	} 
-	.history7{
+	.history3{
 		display: block;
 		font-size: 20px;
 		margin-top: -237px;
 		padding: 20px 20px 20px 20px;
 		width: 100%;
 	}
-	.history7 p{
+	.history3 p{
 		width: 350px;
 	}
 }
@@ -262,10 +262,10 @@ figure.show {
 	.title{
 		margin-top: -44px;
 	}
-	.history7{
+	.history3{
 		margin-top: -215px;
 	}
-	.history7 p{
+	.history3 p{
 		width: 340px;
 	}
 }
@@ -280,10 +280,10 @@ figure.show {
 	.title{
 		margin-top: -44px;
 	}
-	.history7{
+	.history3{
 		margin-top: -184px;
 	}
-	.history7 p{
+	.history3 p{
 		width: 290px;
 	}
 }

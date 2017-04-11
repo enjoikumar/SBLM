@@ -1,13 +1,5 @@
 
-
-
 $(document).ready(function(){
-
-  $(".carousel").flickity({
-    "wrapAround": true, 
-    "pageDots": false, 
-    "autoPlay": true
-  });
 
   //just another way of writing document.ready
   //but for some reason, need to have both
@@ -81,11 +73,11 @@ $(document).ready(function(){
 
   $down.click(function() {
     $('html, body').animate({
-        scrollTop: $(".history2").offset().top
+        scrollTop: $(".history1").offset().top
     }, 500);
   }); 
 
-  $history = $('.history3');
+  $history = $('.history2');
   $expand = $('.expand');
 
   var count = 0;
@@ -104,7 +96,7 @@ $(document).ready(function(){
       $history.css("display", "none")
       $expand.html('&#x254B;')
       $('html, body').animate({
-        scrollTop: $(".history2").offset().top
+        scrollTop: $(".history1").offset().top
     }, 400);
     }
   })

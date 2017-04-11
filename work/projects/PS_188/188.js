@@ -1,13 +1,6 @@
 
 
-
 $(document).ready(function(){
-
-  $(".carousel").flickity({
-    "wrapAround": true, 
-    "pageDots": false, 
-    "autoPlay": true
-  });
 
   //just another way of writing document.ready
   //but for some reason, need to have both
@@ -78,7 +71,7 @@ $(document).ready(function(){
   $window.trigger('scroll');
 
 
-  $history = $(".history6")
+  $history = $(".history2")
 
   $expand = $('.expand')
 
@@ -99,7 +92,7 @@ $(document).ready(function(){
 
   $down.click(function() {
     $('html, body').animate({
-        scrollTop: $(".history5").offset().top
+        scrollTop: $(".history1").offset().top
     }, 500);
   }); 
 })

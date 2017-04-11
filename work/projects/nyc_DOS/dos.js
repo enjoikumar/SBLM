@@ -56,7 +56,7 @@ $(document).ready(function(){
 
   $down.click(function() {
     $('html, body').animate({
-        scrollTop: $(".history5").offset().top
+        scrollTop: $(".history1").offset().top
     }, 500);
   });
 
@@ -80,7 +80,7 @@ $(document).ready(function(){
       $history.css("display", "none")
       $expand.html('&#x254B;')
       $('html, body').animate({
-        scrollTop: $(".history5").offset().top
+        scrollTop: $(".history1").offset().top
     }, 400);
     }
   })

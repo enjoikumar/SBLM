@@ -157,87 +157,6 @@ figure.show {
 }
 
 
-/*team stuff*/
-#team{
-	background-color: rgb(38,38,38);
-	margin-top: 40px;
-	padding-left: 120px;
-	color: white;
-}
-.team{
-	background-color: rgb(38,38,38) !important;
-	color: white;
-	padding-top: 40px;
-	padding-bottom: 40px;
-}
-.team1 img{
-	padding-left: 60%;
-	margin-top: -100px;
-	padding-bottom: 60px;
-}
-.team1 span, .team1 p{
-	padding-left: 10%;
-	font-size: 1.3em;
-}
-
-
-
-
-/*detail stuff*/
-.details {
-	padding-top: 40px;
-	padding-left: 120px;
-	padding-bottom: 40px;
-	background-color: rgb(24,23,23);
-	color: white;
-}
-.stat {
-	width: 300px;
-	padding-bottom: 20px;
-	font-size: 1.5em;
-}
-
-
-.other{
-	font-size: 1.75em;
-	background-color: black;
-	color: white;
-	padding-top: 40px;
-	padding-left: 40px;
-}
-
-
-
-/*slider at the bottom stuff*/
-.carousel {
-	padding-top:10px;
-	background-color: black;
-}
-
-.carousel-cell {
-  width: 200px;
-  height: 200px;
-  margin-right: 10px;
-  border-radius: 5px;
-  counter-increment: carousel-cell;
-}
-
-/* cell number */
-.carousel-cell:before {
-  display: block;
-  text-align: center;
-  content: counter(carousel-cell);
-  line-height: 200px;
-  font-size: 80px;
-  color: black;
-}
-
-.flickity-prev-next-button.next {
-	margin-top: 0px;
-}
-
-
-
 
 @media only screen and (min-width: 1920px) {
 	figure{
@@ -324,10 +243,6 @@ figure.show {
 
 	.history4 img {
 		margin-top: 20px;
-	}
-
-	#team{
-		margin-left: -115px;
 	}
 }
 
@@ -475,31 +390,6 @@ figure.show {
 		margin-top: 20px;
 		height: 400px;
 	}
-
-	#team{
-		margin-left: -115px;
-	}
-	.team1 {
-		padding-left: 60px;
-		padding-bottom: 80px;
-	}
-	.team1 img{
-		width: 200px;
-		height: 200px;
-		padding-left: 60px;
-		padding-top: 180px;
-	}
-
-	.details{
-		padding-left: 40px;
-	}
-
-	.flickity-prev-next-button.next {
-		display: none;
-	}
-	.flickity-prev-next-button {
-		display: none;
-	}
 }
 
 @media only screen and (max-width: 375px) {
@@ -522,11 +412,6 @@ figure.show {
 	.history1 span{
 		margin-right: 10px;
 	}
-
-	.team1{
-		padding-left: 30px;
-		padding-bottom: 20px;
-	}
 }
 
 @media only screen and (max-width: 320px) {
@@ -540,17 +425,6 @@ figure.show {
 	.history span{
 		width: 290px;
 		font-size: .9em;
-	}
-
-	.team1{
-		width: 275px;
-		padding-left: 22.5px;
-	}
-	.team1 img{
-		padding-left: 40px;
-	}
-	.details {
-		padding-left: 10px;
 	}
 }
 

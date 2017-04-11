@@ -1,13 +1,5 @@
 
-
-
 $(document).ready(function(){
-
-  $(".carousel").flickity({
-    "wrapAround": true, 
-    "pageDots": false, 
-    "autoPlay": true
-  });
 
   //just another way of writing document.ready
   //but for some reason, need to have both

@@ -13,12 +13,6 @@ body{
 	overflow: hidden;
 }
 
-/*.slideshow:hover > .next{
-	background-color: white;
-}
-.slideshow:hover > .prev{
-	background-color: white;
-}*/
 /*makes the slideshow width fit the screen and height, also the transition speed 
 and how opaque the image can be*/
 figure{
@@ -176,85 +170,6 @@ figure.show {
 }
 
 
-/*team stuff*/
-#team{
-	background-color: rgb(38,38,38);
-	margin-top: 500px;
-	padding-left: 120px;
-	color: white;
-}
-.team{
-	background-color: rgb(38,38,38) !important;
-	color: white;
-	padding-top: 40px;
-	padding-bottom: 40px;
-}
-.team1 img{
-	padding-left: 60%;
-	margin-top: -100px;
-	padding-bottom: 60px;
-}
-.team1 span, .team1 p{
-	padding-left: 10%;
-	font-size: 1.3em;
-}
-
-
-
-
-/*detail stuff*/
-.details {
-	padding-top: 40px;
-	padding-left: 120px;
-	padding-bottom: 40px;
-	background-color: rgb(24,23,23);
-	color: white;
-}
-.stat {
-	width: 300px;
-	padding-bottom: 20px;
-	font-size: 1.5em;
-}
-
-
-.other{
-	font-size: 1.75em;
-	background-color: black;
-	color: white;
-	padding-top: 40px;
-	padding-left: 40px;
-}
-
-
-/*slider at the bottom stuff*/
-.carousel {
-	padding-top:10px;
-	background-color: black;
-}
-
-.carousel-cell {
-  width: 200px;
-  height: 200px;
-  margin-right: 10px;
-  border-radius: 5px;
-  counter-increment: carousel-cell;
-}
-
-/* cell number */
-.carousel-cell:before {
-  display: block;
-  text-align: center;
-  content: counter(carousel-cell);
-  line-height: 200px;
-  font-size: 80px;
-  color: black;
-}
-
-.flickity-prev-next-button.next {
-	margin-top: 0px;
-}
-
-
 
 @media only screen and (min-width: 1920px){
 	figure{
@@ -310,17 +225,6 @@ figure.show {
 	.history5 img{
 		margin-right: 100px;
 	}
-
-	#team{
-		margin-top: 700px;
-	}
-
-	.team, .details{
-		font-size: 1.25em;
-	}
-	.team{
-		padding-bottom: 40px;
-	}
 }
 
 @media only screen and (max-width: 736px) {
@@ -370,11 +274,6 @@ figure.show {
 		margin-right: 20px;
 		margin-top: 0px;
 	}
-
-	#team{
-		margin-top: 1050px;
-		margin-left: -115px;
-	}
 }
 
 @media only screen and (max-width: 667px) {
@@ -422,11 +321,6 @@ figure.show {
 		width: 627px;
 		margin-right: 20px;
 		margin-top: 0px;
-	}
-
-	#team{
-		margin-top: 1050px;
-		margin-left: -115px;
 	}
 }
 
@@ -536,40 +430,6 @@ figure.show {
 		margin-right: 0px;
 		margin-top: 0px;
 	}
-
-	#team{
-		margin-top: 1060px;
-		margin-left: -115px;
-	}
-
-	.team1{
-		padding-left: 60px;
-		padding-bottom: 80px;
-		font-size: 1em;
-	}
-	.team1 span{
-		font-size: 1em;
-	}
-	.team1 img{
-		width: 200px;
-		height: 200px;
-		padding-left: 60px;
-		padding-top: 180px;
-	}
-
-	.details{
-		padding-left: 40px;
-	}
-	.stat{
-		font-size: 1em;
-	}
-
-	.flickity-prev-next-button.next {
-		display: none;
-	}
-	.flickity-prev-next-button {
-		display: none;
-	}
 }
 
 @media only screen and (max-width: 375px) {
@@ -585,15 +445,6 @@ figure.show {
 	.history span{
 		width: 320px;
 		margin-right: 23.5px;
-	}
-
-	#team{
-		margin-top: 1080px;
-	}
-	
-	.team1{
-		padding-left: 30px;
-		padding-bottom: 20px;
 	}
 }
 
@@ -618,20 +469,6 @@ figure.show {
 	.history4 img,
 	.history5 img{
 		height: 213.33px;
-	}
-
-	#team{
-		margin-top: 700px;
-	}
-	.team1{
-		width: 275px;
-		padding-left: 22.5px;
-	}
-	.team1 img{
-		padding-left: 40px;
-	}
-	.details {
-		padding-left: 10px;
 	}
 }
 

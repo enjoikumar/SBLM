@@ -1,6 +1,4 @@
 
-
-
 $(document).ready(function(){
 
   //just another way of writing document.ready
@@ -75,12 +73,12 @@ $(document).ready(function(){
 
   $down.click(function() {
     $('html, body').animate({
-        scrollTop: $(".history4").offset().top
+        scrollTop: $(".history1").offset().top
     }, 500);
   }); 
 
 
-  $history = $('.history5');
+  $history = $('.history2');
   $expand = $('.expand');
 
   var count = 0;
@@ -99,7 +97,7 @@ $(document).ready(function(){
       $history.css("display", "none")
       $expand.html('&#x254B;')
       $('html, body').animate({
-        scrollTop: $(".history4").offset().top
+        scrollTop: $(".history1").offset().top
     }, 400);
     }
   })
