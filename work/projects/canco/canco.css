@@ -103,6 +103,29 @@ figure.show {
 	font-size: 1.25em;
 }
 
+.expand{
+	position: relative;
+	font-size: 30px;
+	float: right;
+	cursor: pointer;
+	color: white;
+	z-index: 3;
+	margin-top: -700px;
+	margin-right: 40px;
+}
+.fold{
+	display: none;
+	position: absolute;
+	font-size: 40px !important;
+	margin-top: -745px;
+	width: 1140px;
+	height: 561px;
+	color:white;
+	background-color: black;
+	padding: 80px 80px 80px 60px;
+	opacity: .9;
+}
+
 .history1 img {
 	padding-left: 50px;
 }
@@ -187,6 +210,15 @@ figure.show {
 		font-size: 1.5em;
 	}
 
+	.expand{
+		margin-top: -1050px;
+	}
+	.fold{
+		margin-top: -1105px;
+		width: 1780px;
+		height: 919px;
+	}
+
 	.history1 img{
 		width: 650px;
 		height: 900px;
@@ -233,6 +265,16 @@ figure.show {
 	}
 	figure img{
 		height: 414px;
+	}
+
+	.expand{
+		margin-top: -400px;
+	}
+	.fold{
+		font-size: 20px !important;
+		height: 255px;
+		width: 595px;
+		margin-top: -439px;
 	}
 
 	.history1 img{
@@ -283,6 +325,16 @@ figure.show {
 	figure img{
 		height: 375px;
 	}
+	.expand{
+		margin-top: -370px;
+	}
+	.fold{
+		margin-top: -399px;
+		width: 568px;
+		height: 275px;
+		padding-left: 20px;
+		padding-top: 20px;
+	}
 	.history1 img{
 		width: 627px;
 		padding-left: 20px;
@@ -332,6 +384,17 @@ figure.show {
 		height: 320px;
 	}
 
+	.expand{
+		margin-top: -330px;
+		font-size: 20px;
+		margin-right: 20px;
+	}
+	.fold{
+		margin-top: -344px;
+		width: 468px;
+		height: 220px;
+	}
+
 	.history1 img{
 		width: 528px;
 		padding-left: 20px;
@@ -379,6 +442,16 @@ figure.show {
 	}
 	figure img{
 		height: 375px;
+	}
+
+	.expand{
+		margin-top: -230px;
+	}
+	.fold{
+		font-size: 12px !important;
+		margin-top: -257px;
+		width: 314px !important;
+		height: 133px !important;
 	}
 
 	.title{
@@ -439,6 +512,16 @@ figure.show {
 	figure img{
 		height: 350px
 	}
+
+	.expand{
+		margin-top: -210px;
+	}
+	.fold{
+		margin-top: -235px;
+		width: 275px !important;
+		height: 111px !important;
+	}
+
 	.history img{
 		width: 100%;
 	}
@@ -454,6 +537,15 @@ figure.show {
 	}
 	figure img{
 		height: 300px;
+	}
+	.expand{
+		margin-top: -200px;
+	}
+	.fold{
+		margin-top: -204px;
+		font-size: 10px !important;
+		width: 220px !important;
+		height: 80px !important;
 	}
 
 	.history img{
