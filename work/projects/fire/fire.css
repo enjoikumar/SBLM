@@ -80,7 +80,7 @@ figure.show {
 	display: none;
 	font-size: 30px;
 	background-color: black;
-	width: 93.8%;
+	width: 1200px;
 	position: absolute;
 	color: white !important;
 	background-color: black;
@@ -99,6 +99,19 @@ figure.show {
 		height: 960px;
 	}
 }
+
+@media only screen and (max-width: 736px) {
+	.expand{
+		margin-top: -60px;
+	}
+	.history2{
+		width: 726px !important;
+	}
+	.history2 p, .history2 span{
+		width: 650px !important;
+	}
+}
+
 
 @media only screen and (max-width: 414px) {
 	figure{
