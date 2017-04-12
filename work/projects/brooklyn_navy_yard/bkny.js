@@ -1,6 +1,4 @@
 
-
-
 $(document).ready(function(){
 
   //just another way of writing document.ready
@@ -78,6 +76,25 @@ $(document).ready(function(){
         scrollTop: $(".history4").offset().top
     }, 500);
   });
+
+  //div should be the item that will be displayed and not
+  $fold = $('.fold');
+  $expand = $('.expand');
+
+  var count = 0;
+
+  //user clicks on plus it turns to minus
+  //it also
+  $expand.click(function(){
+    count++;
+    if(count%2){
+      $fold.css("display", "block")
+      $expand.html('&#x2501;')
+    } else{
+      $fold.css("display", "none")
+      $expand.html('&#x254B;')
+    }
+  })
 })
 
 
