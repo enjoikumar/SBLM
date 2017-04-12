@@ -419,6 +419,7 @@ figure.show {
 	figure img{
 		height: 375px;
 	}
+
 	.expand{
 		margin-top: -230px;
 	}
@@ -526,7 +527,15 @@ figure.show {
 		font-size: 10px !important;
 		width: 220px !important;
 		height: 80px !important;
+		padding-right: 0px;
+		padding-left: 0px;
 	}
+	
+	.fold p, .fold span{
+		width: 260px;
+		margin-left: 20px;
+	}
+
 
 	.history span{
 		width: 290px;
