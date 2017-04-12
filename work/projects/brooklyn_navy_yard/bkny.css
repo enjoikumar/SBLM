@@ -360,12 +360,18 @@ figure.show {
 
 	.expand{
 		margin-top: -310px;
+		font-size: 20px;
+		margin-right: 20px;
 	}
 	.fold{
-		display: block;
 		margin-top: -325px;
 		width: 468px;
 		height: 220px;
+	}
+
+	.title{
+		font-size: 20px !important;
+		margin-top: -65px;
 	}
 
 	.history1 img{
@@ -413,6 +419,15 @@ figure.show {
 	}
 	figure img{
 		height: 375px;
+	}
+	.expand{
+		margin-top: -230px;
+	}
+	.fold{
+		font-size: 12px !important;
+		margin-top: -237px;
+		width: 314px !important;
+		height: 133px !important;
 	}
 
 	.title{
@@ -467,6 +482,15 @@ figure.show {
 		height: 350px;
 	}
 
+	.expand{
+		margin-top: -210px;
+	}
+	.fold{
+		margin-top: -215px;
+		width: 275px !important;
+		height: 111px !important;
+	}
+
 	.history span{
 		width: 320px;
 	}
@@ -493,6 +517,16 @@ figure.show {
 	}
 	figure img{
 		height: 300px;
+	}
+
+	.expand{
+		margin-top: -180px;
+	}
+	.fold{
+		margin-top: -184px;
+		font-size: 10px !important;
+		width: 220px !important;
+		height: 80px !important;
 	}
 
 	.history span{
