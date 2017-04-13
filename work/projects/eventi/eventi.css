@@ -119,10 +119,11 @@ figure.show {
 	font-size: 40px;
 	margin-top: -725px;
 	width: 1140px;
-	height: 561px;
+	height: 521px;
 	color:white;
 	background-color: black;
 	padding: 80px 80px 80px 60px;
+	padding-top: 120px;
 	opacity: .9;
 }
 
@@ -207,7 +208,7 @@ figure.show {
 	.fold{
 		margin-top: -1084px;
 		width: 1780px;
-		height: 920px;
+		height: 880px;
 	}
 
 	.history span{

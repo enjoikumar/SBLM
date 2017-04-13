@@ -98,6 +98,30 @@ figure.show {
 	opacity: .8;
 }
 
+
+.expand{
+	position: relative;
+	font-size: 30px;
+	float: right;
+	cursor: pointer;
+	color: white;
+	z-index: 3;
+	margin-top: -650px;
+	margin-right: 40px;
+}
+.fold{
+	display: none;
+	position: absolute;
+	font-size: 40px;
+	margin-top: -744px;
+	width: 1140px;
+	height: 560px;
+	color:white;
+	background-color: black;
+	padding: 80px 80px 80px 60px;
+	opacity: .9;
+}
+
 /*project history stuff*/
 .history {
 	padding-top: 40px;
@@ -170,6 +194,15 @@ figure.show {
 		height: 960px;
 	}
 
+	.expand{
+		margin-top: -1000px;
+	}
+	.fold{
+		margin-top: -1104px;
+		width: 1780px;
+		height: 920px;
+	}
+
 	.history1 img,
 	.history2 img{
 		width: 900px;
@@ -202,11 +235,21 @@ figure.show {
 		height: 414px;
 	}
 
+	.expand{
+		margin-top: -400px;
+	}
+	.fold{
+		font-size: 20px;
+		height: 254px;
+		width: 596px !important;
+		margin-top: -438px !important;
+	}
+
 	.history span{
 		width: 696px;
 		margin-top: 20px;
 		margin-right: 20px;
-		text-align: center;
+		/*text-align: center;*/
 	}
 
 	.history1 img{
@@ -252,11 +295,28 @@ figure.show {
 		height: 375px;
 	}
 
+	.expand{
+		margin-top: -370px;
+	}
+	.fold{
+		margin-top: -399px !important;
+		width: 567px !important;
+		height: 275px !important;
+		padding-left: 20px;
+		padding-top: 20px;
+	}
+
+	.title{
+		font-size: 20px !important;
+		margin-top: -64px;
+	}
+
+
 	.history span{
 		width: 627px;
 		margin-top: 20px;
 		margin-right: 20px;
-		text-align: center;
+		/*text-align: center;*/
 	}
 
 	.history1 img{
@@ -302,11 +362,22 @@ figure.show {
 		height: 320px;
 	}
 
+	.expand{
+		margin-top: -310px;
+		font-size: 20px;
+		margin-right: 20px;
+	}
+	.fold{
+		margin-top: -344px !important;
+		width: 468px !important;
+		height: 220px !important;
+	}
+
 	.history span{
 		width: 528px;
 		margin-top: 20px;
 		margin-right: 20px;
-		text-align: center;
+		/*text-align: center;*/
 	}
 
 	.history1 img{
@@ -351,6 +422,16 @@ figure.show {
 	}
 	figure img{
 		height: 375px;
+	}
+
+	.expand{
+		margin-top: -230px;
+	}
+	.fold{
+		font-size: 12px !important;
+		margin-top: -257px !important;
+		width: 314px !important;
+		height: 134px !important;
 	}
 
 	.title{
@@ -400,6 +481,15 @@ figure.show {
 		height: 350px;
 	}
 
+	.expand{
+		margin-top: -210px;
+	}
+	.fold{
+		margin-top: -235px !important;
+		width: 275px !important;
+		height: 111px !important;
+	}
+
 	.history span{
 		width: 320px;
 		font-size: 1em; 
@@ -414,6 +504,16 @@ figure.show {
 	}
 	figure img{
 		height: 350px;
+	}
+
+	.expand{
+		margin-top: -260px;
+	}
+	.fold{
+		margin-top: -274px !important;
+		font-size: 10px !important;
+		width: 220px !important;
+		height: 150px !important;
 	}
 
 	.history img{
@@ -509,6 +609,32 @@ figure.show {
 
 
 
+.fold {
+  -webkit-animation: fadein 5000ms linear both;
+        animation: fadein 5000ms linear both;
+}
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 

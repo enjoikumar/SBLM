@@ -119,10 +119,11 @@ figure.show {
 	font-size: 40px !important;
 	margin-top: -745px;
 	width: 1140px;
-	height: 561px;
+	height: 521px;
 	color:white;
 	background-color: black;
 	padding: 80px 80px 80px 60px;
+	padding-top: 120px;
 	opacity: .9;
 }
 
@@ -214,9 +215,9 @@ figure.show {
 		margin-top: -1000px;
 	}
 	.fold{
-		margin-top: -1105px;
+		margin-top: -1106px;
 		width: 1780px;
-		height: 919px;
+		height: 880px;
 	}
 
 	.history1 img{

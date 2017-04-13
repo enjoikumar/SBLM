@@ -156,8 +156,9 @@ strong {
 	color:white;
 	background-color: black;
 	padding: 80px 80px 80px 60px;
+	padding-top: 120px;
 	opacity: .9;
-	height: 561px;
+	height: 521px;
 }
 
 
@@ -243,8 +244,7 @@ strong {
 	.fold{
 		margin-top: -804px;
 		width: 1780px;
-		height: 640px;
-		background-color: red;
+		height: 600px;
 	}
 
 	.history span{
