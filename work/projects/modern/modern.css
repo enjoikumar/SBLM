@@ -136,6 +136,7 @@ figure.show {
 	color: white !important;
 	background-color: black;
 	padding: 40px 40px 40px 40px;
+	margin-top: -5px;
 }
 .history2 p{
 	width: 1000px;
