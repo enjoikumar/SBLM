@@ -98,6 +98,9 @@ figure.show {
 	figure img{
 		height: 960px;
 	}
+	.expand{
+		margin-top: -200px;
+	}
 }
 
 @media only screen and (max-width: 736px) {
