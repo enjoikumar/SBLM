@@ -137,26 +137,34 @@ strong {
 	padding-top: 40px;
 }
 
-#trig{
-	font-size: 2em;
-	position: absolute;
-	margin-top: -250px;
-	padding-left: 40px;
+.expand{
+	position: relative;
+	font-size: 30px;
+	float: right;
+	cursor: pointer;
 	color: white;
+	z-index: 3;
+	margin-top: -630px;
+	margin-right: 40px;
 }
+.fold{
+	display: none;
+	position: absolute;
+	font-size: 40px;
+	margin-top: -725px;
+	width: 1140px;
+	color:white;
+	background-color: black;
+	padding: 80px 80px 80px 60px;
+	opacity: .9;
+	height: 561px;
+}
+
 
 .history1 img {
 	width: 100%;
 	height: 66%;
 	margin-top: -40px;
-}
-.history1 span {
-	font-size: 1.5em;
-	color: white;
-	width: 400px !important;
-	position: absolute;
-	margin-top: -200px;
-	padding-left: 40px;
 }
 
 
@@ -229,6 +237,16 @@ strong {
 		height: 960px;
 	}
 
+	.expand{
+		margin-top: -700px;
+	}
+	.fold{
+		margin-top: -804px;
+		width: 1780px;
+		height: 640px;
+		background-color: red;
+	}
+
 	.history span{
 		font-size: 1.75em;
 	}
@@ -262,10 +280,6 @@ strong {
 		width: 400px;
 		margin-left: 100px;
 	}
-
-	#team{
-		margin-top: 300px;
-	}
 }
 
 @media screen and (max-width: 736px) {
@@ -274,6 +288,16 @@ strong {
 	}
 	figure img{
 		height: 414px;
+	}
+
+	.expand{
+		margin-top: -400px;
+	}
+	.fold{
+		font-size: 20px;
+		height: 254px;
+		width: 596px;
+		margin-top: -418px;
 	}
 
 	.history2 img{
@@ -306,10 +330,6 @@ strong {
 		margin-top: 20px;
 		text-align: center;
 	}
-
-	#team{
-		margin-top: 110px;
-	}
 }
 
 @media screen and (max-width: 667px) {
@@ -318,6 +338,18 @@ strong {
 	}
 	figure img{
 		height: 375px;
+	}
+
+	.expand{
+		margin-top: -370px;
+		margin-right: 20px;
+	}
+	.fold{
+		margin-top: -379px;
+		width: 567px;
+		height: 275px;
+		padding-left: 20px;
+		padding-top: 20px;
 	}
 
 	.history2 img{
@@ -351,11 +383,6 @@ strong {
 		margin-top: 20px;
 		text-align: center;
 	}
-
-	#team{
-		margin-top: 110px;
-		margin-left: -30px
-	}
 }
 
 @media only screen and (max-width: 568px) {
@@ -364,6 +391,22 @@ strong {
 	}
 	figure img{
 		height: 320px;
+	}
+
+	.expand{
+		margin-top: -310px;
+		font-size: 20px;
+		margin-right: 20px;
+	}
+	.fold{
+		margin-top: -324px;
+		width: 468px;
+		height: 220px;
+	}
+
+	.title{
+		font-size: 20px !important;
+		margin-top: -64px;
 	}
 
 	.history2 img{
@@ -401,15 +444,19 @@ strong {
 	}
 }
 
-@media screen and (min-width: 415px){
-	#trig{
-		display: none;
-	}
-}
-
 @media screen and (max-width: 414px) {
 	figure, figure img{
 		height: 375px;
+	}
+
+	.expand{
+		margin-top: -480px;
+	}
+	.fold{
+		font-size: 12px !important;
+		margin-top: -504px;
+		width: 314px !important;
+		height: 400px !important;
 	}
 
 	.title{
@@ -428,18 +475,6 @@ strong {
 
 	.history1 img{
 		height: 500px;
-	}
-	.history1 span{
-		display: none;
-		width: 200px !important;
-		font-size: 1.1em;
-		margin-top: -150px;
-	}
-
-	#trig{
-		margin-top: -500px !important;
-		margin-left: 325px;
-		cursor: pointer;
 	}
 
 	.history2 img{
@@ -462,39 +497,6 @@ strong {
 		padding-bottom: 20px;
 	}
 
-
-	#team{
-		margin-top: 35px !important;
-		margin-left: -30px;
-	}
-	.team1 p{
-		font-size: 1em;
-	}
-	.team1 {
-		padding-left: 60px;
-		padding-bottom: 80px;
-	}
-	.team1 img{
-		width: 200px;
-		height: 200px;
-		padding-left: 60px;
-		padding-top: 180px;
-	}
-
-
-	.details{
-		padding-left: 40px;
-	}
-	.stat{
-		font-size: 1em;
-	}
-
-	.flickity-prev-next-button.next {
-		display: none;
-	}
-	.flickity-prev-next-button {
-		display: none;
-	}
 }
 
 @media screen and (max-width: 375px){
@@ -505,9 +507,13 @@ strong {
 		height: 350px;
 	}
 
-	#trig{
-		margin-left: 300px;
-		margin-top: -400px !important;
+	.expand{
+		margin-top: -380px;
+	}
+	.fold{
+		margin-top: -404px;
+		width: 275px !important;
+		height: 300px !important;
 	}
 
 	.history img{
@@ -536,12 +542,6 @@ strong {
 	.history4 span{
 		width: 320px !important;
 	}
-
-
-	.team1{
-		padding-left: 30px;
-		padding-bottom: 20px;
-	}
 }
 
 @media screen and (max-width: 320px){
@@ -552,9 +552,15 @@ strong {
 		width: 100%;
 		height: 300px;
 	}
-	#trig{
-		margin-top: -320px !important;
-		margin-left: 240px;
+
+	.expand{
+		margin-top: -310px;
+	}
+	.fold{
+		margin-top: -324px;
+		font-size: 10px !important;
+		width: 360px !important;
+		height: 220px !important;
 	}
 
 	.history{
@@ -604,21 +610,7 @@ strong {
 		font-size: 1em;
 		width: 290px !important;
 	}
-
-	.team1{
-		width: 275px;
-		padding-left: 22.5px;
-	}
-	.team1 img{
-		padding-left: 40px;
-	}
-
-	.details {
-		width: 320px;
-		padding-left: 10px;
-	}
 }
-
 
 
 

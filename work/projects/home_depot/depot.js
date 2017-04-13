@@ -44,14 +44,6 @@ $(document).ready(function(){
   
 	})(); 
 
-  var trig = document.getElementById("trig")
-  var first = document.getElementById("first")
-
-  trig.onclick = function(){
-    trig.style.display = "none";
-    first.style.display = "inline";
-  }
-
   var $animation_elements = $('.animation-element');
   var $window = $(window);
 
@@ -84,6 +76,24 @@ $(document).ready(function(){
         scrollTop: $(".history1").offset().top
     }, 500);
   });
+
+  $fold = $('.fold');
+  $expand = $('.expand');
+
+  var count = 0;
+
+  //user clicks on plus it turns to minus
+  //it also
+  $expand.click(function(){
+    count++;
+    if(count%2){
+      $fold.css("display", "block")
+      $expand.html('&#x2501;')
+    } else{
+      $fold.css("display", "none")
+      $expand.html('&#x254B;')
+    }
+  })
 })
 
 
