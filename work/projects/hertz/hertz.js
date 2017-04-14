@@ -74,12 +74,13 @@ $(document).ready(function(){
 
   $down.click(function() {
     $('html, body').animate({
-        scrollTop: $(".history2").offset().top
+        scrollTop: $(".history1").offset().top
     }, 500);
   });
 
 
-  $history = $('.history3');
+
+  $fold = $('.fold');
   $expand = $('.expand');
 
   var count = 0;
@@ -89,17 +90,11 @@ $(document).ready(function(){
   $expand.click(function(){
     count++;
     if(count%2){
-      $history.css("display", "block")
+      $fold.css("display", "block")
       $expand.html('&#x2501;')
-      $('html, body').animate({
-        scrollTop: $history.offset().top
-    }, 500);
     } else{
-      $history.css("display", "none")
+      $fold.css("display", "none")
       $expand.html('&#x254B;')
-      $('html, body').animate({
-        scrollTop: $(".history2").offset().top
-    }, 400);
     }
   })
 })

@@ -54,8 +54,7 @@ $(document).ready(function(){
     }, 500);
   });
 
-
-  $history = $('.history2');
+  $fold = $('.fold');
   $expand = $('.expand');
 
   var count = 0;
@@ -65,17 +64,11 @@ $(document).ready(function(){
   $expand.click(function(){
     count++;
     if(count%2){
-      $history.css("display", "block")
+      $fold.css("display", "block")
       $expand.html('&#x2501;')
-      $('html, body').animate({
-        scrollTop: $history.offset().top
-    }, 500);
     } else{
-      $history.css("display", "none")
+      $fold.css("display", "none")
       $expand.html('&#x254B;')
-      $('html, body').animate({
-        scrollTop: $(".history1").offset().top
-    }, 400);
     }
   })
 })
