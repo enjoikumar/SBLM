@@ -99,6 +99,29 @@ figure.show {
 	opacity: .8;
 }
 
+.expand{
+	position: relative;
+	font-size: 30px;
+	float: right;
+	cursor: pointer;
+	color: white;
+	z-index: 3;
+	margin-top: -630px;
+	margin-right: 40px;
+}
+.fold{
+	display: none;
+	position: absolute;
+	font-size: 40px;
+	margin-top: -744px;
+	width: 1140px;
+	height: 584px;
+	color:white;
+	background-color: black;
+	padding: 80px 80px 80px 60px;
+	opacity: .9;
+}
+
 /*project history stuff*/
 .history{
 	padding-top: 20px;
@@ -109,41 +132,6 @@ figure.show {
 	height: 66%;
 	margin-top: -20px;
 	padding-bottom: 20px;
-}
-.history1 span{
-	font-size: 1.25em;
-	width: 500px;
-	position: absolute;
-	margin-top: -550px;
-	color: white !important;
-	background-color: black;
-	padding: 40px 40px 40px 40px;
-}
-
-.expand{
-	position: relative;
-	font-size: 30px;
-	float: right;
-	cursor: pointer;
-	color: white;
-	z-index: 3;
-	margin-top: -150px;
-	margin-right: 40px;
-}
-
-.history2{
-	display: none;
-	font-size: 30px;
-	background-color: black;
-	width: 93.8%;
-	position: absolute;
-	color: white !important;
-	background-color: black;
-	padding: 40px 40px 40px 40px;
-	margin-top: -25px;
-}
-.history2 p{
-	width: 1000px;
 }
 
 .down{
@@ -171,15 +159,13 @@ figure.show {
 	figure img{
 		height: 960px;
 	}
-
-	.history1 span{
-		font-size: 1.5em;
-		width: 700px;
-		position: absolute;
-		margin-top: -700px;
-		color: white !important;
-		background-color: black;
-		padding: 40px 40px 40px 40px;
+	.expand{
+		margin-top: -1000px;
+	}
+	.fold{
+		margin-top: -1104px;
+		width: 1780px;
+		height: 945px;
 	}
 }
 
@@ -190,6 +176,15 @@ figure.show {
 	figure img{
 		height: 414px;
 	}
+	.expand{
+		margin-top: -400px;
+	}
+	.fold{
+		font-size: 20px;
+		height: 278px;
+		width: 596px;
+		margin-top: -438px;
+	}
 }
 
 @media only screen and (max-width: 667px) {
@@ -199,6 +194,20 @@ figure.show {
 	figure img{
 		height: 375px;
 	}
+	.expand{
+		margin-top: -370px;
+	}
+	.fold{
+		margin-top: -399px;
+		width: 568px;
+		height: 300px;
+		padding-left: 20px;
+		padding-top: 20px;
+	}
+	.title{
+		font-size: 20px !important;
+		margin-top: -64px;
+	}
 }
 
 @media only screen and (max-width: 568px) {
@@ -207,6 +216,16 @@ figure.show {
 	}
 	figure img{
 		height: 320px;
+	}
+	.expand{
+		margin-top: -310px;
+		font-size: 20px;
+		margin-right: 20px;
+	}
+	.fold{
+		margin-top: -344px;
+		width: 468px;
+		height: 244px;
 	}
 }
 
@@ -218,29 +237,33 @@ figure.show {
 	figure img{
 		height: 375px;
 	}
+	.expand{
+		margin-top: -230px;
+	}
+	.fold{
+		font-size: 12px !important;
+		margin-top: -257px;
+		width: 314px !important;
+		height: 153px !important;
+	}
+
+	.title{
+		font-size: 20px !important;
+		position: absolute;
+		z-index: 2;
+	  padding: 10px 20px 10px 10px;
+		margin-top: -44px;
+		color: white;
+		background-color: black;
+		opacity: .8;
+	}
 	.title{
 		font-size: 20px !important;
 	  padding: 10px 20px 10px 10px;
 		margin-top: -44px;
 	}
-	.history1 span{
-		display: none;
-	}
-
-	.expand{
-		display: none;
-	}
-	.history2{
-		display: block;
-		font-size: 20px;
-		padding: 20px 20px 20px 20px;
-		margin-top: -257px;
-		width: 100%;
-	}
-	.history2 p{
-		width: 320px;
-	}
 }
+
 
 
 /*iphone 6*/
@@ -251,8 +274,13 @@ figure.show {
 	figure img{
 		height: 350px;
 	}
-	.history2{
+	.expand{
+		margin-top: -210px;
+	}
+	.fold{
 		margin-top: -235px;
+		width: 275px !important;
+		height: 131px !important;
 	}
 }
 
@@ -265,16 +293,19 @@ figure.show {
 	figure img{
 		height: 300px;
 	}
-	.history2{
-		margin-top: -205px;
+	.expand{
+		margin-top: -180px;
 	}
-	.history2 p{
-		width: 280px;
+	.fold{
+		margin-top: -204px;
+		font-size: 10px !important;
+		width: 220px !important;
+		height: 100px !important;
 	}
 }
 
 
-.history2 {
+.fold {
   -webkit-animation: fadein 5000ms linear both;
         animation: fadein 5000ms linear both;
 }
