@@ -145,6 +145,12 @@ link to open and close the topnav (li.icon) */
 /* The "responsive" class is added to the topnav with JavaScript 
 when the user clicks on the icon. 
 This class makes the topnav look good on small screens */
+@media screen and (min-width: 1920px){
+  .topnav .link{
+    margin-left: 74px;
+  }
+}
+
 @media screen and (max-width:680px) {
 
   ul.topnav.responsive {
