@@ -71,22 +71,6 @@ $(document).ready(function(){
   $window.on('scroll resize', check_if_in_view);
   $window.trigger('scroll');
 
-  $history = $(".history9")
-
-  $expand = $('.expand')
-
-  var count = 0
-
-  $expand.click(function(){
-    count++;
-    if(count%2){
-      $history.css("display", "block")
-      $expand.html('&#x2501;')
-    } else{
-      $history.css("display", "none")
-      $expand.html('&#x254B;')
-    }
-  })
 
   $down = $('.down')
 
@@ -95,6 +79,25 @@ $(document).ready(function(){
         scrollTop: $(".history8").offset().top
     }, 500);
   });
+
+  //div should be the item that will be displayed and not
+  $fold = $('.fold');
+  $expand = $('.expand');
+
+  var count = 0;
+
+  //user clicks on plus it turns to minus
+  //it also 
+  $expand.click(function(){
+    count++;
+    if(count%2){
+      $fold.css("display", "block")
+      $expand.html('&#x2501;')
+    } else{
+      $fold.css("display", "none")
+      $expand.html('&#x254B;')
+    }
+  })
 })
 
 

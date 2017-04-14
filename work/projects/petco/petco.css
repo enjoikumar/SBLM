@@ -129,23 +129,10 @@ figure.show {
 	figure img{
 		height: 960px;
 	}
-
-	.history span{
-		width: 500px;
-		font-size: 1.5em;
+	.history1 {
+		margin-left: 450px;
+		margin-top: -200px;
 	}
-
-	.history5 span{
-		font-size: 36px;
-		color: white;
-		width: 500px;
-		position: absolute;
-		margin-top: -850px;
-		margin-left: 1350px;
-		background-color: black;
-		padding: 40px 40px 40px 40px;
-	}
-
 }
 
 @media only screen and (max-width: 736px) {

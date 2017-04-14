@@ -93,6 +93,31 @@ figure.show {
 	opacity: .8;
 }
 
+.expand{
+	position: relative;
+	font-size: 30px;
+	float: right;
+	cursor: pointer;
+	color: white;
+	z-index: 3;
+	margin-top: -650px;
+	margin-right: 40px;
+}
+.fold{
+	display: none;
+	position: absolute;
+	font-size: 40px;
+	margin-top: -744px;
+	width: 1140px;
+	height: 540px;
+	color:white;
+	background-color: black;
+	padding: 80px 80px 80px 60px;
+	padding-top: 100px;
+	opacity: .9;
+}
+
+
 /*project history stuff*/
 .history { 
 	padding-top: 40px;
@@ -159,7 +184,6 @@ figure.show {
 
 .history7 img{
 	width: 100%;
-	/*padding-top: 20px;*/
 	margin-top: 5px;
 }
 
@@ -170,20 +194,6 @@ figure.show {
 	margin-top: -40px;
 }
 
-.history8 span{
-	width: 500px;
-	position: absolute;
-	margin-top: -650px;
-	margin-left: 700px;
-	color: white !important;
-	background-color: black;
-	padding: 40px 40px 40px 40px;
-}
-
-.expand{
-	float: right;
-	cursor: pointer;
-}
 
 .history9{
 	display: none;
@@ -225,6 +235,15 @@ figure.show {
 	}
 	figure img{
 		height: 960px;
+	}
+
+	.expand{
+		margin-top: -1000px;
+	}
+	.fold{
+		margin-top: -1104px;
+		width: 1780px;
+		height: 900px;
 	}
 
 	.history span{
@@ -290,18 +309,7 @@ figure.show {
 		padding-bottom: 20px;
 		margin-top: -40px;
 	}
-	.history8 span{
-		width: 800px;
-		position: absolute;
-		margin-top: -850px;
-		margin-left: 900px;
-		color: white !important;
-		background-color: black;
-		padding: 40px 40px 40px 40px;
-	}
-	.expand{
-		float: right;
-	}
+
 	.history9{
 		display: none;
 		color: black;
@@ -325,6 +333,17 @@ figure.show {
 	figure img{
 		height: 414px;
 	}
+
+	.expand{
+		margin-top: -400px;
+	}
+	.fold{
+		font-size: 20px;
+		height: 234px;
+		width: 596px;
+		margin-top: -438px;
+	}
+
 
 	.history1 img{
 		width: 696px;
@@ -383,10 +402,6 @@ figure.show {
  		width: 696px;
  		margin-left: 20px;
 	}
-
-	#team{
-		margin-left: -115px;
-	}
 }
 
 @media only screen and (max-width: 667px) {
@@ -395,6 +410,21 @@ figure.show {
 	}
 	figure img{
 		height: 375px;
+	}
+
+	.expand{
+		margin-top: -370px;
+	}
+	.fold{
+		margin-top: -399px;
+		width: 568px;
+		height: 275px;
+		padding-left: 20px;
+		padding-top: 20px;
+	}
+	.title{
+		font-size: 20px !important;
+		margin-top: -64px;
 	}
 	
 	.history1 img{
@@ -454,10 +484,6 @@ figure.show {
  		width: 627px;
  		margin-left: 20px;
 	}
-
-	#team{
-		margin-left: -115px;
-	}
 }
 
 @media only screen and (max-width: 568px) {
@@ -466,6 +492,17 @@ figure.show {
 	}
 	figure img{
 		height: 320px;
+	}
+	.expand{
+		margin-top: -310px;
+		font-size: 20px;
+		margin-right: 20px;
+	}
+	.fold{
+		font-size: 17px !important;
+		margin-top: -344px;
+		width: 468px;
+		height: 220px;
 	}
 
 	.history1 img{
@@ -538,6 +575,16 @@ figure.show {
 		height: 375px;
 	}
 
+	.expand{
+		margin-top: -230px;
+	}
+	.fold{
+		font-size: 12px !important;
+		margin-top: -256px;
+		width: 314px !important;
+		height: 133px !important;
+	}
+
 	.title{
 		font-size: 20px !important;
 	  padding: 10px 20px 10px 10px;
@@ -607,36 +654,8 @@ figure.show {
 		margin-left: 0px !important;
 		margin-top: 20px;
 		height: 300px;
-	}
-	.history8 span, 
+	} 
 	.history9{
-		display: none;
-	}
-
-	#team{
-		margin-top: 20px;
-		margin-left: -115px;
-	}
-	.team1 p{
-		font-size: 1em;
-	}
-	.team1 img{
-		width: 200px;
-		height: 200px;
-		padding-left: 60px;
-		padding-top: 180px;
-	}
-	.details{
-		padding-left: 40px;
-	}
-	.stat{
-		font-size: 1em;
-	}
-
-	.flickity-prev-next-button.next {
-		display: none;
-	}
-	.flickity-prev-next-button {
 		display: none;
 	}
 }
@@ -647,6 +666,15 @@ figure.show {
 	}
 	figure img{
 		height: 350px;
+	}
+
+	.expand{
+		margin-top: -210px;
+	}
+	.fold{
+		margin-top: -235px;
+		width: 275px !important;
+		height: 111px !important;
 	}
 
 	.history1 img{
@@ -680,11 +708,6 @@ figure.show {
 	.history6 img{
 		margin-left: -350px;
 	}
-
-	.team1{
-		padding-left: 30px;
-		padding-bottom: 20px;
-	}
 }
 
 
@@ -695,6 +718,17 @@ figure.show {
 	figure img{
 		height: 300px;
 	}
+
+	.expand{
+		margin-top: -180px;
+	}
+	.fold{
+		margin-top: -204px;
+		font-size: 10px !important;
+		width: 220px !important;
+		height: 80px !important;
+	}
+
 
 	.history1 span{
 		width: 250px;
@@ -726,17 +760,6 @@ figure.show {
 
 	.history6 img{
 		margin-left: -280px;
-	}
-
-	.team1{
-		width: 275px;
-		padding-left: 22.5px;
-	}
-	.team1 img{
-		padding-left: 40px;
-	}
-	.details {
-		padding-left: 10px;
 	}
 }
 
@@ -842,3 +865,32 @@ figure.show {
   -ms-transform: translate(0px, 0px);
   transform: translate3d(0px, 0px, 0px);
 }
+
+
+/*.fold {
+  -webkit-animation: fadein 5000ms linear both;
+        animation: fadein 5000ms linear both;
+}
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 1;
+  }
+}*/

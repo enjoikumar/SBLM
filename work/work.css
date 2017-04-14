@@ -19,7 +19,7 @@ body {
   margin-right: -40px;
 }
 .filter{
-  margin-left: -35px;
+  margin-left: -45px;
 }
 
 .filter a:hover {
@@ -142,6 +142,12 @@ a {
   }
 }
 
+
+@media only screen and (min-width: 1920px) {
+  .filter a{
+    margin-right: -41px;
+  }
+}
 
 
 /*mobile responsiveness*/

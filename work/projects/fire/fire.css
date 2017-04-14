@@ -38,6 +38,30 @@ figure.show {
 	transition: .5s opacity;
 }
 
+
+.expand{
+	position: relative;
+	font-size: 30px;
+	float: right;
+	cursor: pointer;
+	color: white;
+	z-index: 3;
+	margin-top: -650px;
+	margin-right: 40px;
+}
+.fold{
+	display: none;
+	position: absolute;
+	font-size: 40px;
+	margin-top: -724px;
+	width: 1140px;
+	height: 565px;
+	color:white;
+	background-color: black;
+	padding: 80px 80px 80px 60px;
+	opacity: .9;
+}
+
 .title{
 	font-size: 40px !important;
 	position: absolute;
@@ -65,30 +89,6 @@ figure.show {
 	height: 66%;
 }
 
-.expand{
-	position: relative;
-	font-size: 30px;
-	float: right;
-	cursor: pointer;
-	color: white;
-	z-index: 3;
-	margin-top: -150px;
-	margin-right: 40px;
-}
-
-.history2{
-	display: none;
-	font-size: 30px;
-	background-color: black;
-	width: 1200px;
-	position: absolute;
-	color: white !important;
-	background-color: black;
-	padding: 40px 40px 40px 40px;
-}
-.history2 p{
-	width: 1000px;
-}
 
 
 @media only screen and (min-width: 1920px) {
@@ -99,37 +99,54 @@ figure.show {
 		height: 960px;
 	}
 	.expand{
-		margin-top: -200px;
+		margin-top: -1000px;
+	}
+	.fold{
+		margin-top: -1084px;
+		width: 1780px;
+		height: 920px;
 	}
 }
 
 @media only screen and (max-width: 736px) {
 	.expand{
-		margin-top: -60px;
+		margin-top: -400px;
 	}
-	.history2{
-		width: 726px !important;
-	}
-	.history2 p, .history2 span{
-		width: 650px !important;
+	.fold{
+		font-size: 20px;
+		height: 260px;
+		width: 596px;
+		margin-top: -418px;
 	}
 }
 
 @media only screen and (max-width: 667px) {
-	.history2{
-		width: 557px !important;
+	.expand{
+		margin-top: -370px;
 	}
-	.history2 p, .history2 span{
-		width: 600px !important;
+	.fold{
+		margin-top: -379px;
+		width: 568px;
+		height: 280px;
+		padding-left: 20px;
+		padding-top: 20px;
+	}
+	.title{
+		font-size: 20px !important;
+		margin-top: -64px;
 	}
 }
 
 @media only screen and (max-width: 568px){
-	.history2{
-		width: 557px !important;
+	.expand{
+		margin-top: -310px;
+		font-size: 20px;
+		margin-right: 20px;
 	}
-	.history2 p, .history2 span{
-		width: 500px !important;
+	.fold{
+		margin-top: -324px;
+		width: 468px;
+		height: 224px;
 	}
 }
 
@@ -146,20 +163,6 @@ figure.show {
 	  padding: 10px 20px 10px 10px;
 		margin-top: -44px;
 	}
-	.expand{
-		display: none;
-	}
-	.history2{		
-		width: 100%;
-		display: block;
-		font-size: 20px;
-		margin-top: -238px;
-		padding: 20px 20px 20px 20px;
-		opacity: .9;
-	}
-	.history2 p{
-		width: 350px;
-	}
 }
 
 @media only screen and (max-width: 375px) {
@@ -168,12 +171,6 @@ figure.show {
 	}
 	figure img{
 		height: 350px;
-	}
-	.history2{
-		margin-top: -220px;
-	}
-	.history2 p{
-		width: 320px;
 	}
 }
 
@@ -184,16 +181,10 @@ figure.show {
 	figure img{
 		height: 300px;
 	}
-	.history2{
-		margin-top: -200px;
-	}
-	.history2 p{
-		width: 290px;
-	}
 }
 
 
-.history2 {
+/*.fold {
   -webkit-animation: fadein 5000ms linear both;
         animation: fadein 5000ms linear both;
 }
@@ -219,7 +210,7 @@ figure.show {
   100% {
     opacity: 1;
   }
-}
+}*/
 
 
 

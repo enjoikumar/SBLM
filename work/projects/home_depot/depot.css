@@ -273,12 +273,14 @@ strong {
 	.history4 img{
 		width: 600px;
 		height: 800px;
+		margin-left: -400px;
 	}
 
 	.history4 span{
 		float: left;
 		width: 400px;
 		margin-left: 100px;
+		margin-top: 850px;
 	}
 }
 
