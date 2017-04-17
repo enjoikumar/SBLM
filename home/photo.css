@@ -12,7 +12,7 @@ h2{
   padding: 20px 20px 20px 20px;
   font-size: 48px;
   background-color: black;
-  /*background-color: rgb(238,60,47);*/
+  background-color: rgb(238,60,47);
   opacity: .8;
 }
 h2:hover{
