@@ -184,7 +184,7 @@ figure.show {
 }
 
 
-/*.fold {
+.fold {
   -webkit-animation: fadein 5000ms linear both;
         animation: fadein 5000ms linear both;
 }
@@ -210,7 +210,7 @@ figure.show {
   100% {
     opacity: 1;
   }
-}*/
+}
 
 
 

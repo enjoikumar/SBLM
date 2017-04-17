@@ -125,9 +125,7 @@ figure.show {
 .history1 img {
 	padding-left: 20px;
 }
-.history span{
-	font-size: 1.25em;
-}
+
 .history1 span {
 	font-size: 1.25em;
 	width: 400px;
@@ -867,7 +865,7 @@ figure.show {
 }
 
 
-/*.fold {
+.fold {
   -webkit-animation: fadein 5000ms linear both;
         animation: fadein 5000ms linear both;
 }
@@ -893,4 +891,4 @@ figure.show {
   100% {
     opacity: 1;
   }
-}*/
+}
