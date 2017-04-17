@@ -115,7 +115,6 @@ figure.show {
 	cursor: url("../../assets/down.png"), wait;
 }
 
-
 .expand{
 	position: relative;
 	font-size: 30px;
@@ -123,24 +122,22 @@ figure.show {
 	cursor: pointer;
 	color: white;
 	z-index: 3;
-	margin-top: -150px;
+	margin-top: -630px;
 	margin-right: 40px;
 }
-
-.history2{
+.fold{
 	display: none;
-	font-size: 30px;
-	background-color: black;
-	width: 93.8%;
 	position: absolute;
-	color: white !important;
+	font-size: 40px;
+	margin-top: -744px;
+	width: 1140px;
+	height: 584px;
+	color:white;
 	background-color: black;
-	padding: 40px 40px 40px 40px;
-	margin-top: -5px;
+	padding: 80px 80px 80px 60px;
+	opacity: .9;
 }
-.history2 p{
-	width: 1000px;
-}
+
 
 @media only screen and (min-width: 1920px) {
 	figure{
@@ -148,6 +145,74 @@ figure.show {
 	}
 	figure img{
 		height: 960px;
+	}
+	.expand{
+		margin-top: -1000px;
+	}
+	.fold{
+		margin-top: -1084px;
+		width: 1780px;
+		height: 945px;
+	}
+}
+
+@media only screen and (max-width: 736px) {
+	figure{
+		height: 414px;
+	}
+	figure img{
+		height: 414px;
+	}
+	.expand{
+		margin-top: -400px;
+	}
+	.fold{
+		font-size: 20px;
+		height: 278px;
+		width: 596px;
+		margin-top: -418px;
+	}
+}
+
+@media only screen and (max-width: 667px){
+	figure{
+		height: 375px;
+	}
+	figure img{
+		height: 375px;
+	}
+	.expand{
+		margin-top: -370px;
+	}
+	.fold{
+		margin-top: -379px;
+		width: 568px;
+		height: 300px;
+		padding-left: 20px;
+		padding-top: 20px;
+	}
+	.title{
+		font-size: 20px !important;
+		margin-top: -64px;
+	}
+}
+
+@media only screen and (max-width: 568px){
+	figure{
+		height: 320px;
+	}
+	figure img{
+		height: 320px;
+	}
+	.expand{
+		margin-top: -310px;
+		font-size: 20px;
+		margin-right: 20px;
+	}
+	.fold{
+		margin-top: -324px;
+		width: 468px;
+		height: 244px;
 	}
 }
 
@@ -165,17 +230,24 @@ figure.show {
 	}
 
 	.expand{
-		display: none;
+		margin-top: -230px;
 	}
-	.history2{
-		display: block;
-		font-size: 20px;
-		margin-top: -238px;
-		padding: 20px 20px 20px 20px;
-		width: 100%;
+	.fold{
+		font-size: 12px !important;
+		margin-top: -237px;
+		width: 314px !important;
+		height: 153px !important;
 	}
-	.history2 p{
-		width: 350px;
+
+	.title{
+		font-size: 20px !important;
+		position: absolute;
+		z-index: 2;
+	  padding: 10px 20px 10px 10px;
+		margin-top: -44px;
+		color: white;
+		background-color: black;
+		opacity: .8;
 	}
 }
 
@@ -186,12 +258,13 @@ figure.show {
 	figure img{
 		height: 320px;
 	}
-
-	.history2{
-		margin-top: -215px;
+	.expand{
+		margin-top: -210px;
 	}
-	.history2 p{
-		width: 320px;
+	.fold{
+		margin-top: -215px;
+		width: 275px !important;
+		height: 131px !important;
 	}
 }
 
@@ -202,16 +275,19 @@ figure.show {
 	figure img{
 		height: 300px;
 	}
-	.history2{
-		margin-top: -184px;
+	.expand{
+		margin-top: -180px;
 	}
-	.history2 p{
-		width: 270px;
+	.fold{
+		margin-top: -184px;
+		font-size: 10px !important;
+		width: 220px !important;
+		height: 100px !important;
 	}
 }
 
 
-.history2 {
+.fold {
   -webkit-animation: fadein 5000ms linear both;
         animation: fadein 5000ms linear both;
 }
