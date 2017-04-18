@@ -77,6 +77,14 @@ $(document).ready(function(){
     }, 500);
   });
 
+  $(".history4").click(function() {
+    $('html, body').animate({
+        scrollTop: $(".history1").offset().top
+    }, 1000);
+  });
+
+
+
   //div should be the item that will be displayed and not
   $fold = $('.fold');
   $expand = $('.expand');
@@ -90,9 +98,11 @@ $(document).ready(function(){
     if(count%2){
       $fold.css("display", "block")
       $expand.html('&#x2501;')
+      $fold.removeClass('away')
     } else{
-      $fold.css("display", "none")
+      // $fold.css("display", "none")
       $expand.html('&#x254B;')
+      $fold.addClass('away')
     }
   })
 })

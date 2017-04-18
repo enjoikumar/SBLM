@@ -153,6 +153,9 @@ figure.show {
 	width: 100%;
 	height: 66%;
 }
+.history4:hover{
+	cursor: url("../../assets/down.png"), wait;
+}
 
 .project-history{
 	padding-top: 20px;
@@ -636,7 +639,7 @@ figure.show {
 
 .fold {
   -webkit-animation: fadein 2000ms linear both;
-        animation: fadein 2000ms linear both;
+        	animation: fadein 2000ms linear both;
 }
 @-webkit-keyframes fadein {
   0% {
@@ -661,5 +664,35 @@ figure.show {
     opacity: 1;
   }
 }
+
+.away{
+	-webkit-animation: GoAway 1000ms linear both;
+        	animation: GoAway 1000ms linear both;
+}
+
+@-webkit-keyframes GoAway {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes GoAway {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 
 
