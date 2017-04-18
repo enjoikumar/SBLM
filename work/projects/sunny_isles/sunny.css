@@ -635,8 +635,8 @@ figure.show {
 
 
 .fold {
-  -webkit-animation: fadein 5000ms linear both;
-        animation: fadein 5000ms linear both;
+  -webkit-animation: fadein 2000ms linear both;
+        animation: fadein 2000ms linear both;
 }
 @-webkit-keyframes fadein {
   0% {
