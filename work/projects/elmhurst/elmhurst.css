@@ -107,9 +107,9 @@ figure.show {
 	display: none;
 	position: absolute;
 	font-size: 40px;
-	margin-top: -744px;
+	margin-top: -704px;
 	width: 1140px;
-	height: 540px;
+	height: 500px;
 	color:white;
 	background-color: black;
 	padding: 80px 80px 80px 60px;
@@ -120,69 +120,16 @@ figure.show {
 
 /*project history stuff*/
 .history { 
-	padding-top: 40px;	
-}
-.history1 img {
+	padding-top: 20px;	
 	padding-left: 20px;
+	padding-right: 20px;
 }
 
-.history1 span {
-	font-size: 1.25em;
+.history1 span{
 	width: 400px;
 	float: right;
-	margin-right: 120px;
+	font-size: 20px;
 	margin-top: 100px;
-}
-
-.history2 img {
-	float: right;
-}
-.history2 span {
-	font-size: 1.25em;
-	width: 400px;
-	float: left;
-	margin-left: 100px;
-	margin-top: 200px;
-}
-
-.history3 img {
-	padding-left: 20px;
-	margin-top: 450px;
-}
-
-.history4 img {
-	position: absolute;
-	margin-left: 425px;
-	margin-top: -504px !important;
-}
-.history4 span {
-	font-size: 1.25em;
-	width: 300px;
-	float: right;
-	margin-right: 80px;
-	margin-top: -350px;
-}
-
-.history5 img {
-	margin-left: 85px;
-}
-.history5 span{
-	font-size: 1.25em;
-	width: 300px;
-	float: left;
-	margin-left: 40px;
-	margin-top: 150px;
-}
-
-.history6 img {
-	position: absolute;
-	margin-left: 830px;
-	margin-top: -504px;
-}
-
-.history7 img{
-	width: 100%;
-	margin-top: 5px;
 }
 
 .history8 img{
@@ -193,21 +140,6 @@ figure.show {
 }
 
 
-.history9{
-	display: none;
-	color: black;
-	width: 500px;
-	position: absolute;
-	margin-top: -430px;
-	margin-left: 700px;
-	color: white !important;
-	background-color: white;
-	padding: 40px 40px 40px 40px;
-}
-
-.history9 span{
-	color: black;
-}
 
 .down{
 	width: 100%;
@@ -239,88 +171,13 @@ figure.show {
 		margin-top: -1000px;
 	}
 	.fold{
-		margin-top: -1104px;
+		margin-top: -1064px;
 		width: 1780px;
-		height: 900px;
+		height: 860px;
 	}
 
 	.history span{
 		font-size: 1.75em;
-	}
-	
-	.history1 img{
-		width: 800px;
-		height: 600px;
-	}
-	.history1 span{
-		width: 500px;
-		margin-right: 420px;
-	}
-
-	.history2 img{
-		width: 900px;
-		height: 1000px;
-	} 
-	.history2 span{
-		margin-left: 300px;
-		margin-top: 500px;
-	}
-
-	.history3 img, .history4 img, 
-	.history5 img, .history6 img{
-		width: 600px;
-		height: 700px;
-	}
-	.history3 img{
-		margin-top: 450px;
-	}
-	.history4 img{
-		position: absolute !important;
-		margin-top: -704px !important;
-		margin-left: 630px !important;
-	}
-	.history4 span{
-		width: 400px;
-		margin-right: 150px; 
-		margin-top: -500px !important;
-	}
-	.history5 img{
-		margin-left: 130px; 
-	}
-	.history5 span{
-		width: 400px;
-		margin-left: 100px;
-	}
-	.history6 img{
-		position: absolute;
-		margin-left: 1240px !important;
-		margin-top: -704px;
-	}
-
-	.history7 img{
-		height: 1000px;
-	}
-
-	.history8 img{
-		width: 100%;
-		height: 66%;
-		padding-bottom: 20px;
-		margin-top: -40px;
-	}
-
-	.history9{
-		display: none;
-		color: black;
-		width: 800px;
-		position: absolute;
-		margin-top: -570px;
-		margin-left: 900px;
-		color: white !important;
-		background-color: white;
-		padding: 40px 40px 40px 40px;
-	}
-	.history9 span{
-		color: black;
 	}
 }
 
@@ -333,72 +190,14 @@ figure.show {
 	}
 
 	.expand{
-		margin-top: -400px;
+		margin-top: -375px;
 	}
 	.fold{
 		font-size: 20px;
-		height: 234px;
+		height: 254px;
 		width: 596px;
-		margin-top: -438px;
-	}
-
-
-	.history1 img{
-		width: 696px;
-	}
-	.history1 span{
-		width: 696px;
-		margin-top: 20px;
-		margin-right: 20px;
-		text-align: center;
-	}
-
-	.history2 img{
-		width: 696px;
-		margin-top: 20px;
-		margin-right: 20px;
-	}
-	.history2 span{
-		width: 696px;
-		margin-top: 20px;
-		margin-left: 20px;
-		text-align: center;
-	}
-
-	.history3 img{
-		width: 328px;
-		margin-top: 20px;
-	}
-
-	.history4 img{
-		width: 328px;
-		margin-left: 388px;
-	}
-	.history4 span{
-		width: 696px;
-		margin-top: 20px;
-		margin-right: 20px;
-		text-align: center;
-	}
-
-	.history5 img{
-		width: 328px;
-		margin-left: 20px;
-		margin-top: 20px;
-	}
-	.history5 span{
-		width: 696px;
-		margin-top: 20px;
-	}
-
-	.history6 img{
-		width: 328px;
-		 margin-left: -350px;
-	}
-
- 	.history7 img{
- 		width: 696px;
- 		margin-left: 20px;
+		margin-top: -398px;
+		padding-top: 40px;
 	}
 }
 
@@ -411,76 +210,18 @@ figure.show {
 	}
 
 	.expand{
-		margin-top: -370px;
+		margin-top: -350px;
 	}
 	.fold{
-		margin-top: -399px;
+		margin-top: -359px;
 		width: 568px;
-		height: 275px;
+		height: 235px;
 		padding-left: 20px;
 		padding-top: 20px;
 	}
 	.title{
 		font-size: 20px !important;
 		margin-top: -64px;
-	}
-	
-	.history1 img{
-		width: 627px;
-	}
-	.history1 span{
-		width: 627px;
-		margin-top: 20px;
-		margin-right: 20px;
-		text-align: center;
-	}
-
-	.history2 img{
-		width: 627px;
-		margin-top: 20px;
-		margin-right: 20px;
-	}
-	.history2 span{
-		width: 627px;
-		margin-top: 20px;
-		margin-left: 20px;
-		text-align: center;
-	}
-
-	.history3 img{
-		width: 293.5px;
-		margin-top: 20px;
-	}
-
-	.history4 img{
-		width: 293.5px;
-		margin-left: 352px;
-	}
-	.history4 span{
-		width: 627px;
-		margin-top: 20px;
-		margin-right: 20px;
-		text-align: center;
-	}
-
-	.history5 img{
-		width: 293.5px;
-		margin-left: 20px;
-		margin-top: 20px;
-	}
-	.history5 span{
-		width: 627px;
-		margin-top: 20px;
-	}
-
-	.history6 img{
-		width: 293.5px;
-		 margin-left: -315px;
-	}
-
- 	.history7 img{
- 		width: 627px;
- 		margin-left: 20px;
 	}
 }
 
@@ -492,77 +233,16 @@ figure.show {
 		height: 320px;
 	}
 	.expand{
-		margin-top: -310px;
+		margin-top: -290px;
 		font-size: 20px;
 		margin-right: 20px;
 	}
 	.fold{
 		font-size: 17px !important;
-		margin-top: -344px;
+		margin-top: -304px;
 		width: 468px;
-		height: 220px;
+		height: 180px;
 	}
-
-	.history1 img{
-		width: 528px;
-	}
-	.history1 span{
-		width: 528px;
-		margin-top: 20px;
-		margin-right: 20px;
-		text-align: center;
-	}
-
-	.history2 img{
-		width: 528px;
-		margin-top: 20px;
-		margin-right: 20px;
-	}
-	.history2 span{
-		width: 528px;
-		margin-top: 20px;
-		margin-left: 20px;
-		text-align: center;
-	}
-
-	.history3 img{
-		width: 244px;
-		margin-top: 20px;
-	}
-
-	.history4 img{
-		width: 244px;
-		margin-left: 302px;
-	}
-	.history4 span{
-		width: 528px;
-		margin-top: 20px;
-		margin-right: 20px;
-		text-align: center;
-	}
-
-	.history5 img{
-		width: 244px;
-		margin-left: 20px;
-		margin-top: 20px;
-	}
-	.history5 span{
-		width: 528px;
-		margin-top: 20px;
-		margin-left: 20px;
-		text-align: center;
-	}
-
-	.history6 img{
-		width: 244px;
-		 margin-left: -265px;
-	}
-
- 	.history7 img{
- 		width: 528px;
- 		margin-left: 20px;
-	}
-
 }
 
 @media only screen and (max-width: 414px) {
@@ -574,87 +254,19 @@ figure.show {
 	}
 
 	.expand{
-		margin-top: -230px;
+		margin-top: -210px;
 	}
 	.fold{
 		font-size: 12px !important;
-		margin-top: -256px;
+		margin-top: -216px;
 		width: 314px !important;
-		height: 133px !important;
+		height: 93px !important;
 	}
 
 	.title{
 		font-size: 20px !important;
 	  padding: 10px 20px 10px 10px;
 		margin-top: -44px;
-	}
-
-	.history img{
-		width: 100%;
-	}
-
-	.history1 img{
-		margin-left: -19px;
-	}
-	.history1 span{
-		font-size: 1.1em;
-		position: absolute;
-		width: 375px;
-		margin-left: 25px !important;
-		margin-top: 30px;
-	}
-
-	.history2 img{
-		margin-top: 200px;
-		margin-right: 0px;
-	}
-	.history2 span{
-		position: absolute;
-		font-size: 1.1em;
-		width: 375px;
-		margin-left: 25px !important;
-		margin-top: 930px;
-	}
-
-	.history3 img{
-		margin-top: 120px;
-		margin-left: -20px;
-	}
-	.history4 img{
-		width: 414px;
-		margin-left: 0px !important;
-		margin-top: 0px !important;
-	}
-	.history4 span{
-		color:red:;
-		margin-top: 520px;
-		font-size: 1.1em;
-		width: 375px;
-		position: absolute;
-		margin-left: 20px !important;
-	}
-
-	.history5 img{
-		margin-top: 650px;
-		margin-left: 0px;
-	}
-	.history5 span{
-		margin-top: 520px;
-		width: 375px;
-		font-size: 1.1em;
-		margin-left: 25px;
-	}
-	.history6 img{
-		margin-top: 0px;
-		margin-left: -400px;
-	}
-	.history7 img{
-		margin-left: 0px !important;
-		margin-top: 20px;
-		height: 300px;
-	} 
-	.history9{
-		display: none;
 	}
 }
 
@@ -667,44 +279,13 @@ figure.show {
 	}
 
 	.expand{
-		margin-top: -210px;
+		margin-top: -190px;
 	}
 	.fold{
-		margin-top: -235px;
+		margin-top: -195px;
 		width: 275px !important;
 		height: 111px !important;
-	}
-
-	.history1 img{
-		height: 300px;
-	}
-	.history1 span{
-		width: 320px;
-		margin-left: 30px !important;
-		margin-top: 15px;
-	}
-
-	.history2 span{
-		width: 320px;
-		margin-left: 30px !important;
-		margin-top: 915px;
-	}
-
-	.history4 img{
-		width: 375px;
-	}
-	.history4 span{
-		width: 320px;
-		margin-left: 30px !important;
-	}
-
-	.history5 span{
-		width: 320px;
-		margin-left: 30px !important;
-	}
-
-	.history6 img{
-		margin-left: -350px;
+		opacity: 1;
 	}
 }
 
@@ -718,49 +299,16 @@ figure.show {
 	}
 
 	.expand{
-		margin-top: -180px;
+		margin-top: -160px;
 	}
 	.fold{
-		margin-top: -204px;
+		margin-top: -164px;
 		font-size: 10px !important;
 		width: 220px !important;
 		height: 80px !important;
 	}
-
-
-	.history1 span{
-		width: 250px;
-		font-size: 1em;
-	}
-
-	.history2 img{
-		margin-top: 225px;
-	}
-	.history2 span{
-		width: 250px;
-		font-size: 1em;
-		margin-top: 935px;
-	}
-
-	.history4 img{
-		width: 320px;
-	}
-	.history4 span{
-		width: 250px;
-		font-size: 1em;
-		margin-top: 510px;
-	}
-
-	.history5 span{
-		width: 250px;
-		font-size: 1em;
-	}
-
-	.history6 img{
-		margin-left: -280px;
-	}
 }
-
+/*
 
 
 .animation-element {
@@ -892,3 +440,4 @@ figure.show {
     opacity: 1;
   }
 }
+*/
