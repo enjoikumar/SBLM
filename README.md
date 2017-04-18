@@ -1,8 +1,4 @@
 # SBLM
-SBLM Site Files
-Home is the home page 
-Work consists of the project files
-Contact is the contact page
 ======
 # Home
 The home page uses a jquery based slideshow, DOM manipulation, and every page is mobile responsive.
