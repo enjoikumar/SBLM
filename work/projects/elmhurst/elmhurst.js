@@ -76,7 +76,7 @@ $(document).ready(function(){
 
   $down.click(function() {
     $('html, body').animate({
-        scrollTop: $(".history8").offset().top
+        scrollTop: $(".history5").offset().top
     }, 500);
   });
 
