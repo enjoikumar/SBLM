@@ -1,5 +1,5 @@
 # SBLM
-======
+
 # Home
 The home page uses a jquery based slideshow, DOM manipulation, and every page is mobile responsive.
 Upon refresh the home page will shuffle an image with a link to the work page where clicked on studio is highlighted.
