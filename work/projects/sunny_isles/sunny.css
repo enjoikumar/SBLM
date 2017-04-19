@@ -632,8 +632,6 @@ figure.show {
 
 
 
-
-
 .fold {
   -webkit-animation: fadein 2000ms linear both;
         animation: fadein 2000ms linear both;
@@ -659,5 +657,35 @@ figure.show {
   }
   100% {
     opacity: 1;
+  }
+}
+
+
+.away{
+	-webkit-animation: GoAway 1000ms linear both;
+        	animation: GoAway 1000ms linear both;
+}
+
+@-webkit-keyframes GoAway {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes GoAway {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 0;
   }
 }

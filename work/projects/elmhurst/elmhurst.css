@@ -457,3 +457,32 @@ figure.show {
     opacity: 1;
   }
 }
+
+.away{
+	-webkit-animation: GoAway 1000ms linear both;
+        	animation: GoAway 1000ms linear both;
+}
+
+@-webkit-keyframes GoAway {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes GoAway {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 0;
+  }
+}

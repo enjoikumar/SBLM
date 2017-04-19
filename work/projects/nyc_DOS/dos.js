@@ -53,7 +53,7 @@ $(document).ready(function(){
         scrollTop: $(".history1").offset().top
     }, 500);
   });
-
+  
   $fold = $('.fold');
   $expand = $('.expand');
 
@@ -66,9 +66,10 @@ $(document).ready(function(){
     if(count%2){
       $fold.css("display", "block")
       $expand.html('&#x2501;')
+      $fold.removeClass('away')
     } else{
-      $fold.css("display", "none")
       $expand.html('&#x254B;')
+      $fold.addClass('away')
     }
   })
 })
