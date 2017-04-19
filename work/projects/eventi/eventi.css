@@ -101,6 +101,33 @@ figure.show {
 /*project history stuff*/
 .history{
 	padding-top: 40px;
+/*	padding-left: 20px;
+	padding-right: 20px;*/
+}
+
+.history1 span{
+	float: right;
+	width: 400px;
+	font-size: 20px;
+	margin-right: 160px;
+	margin-top: 300px;
+}
+
+.history2 img{
+	float: right;
+	margin-top: 80px;
+}
+.history2 span{
+	float: left;
+	width: 400px;
+	font-size: 20px;
+	margin-left: 30px;
+	margin-top: 150px;
+}
+
+.history3 img{
+	width: 100%;
+	margin-top: 80px;
 }
 
 .expand{
@@ -127,43 +154,7 @@ figure.show {
 	opacity: .9;
 }
 
-.history1 img{
-	float: left;
-	padding-left: 40px;
-}
 
-.history1 span{
-	float: right;
-	width: 400px;
-	font-size: 1.25em;
-	margin-right: 200px;
-	margin-top: 300px;
-}
-
-.history2 img{
-	float: right;
-	margin-top: 300px;
-	padding-right: 100px;
-}
-.history2 span{
-	float: left;
-	width: 400px;
-	font-size: 1.25em;
-	margin-top: 100px;
-	margin-left: 100px;
-}
-
-.history3 img{
-	margin-top: 150px;
-	padding-left: 40px;
-}
-.history3 span{
-	float: right;
-	width: 400px;
-	font-size: 1.25em;
-	margin-right: 200px;
-	margin-top: -300px;
-}
 
 .history4 img{
 	width: 100%;
