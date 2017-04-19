@@ -112,50 +112,41 @@ figure.show {
 /*project history stuff*/
 .history { 
 	padding-top: 40px;
-	font-size: 1.25em;
 }
 
-.history1 img{
-	padding-left: 40px;
-}
 .history1 span{
 	width: 400px;
 	float: right;
+	font-size: 20px;
 	margin-right: 120px;
-	margin-top: 20px;
+	margin-top: 250px;
 }
 
-.history2 img{
-	float: right;
-	padding-right: 120px; 
-}
-.history2 span{
-	width: 400px;
-	float: left;
-	padding-left: 120px;
-	margin-top: 40px;
-}
-
-
-.history3 img{
-	padding-left: 40px;
-	margin-top: 40px;
-}
-
-.history4 img{
-	width: 100%;
+.history2, .history3{
+	display: inline-block;
 	margin-top: 80px;
 }
-
-.history5{
-	margin-top: -40px;
-}
-.history5 img{
-	width: 100%;
-	height: 66%;
+.history3{
+	float: right;
 }
 
+.history4, .history5{
+	margin-top: 25px;
+}
+.history4, .history6{
+	float: left;
+}
+.history5, .history7{
+	float: right;
+}
+.history6, .history7{
+	margin-top: 25px;
+}
 
+.history4, .history5,
+.history6, .history7{
+	display: inline-block;
+}
 .project-history{
 	padding-top: 20px;
 	padding-left: 40px;
