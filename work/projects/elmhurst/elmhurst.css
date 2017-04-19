@@ -353,35 +353,18 @@ figure.show {
 		opacity: 1;
 	}
 
-	.history1 img{
-		height: 500px;
-	}
 	.history1 span{
-		margin-top: 20px;
-		margin-right: 19.5px;
 		width: 320px;
 	}
 
-	.history2 img{
-		margin-top: 20px;
-	}
 	.history2 span{
-		margin-top: 20px;
 		margin-left: 35px;
 		width: 320px;
 	}
 
-	.history3 img{
-		margin-top: 20px;
-	}
 	.history3 span{
-		margin-top: 20px;
 		margin-right: 19.5px;
 		width: 320px;
-	}
-	.history4 img{
-		height: 300px;
-		margin-top: 20px;
 	}
 }
 
@@ -404,39 +387,22 @@ figure.show {
 		height: 80px !important;
 	}
 
-	.history1 img{
-		height: 500px;
-	}
 	.history1 span{
-		margin-top: 20px;
 		margin-right: 19.5px;
 		width: 290px;
 		font-size: 15px;
 	}
 
-	.history2 img{
-		margin-top: 20px;
-	}
 	.history2 span{
-		margin-top: 20px;
 		margin-left: 20px;
 		width: 290px;
 		font-size: 15px;
 	}
 
-	.history3 img{
-		margin-top: 20px;
-	}
 	.history3 span{
-		margin-top: 20px;
 		margin-right: 19.5px;
 		width: 290px;
 		font-size: 15px;
-	}
-
-	.history4 img{
-		height: 300px;
-		margin-top: 20px;
 	}
 }
 
