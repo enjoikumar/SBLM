@@ -208,7 +208,41 @@ figure.show {
 	}
 
 	.history span{
-		font-size: 1.75em;
+		font-size: 30px;
+	}
+
+	.history1 img{
+		width: 1000px;
+		height: 800px;
+	}
+	.history1 span{
+		width: 600px;
+		margin-right: 150px;
+		margin-top: 250px;
+	}
+
+	.history2 img{
+		width: 900px;
+		height: 1000px;
+	}
+	.history2 span{
+		width: 600px;
+		margin-top: 450px;
+	}
+
+	.history3 img{
+		width: 900px;
+		height: 1000px;
+		margin-top: 500px;
+	}
+	.history3 span{
+		width: 600px;
+		margin-right: 150px;
+		margin-top: 400px;
+	}
+
+	.history4 img{
+		height: 1000px;
 	}
 }
 
@@ -229,6 +263,40 @@ figure.show {
 		width: 596px;
 		margin-top: -398px;
 		padding-top: 40px;
+	}
+
+	.history1 img{
+		width: 100%;
+	}
+	.history1 span{
+		margin-top: 40px;
+		width: 600px;
+		margin-right: 68px;
+	}
+
+	.history2 img{
+		margin-top: 40px;
+		margin-right: 68px;
+	}
+	.history2 span{
+		width: 600px;
+		margin-top: 40px;
+		margin-left: 68px;
+	}
+
+	.history3 img{
+		margin-top: 40px;
+		margin-left: 68px;
+	}
+	.history3 span{
+		width: 600px;
+		margin-top: 40px;
+		margin-right: 68px;
+	}
+
+	.history4 img{
+		margin-top: 40px;
+		height: 400px;
 	}
 }
 
@@ -254,6 +322,28 @@ figure.show {
 		font-size: 20px !important;
 		margin-top: -64px;
 	}
+
+	.history1 span{
+		margin-right: 33.5px;
+	}
+
+	.history2 img{
+		margin-right: 33.5px;
+	}
+	.history2 span{
+		margin-left: 33.5px;
+	}
+
+	.history3 img{
+		margin-left: 33.5px;
+	}
+	.history3 span{
+		margin-right: 33.5px;
+	}
+
+	.history4 img{
+		height: 400px;
+	}
 }
 
 @media only screen and (max-width: 568px) {
@@ -273,6 +363,29 @@ figure.show {
 		margin-top: -304px;
 		width: 468px;
 		height: 180px;
+	}
+
+	.history1 span{
+		width: 500px;
+		margin-right: 34px;
+	}
+
+	.history2 img{
+		width: 500px;
+		margin-left: 34px;
+	}
+	.history2 span{
+		width: 500px;
+		margin-right: 34px;
+	}
+
+	.history3 img{
+		width: 500px;
+		margin-left: 34px;
+	}
+	.history3 span{
+		width: 500px;
+		margin-right: 34px;
 	}
 }
 
@@ -312,6 +425,7 @@ figure.show {
 
 	.history2 img{
 		margin-top: 20px;
+		margin-right: 0px;
 	}
 	.history2 span{
 		margin-top: 20px;
@@ -322,6 +436,7 @@ figure.show {
 	.history3 img{
 		width: 100%;
 		margin-top: 20px;
+		margin-left: 0px;
 	}
 	.history3 span{
 		margin-top: 20px;
@@ -408,7 +523,7 @@ figure.show {
 
 
 
-.animation-element {
+/*.animation-element {
   opacity: 0;
   position: relative;
 }
@@ -507,7 +622,7 @@ figure.show {
   -o-transform: translate(0px, 0px);
   -ms-transform: translate(0px, 0px);
   transform: translate3d(0px, 0px, 0px);
-}
+}*/
 
 
 .fold {
