@@ -3,6 +3,23 @@
 
 $(document).ready(function(){
 
+  // //Declaring variables
+  // var $current, $next, $slides = $(".slideshow2 .slide");
+
+  // // basically making the slideshow
+  // function doSlideShow () {
+  //   $current = $slides.filter(".slide.current"); 
+  //   $next = $current.next(".slide");
+  //   if ($next.length < 1) {
+  //     $next = $slides.first();
+  //   }
+  //   $slides.removeClass("previous");
+  //   $current.addClass("previous").removeClass("current");
+  //   $next.addClass("current");
+  //   window.setTimeout(doSlideShow, 2000);
+  // }
+  // window.setTimeout(doSlideShow, 2000);
+
   //just another way of writing document.ready
   //but for some reason, need to have both
   //could be a conflict of libraries
@@ -76,7 +93,7 @@ $(document).ready(function(){
 
   $down.click(function() {
     $('html, body').animate({
-        scrollTop: $(".history5").offset().top
+        scrollTop: $(".history8").offset().top
     }, 500);
   });
 
@@ -96,7 +113,7 @@ $(document).ready(function(){
       $fold.removeClass('away')
     } else{
       $expand.html('&#x254B;')
-      $fold.addClass('away')
+      $fold.addClass('away');
     }
   })
 })

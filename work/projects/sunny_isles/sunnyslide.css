@@ -1,0 +1,256 @@
+
+
+.slideshow2 img{
+  width: 100%;
+  height: 700px;
+}
+
+/*starting the page with a black background
+so it has a positive ux/ui feel*/
+.slideshow2 {
+  margin-top: 3680px;
+}
+
+/*setting the positions and width, etc*/
+.slideshow2, .slideshow2 .slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*opacity is smoother and that the images fit the width*/
+.slideshow2 .slide {
+  background-position: center;
+  background-size: cover;
+  opacity: 0;
+}
+
+/*makes sure the image before is stacked and cant be seen*/
+.slideshow2 .slide.previous {
+  z-index: 1;
+  opacity: 1;
+}
+
+/*stacked as wekk but is put in the forefront*/
+.slideshow2 .slide.current {
+  z-index: 2;
+  -webkit-animation: fadein 5000ms linear both;
+          animation: fadein 5000ms linear both;
+}
+
+/*transition affects*/
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+/*iphone 6 plus*/
+@media only screen and (max-width: 414px) {
+  .slideshow2{
+    background: #000;
+  }
+
+  .slideshow2, .slideshow2 .slide{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 414px;
+    height: 100%;
+  }
+
+  .slideshow2 .slide{
+    background-position: center;
+    background-size: cover;
+    opacity: 0;
+  }
+
+  .slideshow2 .slide.previous{
+    z-index: 1;
+    opacity: 1;
+  }
+
+  .slideshow2 .slide.current{
+    z-index: 2;
+    -webkit-animation: fadein 3000ms linear both;
+            animation: fadein 3000ms linear both;
+  }
+
+  @-webkit-keyframes fadein{
+    0%{
+      opacity: 0;
+    }
+    30%{
+      opacity: 1;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadein{
+    0%{
+      opacity: 0;
+    }
+    30%{
+      opacity: 1;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+}
+
+
+
+/*iphone 6*/
+@media only screen and (max-width: 375px){
+  .slideshow2{
+    background: #000;
+  }
+
+  .slideshow2, .slideshow2 .slide{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 375px;
+    height: 100%;
+  }
+
+  .slideshow2 .slide{
+    background-position: center;
+    background-size: cover;
+    opacity: 0;
+  }
+
+  .slideshow2 .slide.previous{
+    z-index: 1;
+    opacity: 1;
+  }
+
+  .slideshow2 .slide.current{
+    z-index: 2;
+    -webkit-animation: fadein 3000ms linear both;
+            animation: fadein 3000ms linear both;
+  }
+
+  @-webkit-keyframes fadein{
+    0%{
+      opacity: 0;
+    }
+    30%{
+      opacity: 1;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadein{
+    0%{
+      opacity: 0;
+    }
+    30%{
+      opacity: 1;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  h2{
+    font-size: 20px !important;
+    padding: 10px 20px 10px 10px;
+    margin-top: -48px;
+  }
+  
+}
+
+@media only screen and (max-width: 320px){
+  .slideshow2{
+    background: #000;
+  }
+
+  .slideshow2, .slideshow2 .slide{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 320px;
+    height: 100%;
+  }
+
+  .slideshow2 .slide{
+    background-position: center;
+    background-size: cover;
+    opacity: 0;
+  }
+
+  .slideshow2 .slide.previous{
+    z-index: 1;
+    opacity: 1;
+  }
+
+  .slideshow2 .slide.current{
+    z-index: 2;
+    -webkit-animation: fadein 3000ms linear both;
+            animation: fadein 3000ms linear both;
+  }
+
+  @-webkit-keyframes fadein{
+    0%{
+      opacity: 0;
+    }
+    30%{
+      opacity: 1;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadein{
+    0%{
+      opacity: 0;
+    }
+    30%{
+      opacity: 1;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
