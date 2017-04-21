@@ -191,37 +191,28 @@ figure.show {
 		width: 900px;
 	}
 	.history1 span{
+		width: 600px;
 		font-size: 30px;
-		margin-top: 150px;
-		margin-right: 300px;
+		margin-top: 250px;
+		margin-right: 175px;
 	}
 
 	.history2 img{
 		height: 800px;
 		width: 900px;
 	}
+	.history2 span{
+		width: 600px;
+		font-size: 30px;
+	}
 
 	.history3 img{
 		height: 800px;
 		width: 900px;
+		margin-top: 450px;
 	}
-
-	.history4 img, .history5 img,
-	.history6 img, .history7 img{
-		height: 700px;
-		width: 925px;
-	}
-
-	.history4, .history5{
-		margin-top: 70px;
-	}
-	.history6, .history7{
-		margin-top: 70px;
-	}
-
-	.history9 img{
-		margin-top: 70px;
-		height: 900px;
+	.history4 img{
+		height: 1000px;
 	}
 }
 
