@@ -74,11 +74,11 @@ figure.show {
 }
 
 .title{
-	font-size: 40px !important;
+	font-size: 28px !important;
 	position: absolute;
 	z-index: 2;
   padding: 20px 40px 20px 20px;
-	margin-top: -87px;
+	margin-top: -73px;
 	color: white;
 	background-color: black;
 	opacity: .8;
@@ -97,7 +97,7 @@ figure.show {
 .fold{
 	display: none;
 	position: absolute;
-	font-size: 40px;
+	font-size: 28px;
 	margin-top: -745px;
 	width: 1140px;
 	height: 520px;
