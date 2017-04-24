@@ -93,6 +93,7 @@ $(document).ready(function(){
     } else{
       $expand.html('&#x254B;')
       $fold.addClass('away')
+      $fold.css("display", "none")
     }
   })
 })

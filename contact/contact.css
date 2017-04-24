@@ -47,9 +47,11 @@ body {
   display: inline-block;
   display: flex;
   font-size: 20px;
+  color: gray;
 }
 strong{
-  color: #f20;
+  /*color: #f20;*/
+  color: white;
 }
 
 /*giving spaces to each of the offices*/
