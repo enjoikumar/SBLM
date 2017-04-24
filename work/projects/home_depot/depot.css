@@ -211,6 +211,15 @@ strong {
 	float: left;
 }
 
+.history5 img{
+	margin-top: 350px;
+}
+
+.history6 img{
+	float: right;
+	margin-top: 40px;
+}
+
 
 .down{
 	width: 100%;
@@ -249,6 +258,7 @@ strong {
 
 	.history span{
 		font-size: 1.75em;
+		width: 600px;
 	}
 
 	.history1 img{
@@ -273,13 +283,12 @@ strong {
 	.history4 img{
 		width: 600px;
 		height: 800px;
-		margin-left: -400px;
+		margin-left: -600px;
 	}
 
 	.history4 span{
 		float: left;
-		width: 400px;
-		margin-left: 100px;
+		width: 600px;
 		margin-top: 850px;
 	}
 }
