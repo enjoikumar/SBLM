@@ -170,7 +170,6 @@ $(document).ready(function(){
       $(".mixed").css("filter", "grayscale(0%)")
       $(".health").css("filter", "grayscale(0%)")
       $(".civic").css("filter", "grayscale(0%)")
-      console.log("in the else")
     }
   })
 
