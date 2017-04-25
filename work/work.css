@@ -5,21 +5,34 @@ body {
   background-color: black;
 }
 
+.topnav a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  text-decoration: none;
+  transition: .5s;
+  font-size: 20px;
+}
+#contact{
+  margin-left: 65px;
+}
+
 
 /*filter*/
 .filter a {
   padding: 10px;
   display:inline-block;
   color:white;
-  background:black;
+  background: #212121;
   text-decoration:none;
   transition:all 0.5s;
+  font-size: 16px;
   cursor: pointer;
   margin-left: 40px;
   margin-right: -40px;
-}
-.filter{
-  margin-left: -45px;
 }
 
 .filter a:hover {
@@ -29,10 +42,19 @@ body {
 
 .filter {
   padding-top:50px;
-  background-color: black;
+  background-color: #212121;
   overflow: hidden;
   margin-top: -10px;
   border-top: solid 1px #ccc;
+  margin-left: -45px;
+}
+
+#all:hover{
+  background-color: #212121;
+  color: white;
+}
+#all{
+  margin-left: 875px;
 }
 
 
@@ -146,6 +168,39 @@ a {
 @media only screen and (min-width: 1920px) {
   .filter a{
     margin-right: -41px;
+  }
+  #all{
+    margin-left: 1500px;
+  }
+}
+
+@media only screen and (max-width: 736px) {
+  .filter{
+    height: 39px;
+  }
+  #all{
+    margin-left: 320px;
+  }
+  .text{
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 667px) {
+  #all{
+    margin-left: 255px;
+  }
+  .text{
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 568px){
+  #all{
+    margin-left: 160px;
+  }
+  .text{
+    font-size: 28px;
   }
 }
 

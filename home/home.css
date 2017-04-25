@@ -93,6 +93,11 @@ body{
   }
 }
 
+.topnav{
+  padding-bottom: 0px;
+  height: 50px;
+}
+
 
 /* Float the list items side by side */
 .topnav li {
@@ -105,20 +110,23 @@ body{
   color: white;
   text-align: center;
   padding: 14px 16px;
+  padding-top: 10px;
+  padding-bottom: 0px;
   text-decoration: none;
   transition: .5s;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 /*moving them x amount of pixels to the right*/
 .topnav .link{
-  margin-left: 50px;
+  margin-left: 00px;
 }
 
 
 /* Change background color of links on hover */
 .topnav a:hover {
   background-color: #555;
+  padding-bottom: 20px;
 }
 
 /* Hide the list item that contains the link that 
