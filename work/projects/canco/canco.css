@@ -200,7 +200,35 @@ figure.show {
 		height: 880px;
 	}
 
-	
+	.history1 img{
+		width: 800px;
+		height: 1000px;
+	}
+	.history1 span{
+		width: 600px;
+		margin-right: 200px;
+		margin-top: 400px;
+	}
+
+	.history2 img{
+		width: 800px;
+		height: 1000px;
+	}
+	.history2 span{
+		width: 600px;
+		margin-left: 250px;
+		margin-top: 400px;
+	}
+
+	.history3 img{
+		width: 1200px;
+		height: 800px;
+	}
+
+	.history4 img{
+		width: 1200px;
+		height: 800px;
+	}
 }
 
 @media only screen and (max-width: 736px) {
@@ -223,42 +251,28 @@ figure.show {
 
 	.history1 img{
 		width: 696px;
-		padding-left: 20px;
+		height: 900px;
+		margin-left: 20px;
 	}
 	.history1 span{
 		width: 696px;
-		margin-right: 20px;
-		margin-top: 20px;
-		text-align: center;
+		margin-top: 40px;
+		margin-right: 0px;
 	}
 
 	.history2 img{
 		width: 696px;
-		margin-top: 20px;
-		margin-right: 20px;
+		height: 900px;
+		margin-right: 9px;
 	}
-
-	.history3 img{
+	.history2 span{
 		width: 696px;
-		padding-left: 20px;
-	}
-	.history3 span{
-		width: 696px;
-		margin-top: 20px;
-		margin-right: 20px;
-		text-align: center;
-	}
-
-	.history4 img{
-		width: 696px;
-		margin-left: 20px;
 		margin-top: 40px;
+		margin-left: 20px;
 	}
-
-	.history5 img{
-		width: 696px;
-		margin-right: 20px;
-		margin-top: 0px;
+	.history3 img,
+	.history4 img{
+		width: 100%;
 	}
 }
 
