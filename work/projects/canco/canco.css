@@ -96,9 +96,7 @@ figure.show {
 
 
 /*project history stuff*/
-.history {
-	padding-top: 40px;
-}
+
 .history span {
 	font-size: 1.25em;
 }
@@ -127,53 +125,35 @@ figure.show {
 	opacity: .9;
 }
 
-.history1 img {
-	padding-left: 50px;
+.history1{
+	padding-top: 40px;
 }
-.history1 span {
+
+.history1 span{
 	width: 400px;
-	font-size: 1.25em;
 	float: right;
-	margin-right: 250px;
-	margin-top: 50px;
+	margin-right: 120px;
+	margin-top: 300px;
 }
 
 .history2 img{
-	margin-top: -300px;
-	margin-right: 100px;
 	float: right;
+	margin-top: 80px;
+}
+.history2 span{
+	float: left;
+	width: 400px;
+	margin-left: 120px;
+	margin-top: 400px;
 }
 
 .history3 img{
-	padding-left: 40px;
-	margin-top: 60px;
-}
-.history3 span{
-	width: 400px;
-	font-size: 1.25em;
-	float: right;
-	margin-top: 150px;
-	margin-right: 100px;
+	margin-top: 80px;
 }
 
 .history4 img{
-	float: left;
-	margin-left: 25px;
-	margin-top: 60px;
-	padding-bottom: 40px;
-}
-.history5 img{
 	float: right;
-	margin-right: 25px;
-	margin-top: 60px;
-	padding-bottom: 40px;
-}
-
-.history6 img{
-	width: 100%;
-	height: 66%;
-	padding-bottom: 20px;
-	margin-top: -40px;
+	margin-top: 80px;
 }
 
 .down{
@@ -220,44 +200,7 @@ figure.show {
 		height: 880px;
 	}
 
-	.history1 img{
-		width: 650px;
-		height: 900px;
-		padding-left: 70px;
-	}
-	.history1 span{
-		width: 600px;
-		margin-right: 300px !important;
-		margin-top: 200px;
-	}
-
-	.history2 img{
-		width: 800px;
-		height: 600px;
-		margin-right: 200px;
-	}
-
-	.history3 img{
-		width: 800px;
-		height: 600px;
-		margin-top: 250px;
-	}
-	.history3 span{
-		width: 600px;
-		margin-right: 300px !important;
-		margin-top: -400px;
-	}
-
-	.history4 img, .history5 img{
-		width: 800px;
-		height: 600px;
-	}
-	.history4 img{
-		margin-left: 100px;
-	}
-	.history5 img{
-		margin-right: 100px;
-	}
+	
 }
 
 @media only screen and (max-width: 736px) {
