@@ -174,11 +174,11 @@ strong {
 	height: 500px;
 }
 .history2 span {
-	font-size: 1.25em;
-	width: 400px !important;
-	position: absolute;
-	padding-top: 150px;
-	padding-left: 80px;
+	font-size: 20px;
+	width: 400px;
+	float: right;
+	margin-right: 75px;
+	margin-top: 150px;
 }
 
 
@@ -197,7 +197,7 @@ strong {
 .history3 span{
 	float: left;
 	width: 400px !important;
-	font-size: 1.25em;
+	font-size: 20px;
 	margin-left: 80px;
 	margin-top: 400px;
 }
@@ -209,6 +209,13 @@ strong {
 	width: 600px;
 	height: 700px;
 	margin-top: -704px;
+}
+.history5 span{
+	float: right;
+	width: 400px;
+	font-size: 20px;
+	margin-right: 100px;
+	margin-top: 300px;
 }
 
 .history5 img{
@@ -258,7 +265,7 @@ strong {
 	}
 
 	.history span{
-		font-size: 1.75em;
+		font-size: 30px;
 		width: 600px;
 	}
 
@@ -271,13 +278,19 @@ strong {
 		height: 800px;
 	}
 	.history2 span{
-		padding-left: 300px;
+		width: 600px;
+		margin-right: 160px;
+		margin-top: 225px;
 	}
 
 
 	.history3 img{
 		width: 900px;
 		height: 1100px;
+	}
+	.history3 span{
+		width: 600px !important;
+		margin-left: 200px;
 	}
 
 	.history4 img{
@@ -289,6 +302,12 @@ strong {
 		width: 800px;
 		height: 900px;
 		margin-top: 640px;
+	}
+	.history5 span{
+		width: 600px;
+		font-size: 30px;
+		margin-right: 160px;
+		margin-top: -600px;
 	}
 
 	.history6 img{
@@ -348,6 +367,13 @@ strong {
 		width: 696px;
 		margin-left: 20px;
 	}
+	.history5 span{
+		width: 696px !important;
+		margin-right: 20px;
+		text-align: center;
+		margin-top: 40px;
+	}
+
 
 	.history6 img{
 		width: 100%;
@@ -404,6 +430,12 @@ strong {
 	.history5 img{
 		width: 600px;
 		margin-left: 33.5px;
+	}
+	.history5 span{
+		width: 627px !important;
+		margin-right: 20px;
+		text-align: center;
+		margin-top: 40px;
 	}
 
 	.history6 img{
@@ -466,6 +498,12 @@ strong {
 	.history5 img{
 		width: 500px;
 		margin-left: 34px;
+	}
+	.history5 span{
+		width: 528px !important;
+		margin-right: 20px;
+		text-align: center;
+		margin-top: 40px;
 	}
 }
 
@@ -530,6 +568,12 @@ strong {
 		margin-top: 20px;
 		margin-left: 0px;
 	}
+	.history5 span{
+		width: 375px !important;
+		margin-right: 15px;
+		margin-top: 20px;
+		text-align: left;
+	}
 	.history6 img{
 		margin-top: 20px;
 	}
@@ -574,6 +618,10 @@ strong {
 	}
 	.history3 span{
 		margin-left: 25px;
+	}
+
+	.history5 span{
+		margin-right: 27px;
 	}
 
 	.history6 img{
@@ -644,9 +692,13 @@ strong {
 	.history4 img{
 		width: 320px;
 	}
-	.history4 span{
-		font-size: 1em;
+	.history5 span{
 		width: 290px !important;
+		font-size: 1em;
+		margin-right: 20px;
+	}
+	.history6 img{
+		height: 300px;
 	}
 }
 
