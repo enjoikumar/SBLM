@@ -136,6 +136,12 @@ figure.show {
 	margin-top: 80px;
 }
 
+.history4 img{
+	margin-top: 80px;
+	height: 700px;
+	width: 100%;
+}
+
 .history5 img{
 	width: 100%;
 	height: 66%;
@@ -208,6 +214,9 @@ figure.show {
 		margin-top: 500px;
 	}
 
+	.history4 img{
+		height: 1000px;
+	}
 }
 
 @media only  screen and (max-width: 736px) {
@@ -255,6 +264,9 @@ figure.show {
 		padding-left: 0px;
 		margin-left: 20px;
 		margin-top: 20px;
+	}
+	.history4 img{
+		height: 500px;
 	}
 }
 
@@ -309,6 +321,7 @@ figure.show {
 
 	.history4 img {
 		margin-top: 20px;
+		height: 450px;
 	}
 }
 
@@ -361,6 +374,9 @@ figure.show {
 		margin-left: 20px;
 		margin-top: 40px;
 	}
+	.history4 img{
+		height: 400px;
+	}
 }
 
 
@@ -371,7 +387,6 @@ figure.show {
 	figure img{
 		height: 375px;
 	}
-
 
 	.expand{
 		margin-top: -200px;
@@ -420,6 +435,10 @@ figure.show {
 		margin-top: 20px;
 		height: 500px;
 		margin-left: 0px;
+	}
+
+	.history4 img{
+		height: 300px;
 	}
 }
 
@@ -476,6 +495,9 @@ figure.show {
 		font-size: .9em;
 	}
 
+	.history4 img{
+		height: 200px
+	}
 }
 
 
