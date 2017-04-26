@@ -94,16 +94,16 @@ figure.show {
 	cursor: pointer;
 	color: white;
 	z-index: 3;
-	margin-top: -620px;
+	margin-top: -550px;
 	margin-right: 40px;
 }
 .fold{
 	display: none;
 	position: absolute;
 	font-size: 20px;
-	margin-top: -684px;
+	margin-top: -604px;
 	width: 1140px;
-	height: 520px;
+	height: 440px;
 	color:white;
 	background-color: black;
 	padding: 80px 80px 80px 60px;
@@ -198,12 +198,12 @@ figure.show {
 	}
 
 	.expand{
-		margin-top: -950px;
+		margin-top: -870px;
 	}
 	.fold{
-		margin-top: -1044px;
+		margin-top: -924px;
 		width: 1780px;
-		height: 880px;
+		height: 760px;
 	}
 
 	.project-history{
@@ -564,7 +564,7 @@ figure.show {
 
 .fold {
   -webkit-animation: fadein 2000ms linear both;
-        animation: fadein 2000ms linear both;
+        	animation: fadein 2000ms linear both;
 }
 @-webkit-keyframes fadein {
   0% {

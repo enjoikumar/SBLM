@@ -95,16 +95,16 @@ figure.show {
 	cursor: pointer;
 	color: white;
 	z-index: 3;
-	margin-top: -630px;
+	margin-top: -580px;
 	margin-right: 40px;
 }
 .fold{
 	display: none;
 	position: absolute;
 	font-size: 20px;
-	margin-top: -744px;
+	margin-top: -664px;
 	width: 1140px;
-	height: 584px;
+	height: 684px;
 	color:white;
 	background-color: black;
 	padding: 80px 80px 80px 60px;
@@ -149,10 +149,10 @@ figure.show {
 		height: 960px;
 	}
 	.expand{
-		margin-top: -1000px;
+		margin-top: -900px;
 	}
 	.fold{
-		margin-top: -1104px;
+		margin-top: -984px;
 		width: 1780px;
 		height: 945px;
 	}
@@ -290,7 +290,7 @@ figure.show {
 
 .fold {
   -webkit-animation: fadein 2000ms linear both;
-        animation: fadein 2000ms linear both;
+        	animation: fadein 2000ms linear both;
 }
 @-webkit-keyframes fadein {
   0% {

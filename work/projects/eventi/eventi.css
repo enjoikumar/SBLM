@@ -144,16 +144,16 @@ figure.show {
 	cursor: pointer;
 	color: white;
 	z-index: 3;
-	margin-top: -630px;
+	margin-top: -560px;
 	margin-right: 40px;
 }
 .fold{
 	display: none;
 	position: absolute;
 	font-size: 20px;
-	margin-top: -725px;
+	margin-top: -605px;
 	width: 1140px;
-	height: 521px;
+	height: 400px;
 	color:white;
 	background-color: black;
 	padding: 80px 80px 80px 60px;
@@ -200,12 +200,12 @@ figure.show {
 	}
 
 	.expand{
-		margin-top: -1000px;
+		margin-top: -850px;
 	}
 	.fold{
-		margin-top: -1044px;
+		margin-top: -924px;
 		width: 1780px;
-		height: 840px;
+		height: 720px;
 	}
 
 	.history1 img{
@@ -590,7 +590,7 @@ figure.show {
 
 .fold {
   -webkit-animation: fadein 2000ms linear both;
-        animation: fadein 2000ms linear both;
+        	animation: fadein 2000ms linear both;
 }
 @-webkit-keyframes fadein {
   0% {
