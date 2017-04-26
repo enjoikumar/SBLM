@@ -100,7 +100,7 @@ figure.show {
 .fold{
 	display: none;
 	position: absolute;
-	font-size: 28px;
+	font-size: 20px;
 	margin-top: -684px;
 	width: 1140px;
 	height: 520px;
@@ -128,7 +128,7 @@ figure.show {
 	width: 1000px;
 	margin-left: 140px;
 	margin-top: 20px;
-	font-size: 1.1em;
+	font-size: 20px;
 	float: left;
 	text-align: center;
 }

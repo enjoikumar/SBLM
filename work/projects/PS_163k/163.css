@@ -104,7 +104,7 @@ figure.show {
 .fold{
 	display: none;
 	position: absolute;
-	font-size: 28px;
+	font-size: 20px;
 	margin-top: -744px;
 	width: 1140px;
 	height: 540px;
@@ -125,7 +125,7 @@ figure.show {
 .history1 span{
 	float: right;
 	width: 400px;
-	font-size: 1.25em;
+	font-size: 20px;
 	margin-right: 75px;
 	margin-top: 150px;
 }
@@ -137,7 +137,7 @@ figure.show {
 .history2 span{
 	float: left;
 	width: 400px;
-	font-size: 1.25em;
+	font-size: 20px;
 	margin-top: 200px;
 	margin-left: 80px;
 }

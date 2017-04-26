@@ -92,7 +92,7 @@ figure.show {
 
 .history{
 	padding-top: 40px;
-	font-size: 1.25em;
+	font-size: 20px;
 }
 
 .history1 img{
@@ -115,7 +115,7 @@ figure.show {
 .fold{
 	display: none;
 	position: absolute;
-	font-size: 28px;
+	font-size: 20px;
 	margin-top: -745px;
 	width: 1140px;
 	height: 584px;
