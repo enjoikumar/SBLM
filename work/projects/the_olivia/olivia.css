@@ -241,7 +241,7 @@ figure.show {
 
 	.history2 img{
 		width: 696px;
-		margin-right: 0px;
+		margin-right: 20px;
 	}
 	.history2 span{
 		width: 696px;
@@ -291,7 +291,7 @@ figure.show {
 
 	.history2 img{
 		width: 627px;
-		margin-right: 0px;
+		margin-right: 20px;
 		margin-top: 40px;
 	}
 	.history2 span{
@@ -321,14 +321,15 @@ figure.show {
 	}
 
 	.expand{
-		margin-top: -310px;
+		margin-top: -290px;
 		font-size: 20px;
 		margin-right: 20px;
 	}
 	.fold{
-		margin-top: -345px;
+		font-size: 15px;
+		margin-top: -305px;
 		width: 468px;
-		height: 220px;
+		height: 180px;
 	}
 	.title{
 		font-size: 20px !important;
@@ -347,7 +348,7 @@ figure.show {
 
 	.history2 img{
 		width: 528px;
-		margin-right: 0px
+		margin-right: 20px
 	}
 	.history2 span{
 		width: 528px;
@@ -373,13 +374,13 @@ figure.show {
 
 
 	.expand{
-		margin-top: -230px;
+		margin-top: -200px;
 	}
 	.fold{
 		font-size: 12px !important;
-		margin-top: -258px;
+		margin-top: -218px;
 		width: 314px !important;
-		height: 133px !important;
+		height: 93px !important;
 	}
 
 	.title{
@@ -397,8 +398,7 @@ figure.show {
 	}
 
 	.history1 img{
-		padding-left: 0px;
-		height: 400px;
+		height: 300px;
 		margin-left: 0px;
 	}
 	.history1 span{
@@ -407,9 +407,9 @@ figure.show {
 	}
 
 	.history2 img{
-		padding-right: 0px;
 		margin-top: 20px;
 		margin-right: 0px;
+		height: 600px;
 	}
 	.history2 span{
 		margin-top: 20px;
@@ -417,15 +417,9 @@ figure.show {
 	}
 
 	.history3 img{
-		padding-left: 0px;
 		margin-top: 20px;
-		height: 400px;
+		height: 500px;
 		margin-left: 0px;
-	}
-
-	.history4 img{
-		margin-top: 20px;
-		height: 400px;
 	}
 }
 
@@ -438,10 +432,10 @@ figure.show {
 	}
 
 	.expand{
-		margin-top: -210px;
+		margin-top: -190px;
 	}
 	.fold{
-		margin-top: -236px;
+		margin-top: -196px;
 		width: 275px !important;
 		height: 111px !important;
 	}
@@ -450,8 +444,7 @@ figure.show {
 		width: 320px;
 	}
 
-	.history1 img,
-	.history3 img{
+	.history1 img{
 		height: 300px;
 	}
 
@@ -469,10 +462,10 @@ figure.show {
 	}
 
 	.expand{
-		margin-top: -180px;
+		margin-top: -160px;
 	}
 	.fold{
-		margin-top: -205px;
+		margin-top: -165px;
 		font-size: 10px !important;
 		width: 220px !important;
 		height: 80px !important;
@@ -482,6 +475,7 @@ figure.show {
 		width: 290px;
 		font-size: .9em;
 	}
+
 }
 
 

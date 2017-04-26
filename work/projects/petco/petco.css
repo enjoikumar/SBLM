@@ -95,14 +95,14 @@ figure.show {
 }
 
 .history1 span{
-	font-size: 24px;
+	font-size: 18px;
 	color: white;
-	width: 300px;
+	width: 345px;
 	position: absolute;
 	margin-top: -430px;
-	margin-left: 895px;
+	margin-left: 925px;
 	background-color: black;
-	padding: 20px 20px 20px 20px;
+	padding: 10px 0px 10px 10px;
 }
 
 
@@ -120,9 +120,14 @@ figure.show {
 	figure img{
 		height: 960px;
 	}
-	.history1 {
-		margin-left: 450px;
+	.history1{
+		margin-left: 555px;
 		margin-top: -200px;
+	}
+	.history1 span{
+		font-size: 24px;
+		width: 400px;
+		padding: 20px 20px 20px 20px;
 	}
 }
 
