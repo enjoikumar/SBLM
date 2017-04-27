@@ -57,7 +57,9 @@ body {
   color: white;
 }
 #all{
+  font-size: 20px;
   margin-left: 850px;
+  /*margin-top: -4px;*/
 }
 
 

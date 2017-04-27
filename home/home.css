@@ -4,6 +4,10 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
+.fold p{
+  max-width: 33%;
+}
+
 /* The Overlay (background) */
 .overlay {
   height: 0;
@@ -156,6 +160,9 @@ This class makes the topnav look good on small screens */
 @media screen and (min-width: 1920px){
   .topnav .link{
     margin-left: 74px;
+  }
+  .fold p{
+    font-size: 30px;
   }
 }
 
