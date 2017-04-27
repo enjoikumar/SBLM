@@ -29,7 +29,7 @@ body {
   padding: 10px;
   display:inline-block;
   color:white !important;
-  background: #212121 !important;
+  background-color: #212121 !important;
   text-decoration:none;
   transition:all 0.5s;
   font-size: 16px;
@@ -39,17 +39,18 @@ body {
 }
 
 .filter a:hover {
-  background: white;
-  color: black;
+  background: white  !important;
+  color: black !important;
 }
 
 .filter {
-  padding-top:50px;
+  padding-top: 41px;
   background-color: #212121 !important;
   overflow: hidden;
   margin-top: -10px;
   border-top: solid 1px #ccc;
   margin-left: -45px;
+  height: 47px
 }
 
 #all:hover{

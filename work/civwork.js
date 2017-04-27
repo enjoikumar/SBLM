@@ -19,13 +19,13 @@ $(document).ready(function(){
     $education.click(function(){
       $("#education").css("background-color", "white");
       $("#education").css("color", "black");
-      $("#retail").css("background-color", "black");
+      $("#retail").css("background-color", "#212121");
       $("#retail").css("color", "white");
-      $("#mixed").css("background-color", "black");
+      $("#mixed").css("background-color", "#212121");
       $("#mixed").css("color", "white");
-      $("#health").css("background-color", "black");
+      $("#health").css("background-color", "#212121");
       $("#health").css("color", "white");
-      $("#civic").css("background-color", "black");
+      $("#civic").css("background-color", "#212121");
       $("#civic").css("color", "white");
 
       $(".education").css("filter", "grayscale(0%)")
@@ -40,15 +40,15 @@ $(document).ready(function(){
 
   var ret = function(){
     $retail.click(function(){
-      $("#education").css("background-color", "black");
+      $("#education").css("background-color", "#212121");
       $("#education").css("color", "white");
       $("#retail").css("background-color", "white");
-      $("#retail").css("color", "black");
-      $("#mixed").css("background-color", "black");
+      $("#retail").css("color", "#212121");
+      $("#mixed").css("background-color", "#212121");
       $("#mixed").css("color", "white");
-      $("#health").css("background-color", "black");
+      $("#health").css("background-color", "#212121");
       $("#health").css("color", "white");
-      $("#civic").css("background-color", "black");
+      $("#civic").css("background-color", "#212121");
       $("#civic").css("color", "white");
 
       $(".education").css("filter", "grayscale(100%)")
@@ -63,15 +63,15 @@ $(document).ready(function(){
 
   var mix = function(){
     $mixed.click(function(){
-      $("#education").css("background-color", "black");
+      $("#education").css("background-color", "#212121");
       $("#education").css("color", "white");
-      $("#retail").css("background-color", "black");
+      $("#retail").css("background-color", "#212121");
       $("#retail").css("color", "white");
       $("#mixed").css("background-color", "white");
-      $("#mixed").css("color", "black");
-      $("#health").css("background-color", "black");
+      $("#mixed").css("color", "#212121");
+      $("#health").css("background-color", "#212121");
       $("#health").css("color", "white");
-      $("#civic").css("background-color", "black");
+      $("#civic").css("background-color", "#212121");
       $("#civic").css("color", "white");
 
       $(".education").css("filter", "grayscale(100%)")
@@ -86,15 +86,15 @@ $(document).ready(function(){
 
   var hea = function(){
     $health.click(function(){
-      $("#education").css("background-color", "black");
+      $("#education").css("background-color", "#212121");
       $("#education").css("color", "white");
-      $("#retail").css("background-color", "black");
+      $("#retail").css("background-color", "#212121");
       $("#retail").css("color", "white");
-      $("#mixed").css("background-color", "black");
+      $("#mixed").css("background-color", "#212121");
       $("#mixed").css("color", "white");
       $("#health").css("background-color", "white");
-      $("#health").css("color", "black");
-      $("#civic").css("background-color", "black");
+      $("#health").css("color", "#212121");
+      $("#civic").css("background-color", "#212121");
       $("#civic").css("color", "white");
 
       $(".education").css("filter", "grayscale(100%)")
@@ -109,16 +109,16 @@ $(document).ready(function(){
 
   var civ = function(){
     $civic.click(function(){
-      $("#education").css("background-color", "black");
+      $("#education").css("background-color", "#212121");
       $("#education").css("color", "white");
-      $("#retail").css("background-color", "black");
+      $("#retail").css("background-color", "#212121");
       $("#retail").css("color", "white");
-      $("#mixed").css("background-color", "black");
+      $("#mixed").css("background-color", "#212121");
       $("#mixed").css("color", "white");
-      $("#health").css("background-color", "black");
+      $("#health").css("background-color", "#212121");
       $("#health").css("color", "white");
       $("#civic").css("background-color", "white");
-      $("#civic").css("color", "black");
+      $("#civic").css("color", "#212121");
 
       $(".education").css("filter", "grayscale(100%)")
       $(".retail").css("filter", "grayscale(100%)")

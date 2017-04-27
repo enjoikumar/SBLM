@@ -18,8 +18,8 @@ $(document).ready(function(){
 
   var edu = function(){
     $education.click(function(){
-      $("#education").css("background-color", "white");
-      $("#education").css("color", "black");
+      $("#education").css("background-color", "white !important");
+      $("#education").css("color", "black !important");
       $("#retail").css("background-color", "black");
       $("#retail").css("color", "white");
       $("#mixed").css("background-color", "black");
