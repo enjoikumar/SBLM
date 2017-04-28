@@ -244,13 +244,17 @@ figure.show {
 		margin-top: -64px;
 	}
 	.expand{
-		margin-top: -370px;
+		margin-top: -320px;
 	}
 	.fold{
 		font-size: 20px;
-		height: 174px !important;
-		width: 595px;
-		margin-top: -378px;
+		height: 129px !important;
+		width: 596px;
+		margin-top: -332px;
+	}
+	.fold p{
+		max-width: 70% !important;
+		margin-top: -100px;
 	}
 
 	.history1 img{
@@ -289,14 +293,19 @@ figure.show {
 	}
 
 	.expand{
-		margin-top: -330px;
+		margin-top: -290px;
 	}
 	.fold{
-		margin-top: -339px !important;
+		margin-top: -299px !important;
 		width: 568px;
-		height: 235px !important;
+		height: 195px !important;
+		font-size: 18px !important;
 		padding-left: 20px;
 		padding-top: 20px;
+	}
+	.fold p{
+		margin-top: 0px;
+		font-size: 17px !important;
 	}
 
 	.history1 img{
@@ -319,14 +328,18 @@ figure.show {
 	}
 
 	.expand{
-		margin-top: -270px;
+		margin-top: -240px;
 		font-size: 20px;
 		margin-right: 20px;
 	}
 	.fold{
-		margin-top: -284px !important;
+		margin-top: -248px !important;
+		font-size: 15px !important;
 		width: 468px;
-		height: 180px !important;
+		height: 144px !important;
+	}
+	.fold p{
+		font-size: 14px !important;
 	}
 
 	.history1 img{
@@ -352,14 +365,19 @@ figure.show {
 	}
 
 	.expand{
-		margin-top: -190px;
+		margin-top: -160px;
 	}
 	.fold{
-		font-size: 12px !important;
-		margin-top: -197px !important;
+		font-size: 11px !important;
+		margin-top: -171px !important;
 		width: 314px !important;
-		height: 93px !important;
+		height: 68px !important;
 	}
+	.fold p{
+		max-width: 90% !important;
+		font-size: 10px !important;
+	}
+
 	.title{
 		font-size: 20px !important;
 	  padding: 10px 20px 10px 10px;
@@ -413,12 +431,16 @@ figure.show {
 	}
 
 	.expand{
-		margin-top: -160px;
+		margin-top: -140px;
 	}
 	.fold{
-		margin-top: -175px !important;
+		margin-top: -153px !important;
+		font-size: 10px !important;
 		width: 275px !important;
 		height: 71px !important;
+	}
+	.fold p{
+		font-size: 11px !important;
 	}
 
 
@@ -446,18 +468,25 @@ figure.show {
 		height: 300px;
 	}
 	.expand{
-		margin-top: -140px;
+		margin-top: -120px;
 	}
 	.fold{
-		margin-top: -144px !important;
-		font-size: 10px !important;
+		display: block;
+		margin-top: -124px !important;
+		font-size: 9px !important;
+		width: 320px !important;
 		height: 40px !important;
 		padding-right: 0px;
 		padding-left: 0px;
 	}
-	.fold p, .fold span{
-		width: 260px;
-		margin-left: 20px;
+	.fold p{
+		max-width: 80% !important;
+		font-size: 10px !important;
+	}
+
+	.title{
+		font-size: 15px !important;
+		margin-top: -38px;
 	}
 
 
