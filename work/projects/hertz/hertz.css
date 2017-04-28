@@ -179,13 +179,17 @@ figure.show {
 		height: 414px;
 	}
 	.expand{
-		margin-top: -400px;
+		margin-top: -360px;
 	}
 	.fold{
 		font-size: 20px;
 		height: 256px;
 		width: 596px;
-		margin-top: -418px;
+		margin-top: -375px;
+	}
+	.fold p{
+		max-width: 70% !important;
+		margin-top: -50px !important;
 	}
 }
 
@@ -197,15 +201,19 @@ figure.show {
 		height: 375px;
 	}
 	.expand{
-		margin-top: -370px;
+		margin-top: -330px;
 	}
 	.fold{
-		margin-top: -379px;
+		margin-top: -339px;
 		width: 568px;
 		height: 280px;
 		padding-left: 20px;
 		padding-top: 20px;
 	}
+	.fold p{
+		margin-top: 20px !important;
+	}
+
 	.title{
 		font-size: 20px !important;
 		margin-top: -64px;
@@ -220,14 +228,19 @@ figure.show {
 		height: 320px;
 	}
 	.expand{
-		margin-top: -310px;
+		margin-top: -280px;
 		font-size: 20px;
 		margin-right: 20px;
 	}
 	.fold{
-		margin-top: -324px;
+		margin-top: -289px;
+		font-size: 15px !important;
 		width: 468px;
 		height: 224px;
+	}
+
+	.fold p{
+		font-size: 14px !important;
 	}
 }
 
@@ -240,13 +253,16 @@ figure.show {
 	}
 
 	.expand{
-		margin-top: -230px;
+		margin-top: -200px;
 	}
 	.fold{
 		font-size: 12px !important;
-		margin-top: -237px;
+		margin-top: -212px;
 		width: 314px !important;
-		height: 133px !important;
+		height: 183px !important;
+	}
+	.fold p{
+		max-width: 90% !important;
 	}
 
 	.title{
@@ -269,12 +285,16 @@ figure.show {
 		height: 350px;
 	}
 	.expand{
-		margin-top: -210px;
+		margin-top: -190px;
 	}
 	.fold{
-		margin-top: -215px;
+		margin-top: -193px;
+		font-size: 10px !important;
 		width: 275px !important;
-		height: 111px !important;
+		height: 181px !important;
+	}
+	.fold p {
+		font-size: 11px !important;
 	}
 }
 
@@ -286,13 +306,18 @@ figure.show {
 		height: 300px;
 	}
 	.expand{
-		margin-top: -180px;
+		margin-top: -160px;
 	}
 	.fold{
-		margin-top: -184px;
+		display: block;
+		margin-top: -165px;
 		font-size: 10px !important;
 		width: 220px !important;
-		height: 80px !important;
+		height: 200px !important;
+	}
+
+	.fold p{
+
 	}
 }
 
