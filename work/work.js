@@ -16,7 +16,7 @@ $(document).ready(function(){
   // each click function changes the grayscale of the item to none
   // making it in color while the others remain in black and white
 
-  var edu = function(){
+  var $edu = function(){
     $education.click(function(){
       $("#education").css("background-color", "white !important");
       $("#education").css("color", "black !important");
@@ -37,9 +37,9 @@ $(document).ready(function(){
       $(".all").css("filter", "grayscale(100%)")
     });
   }
-  edu()
+  $edu()
 
-  var ret = function(){
+  var $ret = function(){
     $retail.click(function(){
       $("#education").css("background-color", "#212121");
       $("#education").css("color", "white");
@@ -60,7 +60,7 @@ $(document).ready(function(){
       $(".all").css("filter", "grayscale(100%)")
     });
   }
-  ret()
+  $ret()
 
   var mix = function(){
     $mixed.click(function(){
@@ -85,7 +85,7 @@ $(document).ready(function(){
   }
   mix()
 
-  var hea = function(){
+  var $hea = function(){
     $health.click(function(){
       $("#education").css("background-color", "#212121");
       $("#education").css("color", "white");
@@ -106,9 +106,9 @@ $(document).ready(function(){
       $(".all").css("filter", "grayscale(100%)")
     });
   }
-  hea()
+  $hea()
 
-  var civ = function(){
+  var $civ = function(){
     $civic.click(function(){
       $("#education").css("background-color", "#212121");
       $("#education").css("color", "white");
@@ -129,12 +129,12 @@ $(document).ready(function(){
       $(".all").css("filter", "grayscale(100%)")
     });
   }
-  civ()
+  $civ()
 
-  var count = 1
+  var $count = 1
   $all.click(function(){
-    count++;
-    if(count%2){
+    $count++;
+    if($count%2){
       $("#all").html('&#9711;')
       $("#education").css("background-color", "#212121");
       $("#education").css("color", "white");
@@ -174,7 +174,8 @@ $(document).ready(function(){
   })
 
 
-  var clicks = [
+  var 
+  clicks = [
     $('#education'),
     $('#retail'),
     $('#mixed'),
@@ -182,10 +183,9 @@ $(document).ready(function(){
     $('#civic')
   ]
 
-  var click = clicks[Math.floor(Math.random()*clicks.length)]; 
+  var $click = clicks[Math.floor(Math.random()*clicks.length)]; 
 
-  click.trigger('click')
-
+  $click.trigger('click')
 
 
 
