@@ -325,14 +325,19 @@ strong {
 	}
 
 	.expand{
-		margin-top: -400px;
+		margin-top: -350px;
 	}
 	.fold{
 		font-size: 20px;
-		height: 254px;
+		height: 168px !important;
 		width: 596px;
-		margin-top: -418px;
+		margin-top: -372px;
 	}
+	.fold p{
+		max-width: 70% !important;
+		margin-top: -80px !important;
+	}
+
 
 	.history2 img{
 		width: 100%;
@@ -390,15 +395,20 @@ strong {
 	}
 
 	.expand{
-		margin-top: -370px;
+		margin-top: -320px;
 		margin-right: 20px;
 	}
 	.fold{
-		margin-top: -379px;
+		margin-top: -339px;
 		width: 567px;
-		height: 275px;
+		height: 235px !important;
+		font-size: 18px !important;
 		padding-left: 20px;
 		padding-top: 20px;
+	}
+	.fold p{
+		margin-top: 50px !important;
+		font-size: 16px !important;
 	}
 
 	.history2 img{
@@ -452,14 +462,18 @@ strong {
 	}
 
 	.expand{
-		margin-top: -310px;
+		margin-top: -280px;
 		font-size: 20px;
 		margin-right: 20px;
 	}
 	.fold{
-		margin-top: -324px;
+		margin-top: -288px;
 		width: 468px;
-		height: 220px;
+		height: 183px !important;
+		font-size: 15px !important;
+	}
+	.fold p{
+		font-size: 16px !important;
 	}
 
 	.title{
@@ -513,13 +527,19 @@ strong {
 	}
 
 	.expand{
-		margin-top: -480px;
+		margin-top: -200px;
 	}
 	.fold{
 		font-size: 12px !important;
-		margin-top: -504px;
+		margin-top: -211px;
+		font-size: 11px !important;
 		width: 314px !important;
-		height: 400px !important;
+		height: 108px !important;
+	}
+	.fold p{
+		max-width: 90% !important;
+		font-size: 13px !important;
+		margin-top: 0px !important;
 	}
 
 	.title{
@@ -589,12 +609,16 @@ strong {
 	}
 
 	.expand{
-		margin-top: -380px;
+		margin-top: -180px;
 	}
 	.fold{
-		margin-top: -404px;
+		margin-top: -194px;
+		font-size: 10px !important;
 		width: 275px !important;
-		height: 300px !important;
+		height: 90px !important;
+	}
+	.fold p{
+		font-size: 11px !important;
 	}
 
 	.history img{
@@ -639,13 +663,16 @@ strong {
 	}
 
 	.expand{
-		margin-top: -310px;
+		margin-top: -150px;
 	}
 	.fold{
-		margin-top: -324px;
+		margin-top: -164px;
+		font-size: 9px !important;
+		width: 00px !important;
+		height: 60px !important; 
+	}
+	.fold p{
 		font-size: 10px !important;
-		width: 360px !important;
-		height: 220px !important;
 	}
 
 	.history{
