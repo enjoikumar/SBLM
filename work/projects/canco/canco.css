@@ -249,14 +249,19 @@ figure.show {
 	}
 
 	.expand{
-		margin-top: -360px;
+		margin-top: -340px;
 	}
 	.fold{
+		display: block;
 		font-size: 20px !important;
-		height: 245px;
-		width: 595px;
-		margin-top: -389px;
+		height: 209px;
+		width: 596px;
+		margin-top: -354px;
 		padding-top: 40px;
+	}
+	.fold p{
+		max-width: 70% !important;
+		margin-top: -20px;
 	}
 
 	.history1 img{
