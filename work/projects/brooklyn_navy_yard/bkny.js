@@ -77,6 +77,12 @@ $(document).ready(function(){
     }, 500);
   });
 
+  $up = $('.up')
+  $up.click(function() {
+  $('html, body').animate({
+      scrollTop: $(".slideshow").offset().top
+  }, 400);
+  });
 
   //div should be the item that will be displayed and not
   $fold = $('.fold');
