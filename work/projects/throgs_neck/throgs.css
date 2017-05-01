@@ -160,6 +160,18 @@ figure.show {
 	figure img{
 		height: 414px;
 	}
+	.expand{
+		margin-top: -340px;
+	}
+	.fold{
+		font-size: 20px;
+		height: 209px;
+		width: 595px;
+		margin-top: -365px;
+	}
+	.fold p {
+		max-width: 70% !important;
+	}
 }
 
 
@@ -170,6 +182,27 @@ figure.show {
 	figure img{
 		height: 375px;
 	}
+
+	.expand{
+		margin-top: -320px;
+	}
+	.fold{
+		margin-top: -339px;
+		width: 567px;
+		height: 300px;
+		padding-left: 20px;
+		padding-top: 20px;
+		font-size: 17px !important;
+	}
+	.fold p{
+		font-size: 18px !important;
+		margin-top: 40px !important;
+	}
+	.title{
+		font-size: 20px !important;
+		margin-top: -64px;
+	}
+
 }
 
 @media only screen and (max-width: 568px) {
@@ -178,6 +211,25 @@ figure.show {
 	}
 	figure img{
 		height: 320px;
+	}
+	.expand{
+		margin-top: -280px;
+		font-size: 20px;
+		margin-right: 20px;
+	}
+	.fold{
+		margin-top: -289px;
+		width: 468px;
+		height: 300px;
+		font-size: 14px !important;
+	}
+	.fold p{
+		font-size: 15px !important;
+	}
+
+	.title {
+		font-size: 20px !important;
+		margin-top: -64px;
 	}
 }
 
@@ -188,6 +240,26 @@ figure.show {
 	}
 	figure img{
 		height: 375px;
+	}
+	.expand{
+		margin-top: -200px;
+	}
+	.fold{
+		font-size: 11px !important;
+		margin-top: -211px;
+		width: 314px !important;
+		height: 300px !important;
+	}
+	.fold p{
+		max-width: 90% !important;
+		margin-top: -5px !important;
+		font-size: 13px !important;
+	}
+
+	.title{
+		font-size: 20px !important;
+		padding: 10px 20px 10px 10px;
+		margin-top: -44px;
 	}
 }
 
@@ -200,6 +272,18 @@ figure.show {
 	figure img{
 		height: 350px;
 	}
+	.expand{
+		margin-top: -180px;
+	}
+	.fold{
+		margin-top: -192px;
+		width: 275px !important;
+		height: 300px !important;
+		font-size: 10px !important;
+	}
+	.fold p {
+		font-size: 11px !important;
+	}
 }
 
 
@@ -210,6 +294,19 @@ figure.show {
 	}
 	figure img{
 		height: 300px;
+	}
+
+	.expand{
+		margin-top: -150px;
+	}
+	.fold{
+		margin-top: -164px;
+		font-size: 9px !important;
+		width: 220px !important;
+		height: 200px !important;
+	}
+	.fold p{
+		font-size: 10px !important;
 	}
 }
 
