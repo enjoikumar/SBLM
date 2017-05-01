@@ -227,13 +227,17 @@ figure.show {
 	}
 
 	.expand{
-		margin-top: -400px;
+		margin-top: -380px;
 	}
 	.fold{
 		font-size: 20px;
-		height: 234px;
+		height: 190px;
 		width: 596px !important;
-		margin-top: -438px !important;
+		margin-top: -393px !important;
+	}
+	.fold p{
+		max-width: 70% !important;
+		margin-top: -60px !important;
 	}
 
 	.history1 img{
@@ -272,14 +276,19 @@ figure.show {
 	}
 
 	.expand{
-		margin-top: -370px;
+		margin-top: -350px;
 	}
 	.fold{
-		margin-top: -399px !important;
+		margin-top: -359px !important;
 		width: 567px !important;
-		height: 275px !important;
+		height: 235px !important;
 		padding-left: 20px;
 		padding-top: 20px;
+		font-size: 17px !important;
+	}
+	.fold p{
+		font-size: 18px !important;
+		margin-top: 30px !important;
 	}
 
 	.title{
@@ -323,14 +332,19 @@ figure.show {
 	}
 
 	.expand{
-		margin-top: -310px;
+		margin-top: -280px;
 		font-size: 20px;
 		margin-right: 20px;
 	}
 	.fold{
-		margin-top: -344px !important;
+		margin-top: -309px !important;
 		width: 468px !important;
-		height: 220px !important;
+		height: 185px !important;
+		font-size: 14px !important;
+	}
+	.fold p{
+		font-size: 15px !important;
+		margin-top: 20px !important;
 	}
 
 	.history1 img{
@@ -371,13 +385,18 @@ figure.show {
 	}
 
 	.expand{
-		margin-top: -230px;
+		margin-top: -200px;
 	}
 	.fold{
-		font-size: 12px !important;
-		margin-top: -257px !important;
+		font-size: 11px !important;
+		margin-top: -231px !important;
 		width: 314px !important;
-		height: 134px !important;
+		height: 107px !important;
+	}
+	.fold p{
+		max-width: 90% !important;
+		font-size: 13px !important;
+		margin-top: 0px !important;
 	}
 
 	.title{
@@ -418,12 +437,16 @@ figure.show {
 	}
 
 	.expand{
-		margin-top: -210px;
+		margin-top: -200px;
 	}
 	.fold{
-		margin-top: -235px !important;
+		margin-top: -212px !important;
 		width: 275px !important;
-		height: 111px !important;
+		height: 89px !important;
+		font-size: 10px !important;
+	}
+	.fold p{
+		font-size: 11px !important;
 	}
 
 	.history1 span{
@@ -447,13 +470,17 @@ figure.show {
 	}
 
 	.expand{
-		margin-top: -260px;
+		margin-top: -170px;
 	}
 	.fold{
-		margin-top: -274px !important;
+		margin-top: -184px !important;
 		font-size: 10px !important;
 		width: 220px !important;
-		height: 150px !important;
+		height: 70px !important;
+		font-size: 9px !important;
+	}
+	.fold p{
+		font-size: 10px !important;
 	}
 
 
