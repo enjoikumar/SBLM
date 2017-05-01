@@ -228,14 +228,18 @@ figure.show {
 	}
 
 	.expand{
-		margin-top: -380px;
+		margin-top: -340px;
 	}
 	.fold{
 		font-size: 20px;
 		height: 250px;
 		width: 596px;
-		margin-top: -390px;
+		margin-top: -360px;
 		padding-top: 40px;
+	}
+	.fold p{
+		max-width: 70% !important;
+
 	}
 
 	.history1 img{
@@ -280,14 +284,18 @@ figure.show {
 
 
 	.expand{
-		margin-top: -330px;
+		margin-top: -300px;
 	}
 	.fold{
-		margin-top: -355px;
+		margin-top: -325px;
 		width: 568px;
-		height: 230px;
+		height: 200px;
 		padding-left: 20px;
 		padding-top: 20px;
+		font-size: 17px !important;
+	}
+	.fold p{
+		font-size: 18px !important;
 	}
 
 	.history1 img{
@@ -334,15 +342,19 @@ figure.show {
 	}
 
 	.expand{
-		margin-top: -290px;
+		margin-top: -240px;
 		font-size: 20px;
 		margin-right: 20px;
 	}
 	.fold{
 		font-size: 15px;
-		margin-top: -305px;
+		margin-top: -268px;
 		width: 468px;
 		height: 180px;
+		font-size: 16px !important;
+	}
+	.fold p{
+		font-size: 15px !important;
 	}
 	.title{
 		font-size: 20px !important;
@@ -389,13 +401,17 @@ figure.show {
 	}
 
 	.expand{
-		margin-top: -200px;
+		margin-top: -180px;
 	}
 	.fold{
-		font-size: 12px !important;
-		margin-top: -218px;
+		font-size: 11px !important;
+		margin-top: -191px;
 		width: 314px !important;
-		height: 93px !important;
+		height: 110px !important;
+	}
+	.fold p{
+		max-width: 90% !important;
+		font-size: 13px !important;
 	}
 
 	.title{
@@ -451,12 +467,16 @@ figure.show {
 	}
 
 	.expand{
-		margin-top: -190px;
+		margin-top: -160px;
 	}
 	.fold{
-		margin-top: -196px;
+		margin-top: -176px;
 		width: 275px !important;
-		height: 111px !important;
+		height: 91px !important;
+		font-size: 10px !important;
+	}
+	.fold p{
+		font-size: 11px !important;
 	}
 
 	.history span{
@@ -481,13 +501,16 @@ figure.show {
 	}
 
 	.expand{
-		margin-top: -160px;
+		margin-top: -140px;
 	}
 	.fold{
-		margin-top: -165px;
-		font-size: 10px !important;
+		margin-top: -145px;
+		font-size: 9px !important;
 		width: 220px !important;
 		height: 80px !important;
+	}
+	.fold p{
+		font-size: 10px !important;
 	}
 
 	.history span{
