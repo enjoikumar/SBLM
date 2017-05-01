@@ -173,6 +173,16 @@ figure.show {
 	font-size: 1.75em;
 }
 
+.up{
+	background-color: #90A4AE;
+	height: 50px;
+	width: 50px;
+	opacity: .75;
+	float: right;
+	padding: 10px 10px 10px 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
 
 
 @media only screen and (min-width: 1920px) {

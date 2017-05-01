@@ -182,7 +182,17 @@ figure.show {
 	font-size: 1.75em;
 }
 
-
+.up{
+	background-color: #90A4AE;
+	height: 50px;
+	width: 50px;
+	opacity: .1;
+	float: left;
+	padding: 10px 10px 10px 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 475px;
+}
 
 @media only screen and (min-width: 1920px){
 	figure{
@@ -238,6 +248,9 @@ figure.show {
 		width: 1200px;
 		height: 800px;
 	}
+	.up{
+		margin-top: 750px;
+	}
 }
 
 @media only screen and (max-width: 736px) {
@@ -287,6 +300,9 @@ figure.show {
 	.history3 img,
 	.history4 img{
 		width: 100%;
+	}
+	.up{
+		display: none;
 	}
 }
 

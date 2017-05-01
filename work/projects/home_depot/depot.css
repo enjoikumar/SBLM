@@ -246,6 +246,17 @@ strong {
 	font-size: 1.75em;
 }
 
+.up{
+	background-color: #90A4AE;
+	height: 50px;
+	width: 50px;
+	opacity: .75;
+	margin-top: 550px;
+	padding: 10px 10px 10px 10px;
+	border-radius: 5px;
+	cursor: pointer;
+
+}
 
 @media screen and (min-width: 1920px){
 	figure{
@@ -314,6 +325,10 @@ strong {
 		width: 1600px;
 		height: 800px;
 	}
+
+	.up{
+		margin-top: 750px;
+	}
 }
 
 @media screen and (max-width: 736px) {
@@ -379,10 +394,13 @@ strong {
 		margin-top: 40px;
 	}
 
-
 	.history6 img{
 		width: 100%;
 		height: 600px;
+	}
+
+	.up{
+		display: none;
 	}
 }
 
