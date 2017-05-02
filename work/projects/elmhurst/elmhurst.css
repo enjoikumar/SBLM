@@ -198,7 +198,43 @@ figure.show {
 	cursor: pointer;
 }
 
-@media only screen and (min-width: 1920px) {
+@media only screen and (max-width: 2560px){
+	figure{
+		height: 1265px;
+	}
+	figure img{
+		height: 1265px;
+	}
+	.expand{
+		margin-top: -1200px;
+	}
+	.fold{
+		margin-top: -1256px;
+		width: 2404px;
+		height: 1052px;
+	}
+	.fold p{
+		max-width: 90% !important;
+		font-size: 29px !important;
+	}
+
+	.history1 img{
+		width: 1200px;
+		height: 1000px;
+	}
+	.history1 span{
+		font-size: 30px;
+		width: 800px;
+		margin-right: 250px;
+		margin-top: 250px;
+	}
+
+	.history2, .history3, .history4{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 1920px) {
 	figure{
 		height: 960px;
 	}
