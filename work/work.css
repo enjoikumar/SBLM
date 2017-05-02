@@ -174,8 +174,19 @@ a {
   }
 }
 
+@media only screen and (max-width: 2560px){
+  #all{
+    margin-left: 1800px;
+  }
+  .box{
+    width: 508.8px;
+  }
+  .boxInner{
+    width: 508.8px;
+  }
+}
 
-@media only screen and (min-width: 1920px) {
+@media only screen and (max-width: 1920px) {
   .filter a{
     margin-right: -41px;
   }
