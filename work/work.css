@@ -174,7 +174,7 @@ a {
   }
 }
 
-@media only screen and (max-width: 2560px){
+@media only screen and (min-width: 2560px){
   #all{
     margin-left: 2100px;
   }

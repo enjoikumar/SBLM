@@ -192,21 +192,21 @@ $(document).ready(function(){
 
   //RANDOMIZE THE DIVS
   //=============================
-  // var elements = $(".first");
-  // var elementsInnerHtmls = [];
-  // var numberOfElements = elements.length;
+  var elements = $(".first");
+  var elementsInnerHtmls = [];
+  var numberOfElements = elements.length;
 
-  // for( var i = 0 ; i < numberOfElements ; i++){
-  //   elementsInnerHtmls.push(elements[i].innerHTML); 
-  // }
+  for( var i = 0 ; i < numberOfElements ; i++){
+    elementsInnerHtmls.push(elements[i].innerHTML); 
+  }
 
-  // var checkedIndexes = [];
-  // for( var i = 0 ; i < numberOfElements ; i++){
-  //   var randomIndex = Math.floor(Math.random()*20) % numberOfElements;
-  //   while(checkedIndexes[randomIndex] != undefined){
-  //       randomIndex = Math.floor(Math.random()*20) % numberOfElements;    
-  //   }
-  //   checkedIndexes[randomIndex] = true;
-  //   elements[i].innerHTML = elementsInnerHtmls[randomIndex];    
-  // }
+  var checkedIndexes = [];
+  for( var i = 0 ; i < numberOfElements ; i++){
+    var randomIndex = Math.floor(Math.random()*20) % numberOfElements;
+    while(checkedIndexes[randomIndex] != undefined){
+        randomIndex = Math.floor(Math.random()*20) % numberOfElements;    
+    }
+    checkedIndexes[randomIndex] = true;
+    elements[i].innerHTML = elementsInnerHtmls[randomIndex];    
+  }
 });
