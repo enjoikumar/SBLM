@@ -194,7 +194,68 @@ figure.show {
 	margin-top: 475px;
 }
 
-@media only screen and (min-width: 1920px){
+@media only screen and (max-width: 2560px){
+	figure{
+		height: 1265px;
+	}
+	figure img{
+		height: 1265px;
+	}
+	.expand{
+		margin-top: -1200px;
+	}
+	.fold{
+		width: 2403px;
+		height: 1032px;
+		margin-top: -1256px;
+		font-size: 30px;
+	}
+	.fold p{
+		max-width: 90% !important;
+		font-size: 29px !important;
+	}
+
+	.history1 img{
+		width: 1000px;
+		height: 1200px;
+	}
+	.history1 span{
+		width: 800px;
+		margin-right: 300px;
+		margin-top: 500px;
+		font-size: 30px;
+	}
+
+	.history2 img{
+		width: 1000px;
+		height: 1200px;
+		margin-top: 200px;
+	}
+	.history2 span{
+		width: 800px;
+		margin-left: 300px;
+		margin-top: 600px;
+		font-size: 30px;
+	}
+
+	.history3 img{
+		width: 1400px;
+		height: 1000px;
+		margin-top: 800px;
+	}
+
+	.history4 img{
+		width: 1400px;
+		height: 1000px;
+		margin-top: 100px;
+	}
+
+	.up{
+		margin-top: 1000px;
+	}
+}
+
+@media only screen and (max-width: 1920px){
 	figure{
 		height: 960px;
 	}
