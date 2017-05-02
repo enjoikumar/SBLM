@@ -140,8 +140,29 @@ figure.show {
 	font-size: 1.75em;
 }
 
+@media only screen and (max-width: 2560px){
+	figure{
+		height: 1265px;
+	}
+	figure img{
+		height: 1265px;
+	}
+	.expand{
+		margin-top: -1200px;
+	}
+	.fold{
+		margin-top: -1296px;
+		width: 2406px;
+		height: 1115px;
+		font-size: 30px;
+	}
+	.fold p{
+		max-width: 90%;
+		font-size: 29px !important;
+	}
+}
 
-@media only screen and (min-width: 1920px) {
+@media only screen and (max-width: 1920px) {
 	figure{
 		height: 960px;
 	}
