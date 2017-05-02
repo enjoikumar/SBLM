@@ -229,8 +229,31 @@ figure.show {
 		margin-top: 250px;
 	}
 
-	.history2, .history3, .history4{
-		display: none;
+	.history2 img{
+		width: 1100px;
+		height: 1200px;
+	}
+	.history2 span{
+		font-size: 30px;
+		width: 800px;
+		margin-top: 450px;
+		margin-left: 250px;
+	}
+
+	.history3 img{
+		width: 1100px;
+		height: 1200px;
+		margin-top: 800px;
+	}
+	.history3 span{
+		font-size: 30px;
+		width: 800px;
+		margin-right: 250px;
+		margin-top: 700px;
+	}
+
+	.history4 img{
+		height: 1400px;
 	}
 }
 
