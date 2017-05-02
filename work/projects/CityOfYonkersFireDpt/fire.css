@@ -89,9 +89,28 @@ figure.show {
 	height: 66%;
 }
 
+@media only screen and (max-width: 2560px){
+	figure{
+		height: 1265px;
+	}
+	figure img{
+		height: 1265px;
+	}
+	.expand{
+		margin-top: -1200px;
+	}
+	.fold{
+		width: 2404px;
+		height: 1200px;
+		margin-top: -1276px;
+	}
+	.fold p{
+		max-width: 90% !important;
+		font-size: 29px !important;
+	}
+}
 
-
-@media only screen and (min-width: 1920px) {
+@media only screen and (max-width: 1920px) {
 	figure{
 		height: 960px;
 	}
