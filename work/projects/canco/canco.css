@@ -293,6 +293,7 @@ figure.show {
 	.history2 img{
 		width: 800px;
 		height: 1000px;
+		margin-top: 100px;
 	}
 	.history2 span{
 		width: 600px;
@@ -303,6 +304,7 @@ figure.show {
 	.history3 img{
 		width: 1200px;
 		height: 800px;
+		margin-top: 100px;
 	}
 
 	.history4 img{
