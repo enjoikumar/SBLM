@@ -80,6 +80,14 @@ figure.show {
 	padding-bottom: 20px;
 }
 
+.title{
+	padding-top: 20px;
+	padding-left: 40px;
+	font-size: 1.75em;
+	padding-bottom: 20px;
+}
+
+
 .slideshow:hover{
 	cursor: url("../../assets/down.png"), wait;
 }
