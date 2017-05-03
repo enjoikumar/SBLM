@@ -142,22 +142,22 @@ figure.show {
 
 @media only screen and (min-width: 2560px){
 	figure{
-		height: 1265px;
+		height: 1366px;
 	}
 	figure img{
-		height: 1265px;
+		height: 1366px;
 	}
 	.expand{
 		margin-top: -1200px;
 	}
 	.fold{
-		margin-top: -1296px;
+		margin-top: -1297px;
 		width: 2406px;
 		height: 1115px;
 		font-size: 30px;
 	}
 	.fold p{
-		max-width: 90%;
+		max-width: 90% !important;
 		font-size: 29px !important;
 	}
 }
