@@ -187,26 +187,31 @@ $(document).ready(function(){
 
   $click.trigger('click')
 
-
+  var skate =['koston', 'malto','song', 'puig']
+  var euro = ['haslam', 'hsu', 'mullen']
+  // skate.unshift(euro[0], euro[1], euro[2]);
+  skate.unshift(...euro)
+  console.log(skate)
 
 
   //RANDOMIZE THE DIVS
   //=============================
-  // var elements = $(".first");
-  // var elementsInnerHtmls = [];
-  // var numberOfElements = elements.length;
+  var elements = $(".first");
+  var elementsInnerHtmls = [];
 
-  // for( var i = 0 ; i < numberOfElements ; i++){
-  //   elementsInnerHtmls.push(elements[i].innerHTML); 
-  // }
+  for( var i = 0 ; i < elements.length ; i++){
+    elementsInnerHtmls.push(elements[i].innerHTML); 
+  }
 
-  // var checkedIndexes = [];
-  // for( var i = 0 ; i < numberOfElements ; i++){
-  //   var randomIndex = Math.floor(Math.random()*20) % numberOfElements;
-  //   while(checkedIndexes[randomIndex] != undefined){
-  //       randomIndex = Math.floor(Math.random()*20) % numberOfElements;    
-  //   }
-  //   checkedIndexes[randomIndex] = true;
-  //   elements[i].innerHTML = elementsInnerHtmls[randomIndex];    
-  // }
+  var checkedIndexes = [];
+  for( var i = 0 ; i < elements.length ; i++){
+    var randomIndex = Math.floor(Math.random()*25) % elements.length;
+    while(checkedIndexes[randomIndex] != undefined){
+        randomIndex = Math.floor(Math.random()*25) % elements.length;    
+    }
+    checkedIndexes[randomIndex] = true;
+    elements[i].innerHTML = elementsInnerHtmls[randomIndex]; 
+    newElements =  elements[i].innerHTML;
+    // newElements.unshift(...throgarr) 
+  }
 });
