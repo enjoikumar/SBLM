@@ -179,8 +179,55 @@ figure.show {
 	cursor: pointer;
 }
 
+@media only screen and (min-width: 2560px){
+	figure{
+		height: 1366px;
+	}
+	figure img{
+		height: 1366px;
+	}
 
-@media only screen and (min-width: 1920px) {
+	.expand{
+		margin-top: -1100px;
+	}
+	.fold{
+		margin-top: -1277px;
+		width: 2405px;
+		height: 1113px;
+	}
+	.fold p{
+		max-width: 90% !important;
+		font-size: 29px !important;
+	}
+
+	.history1 img{
+		width: 1200px;
+		height: 1100px;
+	}
+	.history1 span{
+		width: 800px;
+		font-size: 30px;
+		margin-right: 200px;
+		margin-top: 400px;
+	}
+
+	.history2 img{
+		width: 1100px;
+		height: 1000px;
+	}
+	.history2 span{
+		width: 800px;
+		font-size: 30px;
+		margin-left: 250px;
+		margin-top: 500px;
+	}
+
+	.history4 img{
+		height: 1400px;	
+	}
+}
+
+@media only screen and (max-width: 1920px) {
 	figure{
 		height: 960px;
 	}
@@ -215,6 +262,8 @@ figure.show {
 	.history2 span{
 		width: 600px;
 		font-size: 30px;
+		margin-left: 120px;
+		margin-top: 350px;
 	}
 
 	.history3 img{
