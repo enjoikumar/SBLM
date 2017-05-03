@@ -112,8 +112,23 @@ figure.show {
 	font-size: 1.75em;
 }
 
+@media only screen and (min-width: 2560px){
+	figure{
+		height: 1366px;
+	}
+	figure img{
+		height:1366px; 
+	}
 
-@media only screen and (min-width: 1920px) {
+	.history1 span{
+		font-size: 30px;
+		width: 800px;
+		margin-left: 1750px;
+		margin-top: -700px;
+	}
+}
+
+@media only screen and (max-width: 1920px) {
 	figure{
 		height: 960px;
 	}
