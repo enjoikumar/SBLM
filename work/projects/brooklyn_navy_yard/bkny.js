@@ -69,7 +69,7 @@ $(document).ready(function(){
   $window.on('scroll resize', check_if_in_view);
   $window.trigger('scroll');
 
-  $down = $('.down')
+  $down = $('.slideshow')
 
   $down.click(function() {
     $('html, body').animate({
@@ -102,6 +102,12 @@ $(document).ready(function(){
       $expand.html('&#x254B;')
       $fold.addClass('away')
     }
+  })
+
+  $('.press').click(function(){
+   $('html, body').animate({
+        scrollTop: $(".history1").offset().top
+    }, 600);
   })
 })
 
