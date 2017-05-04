@@ -40,6 +40,7 @@ body {
   cursor: pointer;
   margin-left: 40px;
   margin-right: -40px;
+  margin-top: 8px;
 }
 
 .filter a:hover {

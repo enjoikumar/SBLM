@@ -183,21 +183,59 @@ $(document).ready(function(){
 
   //RANDOMIZE THE DIVS
   //=============================
-  var elements = $(".first");
-  var elementsInnerHtmls = [];
-  var numberOfElements = elements.length;
+  var shuffle = function(){
 
-  for( var i = 0 ; i < numberOfElements ; i++){
-    elementsInnerHtmls.push(elements[i].innerHTML); 
-  }
+    var elements = $('.first');
+    var elementsInnerHtmls = [];
 
-  var checkedIndexes = [];
-  for( var i = 0 ; i < numberOfElements ; i++){
-    var randomIndex = Math.floor(Math.random()*20) % numberOfElements;
-    while(checkedIndexes[randomIndex] != undefined){
-        randomIndex = Math.floor(Math.random()*20) % numberOfElements;    
+    for( var i = 0 ; i < elements.length ; i++){
+      elementsInnerHtmls.push(elements[i].innerHTML); 
     }
-    checkedIndexes[randomIndex] = true;
-    elements[i].innerHTML = elementsInnerHtmls[randomIndex];    
+
+    var checkedIndexes = [];
+    for( var i = 0 ; i < elements.length ; i++){
+      var randomIndex = Math.floor(Math.random()*25) % elements.length;
+      while(checkedIndexes[randomIndex] != undefined){
+          randomIndex = Math.floor(Math.random()*25) % elements.length;   
+      }
+
+      checkedIndexes[randomIndex] = true;
+      elements[i].innerHTML = elementsInnerHtmls[randomIndex];
+      newArray = elements[i].innerHTML
+      newElements =  newArray;
+    }
   }
+  // shuffle()
+
+
+
+  $education.click(function(){
+      if ($('.edu').length){
+      $('.wrap').prepend($('.edu'))
+    }
+  })
+
+  $retail.click(function(){
+    if ($('.ret').length){
+      $('.wrap').prepend($('.ret'))
+    }
+  })
+
+  $mixed.click(function(){
+    if ($('.mix').length){
+      $('.wrap').prepend($('.mix'))
+    }
+  })
+
+  $health.click(function(){
+    if ($('.hea').length){
+      $('.wrap').prepend($('.hea'))
+    }
+  })
+
+  $civic.click(function(){
+    if ($('.civ').length){
+      $('.wrap').prepend($('.civ'))
+    }
+  })
 });

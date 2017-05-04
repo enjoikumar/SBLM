@@ -195,121 +195,60 @@ $(document).ready(function(){
 
   //RANDOMIZE THE DIVS
   //=============================
-  // var elements = $('.first');
-  // var elementsInnerHtmls = [];
+  var shuffle = function(){
 
-  // for( var i = 0 ; i < elements.length ; i++){
-  //   elementsInnerHtmls.push(elements[i].innerHTML); 
-  // }
+    var elements = $('.first');
+    var elementsInnerHtmls = [];
 
-  // var checkedIndexes = [];
-  // for( var i = 0 ; i < elements.length ; i++){
-  //   var randomIndex = Math.floor(Math.random()*25) % elements.length;
-  //   while(checkedIndexes[randomIndex] != undefined){
-  //       randomIndex = Math.floor(Math.random()*25) % elements.length;   
-  //   }
+    for( var i = 0 ; i < elements.length ; i++){
+      elementsInnerHtmls.push(elements[i].innerHTML); 
+    }
 
-  //   checkedIndexes[randomIndex] = true;
-  //   elements[i].innerHTML = elementsInnerHtmls[randomIndex];
-  //   newArray = elements[i].innerHTML
-  //   newElements =  newArray;
-  // }
+    var checkedIndexes = [];
+    for( var i = 0 ; i < elements.length ; i++){
+      var randomIndex = Math.floor(Math.random()*25) % elements.length;
+      while(checkedIndexes[randomIndex] != undefined){
+          randomIndex = Math.floor(Math.random()*25) % elements.length;   
+      }
+
+      checkedIndexes[randomIndex] = true;
+      elements[i].innerHTML = elementsInnerHtmls[randomIndex];
+      newArray = elements[i].innerHTML
+      newElements =  newArray;
+    }
+  }
+  // shuffle()
 
 
-  
 
   $education.click(function(){
       if ($('.edu').length){
-      $('.done').prepend($('.edu'))
+      $('.wrap').prepend($('.edu'))
     }
   })
 
   $retail.click(function(){
     if ($('.ret').length){
-      $('.done').prepend($('.ret'))
+      $('.wrap').prepend($('.ret'))
     }
   })
 
   $mixed.click(function(){
     if ($('.mix').length){
-      $('.done').prepend($('.mix'))
+      $('.wrap').prepend($('.mix'))
     }
   })
 
   $health.click(function(){
     if ($('.hea').length){
-      $('.done').prepend($('.hea'))
+      $('.wrap').prepend($('.hea'))
     }
   })
 
   $civic.click(function(){
     if ($('.civ').length){
-      $('.done').prepend($('.civ'))
+      $('.wrap').prepend($('.civ'))
     }
   })
-
-
-  // var edu = $('.edu');
-  // var ret = $('.ret');
-  // var civ = $('.civ');
-  // var hea = $('.hea');
-
-  // var elementsInnerHtmls = [];
-
-  // for( var i = 0 ; i < edu.length ; i++){
-  //   elementsInnerHtmls.push(edu[i].innerHTML); 
-  //   console.log(edu)
-  // }
-  // for( var i = 0 ; i < ret.length ; i++){
-  //   elementsInnerHtmls.push(ret[i].innerHTML); 
-  // }
-  // for( var i = 0 ; i < ret.length ; i++){
-  //   elementsInnerHtmls.push(ret[i].innerHTML); 
-  // }
-  // for( var i = 0 ; i < ret.length ; i++){
-  //   elementsInnerHtmls.push(ret[i].innerHTML); 
-  // }
-
-  // var checkedIndexes = [];
-
-  //   for( var i = 0 ; i < edu.length ; i++){
-  //   var edurand = Math.floor(Math.random()*25) % edu.length;
-  //   while(checkedIndexes[edurand] != undefined){
-  //       edurand = Math.floor(Math.random()*25) % edu.length;   
-  //   }
-  // }
-  //   for( var i = 0 ; i < ret.length ; i++){
-  //   var retrand = Math.floor(Math.random()*25) % ret.length;
-  //   while(checkedIndexes[retrand] != undefined){
-  //       retrand = Math.floor(Math.random()*25) % ret.length;   
-  //   }  
-  // }
-  //   for( var i = 0 ; i < civ.length ; i++){
-  //   var civrand = Math.floor(Math.random()*25) % civ.length;
-  //   while(checkedIndexes[civrand] != undefined){
-  //       civrand = Math.floor(Math.random()*25) % civ.length;   
-  //   }
-  // }
-  //   for( var i = 0 ; i < hea.length ; i++){
-  //   var hearand = Math.floor(Math.random()*25) % hea.length;
-  //   while(checkedIndexes[hearand] != undefined){
-  //       hearand = Math.floor(Math.random()*25) % hea.length;   
-  //   }
-  // }
-
-
-  //   checkedIndexes[edurand] = true;
-  //   checkedIndexes[retrand] = true;
-  //   checkedIndexes[civrand] = true;
-  //   checkedIndexes[hearand] = true;
-
-  //   edu[i].innerHTML = elementsInnerHtmls[edurand];
-  //   newArray = edu[i].innerHTML
-
-  //   ret[i].innerHTML = elementsInnerHtmls[retrand];
-  //   newArray = ret[i].innerHTML
-
-  //   newElements =  newArray;
-  // }
 
 });
