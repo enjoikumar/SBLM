@@ -106,8 +106,8 @@ $(document).ready(function(){
 
   $('.press').click(function(){
    $('html, body').animate({
-        scrollTop: $(".history1").offset().top
-    }, 600);
+        scrollTop: $(".empty").offset().top
+    }, 800);
   })
 })
 
