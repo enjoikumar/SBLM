@@ -1,3 +1,4 @@
+
 *{
 	margin: 0;
 }
@@ -187,16 +188,6 @@ figure.show {
 	font-size: 1.75em;
 }
 
-.up{
-	background-color: #90A4AE;
-	height: 50px;
-	width: 50px;
-	opacity: .75;
-	float: right;
-	padding: 10px 10px 10px 10px;
-	border-radius: 5px;
-	cursor: pointer;
-}
 
 @media only screen and (min-width: 2560px){
 	figure{
@@ -775,4 +766,17 @@ figure.show {
   100% {
     opacity: 0;
   }
+}
+
+
+.footer{
+	color: white;
+	font-size: 40px;
+	background-color: black;
+	width: 100%;
+	height: 50px;
+	cursor: pointer;
+}
+.footer p{
+	float: right;
 }

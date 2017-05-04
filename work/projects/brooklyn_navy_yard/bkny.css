@@ -185,16 +185,6 @@ figure.show {
 	opacity: .8;
 }
 
-.up{
-	background-color: #90A4AE;
-	height: 50px;
-	width: 50px;
-	opacity: .75;
-	float: right;
-	padding: 10px 10px 10px 10px;
-	border-radius: 5px;
-	cursor: pointer;
-}
 
 @media only screen and (min-width: 2560px){
 	figure{
@@ -249,9 +239,6 @@ figure.show {
 		width: 800px;
 		margin-right: 350px;
 		margin-top: -600px;
-	}
-	.up{
-		margin-top: -80px;
 	}
 }
 
