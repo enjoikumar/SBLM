@@ -187,31 +187,31 @@ $(document).ready(function(){
 
   $click.trigger('click')
 
-  var skate =['koston', 'malto','song', 'puig']
-  var euro = ['haslam', 'hsu', 'mullen']
-  // skate.unshift(euro[0], euro[1], euro[2]);
-  skate.unshift(...euro)
-  console.log(skate)
+  // var skate =['koston', 'malto','song', 'puig']
+  // var euro = ['haslam', 'hsu', 'mullen']
+  // skate.unshift(...euro)
+  // console.log(skate)
 
 
   //RANDOMIZE THE DIVS
   //=============================
-  var elements = $(".first");
-  var elementsInnerHtmls = [];
+  // var elements = $(".first");
+  // var elementsInnerHtmls = [];
 
-  for( var i = 0 ; i < elements.length ; i++){
-    elementsInnerHtmls.push(elements[i].innerHTML); 
-  }
+  // for( var i = 0 ; i < elements.length ; i++){
+  //   elementsInnerHtmls.push(elements[i].innerHTML); 
+  // }
 
-  var checkedIndexes = [];
-  for( var i = 0 ; i < elements.length ; i++){
-    var randomIndex = Math.floor(Math.random()*25) % elements.length;
-    while(checkedIndexes[randomIndex] != undefined){
-        randomIndex = Math.floor(Math.random()*25) % elements.length;    
-    }
-    checkedIndexes[randomIndex] = true;
-    elements[i].innerHTML = elementsInnerHtmls[randomIndex]; 
-    newElements =  elements[i].innerHTML;
-    // newElements.unshift(...throgarr) 
-  }
+  // var checkedIndexes = [];
+  // for( var i = 0 ; i < elements.length ; i++){
+  //   var randomIndex = Math.floor(Math.random()*25) % elements.length;
+  //   while(checkedIndexes[randomIndex] != undefined){
+  //       randomIndex = Math.floor(Math.random()*25) % elements.length;    
+  //   }
+  //   checkedIndexes[randomIndex] = true;
+  //   elements[i].innerHTML = elementsInnerHtmls[randomIndex];
+  //   newArray = elements[i].innerHTML
+  //   // newArray.push($('.throg').innerHTML)
+  //   newElements =  newArray;
+  // }
 });

@@ -323,7 +323,7 @@ strong {
 	}
 }
 
-@media screen and (max-width: 1920px){
+@media screen and (min-width: 1920px){
 	figure{
 		height: 960px;
 	}
