@@ -177,7 +177,7 @@ figure.show {
 	font-size: 28px !important;
 	position: absolute;
 	z-index: 2;
-  	padding: 20px 40px 20px 20px;
+  padding: 20px 40px 20px 20px;
 	margin-top: -73px;
 	color: white;
 	background-color: black;
@@ -186,6 +186,15 @@ figure.show {
 
 .empty{
 	height: 50px;
+}
+
+.press{
+	position: absolute;
+	height: 640px;
+	width: 93%;
+	margin-top: -645px;
+	z-index: 10;
+	cursor: url("../../assets/down.png"), wait;
 }
 
 

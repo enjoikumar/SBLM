@@ -91,6 +91,12 @@ $(document).ready(function(){
       $fold.addClass('away')
     }
   })
+
+  $('.press').click(function(){
+  $('html, body').animate({
+      scrollTop: $(".empty").offset().top
+    }, 800);
+  })
 })
 
 

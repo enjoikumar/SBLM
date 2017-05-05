@@ -110,7 +110,7 @@ figure.show {
 	font-size: 1.75em;
 }*/
 
-@media only screen and (min-width: 2560px){
+@media only screen and (width: 2560px){
 	figure{
 		height: 1366px;
 	}
@@ -130,7 +130,7 @@ figure.show {
 }
 
 
-@media only screen and (max-width: 1920px) {
+@media only screen and (width: 1920px) {
 	figure{
 		height: 960px;
 	}

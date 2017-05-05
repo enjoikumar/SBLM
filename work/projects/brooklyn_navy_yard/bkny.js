@@ -105,7 +105,7 @@ $(document).ready(function(){
   })
 
   $('.press').click(function(){
-   $('html, body').animate({
+  $('html, body').animate({
         scrollTop: $(".empty").offset().top
     }, 800);
   })

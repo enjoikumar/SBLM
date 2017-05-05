@@ -103,6 +103,12 @@ $(document).ready(function(){
       $fold.css("display", "none")
     }
   })
+
+  $('.press').click(function(){
+  $('html, body').animate({
+      scrollTop: $(".empty").offset().top
+    }, 800);
+  })
 })
 
 

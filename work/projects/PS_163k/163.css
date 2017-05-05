@@ -173,8 +173,20 @@ figure.show {
 	font-size: 1.75em;
 }
 
+.empty{
+	height: 50px;
+}
 
-@media only screen and (min-width: 2560px){
+.press{
+	position: absolute;
+	height: 640px;
+	width: 93%;
+	margin-top: -645px;
+	z-index: 10;
+	cursor: url("../../assets/down.png"), wait;
+}
+
+@media only screen and (width: 2560px){
 	figure{
 		height: 1366px;
 	}
@@ -219,9 +231,18 @@ figure.show {
 	.history3 img{
 		height: 1200px;
 	}
+
+	.press{
+		position: absolute;
+		height: 1350px;
+		width: 95%;
+		margin-top: -1355px;
+		border: solid 1px red;
+		z-index: 10;
+	}
 }
 
-@media only screen and (max-width: 1920px) {
+@media only screen and (width: 1920px) {
 	figure{
 		height: 960px;
 	}
