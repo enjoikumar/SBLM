@@ -40,7 +40,7 @@ body {
   cursor: pointer;
   margin-left: 40px;
   margin-right: -40px;
-  margin-top: 8px;
+  margin-top: 8px !important;
 }
 
 .filter a:hover {
@@ -65,7 +65,6 @@ body {
 #all{
   font-size: 20px;
   margin-left: 850px;
-  /*margin-top: -4px;*/
 }
 
 
@@ -190,6 +189,7 @@ a {
 @media only screen and (max-width: 1920px) {
   .filter a{
     margin-right: -41px;
+    margin-top: 10px;
   }
   #all{
     margin-left: 1500px;

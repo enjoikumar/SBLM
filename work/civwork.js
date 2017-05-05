@@ -1,16 +1,16 @@
 $(document).ready(function(){
 
-  $education = $("[id = education]");
+  $education = $("#education");
 
-  $retail = $("[id = retail]");
+  $retail = $("#retail");
 
-  $mixed = $("[id = mixed]");
+  $mixed = $("#mixed");
 
-  $health = $("[id = health]");
+  $health = $("#health");
 
-  $civic = $("[id = civic]");
+  $civic = $("#civic");
 
-  $all = $("[id = all]");
+  $all = $("#all");
 
   // each click function changes the grayscale of the item to none
   // making it in color while the others remain in black and white
@@ -171,6 +171,7 @@ $(document).ready(function(){
       $(".civic").css("filter", "grayscale(0%)")
     }
   })
+
 
   $civic.trigger('click');
 

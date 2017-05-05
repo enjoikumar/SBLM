@@ -220,7 +220,6 @@ $(document).ready(function(){
   // shuffle()
 
 
-
   $education.click(function(){
       if ($('.edu').length){
       $('.wrap').prepend($('.edu'))
