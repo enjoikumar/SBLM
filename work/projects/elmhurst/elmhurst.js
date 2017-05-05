@@ -1,6 +1,3 @@
-
-
-
 $(document).ready(function(){
 
   //just another way of writing document.ready
@@ -117,11 +114,3 @@ $(document).ready(function(){
 
 
 
-
-
-
-
-
-
-
-// 

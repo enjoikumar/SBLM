@@ -16,9 +16,11 @@ body {
   transition: .5s;
   font-size: 20px;
 }
+
 #contact{
   margin-left: 25px;
 }
+
 #work{
   margin-left: 30px;
 }
@@ -66,7 +68,6 @@ body {
   font-size: 20px;
   margin-left: 850px;
 }
-
 
 
 /*project styling*/
