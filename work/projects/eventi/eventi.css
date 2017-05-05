@@ -210,7 +210,6 @@ figure.show {
 		margin-top: -1150px;
 	}
 	.fold{
-		display: block;
 		margin-top: -1236px;
 		width: 2406px;
 		height: 1032px;
@@ -247,10 +246,9 @@ figure.show {
 
 	.press{
 		position: absolute;
-		height: 1350px;
+		height: 1230px;
 		width: 95%;
-		margin-top: -1355px;
-		border: solid 1px red;
+		margin-top: -1235px;
 		z-index: 10;
 	}
 }
@@ -541,7 +539,6 @@ figure.show {
 		margin-top: -120px;
 	}
 	.fold{
-		display: block;
 		margin-top: -124px !important;
 		font-size: 9px !important;
 		width: 320px !important;

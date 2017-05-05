@@ -241,10 +241,9 @@ figure.show {
 
 	.press{
 		position: absolute;
-		height: 1350px;
+		height: 1235px;
 		width: 95%;
-		margin-top: -1355px;
-		border: solid 1px red;
+		margin-top: -1240px;
 		z-index: 10;
 	}
 }

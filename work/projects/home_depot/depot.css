@@ -270,7 +270,6 @@ strong {
 		margin-top: -1180px;
 	}
 	.fold{
-		display: block;
 		margin-top: -1276px;
 		width: 2404px;
 		height: 1071px;
@@ -322,10 +321,9 @@ strong {
 
 	.press{
 		position: absolute;
-		height: 1350px;
+		height: 1275px;
 		width: 95%;
-		margin-top: -1355px;
-		border: solid 1px red;
+		margin-top: -1280px;
 		z-index: 10;
 	}
 }
