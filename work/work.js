@@ -21,7 +21,7 @@ $(document).ready(function(){
   var $edu = function(){
     $education.click(function(){
       $('#education').css("background-color", "white");
-      $("#education").css("color", "black");
+      $("#education").css("color", "#212121");
       $("#retail").css("background-color", "#212121");
       $("#retail").css("color", "white");
       $("#mixed").css("background-color", "#212121");
@@ -252,4 +252,19 @@ $(document).ready(function(){
       $('.wrap').prepend($('.civ'))
     }
   })
+
+  var 
+  buttons = [
+    $education,
+    $retail,
+    $mixed,
+    $health,
+    $civic
+  ]
+
+  var $press = buttons[Math.floor(Math.random()*buttons.length)]; 
+
+  $press.trigger('click')
+
+
 });

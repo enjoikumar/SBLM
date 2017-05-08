@@ -105,11 +105,6 @@ body {
   filter: grayscale(0%) !important;
 }
 
-.fill{
-  background-color: white !important;
-  color: black !important;
-}
-
 .middle {
   transition: 0s ease;
   opacity: 0;

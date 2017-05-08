@@ -19,7 +19,7 @@ $(document).ready(function(){
   var $edu = function(){
     $education.click(function(){
       $('#education').css("background-color", "white");
-      $("#education").css("color", "black !important");
+      $("#education").css("color", "black");
       $("#retail").css("background-color", "#212121");
       $("#retail").css("color", "white");
       $("#mixed").css("background-color", "#212121");
@@ -213,6 +213,8 @@ $(document).ready(function(){
       $('.wrap').prepend($('.edu'))
     }
   })
+
+  $education.trigger('click')
 
   $retail.click(function(){
     if ($('.ret').length){
