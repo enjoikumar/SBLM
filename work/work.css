@@ -105,6 +105,13 @@ body {
   backface-visibility: hidden; 
 }
 
+.gray{
+  filter: grayscale(100%) !important;
+}
+.notgray{
+  filter: grayscale(0%) !important;
+}
+
 .middle {
   transition: 0s ease;
   opacity: 0;

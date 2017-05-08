@@ -29,12 +29,11 @@ $(document).ready(function(){
       $("#civic").css("background-color", "#212121");
       $("#civic").css("color", "white");
 
-      $(".education").css("filter", "grayscale(0%)")
-      $(".retail").css("filter", "grayscale(100%)")
-      $(".mixed").css("filter", "grayscale(100%)")
-      $(".health").css("filter", "grayscale(100%)")
-      $(".civic").css("filter", "grayscale(100%)")
-      $(".all").css("filter", "grayscale(100%)")
+      $('.education').addClass('notgray')
+      $('.retail').removeClass('notgray')
+      $('.mixed').removeClass('notgray')
+      $('.health').removeClass('notgray')
+      $('.civic').removeClass('notgray')
     });
   }
   $edu()
@@ -51,13 +50,13 @@ $(document).ready(function(){
       $("#health").css("color", "white");
       $("#civic").css("background-color", "#212121");
       $("#civic").css("color", "white");
+      $('.retail').addClass('color')
 
-      $(".education").css("filter", "grayscale(100%)")
-      $(".retail").css("filter", "grayscale(0%)")
-      $(".mixed").css("filter", "grayscale(100%)")
-      $(".health").css("filter", "grayscale(100%)")
-      $(".civic").css("filter", "grayscale(100%)")
-      $(".all").css("filter", "grayscale(100%)")
+      $('.education').removeClass('notgray')
+      $('.retail').addClass('notgray')
+      $('.mixed').removeClass('notgray')
+      $('.health').removeClass('notgray')
+      $('.civic').removeClass('notgray')
     });
   }
   $ret()
@@ -74,13 +73,13 @@ $(document).ready(function(){
       $("#health").css("color", "white");
       $("#civic").css("background-color", "#212121");
       $("#civic").css("color", "white");
+      $('.mixed').addClass('color')
 
-      $(".education").css("filter", "grayscale(100%)")
-      $(".retail").css("filter", "grayscale(100%)")
-      $(".mixed").css("filter", "grayscale(0%)")
-      $(".health").css("filter", "grayscale(100%)")
-      $(".civic").css("filter", "grayscale(100%)")
-      $(".all").css("filter", "grayscale(100%)")
+      $('.education').removeClass('notgray')
+      $('.retail').removeClass('notgray')
+      $('.mixed').addClass('notgray')
+      $('.health').removeClass('notgray')
+      $('.civic').removeClass('notgray')
     });
   }
   $mix()
@@ -97,13 +96,13 @@ $(document).ready(function(){
       $("#health").css("color", "#212121");
       $("#civic").css("background-color", "#212121");
       $("#civic").css("color", "white");
+      $('.health').addClass('color');
 
-      $(".education").css("filter", "grayscale(100%)")
-      $(".retail").css("filter", "grayscale(100%)")
-      $(".mixed").css("filter", "grayscale(100%)")
-      $(".health").css("filter", "grayscale(0%)")
-      $(".civic").css("filter", "grayscale(100%)")
-      $(".all").css("filter", "grayscale(100%)")
+      $('.education').removeClass('notgray')
+      $('.retail').removeClass('notgray')
+      $('.mixed').removeClass('notgray')
+      $('.health').addClass('notgray')
+      $('.civic').removeClass('notgray')
     });
   }
   $hea()
@@ -120,13 +119,13 @@ $(document).ready(function(){
       $("#health").css("color", "white");
       $("#civic").css("background-color", "white");
       $("#civic").css("color", "#212121");
+      $('.civic').addClass('color')
 
-      $(".education").css("filter", "grayscale(100%)")
-      $(".retail").css("filter", "grayscale(100%)")
-      $(".mixed").css("filter", "grayscale(100%)")
-      $(".health").css("filter", "grayscale(100%)")
-      $(".civic").css("filter", "grayscale(0%)")
-      $(".all").css("filter", "grayscale(100%)")
+      $('.education').removeClass('notgray')
+      $('.retail').removeClass('notgray')
+      $('.mixed').removeClass('notgray')
+      $('.health').removeClass('notgray')
+      $('.civic').addClass('notgray')
     });
   }
   $civ()
@@ -146,6 +145,7 @@ $(document).ready(function(){
       $("#health").css("color", "white");
       $("#civic").css("background-color", "#212121");
       $("#civic").css("color", "white");
+
       $(".education").css("filter", "grayscale(100%)")
       $(".retail").css("filter", "grayscale(100%)")
       $(".mixed").css("filter", "grayscale(100%)")
@@ -165,11 +165,12 @@ $(document).ready(function(){
       $("#civic").css("color", "white");
       $("#all").css("background-color", "#212121")
       $("#all").css("color", "white")
-      $(".education").css("filter", "grayscale(0%)")
-      $(".retail").css("filter", "grayscale(0%)")
-      $(".mixed").css("filter", "grayscale(0%)")
-      $(".health").css("filter", "grayscale(0%)")
-      $(".civic").css("filter", "grayscale(0%)")
+
+      $('.education').addClass('notgray')
+      $('.retail').addClass('notgray')
+      $('.mixed').addClass('notgray')
+      $('.health').addClass('notgray')
+      $('.civic').addClass('notgray')
     }
   })
 
