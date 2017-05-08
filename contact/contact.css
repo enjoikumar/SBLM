@@ -4,8 +4,10 @@ body {
   background-size: cover;
   background-color: black;
   font-family: 'Roboto', sans-serif;
-  -webkit-animation: fadein 3000ms linear both;
-          animation: fadein 3000ms linear both;
+}
+.office, .inq{
+  -webkit-animation: fadein 2000ms linear both;
+          animation: fadein 2000ms linear both;
 }
 
 .topnav a {

@@ -65,8 +65,8 @@ body{
   position: fixed;
   z-index: 9;
   width: 100%;
-  -webkit-animation: slidein 7000ms linear both;
-          animation: slidein 7000ms linear both;
+  -webkit-animation: slidein 4000ms linear both;
+          animation: slidein 4000ms linear both;
 }
 .topnav a {
   display: inline-block;

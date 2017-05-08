@@ -25,17 +25,13 @@ body {
   margin-left: 30px;
 }
 
-.color{
-  background-color: white !important;
-  color: black !important;
-}
 
 /*filter*/
 .filter a {
   padding: 10px;
   display:inline-block;
-  color:white !important;
-  background-color: #212121 !important;
+  color: white;
+  background-color: #212121;
   text-decoration:none;
   transition:all 0.5s;
   font-size: 16px;
@@ -46,8 +42,8 @@ body {
 }
 
 .filter a:hover {
-  background: white  !important;
-  color: black !important;
+  background-color: white;
+  color: black;
 }
 
 .filter {
@@ -105,11 +101,13 @@ body {
   backface-visibility: hidden; 
 }
 
-.gray{
-  filter: grayscale(100%) !important;
-}
 .notgray{
   filter: grayscale(0%) !important;
+}
+
+.fill{
+  background-color: white !important;
+  color: black !important;
 }
 
 .middle {

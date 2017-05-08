@@ -13,13 +13,15 @@ $(document).ready(function(){
 
   $all = $("#all");
 
+
+
   // each click function changes the grayscale of the item to none
   // making it in color while the others remain in black and white
 
   var $edu = function(){
     $education.click(function(){
       $('#education').css("background-color", "white");
-      $("#education").css("color", "black !important");
+      $("#education").css("color", "black");
       $("#retail").css("background-color", "#212121");
       $("#retail").css("color", "white");
       $("#mixed").css("background-color", "#212121");
@@ -250,5 +252,4 @@ $(document).ready(function(){
       $('.wrap').prepend($('.civ'))
     }
   })
-
 });
