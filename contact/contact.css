@@ -8,6 +8,26 @@ body {
           animation: fadein 3000ms linear both;
 }
 
+.topnav a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  text-decoration: none;
+  transition: .5s;
+  font-size: 20px;
+}
+
+#contact{
+  margin-left: 25px;
+}
+
+#work{
+  margin-left: 30px;
+}
+
 @-webkit-keyframes fadein {
   0% {
     opacity: 0;

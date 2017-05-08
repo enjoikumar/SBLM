@@ -68,6 +68,25 @@ body{
   -webkit-animation: slidein 7000ms linear both;
           animation: slidein 7000ms linear both;
 }
+.topnav a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  text-decoration: none;
+  transition: .5s;
+  font-size: 20px;
+}
+
+#contact{
+  margin-left: 25px;
+}
+
+#work{
+  margin-left: 30px;
+}
 
 .sblm{
   margin-left: 0px;
