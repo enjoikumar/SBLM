@@ -15,10 +15,10 @@ $(document).ready(function(){
   // each click function changes the grayscale of the item to none
   // making it in color while the others remain in black and white
 
-  var edu = function(){
+  var $edu = function(){
     $education.click(function(){
-      $("#education").css("background-color", "white");
-      $("#education").css("color", "black");
+      $('#education').css("background-color", "white");
+      $("#education").css("color", "black !important");
       $("#retail").css("background-color", "#212121");
       $("#retail").css("color", "white");
       $("#mixed").css("background-color", "#212121");
@@ -28,17 +28,16 @@ $(document).ready(function(){
       $("#civic").css("background-color", "#212121");
       $("#civic").css("color", "white");
 
-      $(".education").css("filter", "grayscale(0%)")
-      $(".retail").css("filter", "grayscale(100%)")
-      $(".mixed").css("filter", "grayscale(100%)")
-      $(".health").css("filter", "grayscale(100%)")
-      $(".civic").css("filter", "grayscale(100%)")
-      $(".all").css("filter", "grayscale(100%)")
+      $('.education').addClass('notgray')
+      $('.retail').removeClass('notgray')
+      $('.mixed').removeClass('notgray')
+      $('.health').removeClass('notgray')
+      $('.civic').removeClass('notgray')
     });
   }
-  edu()
+  $edu()
 
-  var ret = function(){
+  var $ret = function(){
     $retail.click(function(){
       $("#education").css("background-color", "#212121");
       $("#education").css("color", "white");
@@ -50,18 +49,18 @@ $(document).ready(function(){
       $("#health").css("color", "white");
       $("#civic").css("background-color", "#212121");
       $("#civic").css("color", "white");
+      $('.retail').addClass('color')
 
-      $(".education").css("filter", "grayscale(100%)")
-      $(".retail").css("filter", "grayscale(0%)")
-      $(".mixed").css("filter", "grayscale(100%)")
-      $(".health").css("filter", "grayscale(100%)")
-      $(".civic").css("filter", "grayscale(100%)")
-      $(".all").css("filter", "grayscale(100%)")
+      $('.education').removeClass('notgray')
+      $('.retail').addClass('notgray')
+      $('.mixed').removeClass('notgray')
+      $('.health').removeClass('notgray')
+      $('.civic').removeClass('notgray')
     });
   }
-  ret()
+  $ret()
 
-  var mix = function(){
+  var $mix = function(){
     $mixed.click(function(){
       $("#education").css("background-color", "#212121");
       $("#education").css("color", "white");
@@ -73,18 +72,18 @@ $(document).ready(function(){
       $("#health").css("color", "white");
       $("#civic").css("background-color", "#212121");
       $("#civic").css("color", "white");
+      $('.mixed').addClass('color')
 
-      $(".education").css("filter", "grayscale(100%)")
-      $(".retail").css("filter", "grayscale(100%)")
-      $(".mixed").css("filter", "grayscale(0%)")
-      $(".health").css("filter", "grayscale(100%)")
-      $(".civic").css("filter", "grayscale(100%)")
-      $(".all").css("filter", "grayscale(100%)")
+      $('.education').removeClass('notgray')
+      $('.retail').removeClass('notgray')
+      $('.mixed').addClass('notgray')
+      $('.health').removeClass('notgray')
+      $('.civic').removeClass('notgray')
     });
   }
-  mix()
+  $mix()
 
-  var hea = function(){
+  var $hea = function(){
     $health.click(function(){
       $("#education").css("background-color", "#212121");
       $("#education").css("color", "white");
@@ -96,18 +95,18 @@ $(document).ready(function(){
       $("#health").css("color", "#212121");
       $("#civic").css("background-color", "#212121");
       $("#civic").css("color", "white");
+      $('.health').addClass('color');
 
-      $(".education").css("filter", "grayscale(100%)")
-      $(".retail").css("filter", "grayscale(100%)")
-      $(".mixed").css("filter", "grayscale(100%)")
-      $(".health").css("filter", "grayscale(0%)")
-      $(".civic").css("filter", "grayscale(100%)")
-      $(".all").css("filter", "grayscale(100%)")
+      $('.education').removeClass('notgray')
+      $('.retail').removeClass('notgray')
+      $('.mixed').removeClass('notgray')
+      $('.health').addClass('notgray')
+      $('.civic').removeClass('notgray')
     });
   }
-  hea()
+  $hea()
 
-  var civ = function(){
+  var $civ = function(){
     $civic.click(function(){
       $("#education").css("background-color", "#212121");
       $("#education").css("color", "white");
@@ -119,21 +118,21 @@ $(document).ready(function(){
       $("#health").css("color", "white");
       $("#civic").css("background-color", "white");
       $("#civic").css("color", "#212121");
+      $('.civic').addClass('color')
 
-      $(".education").css("filter", "grayscale(100%)")
-      $(".retail").css("filter", "grayscale(100%)")
-      $(".mixed").css("filter", "grayscale(100%)")
-      $(".health").css("filter", "grayscale(100%)")
-      $(".civic").css("filter", "grayscale(0%)")
-      $(".all").css("filter", "grayscale(100%)")
+      $('.education').removeClass('notgray')
+      $('.retail').removeClass('notgray')
+      $('.mixed').removeClass('notgray')
+      $('.health').removeClass('notgray')
+      $('.civic').addClass('notgray')
     });
   }
-  civ()
+  $civ()
 
-  var count = 1
+  var $count = 1
   $all.click(function(){
-    count++;
-    if(count%2){
+    $count++;
+    if($count%2){
       $("#all").html('&#9711;')
       $("#education").css("background-color", "#212121");
       $("#education").css("color", "white");
@@ -145,6 +144,7 @@ $(document).ready(function(){
       $("#health").css("color", "white");
       $("#civic").css("background-color", "#212121");
       $("#civic").css("color", "white");
+
       $(".education").css("filter", "grayscale(100%)")
       $(".retail").css("filter", "grayscale(100%)")
       $(".mixed").css("filter", "grayscale(100%)")
@@ -164,11 +164,12 @@ $(document).ready(function(){
       $("#civic").css("color", "white");
       $("#all").css("background-color", "#212121")
       $("#all").css("color", "white")
-      $(".education").css("filter", "grayscale(0%)")
-      $(".retail").css("filter", "grayscale(0%)")
-      $(".mixed").css("filter", "grayscale(0%)")
-      $(".health").css("filter", "grayscale(0%)")
-      $(".civic").css("filter", "grayscale(0%)")
+
+      $('.education').addClass('notgray')
+      $('.retail').addClass('notgray')
+      $('.mixed').addClass('notgray')
+      $('.health').addClass('notgray')
+      $('.civic').addClass('notgray')
     }
   })
 
