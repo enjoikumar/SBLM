@@ -1,7 +1,7 @@
-
 $(document).ready(function(){
-//naming the filter bar to call for functions later
 
+
+  //naming the filter bar to call for functions later
   $education = $("#education");
 
   $retail = $("#retail");
@@ -231,11 +231,13 @@ $(document).ready(function(){
     }
   }
   // shuffle()
+
   //commenting out the shuffle will enable the shuffle function
   //BUT PUSHING THE DIVS TO THE FRONT WONT WORK
 
   //when clicked on the filter nav
   //elements of the corresponding studio will be pushed to the front
+
   $education.click(function(){
       if ($('.edu').length){
       $('.wrap').prepend($('.edu'))
@@ -268,6 +270,7 @@ $(document).ready(function(){
 
   //same this as the click function
   //but it randomly pushes a studio to the first line
+
   var buttons = [
     $education,
     $retail,

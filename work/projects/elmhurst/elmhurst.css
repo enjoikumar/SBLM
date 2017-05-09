@@ -107,9 +107,9 @@ figure.show {
 	display: none;
 	position: absolute;
 	font-size: 20px;
-	margin-top: -624px;
+	margin-top: -664px;
 	width: 1140px;
-	height: 430px;
+	height: 460px;
 	color:white;
 	background-color: black;
 	padding: 80px 80px 80px 60px;
@@ -165,7 +165,7 @@ figure.show {
 	width: 100%;
 	height: 66%;
 	padding-bottom: 20px;
-	margin-top: -40px;
+	margin-top: 0px;
 }
 
 
@@ -195,7 +195,7 @@ figure.show {
 	position: absolute;
 	height: 640px;
 	width: 93%;
-	margin-top: -645px;
+	margin-top: -665px;
 	z-index: 10;
 	cursor: url("../../assets/down.png"), wait;
 }
@@ -280,9 +280,9 @@ figure.show {
 		margin-top: -890px;
 	}
 	.fold{
-		margin-top: -944px;
+		margin-top: -984px;
 		width: 1780px;
-		height: 740px;
+		height: 780px;
 	}
 
 	.history span{
@@ -337,9 +337,9 @@ figure.show {
 	}
 	.fold{
 		font-size: 20px;
-		height: 207px;
+		height: 247px;
 		width: 596px;
-		margin-top: -352px;
+		margin-top: -392px;
 		padding-top: 40px;
 	}
 	.fold p{
@@ -393,10 +393,10 @@ figure.show {
 		margin-top: -310px;
 	}
 	.fold{
-		margin-top: -319px;
+		margin-top: -359px;
 		font-size: 18px !important;
 		width: 568px;
-		height: 195px;
+		height: 235px;
 		padding-left: 20px;
 		padding-top: 20px;
 	}
@@ -447,9 +447,9 @@ figure.show {
 	}
 	.fold{
 		font-size: 15px !important;
-		margin-top: -270px;
+		margin-top: -310px;
 		width: 468px;
-		height: 145px;
+		height: 195px;
 	}
 	.fold p{
 		font-size: 14px !important;
@@ -492,9 +492,9 @@ figure.show {
 	}
 	.fold{
 		font-size: 11px !important;
-		margin-top: -191px;
+		margin-top: -231px;
 		width: 314px !important;
-		height: 67px !important;
+		height: 107px !important;
 	}
 	.fold p{
 		margin-top: 0px;
@@ -556,9 +556,9 @@ figure.show {
 		margin-top: -160px;
 	}
 	.fold{
-		margin-top: -175px;
+		margin-top: -215px;
 		width: 275px !important;
-		height: 51px !important;
+		height: 91px !important;
 		opacity: 1;
 	}
 
@@ -590,11 +590,10 @@ figure.show {
 		margin-top: -140px;
 	}
 	.fold{
-		display: block;
-		margin-top: -144px;
+		margin-top: -184px;
 		font-size: 9px !important;
 		width: 220px !important;
-		height: 50px !important;
+		height: 60px !important;
 	}
 	.fold p{
 		font-size: 10px !important;
