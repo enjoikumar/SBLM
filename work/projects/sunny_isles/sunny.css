@@ -285,6 +285,12 @@ figure.show {
 	.history4 img{
 		height: 1200px;
 	}
+
+	.press{
+		width: 95%;
+		height: 960px;
+		margin-top: -968px;
+	}
 }
 
 
@@ -342,6 +348,12 @@ figure.show {
 	.history4 img{
 		height: 500px;
 	}
+
+	.press{
+		width: 90%;
+		height: 360px;
+		margin-top: -368px;
+	}
 }
 
 @media only screen and (max-width: 667px) {
@@ -388,6 +400,12 @@ figure.show {
 
 	.history3 img{
 		margin-left: 33.5px;
+	}
+
+	.press{
+		width: 89%;
+		height: 330px;
+		margin-top: -338px;
 	}
 }
 
@@ -439,6 +457,11 @@ figure.show {
 	.history3 img{
 		width: 500px;
 		margin-right: 34px;
+	}
+	.press{
+		width: 92%;
+		height: 280px;
+		margin-top: -288px;
 	}
 }
 
@@ -497,6 +520,9 @@ figure.show {
 	}
 	.history4 img{
 		margin-top: 20px;
+	}
+	.press{
+		display: none;
 	}
 }
 
