@@ -121,14 +121,14 @@ figure.show {
 	display: none;
 	position: absolute;
 	font-size: 20px !important;
-	margin-top: -625px;
+	margin-top: -665px;
 	width: 1140px;
-	height: 400px;
+	height: 460px;
 	color:white;
 	background-color: black;
 	padding: 80px 80px 80px 60px;
 	padding-top: 120px;
-	opacity: .9;
+	opacity: .2;
 }
 
 .history1{
