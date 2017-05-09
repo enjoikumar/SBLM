@@ -326,6 +326,9 @@ strong {
 		margin-top: -1280px;
 		z-index: 10;
 	}
+	.footer{
+		margin-top: 1090px !important;
+	}
 }
 
 @media screen and (width: 1920px){
