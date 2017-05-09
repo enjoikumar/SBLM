@@ -246,6 +246,9 @@ figure.show {
 		margin-top: -1240px;
 		z-index: 10;
 	}
+	.footer{
+		margin-top: 1020px !important;
+	}
 }
 
 @media only screen and (width: 1920px) {
