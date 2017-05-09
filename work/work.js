@@ -1,5 +1,6 @@
 
 $(document).ready(function(){
+//naming the filter bar to call for functions later
 
   $education = $("#education");
 
@@ -17,6 +18,8 @@ $(document).ready(function(){
 
   // each click function changes the grayscale of the item to none
   // making it in color while the others remain in black and white
+  //used the $education and then ('#education') for separation and make it easier to read
+  //created it into a variable so..it can be pushed for later
 
   var $edu = function(){
     $education.click(function(){
@@ -177,19 +180,26 @@ $(document).ready(function(){
   })
 
 
-  var 
-  clicks = [
-    $('#education'),
-    $('#retail'),
-    $('#mixed'),
-    $('#health'),
-    $('#civic')
+  //pushed all the variables from lines 5-15 into an array
+
+
+  var clicks = [
+    $education,
+    $retail,
+    $mixed,
+    $health,
+    $civic
   ]
 
+  //the array's order is then shuffled randomly
   var $click = clicks[Math.floor(Math.random()*clicks.length)]; 
 
+
+  //it is then triggered thus a random studio getting highlighted
   $click.trigger('click')
 
+
+  //commented out code for me for later
   // var skate =['koston', 'malto','song', 'puig']
   // var euro = ['haslam', 'hsu', 'mullen']
   // skate.unshift(...euro)
@@ -221,8 +231,11 @@ $(document).ready(function(){
     }
   }
   // shuffle()
+  //commenting out the shuffle will enable the shuffle function
+  //BUT PUSHING THE DIVS TO THE FRONT WONT WORK
 
-
+  //when clicked on the filter nav
+  //elements of the corresponding studio will be pushed to the front
   $education.click(function(){
       if ($('.edu').length){
       $('.wrap').prepend($('.edu'))
@@ -253,8 +266,9 @@ $(document).ready(function(){
     }
   })
 
-  var 
-  buttons = [
+  //same this as the click function
+  //but it randomly pushes a studio to the first line
+  var buttons = [
     $education,
     $retail,
     $mixed,
