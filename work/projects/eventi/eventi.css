@@ -267,9 +267,9 @@ figure.show {
 		margin-top: -850px;
 	}
 	.fold{
-		margin-top: -924px;
+		margin-top: -964px;
 		width: 1780px;
-		height: 720px;
+		height: 760px;
 	}
 
 	.history1 img{
@@ -296,6 +296,10 @@ figure.show {
 	.history3 img{
 		height: 1000px;
 	}
+	.press{
+		height: 960px;
+		margin-top: -965px;
+	}
 }
 
 @media only screen and (max-width: 736px) {
@@ -314,13 +318,18 @@ figure.show {
 	}
 	.fold{
 		font-size: 20px;
-		height: 129px !important;
+		height: 169px !important;
 		width: 596px;
-		margin-top: -332px;
+		margin-top: -372px;
 	}
 	.fold p{
 		max-width: 70% !important;
 		margin-top: -100px;
+	}
+	.press{
+		width: 90%;
+		height: 360px;
+		margin-top: -365px;
 	}
 
 	.history1 img{
@@ -362,9 +371,9 @@ figure.show {
 		margin-top: -290px;
 	}
 	.fold{
-		margin-top: -299px !important;
+		margin-top: -339px !important;
 		width: 568px;
-		height: 195px !important;
+		height: 235px !important;
 		font-size: 18px !important;
 		padding-left: 20px;
 		padding-top: 20px;
@@ -383,6 +392,11 @@ figure.show {
 	.history2 span{
 		margin-left: 33.5px;
 	}
+	.press{
+		width: 89%;
+		height: 330px;
+		margin-top: -335px;
+	}
 }
 
 @media only screen and (max-width: 568px) {
@@ -399,10 +413,10 @@ figure.show {
 		margin-right: 20px;
 	}
 	.fold{
-		margin-top: -248px !important;
+		margin-top: -288px !important;
 		font-size: 15px !important;
 		width: 468px;
-		height: 144px !important;
+		height: 184px !important;
 	}
 	.fold p{
 		font-size: 14px !important;
@@ -420,6 +434,12 @@ figure.show {
 		width: 500px;
 		margin-right: 34px;
 	}
+
+	.press{
+		width: 92%;
+		height: 280px;
+		margin-top: -285px;
+	}
 }
 
 @media only screen and (max-width: 414px) {
@@ -435,9 +455,9 @@ figure.show {
 	}
 	.fold{
 		font-size: 11px !important;
-		margin-top: -171px !important;
+		margin-top: -211px !important;
 		width: 314px !important;
-		height: 68px !important;
+		height: 108px !important;
 	}
 	.fold p{
 		max-width: 90% !important;
@@ -485,6 +505,9 @@ figure.show {
 		margin-top: 20px;
 		height: 400px;
 	}
+	.press{
+		display: none;
+	}
 }
 
 
@@ -500,10 +523,10 @@ figure.show {
 		margin-top: -140px;
 	}
 	.fold{
-		margin-top: -153px !important;
+		margin-top: -193px !important;
 		font-size: 10px !important;
 		width: 275px !important;
-		height: 71px !important;
+		height: 91px !important;
 	}
 	.fold p{
 		font-size: 11px !important;
@@ -536,10 +559,10 @@ figure.show {
 		margin-top: -120px;
 	}
 	.fold{
-		margin-top: -124px !important;
+		margin-top: -164px !important;
 		font-size: 9px !important;
 		width: 320px !important;
-		height: 40px !important;
+		height: 60px !important;
 		padding-right: 0px;
 		padding-left: 0px;
 	}

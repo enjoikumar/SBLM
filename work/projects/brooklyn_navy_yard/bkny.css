@@ -308,6 +308,12 @@ figure.show {
 		margin-right: 250px;
 		margin-top: 450px;
 	}
+
+	.press{
+		width: 95%;
+		height: 960px;
+		margin-top: -965px;
+	}
 }
 
 @media only screen and (max-width: 736px) {
@@ -366,6 +372,12 @@ figure.show {
 		text-align: left;
 		padding-bottom: 40px;
 	}
+
+	.press{
+		width: 90%;
+		height: 370px;
+		margin-top: -375px;
+	}
 }
 
 @media only screen and (max-width: 667px) {
@@ -410,6 +422,12 @@ figure.show {
 	}
 	.history3 span{
 		margin-right: 33.5px;
+	}
+
+	.press{
+		width: 89%;
+		height: 330px;
+		margin-top: -335px;
 	}
 }
 
@@ -468,6 +486,12 @@ figure.show {
 	.history3 span{
 		width: 500px;
 		margin-right: 34px;
+	}
+
+	.press{
+		width: 92%;
+		height: 280px;
+		margin-top: -285px;
 	}
 }
 
@@ -533,6 +557,9 @@ figure.show {
 		width: 375px;
 		margin-top: 20px;
 		margin-right: 13px;
+	}
+	.press{
+		display: none;
 	}
 }
 

@@ -395,6 +395,12 @@ strong {
 		width: 1600px;
 		height: 800px;
 	}
+
+	.press{
+		width: 95%;
+		height: 960px;
+		margin-top: -965px;
+	}
 }
 
 @media screen and (max-width: 736px) {
@@ -463,6 +469,12 @@ strong {
 		width: 100%;
 		height: 600px;
 	}
+
+	.press{
+		width: 95%;
+		height: 365px;
+		margin-top: -370px;
+	}
 }
 
 @media screen and (max-width: 667px) {
@@ -529,6 +541,12 @@ strong {
 
 	.history6 img{
 		height: 500px;
+	}
+
+	.press{
+		width: 92%;
+		height: 335px;
+		margin-top: -340px;
 	}
 }
 
@@ -597,6 +615,11 @@ strong {
 		margin-right: 20px;
 		text-align: center;
 		margin-top: 40px;
+	}
+	.press{
+		width: 92%;
+		height: 285px;
+		margin-top: -290px;
 	}
 }
 
@@ -676,7 +699,9 @@ strong {
 	.history6 img{
 		margin-top: 20px;
 	}
-
+	.press{
+		display: none;
+	}
 }
 
 @media screen and (max-width: 375px){
