@@ -105,7 +105,6 @@ figure.show {
 	width: 100%;
 	height: 66%;
 	padding-bottom: 20px;
-	margin-top: -40px;
 }
 
 .expand{
@@ -207,8 +206,8 @@ figure.show {
 	}
 	.fold{
 		width: 2403px;
-		height: 1032px;
-		margin-top: -1256px;
+		height: 1072px;
+		margin-top: -1297px;
 		font-size: 30px;
 	}
 	.fold p{
@@ -282,9 +281,9 @@ figure.show {
 		margin-top: -890px;
 	}
 	.fold{
-		margin-top: -946px;
+		margin-top: -986px;
 		width: 1780px;
-		height: 720px;
+		height: 760px;
 	}
 
 	.history1 img{

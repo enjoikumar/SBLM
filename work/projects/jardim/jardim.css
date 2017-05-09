@@ -156,7 +156,7 @@ figure.show {
 .history6 img{
 	width: 100%;
 	height: 66%;
-	margin-top: -40px;
+	/*margin-top: -40px;*/
 }
 
 
@@ -211,9 +211,9 @@ figure.show {
 		margin-top: -1180px;
 	}
 	.fold{
-		margin-top: -1236px;
+		margin-top: -1276px;
 		width: 2406px;
-		height: 1072px;
+		height: 1112px;
 		font-size: 30px;
 	}
 	.fold p{
