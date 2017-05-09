@@ -260,9 +260,9 @@ figure.show {
 		margin-top: -870px;
 	}
 	.fold{
-		margin-top: -924px;
+		margin-top: -964px;
 		width: 1780px;
-		height: 760px;
+		height: 800px;
 	}
 
 	.project-history{
@@ -319,9 +319,9 @@ figure.show {
 	}
 	.fold{
 		font-size: 20px;
-		height: 168px;
+		height: 208px;
 		width: 596px;
-		margin-top: -332px;
+		margin-top: -372px;
 	}
 	.fold p{
 		max-width: 70% !important;
@@ -356,7 +356,7 @@ figure.show {
 	}
 
 	.press{
-		width: 95%;
+		width: 90%;
 		height: 370px;
 		margin-top: -375px;
 	}
@@ -375,9 +375,9 @@ figure.show {
 		margin-right: 20px;
 	}
 	.fold{
-		margin-top: -299px;
+		margin-top: -339px;
 		width: 568px;
-		height: 195px;
+		height: 235px;
 		padding-left: 20px;
 		padding-top: 20px;
 		font-size: 18px !important;
@@ -430,9 +430,9 @@ figure.show {
 		font-size: 20px;
 	}
 	.fold{
-		margin-top: -249px;
+		margin-top: -289px;
 		width: 468px;
-		height: 145px;
+		height: 185px;
 		font-size: 15px !important;
 	}
 
@@ -483,9 +483,9 @@ figure.show {
 	}
 	.fold{
 		font-size: 12px !important;
-		margin-top: -171px;
+		margin-top: -211px;
 		width: 314px !important;
-		height: 93px !important;
+		height: 133px !important;
 	}
 	.fold p{
 		font-size: 13px !important;
@@ -556,9 +556,9 @@ figure.show {
 		margin-top: -140px;
 	}
 	.fold{
-		margin-top: -153px;
+		margin-top: -193px;
 		width: 275px !important;
-		height: 71px !important;
+		height: 111px !important;
 		font-size: 10px !important;
 	}
 	.fold p{
@@ -617,10 +617,10 @@ figure.show {
 	}
 	.fold{
 		display: block;
-		margin-top: -124px;
+		margin-top: -164px;
 		font-size: 9px !important;
 		width: 220px !important;
-		height: 50px !important;
+		height: 90px !important;
 	}
 	.fold p{
 		font-size: 10px !important;
