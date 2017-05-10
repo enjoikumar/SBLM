@@ -104,17 +104,16 @@ figure.show {
 	margin-right: 40px;
 }
 .fold{
-	display: none;
 	position: absolute;
 	font-size: 20px;
 	margin-top: -664px;
-	width: 1140px;
+	width: 1700px;
 	height: 460px;
 	color:white;
 	background-color: black;
 	padding: 80px 80px 80px 60px;
 	padding-top: 100px;
-	opacity: .9;
+	opacity: .75;
 }
 
 
@@ -208,12 +207,10 @@ figure.show {
 	figure img{
 		height: 1366px;
 	}
-	.expand{
-		margin-top: -1200px;
-	}
+
 	.fold{
 		margin-top: -1297px;
-		width: 2404px;
+		width: 1400px;
 		height: 1093px;
 	}
 	.fold p{
@@ -276,12 +273,10 @@ figure.show {
 		height: 960px;
 	}
 
-	.expand{
-		margin-top: -890px;
-	}
+
 	.fold{
 		margin-top: -984px;
-		width: 1780px;
+		width: 2800px;
 		height: 780px;
 	}
 
@@ -338,9 +333,7 @@ figure.show {
 		height: 414px;
 	}
 
-	.expand{
-		margin-top: -325px;
-	}
+
 	.fold{
 		font-size: 20px;
 		height: 247px;
@@ -401,9 +394,6 @@ figure.show {
 		height: 375px;
 	}
 
-	.expand{
-		margin-top: -310px;
-	}
 	.fold{
 		margin-top: -359px;
 		font-size: 18px !important;
@@ -458,11 +448,7 @@ figure.show {
 	figure img{
 		height: 320px;
 	}
-	.expand{
-		margin-top: -250px;
-		font-size: 20px;
-		margin-right: 20px;
-	}
+
 	.fold{
 		font-size: 15px !important;
 		margin-top: -310px;
@@ -511,9 +497,6 @@ figure.show {
 		height: 375px;
 	}
 
-	.expand{
-		margin-top: -180px;
-	}
 	.fold{
 		font-size: 11px !important;
 		margin-top: -231px;
@@ -579,9 +562,6 @@ figure.show {
 		height: 350px;
 	}
 
-	.expand{
-		margin-top: -160px;
-	}
 	.fold{
 		margin-top: -215px;
 		width: 275px !important;
@@ -613,9 +593,6 @@ figure.show {
 		height: 300px;
 	}
 
-	.expand{
-		margin-top: -140px;
-	}
 	.fold{
 		margin-top: -184px;
 		font-size: 9px !important;
@@ -753,64 +730,6 @@ figure.show {
   -o-transform: translate(0px, 0px);
   -ms-transform: translate(0px, 0px);
   transform: translate3d(0px, 0px, 0px);
-}
-
-
-.fold {
-  -webkit-animation: fadein 2000ms linear both;
-        	animation: fadein 2000ms linear both;
-}
-@-webkit-keyframes fadein {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: .5;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes fadein {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: .5;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-.away{
-	-webkit-animation: GoAway 1000ms linear both;
-        	animation: GoAway 1000ms linear both;
-}
-
-@-webkit-keyframes GoAway {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: .5;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-@keyframes GoAway {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: .5;
-  }
-  100% {
-    opacity: 0;
-  }
 }
 
 

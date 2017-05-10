@@ -84,24 +84,24 @@ $(document).ready(function(){
   }, 400);
   });
 
-  $fold = $('.fold');
-  $expand = $('.expand');
+  // $fold = $('.fold');
+  // $expand = $('.expand');
 
-  var count = 0;
+  // var count = 0;
 
-  //user clicks on plus it turns to minus
-  //it also
-  $expand.click(function(){
-    count++;
-    if(count%2){
-      $fold.css("display", "block")
-      $expand.html('&#x2501;')
-      $fold.removeClass('away')
-    } else{
-      $expand.html('&#x254B;')
-      $fold.addClass('away')
-    }
-  })
+  // //user clicks on plus it turns to minus
+  // //it also
+  // $expand.click(function(){
+  //   count++;
+  //   if(count%2){
+  //     $fold.css("display", "block")
+  //     $expand.html('&#x2501;')
+  //     $fold.removeClass('away')
+  //   } else{
+  //     $expand.html('&#x254B;')
+  //     $fold.addClass('away')
+  //   }
+  // })
 
   
   $('.press').click(function(){

@@ -100,27 +100,16 @@ figure.show {
 	cursor: url("../../assets/down.png"), wait;
 }
 
-.expand{
-	position: relative;
-	font-size: 30px;
-	float: right;
-	cursor: pointer;
-	color: white;
-	z-index: 3;
-	margin-top: -590px;
-	margin-right: 40px;
-}
 .fold{
-	display: none;
 	position: absolute;
 	font-size: 20px;
 	margin-top: -644px;
-	width: 1140px;
+	width: 1700px;
 	height: 560px;
 	color:white;
 	background-color: black;
 	padding: 80px 80px 80px 60px;
-	opacity: .9;
+	opacity: .75;
 }
 
 .project-history{
@@ -152,12 +141,10 @@ figure.show {
 	figure img{
 		height: 1366px;
 	}
-	.expand{
-		margin-top: -1200px;
-	}
+
 	.fold{
 		margin-top: -1277px;
-		width: 2402px;
+		width: 1400px;
 		height: 1200px;
 		font-size: 30px;
 	}
@@ -174,12 +161,9 @@ figure.show {
 	figure img{
 		height: 960px;
 	}
-	.expand{
-		margin-top: -900px;
-	}
 	.fold{
 		margin-top: -964px;
-		width: 1780px;
+		width: 2800px;
 		height: 920px;
 	}
 }
@@ -192,9 +176,6 @@ figure.show {
 		height: 414px;
 	}
 	
-	.expand{
-		margin-top: -360px;
-	}
 	.fold{
 		font-size: 20px;
 		height: 256px;
@@ -215,9 +196,6 @@ figure.show {
 		height: 375px;
 	}
 
-	.expand{
-		margin-top: -320px;
-	}
 	.fold{
 		margin-top: -339px;
 		font-size: 18px !important;
@@ -244,11 +222,6 @@ figure.show {
 		height: 320px;
 	}
 
-	.expand{
-		margin-top: -280px;
-		font-size: 20px;
-		margin-right: 20px;
-	}
 	.fold{
 		margin-top: -288px;
 		font-size: 15px !important;
@@ -269,9 +242,6 @@ figure.show {
 		height: 375px;
 	}
 
-	.expand{
-		margin-top: -200px;
-	}
 	.fold{
 		font-size: 12px !important;
 		margin-top: -212px;
@@ -302,9 +272,7 @@ figure.show {
 	figure img{
 		height: 350px;
 	}
-	.expand{
-		margin-top: -180px;
-	}
+
 	.fold{
 		margin-top: -195px;
 		font-size: 10px;
@@ -324,9 +292,6 @@ figure.show {
 		height: 300px;
 	}
 
-	.expand{
-		margin-top: -160px;
-	}
 	.fold{
 		margin-top: -164px;
 		font-size: 9px !important;
@@ -343,64 +308,6 @@ figure.show {
 	}
 }
 
-
-.fold {
-  -webkit-animation: fadein 2000ms linear both;
-        	animation: fadein 2000ms linear both;
-}
-@-webkit-keyframes fadein {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: .5;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes fadein {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: .5;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-
-.away{
-	-webkit-animation: GoAway 1000ms linear both;
-        	animation: GoAway 1000ms linear both;
-}
-
-@-webkit-keyframes GoAway {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: .5;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-@keyframes GoAway {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: .5;
-  }
-  100% {
-    opacity: 0;
-  }
-}
 
 
 

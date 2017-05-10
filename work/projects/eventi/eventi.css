@@ -136,28 +136,18 @@ figure.show {
 	margin-top: 80px;
 }
 
-.expand{
-	position: relative;
-	font-size: 30px;
-	float: right;
-	cursor: pointer;
-	color: white;
-	z-index: 3;
-	margin-top: -560px;
-	margin-right: 40px;
-}
+
 .fold{
-	display: none;
 	position: absolute;
 	font-size: 20px;
 	margin-top: -645px;
-	width: 1140px;
+	width: 1400px;
 	height: 440px;
 	color:white;
 	background-color: black;
 	padding: 80px 80px 80px 60px;
 	padding-top: 120px;
-	opacity: .9;
+	opacity: .75;
 }
 
 
@@ -204,12 +194,10 @@ figure.show {
 	figure img{
 		height: 1366px;
 	}
-	.expand{
-		margin-top: -1150px;
-	}
+
 	.fold{
 		margin-top: -1276px;
-		width: 2406px;
+		width: 1400px;
 		height: 1072px;
 	}
 	.fold p{
@@ -263,12 +251,9 @@ figure.show {
 		font-size: 1.5em;
 	}
 
-	.expand{
-		margin-top: -850px;
-	}
 	.fold{
 		margin-top: -964px;
-		width: 1780px;
+		width: 2800px;
 		height: 760px;
 	}
 
@@ -313,9 +298,7 @@ figure.show {
 		font-size: 20px !important;
 		margin-top: -64px;
 	}
-	.expand{
-		margin-top: -320px;
-	}
+
 	.fold{
 		font-size: 20px;
 		height: 169px !important;
@@ -367,9 +350,6 @@ figure.show {
 		height: 375px;
 	}
 
-	.expand{
-		margin-top: -290px;
-	}
 	.fold{
 		margin-top: -339px !important;
 		width: 568px;
@@ -407,11 +387,6 @@ figure.show {
 		height: 320px;
 	}
 
-	.expand{
-		margin-top: -240px;
-		font-size: 20px;
-		margin-right: 20px;
-	}
 	.fold{
 		margin-top: -288px !important;
 		font-size: 15px !important;
@@ -450,9 +425,6 @@ figure.show {
 		height: 375px;
 	}
 
-	.expand{
-		margin-top: -160px;
-	}
 	.fold{
 		font-size: 11px !important;
 		margin-top: -211px !important;
@@ -519,9 +491,6 @@ figure.show {
 		height: 350px;
 	}
 
-	.expand{
-		margin-top: -140px;
-	}
 	.fold{
 		margin-top: -193px !important;
 		font-size: 10px !important;
@@ -555,9 +524,7 @@ figure.show {
 	figure img{
 		height: 300px;
 	}
-	.expand{
-		margin-top: -120px;
-	}
+
 	.fold{
 		margin-top: -164px !important;
 		font-size: 9px !important;
@@ -700,65 +667,6 @@ figure.show {
   -o-transform: translate(0px, 0px);
   -ms-transform: translate(0px, 0px);
   transform: translate3d(0px, 0px, 0px);
-}
-
-
-.fold {
-  -webkit-animation: fadein 2000ms linear both;
-        	animation: fadein 2000ms linear both;
-}
-@-webkit-keyframes fadein {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: .5;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes fadein {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: .5;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-
-.away{
-	-webkit-animation: GoAway 1000ms linear both;
-        	animation: GoAway 1000ms linear both;
-}
-
-@-webkit-keyframes GoAway {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: .5;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-@keyframes GoAway {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: .5;
-  }
-  100% {
-    opacity: 0;
-  }
 }
 
 
