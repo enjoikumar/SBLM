@@ -21,13 +21,8 @@ body {
   transition: .5s;
   font-size: 20px;
 }
-
 #contact{
-  margin-left: 25px;
-}
-
-#work{
-  margin-left: 30px;
+  margin-left: 40px !important;
 }
 
 @-webkit-keyframes fadein {
@@ -56,6 +51,7 @@ body {
 
 .topnav{
   position: relative;
+  margin-top: -5px;
 }
 
 
