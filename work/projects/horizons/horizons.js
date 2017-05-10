@@ -26,9 +26,18 @@ $(document).ready(function(){
   $window.trigger('scroll');  
 })
 
-  var raquel = function(){
-    alert('Sorry I couldnt put your photo in')
-  }
+  // var raq = function(){
+  //   alert('Sorry I couldnt put your photo in')
+  // }
+
+  // window.onkeydown = function (e) {
+  //   var code = e.keyCode ? e.keyCode : e.which;
+  //   if (code === 90) { //up key
+  //       alert('sorry nothing to see here');
+  //   } else if (code === 89) { //down key
+  //       alert('stop it');
+  //   }
+  // };
 
 
 
