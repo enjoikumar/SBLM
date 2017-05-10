@@ -282,6 +282,5 @@ $(document).ready(function(){
   var $press = buttons[Math.floor(Math.random()*buttons.length)]; 
 
   $press.trigger('click')
-
-
+  
 });

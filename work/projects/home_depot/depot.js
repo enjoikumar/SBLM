@@ -43,6 +43,7 @@ $(document).ready(function(){
   
 	})(); 
 
+
   var $animation_elements = $('.animation-element');
   var $window = $(window);
 
