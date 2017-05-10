@@ -738,8 +738,9 @@ figure.show {
 	font-size: 27px;
 	background-color: black;
 	width: 100%;
-	height: 50px;
+	height: 40px;
 	cursor: pointer;
+	margin-top: -4px;
 }
 .footer p{
 	text-align: center;

@@ -88,28 +88,17 @@ figure.show {
 	font-size: 1.1em;
 }
 
-.expand{
-	position: relative;
-	font-size: 30px;
-	float: right;
-	cursor: pointer;
-	color: white;
-	z-index: 3;
-	margin-top: -590px;
-	margin-right: 40px;
-}
 .fold{
-	display: none;
 	position: absolute;
 	font-size: 20px;
 	margin-top: -646px;
-	width: 1140px;
+	width: 1700px;
 	height: 482px;
 	color:white;
 	background-color: black;
 	padding: 80px 80px 80px 60px;
+	opacity: .75;
 }
-
 
 .history1 img{
 	margin-top: 20px;
@@ -198,9 +187,6 @@ figure.show {
 	figure img{
 		height: 1366px;
 	}
-	.expand{
-		margin-top: -1200px;
-	}
 	.fold{
 		height: 1115px;
 		width: 2404px;
@@ -264,13 +250,9 @@ figure.show {
 	figure img{
 		height: 960px;
 	}
-
-	.expand{
-		margin-top: -900px;
-	}
 	.fold{
 		margin-top: -965px;
-		width: 1780px;
+		width: 2800px;
 		height: 800px;
 	}
 
@@ -321,10 +303,6 @@ figure.show {
 	}
 	figure img{
 		height: 414px;
-	}
-
-	.expand{
-		margin-top: -350px;
 	}
 	.fold{
 		font-size: 20px;
@@ -386,10 +364,6 @@ figure.show {
 	figure img{
 		height: 375px;
 	}
-
-	.expand{
-		margin-top: -330px;
-	}
 	.fold{
 		margin-top: -340px;
 		width: 568px;
@@ -436,12 +410,6 @@ figure.show {
 	}
 	figure img{
 		height: 320px;
-	}
-
-	.expand{
-		margin-top: -280px;
-		font-size: 20px;
-		margin-right: 20px;
 	}
 	.fold{
 		margin-top: -295px;
@@ -501,10 +469,6 @@ figure.show {
 	figure img{
 		height: 375px;
 	}
-
-	.expand{
-		margin-top: -200px;
-	}
 	.fold{
 		font-size: 11px !important;
 		margin-top: -213px;
@@ -514,8 +478,6 @@ figure.show {
 	.fold p{
 		font-size: 13px;
 		max-width: 90% !important;
-	}
-	.fold br{
 	}
 
 	.title{
@@ -569,10 +531,6 @@ figure.show {
 	figure img{
 		height: 350px;
 	}
-
-	.expand{
-		margin-top: -180px;
-	}
 	.fold{
 		font-size: 10px !important;
 		margin-top: -194px;
@@ -625,10 +583,6 @@ figure.show {
 	}
 	figure img{
 		height: 300px;
-	}
-
-	.expand{
-		margin-top: -160px;
 	}
 	.fold{
 		margin-top: -164px;
@@ -781,40 +735,6 @@ figure.show {
   transform: translate3d(0px, 0px, 0px);
 }
 
-.fold {
-  -webkit-animation: fadein 2000ms linear both;
-        	animation: fadein 2000ms linear both;
-}
-@-webkit-keyframes fadein {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: .5;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes fadein {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: .5;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-
-.away{
-	-webkit-animation: GoAway 1000ms linear both;
-        	animation: GoAway 1000ms linear both;
-}
-
 @-webkit-keyframes GoAway {
   0% {
     opacity: 1;
@@ -841,13 +761,14 @@ figure.show {
 
 .footer{
 	color: white;
-	font-size: 40px;
+	font-size: 27px;
 	background-color: black;
 	width: 100%;
-	height: 50px;
+	height: 40px;
 	cursor: pointer;
+	margin-top: -4px;
 }
 .footer p{
-	float: right;
+	text-align: center;
 }
 

@@ -730,15 +730,15 @@ figure.show {
 
 .footer{
 	position: absolute;
-	margin-top: 520px;
+	margin-top: 500px;
 	color: white;
-	font-size: 40px;
+	font-size: 27px;
 	background-color: black;
 	width: 100%;
-	height: 50px;
+	height: 40px;
 	cursor: pointer;
 	z-index: 3;
 }
 .footer p{
-	float: right;
+	text-align: center;
 }
