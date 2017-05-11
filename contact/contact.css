@@ -115,6 +115,16 @@ a:visited {
   text-decoration: none;
 }
 
+@media screen and (width: 2560px){
+ #contact{
+  margin-left: 104px !important;
+ }
+ #work{
+  margin-left: 125px !important;
+ }
+}
+
+
 @media only screen and (max-width: 736px) {
   .office{
     font-size: 18px;
