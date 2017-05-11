@@ -273,6 +273,9 @@ figure.show {
 		height: 960px;
 		margin-top: -985px;
 	}
+	.footer{
+		margin-top: 920px !important;
+	}
 }
 
 @media only screen and (max-width: 736px) {
@@ -324,6 +327,9 @@ figure.show {
 		width: 95%;
 		height: 365px;
 		margin-top: -390px;
+	}
+	.footer{
+		margin-top: 870px !important;
 	}
 }
 
@@ -384,6 +390,9 @@ figure.show {
 		height: 335px;
 		margin-top: -360px;
 	}
+	.footer{
+		margin-top: 910px !important;
+	}
 }
 
 @media only screen and (max-width: 568px) {
@@ -437,6 +446,9 @@ figure.show {
 		height: 280px;
 		margin-top: -305px;
 	}
+	.footer{
+		margin-top: 990px !important;
+	}
 }
 
 
@@ -488,6 +500,9 @@ figure.show {
 		margin-left: 35px;
 	}
 	.press{
+		display: none;
+	}
+	.footer{
 		display: none;
 	}
 }
@@ -641,7 +656,7 @@ figure.show {
 	width: 100%;
 	height: 40px;
 	cursor: pointer;
-	margin-top: -4px;
+	margin-top: 520px;
 }
 .footer p{
 	text-align: center;
