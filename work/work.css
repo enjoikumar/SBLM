@@ -17,6 +17,13 @@ body {
   font-size: 20px;
 }
 
+#work{
+  margin-left: 60px;
+}
+#contact{
+  margin-left: 60px;
+}
+
 
 /*filter*/
 .filter a {
@@ -48,14 +55,6 @@ body {
   height: 43px
 }
 
-#all:hover{
-  background-color: #212121;
-  color: white;
-}
-#all{
-  font-size: 20px;
-  margin-left: 850px;
-}
 
 
 /*project styling*/
@@ -189,19 +188,23 @@ a {
   }
 }
 
-@media only screen and (max-width: 1920px) {
+@media only screen and (width: 1920px) {
   .filter a{
-    margin-right: -41px;
-    margin-top: 10px;
+    font-size: 15px;
   }
-  #all{
-    margin-left: 1500px;
+  .filter{
+    height: 46px;
+    padding-top: 41px;
+  }
+  #retail, #mixed,
+  #civic, #health{
+    margin-left: 43px;
   }
   #contact{
-    margin-left: 60px;
+    margin-left: 90px;
   }
   #work{
-    margin-left: 60px;
+    margin-left: 90px;
   }
 }
 
