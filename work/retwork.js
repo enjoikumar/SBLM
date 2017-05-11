@@ -11,7 +11,6 @@ $(document).ready(function(){
 
   $civic = $("[id = civic]");
 
-  $all = $("[id = all]");
 
   // each click function changes the grayscale of the item to none
   // making it in color while the others remain in black and white
@@ -129,50 +128,6 @@ $(document).ready(function(){
     });
   }
   $civ()
-
-  var $count = 1
-  $all.click(function(){
-    $count++;
-    if($count%2){
-      $("#all").html('&#9711;')
-      $("#education").css("background-color", "#212121");
-      $("#education").css("color", "white");
-      $("#retail").css("background-color", "#212121");
-      $("#retail").css("color", "white");
-      $("#mixed").css("background-color", "#212121");
-      $("#mixed").css("color", "white");
-      $("#health").css("background-color", "#212121");
-      $("#health").css("color", "white");
-      $("#civic").css("background-color", "#212121");
-      $("#civic").css("color", "white");
-
-      $(".education").css("filter", "grayscale(100%)")
-      $(".retail").css("filter", "grayscale(100%)")
-      $(".mixed").css("filter", "grayscale(100%)")
-      $(".health").css("filter", "grayscale(100%)")
-      $(".civic").css("filter", "grayscale(100%)")
-    } else{
-      $("#all").html('&#9673;')
-      $("#education").css("background-color", "#212121");
-      $("#education").css("color", "white");
-      $("#retail").css("background-color", "#212121");
-      $("#retail").css("color", "white");
-      $("#mixed").css("background-color", "#212121");
-      $("#mixed").css("color", "white");
-      $("#health").css("background-color", "#212121");
-      $("#health").css("color", "white");
-      $("#civic").css("background-color", "#212121");
-      $("#civic").css("color", "white");
-      $("#all").css("background-color", "#212121")
-      $("#all").css("color", "white")
-
-      $('.education').addClass('notgray')
-      $('.retail').addClass('notgray')
-      $('.mixed').addClass('notgray')
-      $('.health').addClass('notgray')
-      $('.civic').addClass('notgray')
-    }
-  })
 
 
   $retail.trigger('click')
