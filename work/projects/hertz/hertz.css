@@ -3,6 +3,7 @@
 }
 body{
 	font-family: 'Roboto', sans-serif;
+	background-color: black;
 }
 
 /*makes the images stack upon one another*/
@@ -97,28 +98,17 @@ figure.show {
 	opacity: .8;
 }
 
-.expand{
-	position: relative;
-	font-size: 30px;
-	float: right;
-	cursor: pointer;
-	color: white;
-	z-index: 3;
-	margin-top: -570px;
-	margin-right: 40px;
-}
 .fold{
-	display: none;
 	position: absolute;
 	font-size: 20px;
 	margin-top: -645px;
-	width: 1140px;
-	height: 514px;
+	width: 1700px;
+	height: 460px;
 	color:white;
 	background-color: black;
 	padding: 80px 80px 80px 60px;
 	padding-top: 100px;
-	opacity: .9;
+	opacity: .75;
 }
 
 /*project history stuff*/
@@ -159,11 +149,8 @@ figure.show {
 	figure img{
 		height: 1366px;
 	}
-	.expand{
-		margin-top: -1200px;
-	}
 	.fold{
-		width: 2404px;
+		width: 1400px;
 		margin-top: -1277px;
 		height: 1100px;
 	}
@@ -179,13 +166,11 @@ figure.show {
 	figure img{
 		height: 960px;
 	}
-	.expand{
-		margin-top: -900px;
-	}
+
 	.fold{
 		margin-top: -965px;
-		width: 1780px;
-		height: 920px;
+		width: 2800px;
+		height: 785px;
 	}
 }
 
@@ -196,12 +181,10 @@ figure.show {
 	figure img{
 		height: 414px;
 	}
-	.expand{
-		margin-top: -360px;
-	}
+
 	.fold{
 		font-size: 20px;
-		height: 256px;
+		height: 190px;
 		width: 596px;
 		margin-top: -375px;
 	}
@@ -218,13 +201,10 @@ figure.show {
 	figure img {
 		height: 375px;
 	}
-	.expand{
-		margin-top: -330px;
-	}
 	.fold{
 		margin-top: -339px;
 		width: 568px;
-		height: 280px;
+		height: 240px;
 		padding-left: 20px;
 		padding-top: 20px;
 	}
@@ -245,16 +225,12 @@ figure.show {
 	figure img{
 		height: 320px;
 	}
-	.expand{
-		margin-top: -280px;
-		font-size: 20px;
-		margin-right: 20px;
-	}
+
 	.fold{
 		margin-top: -289px;
 		font-size: 15px !important;
 		width: 468px;
-		height: 224px;
+		height: 185px;
 	}
 
 	.fold p{
@@ -270,14 +246,11 @@ figure.show {
 		height: 375px;
 	}
 
-	.expand{
-		margin-top: -200px;
-	}
 	.fold{
 		font-size: 12px !important;
 		margin-top: -212px;
 		width: 314px !important;
-		height: 183px !important;
+		height: 110px !important;
 	}
 	.fold p{
 		max-width: 90% !important;
@@ -302,14 +275,11 @@ figure.show {
 	figure img{
 		height: 350px;
 	}
-	.expand{
-		margin-top: -190px;
-	}
 	.fold{
 		margin-top: -193px;
 		font-size: 10px !important;
 		width: 275px !important;
-		height: 181px !important;
+		height: 91px !important;
 	}
 	.fold p {
 		font-size: 11px !important;
@@ -323,77 +293,13 @@ figure.show {
 	figure img{
 		height: 300px;
 	}
-	.expand{
-		margin-top: -160px;
-	}
 	.fold{
-		display: block;
+		display: none;
 		margin-top: -165px;
 		font-size: 10px !important;
 		width: 220px !important;
 		height: 200px !important;
 	}
-
-	.fold p{
-
-	}
 }
 
-.fold {
-  -webkit-animation: fadein 2000ms linear both;
-        	animation: fadein 2000ms linear both;
-}
-@-webkit-keyframes fadein {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: .5;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes fadein {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: .5;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-
-.away{
-	-webkit-animation: GoAway 1000ms linear both;
-        	animation: GoAway 1000ms linear both;
-}
-
-@-webkit-keyframes GoAway {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: .5;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-@keyframes GoAway {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: .5;
-  }
-  100% {
-    opacity: 0;
-  }
-}
 

@@ -74,24 +74,6 @@ $(document).ready(function(){
   });
 
 
-  
-  $fold = $('.fold');
-  $expand = $('.expand');
-
-  var count = 0;
-
-  $expand.click(function(){
-    count++;
-    if(count%2){
-      $fold.css("display", "block")
-      $expand.html('&#x2501;')
-      $fold.removeClass('away')
-    } else{
-      $expand.html('&#x254B;')
-      $fold.addClass('away')
-    }
-  })
-
   $('.press').click(function(){
   $('html, body').animate({
       scrollTop: $(".empty").offset().top
