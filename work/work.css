@@ -167,7 +167,7 @@ a {
   }
 }
 
-@media only screen and (min-width: 2560px){
+@media only screen and (width: 2560px){
   #all{
     margin-left: 2100px;
   }
@@ -176,6 +176,16 @@ a {
   }
   .boxInner{
     width: 508.8px;
+  }
+  .filter a{
+    font-size: 20px;
+  }
+  .filter{
+    height: 50px;
+  }
+  #retail, #mixed,
+  #civic, #health{
+    margin-left: 51px;
   }
 }
 
