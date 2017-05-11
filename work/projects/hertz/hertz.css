@@ -176,6 +176,13 @@ figure.show {
 		height: 960px;
 	}
 
+	#contact{
+    margin-left: 60px !important;
+  }
+  #work{
+    margin-left: 60px !important;
+  }
+
 	.fold{
 		margin-top: -965px;
 		width: 2800px;

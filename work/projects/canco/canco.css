@@ -274,6 +274,13 @@ figure.show {
 		height: 960px;
 	}
 	
+	#contact{
+    margin-left: 60px !important;
+  }
+  #work{
+    margin-left: 60px !important;
+  }
+  
 	.project-history{
 		font-size: 1.5em;
 	}

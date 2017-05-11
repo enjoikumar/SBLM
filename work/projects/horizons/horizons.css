@@ -143,6 +143,13 @@ figure.show {
 	figure img{
 		height: 960px;
 	}
+
+	#contact{
+    margin-left: 60px !important;
+  }
+  #work{
+    margin-left: 60px !important;
+  }
 }
 
 @media only screen and (max-width: 736px) {

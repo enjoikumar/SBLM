@@ -141,6 +141,14 @@ figure.show {
 	figure img{
 		height: 960px;
 	}
+	
+	#contact{
+    margin-left: 60px !important;
+  }
+  #work{
+    margin-left: 60px !important;
+  }
+
 	.history1{
 		margin-left: 555px;
 		margin-top: -200px;
