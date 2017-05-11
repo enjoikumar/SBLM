@@ -93,13 +93,13 @@ figure.show {
 		height: 1366px;
 	}
 	.fold{
-		width: 1400px;
+		width: 100%;
 		height: 1200px;
 		margin-top: -1277px;
 		font-size: 30px !important;
 	}
 	.fold p{
-		max-width: 90% !important;
+		max-width: 50% !important;
 		font-size: 29px !important;
 	}
 }

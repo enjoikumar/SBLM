@@ -139,11 +139,11 @@ figure.show {
 	}
 	.fold{
 		margin-top: -1298px;
-		width: 1400px;
+		width: 100%;
 		height: 1100px;
 	}
 	.fold p{
-		max-width: 90% !important;
+		max-width: 50% !important;
 		font-size: 29px !important;
 	}
 }

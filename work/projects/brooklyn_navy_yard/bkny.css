@@ -188,13 +188,13 @@ figure.show {
 		height: 1366px;
 	}
 	.fold{
-		height: 1115px;
-		width: 1400px;
-		margin-top: -1276px;
+		height: 1193px;
+		width: 100%;
+		margin-top: -1356px;
 		font-size: 30px;
 	}
 	.fold p{
-		max-width: 90% !important;
+		max-width: 50% !important;
 		font-size: 29px !important;
 	}
 
