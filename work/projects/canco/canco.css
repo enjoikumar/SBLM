@@ -5,6 +5,12 @@ body{
 	font-family: 'Roboto', sans-serif;
 }
 
+#work{
+  margin-left: 60px;
+}
+#contact{
+  margin-left: 60px;
+}
 
 /*makes the images stack upon one another*/
 .slideshow{

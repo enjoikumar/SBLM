@@ -6,6 +6,14 @@ body{
 	background-color: black;
 }
 
+#work{
+  margin-left: 60px;
+}
+#contact{
+  margin-left: 60px;
+}
+
+
 .slideshow{
 	position: relative;
 	display: block;

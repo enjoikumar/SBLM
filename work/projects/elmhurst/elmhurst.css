@@ -6,6 +6,12 @@ body{
 	width: 100%;
 }
 
+#work{
+  margin-left: 60px;
+}
+#contact{
+  margin-left: 60px;
+}
 
 /*makes the images stack upon one another*/
 .slideshow{
