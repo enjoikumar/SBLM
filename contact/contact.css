@@ -59,10 +59,10 @@ body {
 .office {
   margin-top: 100px;
   overflow: hidden;
-  position: relative;
-  padding-left: 20px;
-  display: inline-block;
-  display: flex;
+  /*position: relative;*/
+  padding-left: 40px;
+  /*display: inline-block;*/
+  /*display: flex;*/
   font-size: 20px;
   color: #9E9E9E;
 }
@@ -74,23 +74,22 @@ strong{
 /*giving spaces to each of the offices*/
 .nyc {
   width: 225px;
-  padding-right: 40px;
+  padding-bottom: 40px;
 }
 
 .island {
   width: 225px;
-  padding-right: 40px;
+  padding-bottom: 40px;
 }
 
 .miami {
   width: 225px;
-  padding-right: 40px;
+  padding-bottom: 40px;
 }
 
 .dallas {
   width: 225px;
-  padding-right: 40px;
-  margin-left: -60px; 
+  padding-bottom: 40px;
 }
 
 .ire {
