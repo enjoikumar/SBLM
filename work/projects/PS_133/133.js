@@ -72,4 +72,10 @@ $(document).ready(function(){
   }, 400);
   });
 
+    $('.press').click(function(){
+   $('html, body').animate({
+        scrollTop: $(".empty").offset().top
+    }, 800);
+  })
+
 })
