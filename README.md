@@ -24,3 +24,4 @@ Below the site map is a detailed flow of the project history, complete with a co
 The contact page is simply a list of the offices with corresponding addresses and phone numbers. There is also the option to email SBLM for inquiries and employment opportunities.
 
 
+https://sendgrid.com/blog/send-email-static-websites-using-parse/
