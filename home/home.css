@@ -156,6 +156,12 @@ body{
 .topnav a:hover {
   background-color: #555;
   padding-bottom: 20px;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
 
 /* Hide the list item that contains the link that 
