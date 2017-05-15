@@ -8,6 +8,9 @@ body{
   max-width: 33%;
 }
 
+.sblm{
+  color: #ee3b2c !important;
+}
 /* The Overlay (background) */
 .overlay {
   height: 0;
@@ -35,7 +38,7 @@ body{
   padding: 30px;
   text-decoration: none;
   font-size: 36px;
-  color: #818181;
+  color: red;
   display: block; /* Display block instead of inline */
   transition: 0.3s; /* Transition effects on hover (color) */
 }
@@ -220,7 +223,7 @@ This class makes the topnav look good on small screens */
 }
 
 @media only screen and (max-width: 667px) {
-    ul.topnav li:not(:first-child) {
+  ul.topnav li:not(:first-child) {
     display: none;
   }
 
@@ -288,6 +291,7 @@ This class makes the topnav look good on small screens */
 }
 
 @media screen and (max-width: 414px){
+
     ul.topnav li:not(:first-child) {
     display: none;
   }
@@ -318,6 +322,7 @@ This class makes the topnav look good on small screens */
   }
   .topnav {
     width: 414px;
+    color: red;
   }
 }
 
