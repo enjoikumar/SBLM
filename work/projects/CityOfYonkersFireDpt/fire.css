@@ -49,7 +49,7 @@ figure.show {
 	position: absolute;
 	font-size: 20px;
 	margin-top: -674px;
-	width: 1700px;
+	width: 89.1%;
 	height: 525px;
 	color:white;
 	background-color: black;
@@ -128,7 +128,7 @@ figure.show {
   
 	.fold{
 		margin-top: -984px;
-		width: 2800px;
+		width: 92.7%;
 		height: 820px;
 	}
 }
