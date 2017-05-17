@@ -9,7 +9,13 @@ body{
 }
 
 .sblm{
-  color: #ee3b2c !important;
+  color: white !important;
+  background-color: #ee3b2c;
+  padding-bottom: 20px !important;
+  /*padding-left: 10px !important;*/
+}
+.sblm:hover{
+  background-color: #ee3b2c !important;
 }
 /* The Overlay (background) */
 .overlay {
