@@ -35,6 +35,10 @@ This is the nav bar section, which is pretty straight forward.
 ![Nav bar](/Readme/navscreenshot.jpg)
 It's basically a stylized list. The classes are sblm, and link. With the href linking to the corresponding pages. Clicking on the sblm logo on the home page is basically another way to refresh. The icon class with the burger class will be displayed only when the page is mobile responsive. Lines 27-32 are the links for when the page is mobile responsive. They become a different format and arent displayed unless the site is at a certain dimension and or viewed on a device.
 
+### Photo js
+The photojs is a bit more complicated, but I'll go through it line by line. I've also commented much of the code to make it easier to breeze through. 
+![photo](Readme/photo.jpg)
+
 
 
 
