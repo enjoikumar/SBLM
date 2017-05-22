@@ -40,6 +40,10 @@ The photojs is a bit more complicated, but I'll go through it line by line. I've
 ![photo](Readme/photo.jpg)
 Line 1 "$(document).ready(function(){" is necessary for any pages using jquery and is a vital tool for front end development. It basically means at the start of the page x,y, and z will prop itself. In Line 3 we are declating variables so the slides can move back and forth. Lines 6-20 is the slideshow function. Lines 16-19 are commented out, which is a separate thing that will be explained once I get it working. Line 7 is the current slide, line 8, is the next slide. Lines 9-11 is an if statement, which makes how many slides there are is the the amount of slides. $next.length equals just that. Lines 12-14 is basically removing and adding class, removing the current class and adding the previous class and adding current class. Line 15 means that move through each slide for 3000 milliseconds or 3 seconds per slide. Line 21 just sets intices the function. To change the speed of the slide edit line 15 and change the '3000' part to the speed you desire.
 
+### Photo js pt 2
+The second part to the photo js file
+![photo](Readme/photo2.jpg)
+
 
 
 
