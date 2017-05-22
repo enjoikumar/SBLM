@@ -26,7 +26,7 @@ The contact page is simply a list of the offices with corresponding addresses an
 
 # Future edits
 For the home page, this is how to add more photos and other edits. 
-(/Readme/indexScreenshot.jpg)
+![Editing the Slideshow](/Readme/indexScreenshot.jpg)
 
 
 
