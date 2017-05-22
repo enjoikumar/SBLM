@@ -2,7 +2,6 @@
 <html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
 <head>
   <title>SBLM</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -10,6 +9,8 @@
   <meta http-equiv=”X-UA-Compatible” content=”IE=EmulateIE8”>
   <link rel="stylesheet" type="text/css" href="home/home.css">
   <link rel="stylesheet" type="text/css" href="home/photo.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -31,37 +32,61 @@
     </div>
   </div>
 
-  <!-- slideshow -->
-  <div class="slideshow">
-    <div class="slide current" id="slide1">
-      <img src="home/assets/civic.jpg">
-      <a href="work/civwork.html"><h2>Civic</h2></a>
+  <div id="mycarousel" class="carousel slide carousel-fade" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#mycarousel" data-slide-to="0"></li>
+    <li data-target="#mycarousel" data-slide-to="1"></li>
+    <li data-target="#mycarousel" data-slide-to="2"></li>
+    <li data-target="#mycarousel" data-slide-to="3"></li>
+    <li data-target="#mycarousel" data-slide-to="4"></li>
+    <li data-target="#mycarousel" data-slide-to="5"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner " role="listbox">
+    <div class="item">
+      <img src="home/assets/civic.jpg" alt="First Image">
+        <div class="carousel-caption">
+          <a href="work/civwork.html"><h2>Civic</h2></a>
+        </div>
     </div>
 
-    <div class="slide" id="slide2"> 
-      <img src="home/assets/education.jpg">
-      <a href="work/eduwork.html"><h2>Education</h2></a>
+    <div class="item">
+      <img src="home/assets/education.jpg" alt="Second Image">
+        <div class="carousel-caption">
+          <a href="work/eduwork.html"><h2>Education</h2></a>
+        </div>
     </div>
 
-    <div class="slide" id="slide3">
-      <img src="home/assets/healthcare-wellness.jpg">
-      <a href="work/heawork.html"><h2>Healthcare / Wellness</h2></a>
+    <div class="item">
+      <img src="home/assets/healthcare-wellness.jpg" alt="Third Image">
+        <div class="carousel-caption">
+          <a href="work/heawork.html"><h2>Healthcare / Wellness</h2></a>
+        </div>
     </div>
 
-    <div class="slide" id="slide4">
-      <img src="home/assets/mixeduse-residential.jpg">
-      <a href="work/mixwork.html"><h2>Mixed Use / Residential</h2></a>
+    <div class="item">
+      <img src="home/assets/mixeduse-residential.jpg" alt="Fourth Image">
+        <div class="carousel-caption">
+          <a href="work/mixwork.html"><h2>Mixed Use / Residential</h2></a>
+        </div>
     </div>
 
-    <div class="slide" id="slide5">
-      <img src="home/assets/retail.jpg">
-      <a href="work/retwork.html"><h2>Retail / Commercial</h2></a>
+    <div class="item">
+      <img src="home/assets/retail.jpg" alt="Fifth Image">
+        <div class="carousel-caption">
+          <a href="work/retwork.html"><h2>Retail / Commercial</h2></a>
+        </div>
     </div>
 
-    <div class="slide" id="slide5">
-      <img src="home/assets/dos.png">
-      <a href="work/projects/DOS_FreshKills/dos.html"><h2>Featured Project</h2></a>
+    <div class="item">
+      <img src="home/assets/dos.png" alt="Sixth Image">
+        <div class="carousel-caption">
+          <a href="work/projects/DOS_FreshKills/dos.html"><h2>Featured Project</h2></a>
+        </div>
     </div>
+
   </div>
 </body>
 <script>
@@ -69,6 +94,7 @@
   </script> 
 <script type="text/javascript" src="home/home.js"></script>
 <script type="text/javascript" src="home/photo.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </html>
 
 

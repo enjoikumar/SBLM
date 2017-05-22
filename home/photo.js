@@ -1,54 +1,41 @@
 $(document).ready(function(){
-	//Declaring variables
-	var $current, $next, $slides = $(".slideshow .slide");
+  var $item = $('.carousel .item');
+  var $wHeight = $(window).height();
 
-	// basically making the slideshow
-	function doSlideShow () {
-	  $current = $slides.filter(".slide.current"); 
-	  $next = $current.next(".slide");
-	  if ($next.length < 1) {
-	    $next = $slides.first();
-	  }
-	  $slides.removeClass("previous");
-	  $current.addClass("previous").removeClass("current");
-	  $next.addClass("current");
-	  window.setTimeout(doSlideShow, 3000);
-	  // $('ul li').removeClass('active');
-	  // $('ul li').addClass('show');
-	  // $('ul li:eq(' + index + ')').addClass('active');
-	  // index = index < maxindex - 1 ? index + 0 : 0;
-	}
-		window.setTimeout(doSlideShow, 3000);
+  $item.height($wHeight); 
+  $item.addClass('full-screen');
 
+  var $numberofSlides = $('.item').length;
+  var $currentSlide = Math.floor((Math.random() * $numberofSlides));
 
-	var elements = $(".slide");
-	var elementsInnerHtmls = [];
-	var numberOfElements = elements.length;
+  $('.carousel-indicators li').each(function(){
+    var $slideValue = $(this).attr('data-slide-to');
+    if($currentSlide == $slideValue) {
+      $(this).addClass('active');
+      $item.eq($slideValue).addClass('active');
+    } else {
+      $(this).removeClass('active');
+      $item.eq($slideValue).removeClass('active');
+    }
+  });
 
-	for( var i = 0 ; i < numberOfElements ; i++){
-		elementsInnerHtmls.push(elements[i].innerHTML); 
-	}
+  $('.carousel img').each(function() {
+    var $src = $(this).attr('src');
+    var $color = $(this).attr('data-color');
+    $(this).parent().css({
+      'background-image' : 'url(' + $src + ')',
+      'background-color' : $color
+    });
+    $(this).remove();
+  });
 
-	var checkedIndexes = [];
-	for( var i = 0 ; i < numberOfElements ; i++){
-	  var randomIndex = Math.floor(Math.random()*10) % numberOfElements;
-	  while(checkedIndexes[randomIndex] != undefined){
-	      randomIndex = Math.floor(Math.random()*10) % numberOfElements;    
-	  }
-	  checkedIndexes[randomIndex] = true;
-	  elements[i].innerHTML = elementsInnerHtmls[randomIndex];
-	}
-	// var index = 0
-	// var maxindex = 6
-	// console.log(maxindex)
-	console.log(elementsInnerHtmls.length)
+  $(window).on('resize', function (){
+    $wHeight = $(window).height();
+    $item.height($wHeight);
+  });
 
-
-// for (var i = 0; i < maxindex; i++) {
-//     $('ul').append('<li class="' + (i == 0 ? 'active' : '') + '"></li>');
-// }
+  $('.carousel').carousel({
+    interval: 4000,
+    pause: "false"
+  });
 })
-
-
-
-

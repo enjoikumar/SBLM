@@ -1,15 +1,13 @@
 body{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif; 
 }
 
-
 h2{
-  font-family: 'Roboto', sans-serif;
   color:white;
   position: absolute;
-  right: 0;
-  margin-top: -77px;
-  margin-left: 0px;
+  top: 0;
+  right: -256px;
+  margin-top: 0px;
   padding: 20px 20px 20px 20px;
   font-size: 28px;
   background-color: black;
@@ -18,273 +16,73 @@ h2{
 h2:hover{
   background-color: rgb(238,60,47);
   opacity: 1;
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+  color: white !important;
+}
+
+.carousel-control {
+  display: none;
 }
 
 
-
-img{
-  width: 100%;
-  height: 100%
-}
-
-/*starting the page with a black background
-so it has a positive ux/ui feel*/
-.slideshow {
-  background: #000;
-}
-
-/*setting the positions and width, etc*/
-.slideshow, .slideshow .slide {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-/*opacity is smoother and that the images fit the width*/
-.slideshow .slide {
-  background-position: center;
-  background-size: cover;
+.carousel-fade .carousel-inner .item {
   opacity: 0;
+  transition-property: opacity;
 }
 
-/*makes sure the image before is stacked and cant be seen*/
-.slideshow .slide.previous {
-  z-index: 1;
+.carousel-fade .carousel-inner .active {
   opacity: 1;
 }
 
-/*stacked as wekk but is put in the forefront*/
-.slideshow .slide.current {
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-control {
   z-index: 2;
-  -webkit-animation: fadein 5000ms linear both;
-          animation: fadein 5000ms linear both;
 }
 
-/*transition affects*/
-@-webkit-keyframes fadein {
-  0% {
+
+
+@media all and (transform-3d), (-webkit-transform-3d) {
+  .carousel-fade .carousel-inner > .item.next,
+  .carousel-fade .carousel-inner > .item.active.right {
     opacity: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
   }
-  30% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes fadein {
-  0% {
+  .carousel-fade .carousel-inner > .item.prev,
+  .carousel-fade .carousel-inner > .item.active.left {
     opacity: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
   }
-  30% {
+  .carousel-fade .carousel-inner > .item.next.left,
+  .carousel-fade .carousel-inner > .item.prev.right,
+  .carousel-fade .carousel-inner > .item.active {
     opacity: 1;
-  }
-  100% {
-    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
   }
 }
 
-
-/*iphone 6 plus*/
-@media only screen and (max-width: 414px) {
-  .slideshow{
-    background: #000;
-  }
-
-  .slideshow, .slideshow .slide{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 414px;
-    height: 100%;
-  }
-
-  .slideshow .slide{
-    background-position: center;
-    background-size: cover;
-    opacity: 0;
-  }
-
-  .slideshow .slide.previous{
-    z-index: 1;
-    opacity: 1;
-  }
-
-  .slideshow .slide.current{
-    z-index: 2;
-    -webkit-animation: fadein 3000ms linear both;
-            animation: fadein 3000ms linear both;
-  }
-
-  @-webkit-keyframes fadein{
-    0%{
-      opacity: 0;
-    }
-    30%{
-      opacity: 1;
-    }
-    100%{
-      opacity: 1;
-    }
-  }
-
-  @keyframes fadein{
-    0%{
-      opacity: 0;
-    }
-    30%{
-      opacity: 1;
-    }
-    100%{
-      opacity: 1;
-    }
-  }
-}
-
-
-
-/*iphone 6*/
-@media only screen and (max-width: 375px){
-  .slideshow{
-    background: #000;
-  }
-
-  .slideshow, .slideshow .slide{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 375px;
-    height: 100%;
-  }
-
-  .slideshow .slide{
-    background-position: center;
-    background-size: cover;
-    opacity: 0;
-  }
-
-  .slideshow .slide.previous{
-    z-index: 1;
-    opacity: 1;
-  }
-
-  .slideshow .slide.current{
-    z-index: 2;
-    -webkit-animation: fadein 3000ms linear both;
-            animation: fadein 3000ms linear both;
-  }
-
-  @-webkit-keyframes fadein{
-    0%{
-      opacity: 0;
-    }
-    30%{
-      opacity: 1;
-    }
-    100%{
-      opacity: 1;
-    }
-  }
-
-  @keyframes fadein{
-    0%{
-      opacity: 0;
-    }
-    30%{
-      opacity: 1;
-    }
-    100%{
-      opacity: 1;
-    }
-  }
-}
-
-@media only screen and (max-width: 414px) {
+@media only screen and (width:1920px){
   h2{
-    font-size: 20px !important;
-    padding: 10px 20px 10px 10px;
-    margin-top: -48px;
-  }
-  
-}
-
-@media only screen and (max-width: 320px){
-  .slideshow{
-    background: #000;
-  }
-
-  .slideshow, .slideshow .slide{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 320px;
-    height: 100%;
-  }
-
-  .slideshow .slide{
-    background-position: center;
-    background-size: cover;
-    opacity: 0;
-  }
-
-  .slideshow .slide.previous{
-    z-index: 1;
-    opacity: 1;
-  }
-
-  .slideshow .slide.current{
-    z-index: 2;
-    -webkit-animation: fadein 3000ms linear both;
-            animation: fadein 3000ms linear both;
-  }
-
-  @-webkit-keyframes fadein{
-    0%{
-      opacity: 0;
-    }
-    30%{
-      opacity: 1;
-    }
-    100%{
-      opacity: 1;
-    }
-  }
-
-  @keyframes fadein{
-    0%{
-      opacity: 0;
-    }
-    30%{
-      opacity: 1;
-    }
-    100%{
-      opacity: 1;
-    }
+    right: -384px;
   }
 }
 
 
-
-
-/*ul {
-  list-style:none;
-  margin:0px;
-  padding:0px;
-  z-index: 98;
-}
-ul li {
-  float:left;
-  border-radius:10px;
-  width:10px;
-  height:10px;
-  border:1px solid white;
-}
-ul li.active {
-  background:green;
-}
-*/
 
 
