@@ -112,6 +112,12 @@ Line 38: Means That any array pushed into CheckedIndexes will be randomized and 
 
 Line 39: The elements inner html's will equal the array of elements inner html, randomized. So, at the end of the function, the divs get stripped, calculated, shuffled, and then pushed back. 
 
+### Contact Page
+![contact](Readme/contact.jpg)
+
+
+
+
 
 
 
