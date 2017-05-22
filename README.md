@@ -115,7 +115,7 @@ Line 39: The elements inner html's will equal the array of elements inner html, 
 ### Contact Page
 ![contact](Readme/contact.jpg)
 
-
+This page is fairly simple, The locations are wrapped in a dive called office, and each location is given a class of where they are, i.e 'nyc.' The br tags are just breaks for layout purposes.
 
 
 
