@@ -30,7 +30,7 @@ For the home page, this is how to add more photos and other edits.
 ![Editing the Slideshow](/Readme/indexScreenshot.jpg)
 This is the start of the slideshow. Lines 39-43 is the format for one image. There are multiple classes and id's. Line 39 is the start of the div, which wraps the whole code. Line 40 is basically the start of the image, lines 40-43 is the image and caption. Line 40, < div class = "slide current" >, every dive will have the class slide. The class current, basically means thats this is the first image that will be displayed. Then line 41 is the root file for the image. The last part , line 42, the href tag goes hand in hand with the h2 tag(civic). The a tag is the link that will lead you to the work page with the civic projects highlighted and pushed to the top. This applies to the other links as well. Line 47 is work/eduwork.html with the h2 tag as education, which means when clicked on the education link it will direct you to the work page with the education projects highlighted. 
 
-##Nav Bar
+## Nav Bar
 This is the nav bar section, which is pretty straight forward.
 ![Nav bar](/Readme/navscreenshot.jpg)
 
