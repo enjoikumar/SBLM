@@ -117,6 +117,12 @@ Line 39: The elements inner html's will equal the array of elements inner html, 
 
 This page is fairly simple, The locations are wrapped in a dive called office, and each location is given a class of where they are, i.e 'nyc.' The br tags are just breaks for layout purposes.
 
+### Work page pt1
+![work](Readme/work.jpg)
+
+The work page is a bit long, alot more Jquery and Javascript. But this first part is the html.
+
+
 
 
 
