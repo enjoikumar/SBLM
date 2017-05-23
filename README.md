@@ -177,6 +177,14 @@ Line 186: The shuffle function is invoked
 
 ![work p5](Readme/work6.jpg)
 
+This is quite similar to the filter function we have earlier. It's almost exactly the same except for the middle section. 
+
+Line 195-196: For all the projects that have the class of edu, will be pushed to the top. So clicking on the Education filter all projects that are associated with edu are pushed to the top of the page. The same goes for the rest of the triggers. The reason we don't put this to the top of the page is separation of powers. 
+
+![work p6](Readme/work7.jpg)
+
+Pretty much exactly the same as the click/clicks function earlier. The only difference is the naming convention.
+
 
 
 
