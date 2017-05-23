@@ -175,7 +175,7 @@ Line 186: The shuffle function is invoked
 
 ### Work Page pt4
 
-![work p5](Reademe/work6.jpg)
+![work p5](Readme/work6.jpg)
 
 
 
