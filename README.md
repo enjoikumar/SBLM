@@ -141,6 +141,42 @@ This is repeated for all the studio, the filtering, adding removing class and th
 
 ![work part3](Readme/work4.jpg)
 
+Earlier on the Work Page, we have given the filter bar studios variables.
+
+Lines 139-145: We push the variables into an array which we can filter next
+
+Lines 147-148: Shuffling the order of clicks
+
+Line 152: Then triggering a click upon refresh, which will always be at random
+
+![work part4](Readme/work5.jpg)
+
+This is the shuffle function, this is quite long, but Will do my best to explain it.
+
+Line 166: any element with the class first
+
+Line 167: an empty array
+
+Line 169: For all the elements with the class first, push the html into the the empty array, elements inner html
+
+Line 173: Empty array
+
+Lines 174-178: Randomize the elements and it'll equal randomIndex. And if anything comes undefined randomize it again, meaning it's an infinity loop
+
+Lines 180-183: Checked indexes if it gets randomized it is true
+
+Line 181: elementsInnerHtmls gets randomizes and it equals elements[i].innerHTML
+
+Line 182: New Array equals the elements[i].innerHTML
+
+Line 183: NewElements = newArray; Which means at the end it gets pushed out
+
+Line 186: The shuffle function is invoked
+
+### Work Page pt4
+
+![work p5](Reademe/work6.jpg)
+
 
 
 
