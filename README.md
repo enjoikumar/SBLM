@@ -119,6 +119,24 @@ Lines 47-50: Just the closing tags
 ### Work Page pt2
 ![work part 2](Readme/work2.jpg)
 
+Line 1, is a familar line, calling jquery again
+
+Lines 5-13: are the filter bar from work html. Each one is given a variable to invoke that function easier
+
+![work part 3](Readme/work3.jpg)
+
+Lines 16-19: are commented code that also explain the function
+
+Lines 21-41: is a function that enables for when clicked on a project to colorize it.
+
+Lines 23-32: effect the filter bar. Clicking on one, makes sure the other studios stay the same
+
+Line 34-38: When The filter button Education is clicked, all the projects with a class of education get added the class 'not gray', which colorized them. And removes any projects that still have the class 'not gray'.
+
+Line 41: We are evoking the function.
+
+This is repeated for all the studio, the filtering, adding removing class and the evoking of the function
+
 
 
 
