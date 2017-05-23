@@ -53,6 +53,8 @@ Line 55-57 is the caption and the title of the project. In this example it's DSN
 
 Lines 60-65 is pretty much the same except for the extra h2 tag.
 
+![radial](Readme/radial.jpg)
+
 ### Nav Bar
 This is the nav bar section, which is pretty straight forward.
 
