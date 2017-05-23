@@ -71,6 +71,15 @@ The photojs is a bit more complicated, but I'll go through it line by line. I've
 
 Line 1 "$(document).ready(function(){" is necessary for any pages using jquery and is a vital tool for front end development. It basically means at the start of the page x,y, and z will prop itself. 
 
+Line 2: Giving all items with the class item a variable
+
+Line 3: The height of the browser will be the height of the image
+
+Line 7/8: The height of the item is the size of the browser, and it's given the class of full-screen
+
+Line 11/12: the number of slides is the amount of classes that have the class item. The current slide is going to be a random slide from $numberofSlides
+
+Lines 16-25: Just the bootstrap version of when you click on the radio button it brings you to the associated slide, as well as adding/removing the class active
 
 ### Photo js pt 2
 The second part to the photo.js file.
