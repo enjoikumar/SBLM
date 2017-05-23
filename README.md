@@ -55,6 +55,8 @@ Lines 60-65 is pretty much the same except for the extra h2 tag.
 
 ![radial](Readme/radial.jpg)
 
+This is the radial button imported from bootstrap. The amount of li items have to be equal to the amount of images. In web developement, the count starts at 0
+
 ### Nav Bar
 This is the nav bar section, which is pretty straight forward.
 
