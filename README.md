@@ -114,7 +114,12 @@ Line 44: This the image tag, with a class to the associated studio. Not shown he
 
 Line 46: Is just the text for image selected
 
-Lines 47-50: Just the closing tagssssssssssssss
+Lines 47-50: Just the closing tags
+
+### Work Page pt2
+![work part 2](Readme/work2.jpg)
+
+
 
 
 
