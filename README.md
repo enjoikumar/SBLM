@@ -88,7 +88,7 @@ Lines 16-25: Just the bootstrap version of when you click on the radio button it
 ### Photo js pt 2
 The second part to the photo.js file.
 
-<!-- ![photo](Readme/photo2.jpg) -->
+![photo](Readme/photo2.jpg)
 
 This is the shuffle function. Which basically is upon refresh the order of images are continously shuffled. For example, lets give each image a number. [1,2,3,4,5], upon the shuffle function, the image order would be [4,2,5,1,3], and so forth and so forth. Lines 24-26 are calling upon variables to populate 
 later. 
