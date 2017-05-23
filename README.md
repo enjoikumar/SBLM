@@ -81,7 +81,7 @@ Line 3: The height of the browser will be the height of the image
 
 Line 7/8: The height of the item is the size of the browser, and it's given the class of full-screen
 
-Line 11/12: the number of slides is the amount of classes that have the class item. The current slide is going to be a random slide from $numberofSlides
+Line 11/12: The number of slides is the amount of classes that have the class item. The current slide is going to be a random slide from $numberofSlides
 
 Lines 16-25: Just the bootstrap version of when you click on the radio button it brings you to the associated slide, as well as adding/removing the class active
 
@@ -90,28 +90,11 @@ The second part to the photo.js file.
 
 ![photo](Readme/photo2.jpg)
 
-This is the shuffle function. Which basically is upon refresh the order of images are continously shuffled. For example, lets give each image a number. [1,2,3,4,5], upon the shuffle function, the image order would be [4,2,5,1,3], and so forth and so forth. Lines 24-26 are calling upon variables to populate 
-later. 
+Lines 27-36: This is a bootstrap function where it makes the image full screen, and if it can't fit the dimensions, it will add a background color to fill up the space. 
 
-Var elements = $('.slide'); Means all elements with the class slide will have the variable elements associated to it. 
+Lines 38-42: When the browser resizes the height of the image changes with the browser.
 
-Var elementsInnerHtmls = []; Is just an empty array, which will be used for later to push variables into it. 
-
-Var numberOfELements = elements.length; Means the actual number of items with the class of slide. Basically taking a variable's characterstic and giving it a name. 
-
-Lines 28 and onward:
-This is where it may get a bit confusing.
-Lines 28-30: means that for all number of elements which is 5, take the divs html code of each image and push it into the empty array which is elementsInnerHtml.
-
-Line 32: 
-Var CheckedIndexes = []; Which is an empty array, which we'll populate later
-
-Lines 33-40 is a for statement:
-Math.random is the js version of randomizing elements. So Var Random index equals randoming the array of elements and if it becomes undefined shuffle it again, which is an infinity loop.
-
-Line 38: Means That any array pushed into CheckedIndexes will be randomized and it's true.
-
-Line 39: The elements inner html's will equal the array of elements inner html, randomized. So, at the end of the function, the divs get stripped, calculated, shuffled, and then pushed back. 
+Lines 44-49: To initiate the carousel, there is no pause between the slides, and each image is displayed for 4000 milliseconds (4 seconds)
 
 ### Contact Page
 ![contact](Readme/contact.jpg)
