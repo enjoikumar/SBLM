@@ -2,6 +2,15 @@ body{
   font-family: 'Roboto', sans-serif; 
 }
 
+.link{
+  text-decoration: none;
+}
+
+#dsny{
+  top: -93.5px;
+  padding: 18.5px 18.5px 18.5px 18.5px;
+}
+
 h2{
   color:white;
   position: absolute;

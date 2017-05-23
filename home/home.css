@@ -42,7 +42,7 @@ body{
 /* The navigation links inside the overlay */
 .overlay a {
   padding: 30px;
-  text-decoration: none;
+  text-decoration: none !important;
   font-size: 36px;
   color: red;
   display: block; /* Display block instead of inline */
