@@ -106,6 +106,23 @@ This page is fairly simple, The locations are wrapped in a dive called office, a
 
 The work page is a bit long, alot more Jquery and Javascript. But this first part is the html.
 
+Line 40: This is the start of the projects layout. Wrap, basically wraps around the entire div for the images.
+
+Line 41: We then have the a tag, which links you to the directed project
+
+Line 44: This the image tag, with a class to the associated studio. Not shown here but every image tag will have an alt property which is used for SEO.
+
+Line 46: Is just the text for image selected
+
+Lines 47-50: Just the closing tagssssssssssssss
+
+
+
+
+
+
+
+
 
 
 
