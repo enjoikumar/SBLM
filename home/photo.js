@@ -2,6 +2,7 @@ $(document).ready(function(){
   var $item = $('.carousel .item');
   var $wHeight = $(window).height();
 
+
   //the height of each slide becomes the height of the screen
   //ie the images are now full screen
   $item.height($wHeight); 
@@ -35,17 +36,18 @@ $(document).ready(function(){
     $(this).remove();
   });
 
+  //each image will stay for 4 seconds
+  $('.carousel').carousel({
+    interval: 4000,
+    pause: "false"
+  });
+
   //if the window resizes, the image will still have the height
   $(window).on('resize', function (){
     $wHeight = $(window).height();
     $item.height($wHeight);
   });
 
-  //each image will stay for 4 seconds
-  $('.carousel').carousel({
-    interval: 4000,
-    pause: "false"
-  });
 })
 
 
