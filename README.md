@@ -116,6 +116,17 @@ Line 46: Is just the text for image selected
 
 Lines 47-50: Just the closing tags
 
+<a href="[Link to project]">
+	<div class="box first [studio in three letter format]">
+		<div class="boxInner">
+			<img class="[studio in full]" src="[image source]">
+			<div class="middle">
+				<div class="text">[Name of project]</a></div>[leave the closing a tag in for styling purposes]
+			</div>
+		</div>
+	</div>
+</a>
+
 ### Work Page pt2
 ![work part 2](Readme/work2.jpg)
 
@@ -217,15 +228,15 @@ Lines 66 and down is the main chunk for the first narrative. The structure is as
 
 <div class="history">
 
-    <div class="history1"> [history1 for being the first section]
+  <div class="history1"> [history1 for being the first section]
 
-        <img class= animation-element slide-left > [The image slides in from the left]
+    <img class= animation-element slide-left > [The image slides in from the left]
 
-            <span>[text would go here] 
+      <span>[text would go here] 
 
-            </span>
+      </span>
 
-  	</div>
+  </div>
 
 The Process just continues. We also use instyling for sizing and the alt tag for seo purposes
 
