@@ -116,18 +116,18 @@ Line 46: Is just the text for image selected
 
 Lines 47-50: Just the closing tags
 
-<div>
-	<a href="[Link to project]">
-		<div class="box first [studio in three letter format]">
-			<div class="boxInner">
-				<img class="[studio in full]" src="[image source]">
-				<div class="middle">
-					<div class="text">[Name of project]</a></div>[leave the closing a tag in for styling purposes]
-				</div>
-			</div>
-		</div>
-	</a>
-</div>
+`<div>`
+	`<a href="[Link to project]">`
+		`<div class="box first [studio in three letter format]">`
+			`<div class="boxInner">`
+				`<img class="[studio in full]" src="[image source]">`
+				`<div class="middle">`
+					`<div class="text">[Name of project]</a></div>[leave the closing a tag in for styling purposes]`
+				`</div>`
+			`</div>`
+		`</div>`
+	`</a>`
+`</div>`
 
 ### Work Page pt2
 ![work part 2](Readme/work2.jpg)
