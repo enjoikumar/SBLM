@@ -252,6 +252,30 @@ The process just continues. We also use instyling for sizing and the alt tag for
 
 ![project 3](Readme/projectjs.jpg)
 
+This is where it might get a bit confusing. There are a bunch of color, white text, grey text. But I will go over each line. There is also commented out code to get a better understanding of what's going on.
+
+Line 9: This is a counter. For every time the user clicks next the counter goes up by one, and for everytime the user clicks previous the counter goes down by one. 
+
+Line 12: The variable items get all the elements with the class of slideshow or figure
+
+Line 13: The numItems equals the amount of items. For example if the slideshow consists of 4 images, numItems = 4
+
+Line 19: The commented out section pretty much sums it all up, it shows the current slide. 
+
+Line 22: Makes a variable the amount of slides left. So if there are 5 slides, and you've seen 2 of them, itemsToShow = 3
+
+Lines 24-27: It takes all the ITEMS and removes the class show
+
+Line 30: It takes the remainder slides that havent been displayed and gives them the class show
+
+Lines 33-37: Everytime a user clicks next, it shows the next slide and it adds one to the counter
+
+Lines 40-43: Everytime a user clicks previous, it shows the previous slide and it subtracts one from the counter
+
+Line 46: Giving any element witht he class animation-element
+
+Line 47: Declaring window
+
 
 
 
