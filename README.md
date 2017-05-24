@@ -215,12 +215,12 @@ Lines 63 and 64 are just empty divs that will be explained in the js portion.
 
 Lines 66 and down is the main chunk for the first narrative. The structure is as follows:
 
-< div class="history">
+`< div class="history">
     < div class="history1"> [history1 for being the first section]
         < img class= animation-element slide-left > [The image slides in from the left]
             < span >[text would go here] 
             </ spn >
-    < div > 
+    < div > `
 
 The Process just continues. We also use instyling for sizing and the alt tag for seo purposes
 
