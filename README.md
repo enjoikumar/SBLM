@@ -185,7 +185,7 @@ Line 195-196: For all the projects that have the class of edu, will be pushed to
 
 Pretty much exactly the same as the click/clicks function earlier. The only difference is the naming convention.
 
-### Project pages
+### Project Pages
 
 The project pages come in two different types, one with a more extensive narrative, the other being a slideshow and sitemap.
 
@@ -199,8 +199,30 @@ Line 49 is The transparent title that hovers over the slideshow and gives you a 
 
 Line 50, is down, an empty div with the width of the screen, so when clicked it brings you to the first image of the narrative.
 
+### Project Pages pt2
+
 ![project](Readme/projecthtml2.jpg)
 
+Lines 52-61 is the start of the narrative with the implementation of the site map. 
+
+Line 53 is the img src that takes the file in the root directory. The image is a gif for file size purposes. And this goes throughout the projects. Each project has a sitemap with the exception of 2. 
+
+Line 54 is the span that basically holds all the important stats/data. The Br tags are there to add line breaks, and create a cohesive structure.
+
+Lines 55-59 are simply the stats and data that will be displayed. When adding more, please assign a  < br > at the end for stylistic purposes
+
+Lines 63 and 64 are just empty divs that will be explained in the js portion. 
+
+Lines 66 and down is the main chunk for the first narrative. The structure is as follows:
+
+< div class="history">
+    < div class="history1"> [history1 for being the first section]
+        < img class= animation-element slide-left > [The image slides in from the left]
+            < span >[text would go here] 
+            </ spn >
+    < div > 
+
+The Process just continues. We also use instyling for sizing and the alt tag for seo purposes
 
 
 
