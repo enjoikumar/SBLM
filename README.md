@@ -185,6 +185,12 @@ Line 195-196: For all the projects that have the class of edu, will be pushed to
 
 Pretty much exactly the same as the click/clicks function earlier. The only difference is the naming convention.
 
+### Project pages
+
+The project pages come in two different types, one with a more extensive narrative, the other being a slideshow and sitemap.
+
+![project](Readme/projecthtml.jpg)
+
 
 
 
