@@ -197,7 +197,9 @@ The spans on Lines 45 and 46 indicate the previous and next functions that users
 
 Line 49 is The transparent title that hovers over the slideshow and gives you a full title of what the project is. 
 
+Line 50, is down, an empty div with the width of the screen, so when clicked it brings you to the first image of the narrative.
 
+![project](Readme/projecthtml2.jpg)
 
 
 
