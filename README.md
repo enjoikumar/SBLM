@@ -191,6 +191,11 @@ The project pages come in two different types, one with a more extensive narrati
 
 ![project](Readme/projecthtml.jpg)
 
+Lines 33-47 is the slideshow part of the project which is the same for every project. Each image is wrapped around a figure tag. The first slideshow image has the class of show, indicating that this project will be the first image being shown. Every slide will have an id of slideshow so the DOM can make things move around.
+
+The spans on Lines 45 and 46 indicate the previous and next functions that users can click through, to get to the previous or next photo
+
+Line 49 is The transparent title that hovers over the slideshow and gives you a full title of what the project is. 
 
 
 
