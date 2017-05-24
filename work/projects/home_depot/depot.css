@@ -626,7 +626,7 @@ strong {
 	}
 	.history2 span{
 		width: 375px !important;
-		margin-left: 15px;
+		margin-right: 5px;
 		margin-top: 0px;
 		text-align: left;
 	}
@@ -759,7 +759,7 @@ strong {
 	.history2 span{
 		font-size: 1em;
 		width: 290px !important;
-		margin-left: 15px;
+		margin-right: 12px;
 	}
 
 	.history3 img{
@@ -867,7 +867,7 @@ strong {
 
 .footer{
 	position: absolute;
-	margin-top: 680px;
+	margin-top: 880px;
 	color: white;
 	font-size: 27px;
 	background-color: black;
