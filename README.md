@@ -237,16 +237,22 @@ Lines 66 and down is the main chunk for the first narrative. The structure is as
 
 `<div class="history1"> [history1 for being the first section]`
 
-  `<img class= animation-element slide-left > [The image slides in from the left]`
+  	`<img class= animation-element slide-left > [The image slides in from the left]`
 
-  `<span>[text would go here]`
+  	`<span>[text would go here]`
 
-  `</span>`
+  	`</span>`
 
 `</div>`
 
 
 The process just continues. We also use instyling for sizing and the alt tag for seo purposes
+
+### Project Pages pt3
+
+![project 3](Readme/projectjs.jpg)
+
+
 
 
 
