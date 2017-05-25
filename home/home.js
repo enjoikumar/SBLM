@@ -23,6 +23,25 @@
 
 $(document).ready(function(){
 
+	var $x = $('#myFunction')
+	if ($x.className === 'topnav'){
+			x.className += 'responsive';
+	} else{
+		$x.className = 'topnav';
+	}
+
+	var $myNav = $('#myNav');
+
+	var count = 0;
+
+	$('.burger').click(function(){
+		count ++;
+		if(count%2){
+			$myNav.css('height','100%');
+		} else{
+			$myNav.css('height','0%');
+		}
+	})
 })
 
 
