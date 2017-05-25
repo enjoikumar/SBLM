@@ -284,6 +284,16 @@ The next lines of code should not be changed or edited in anyway. The next lines
 
 ![project](Readme/projecthtml4.jpg)
 
+The next few lines are a bit easier as apposed to the ones above. The next few lines are the click functions that push you to the next element. Clicking on the site map and it will show you to the the first image of the narrative. 
+
+Line 72: Earlier in the HTML we define down as an empty div, this is calling it as a variable.
+
+Lines 74-78: When the use clicks on the down div, it will scroll to the element with the class of history5 in the matter of .5 seconds. 500 = .5 seconds. To edit the speed increase/decrease the 500. 
+
+Lines 80-85: This one is for the footer, when clicked on the footer, page will bring you right up and to the slideshow. All projects with a narrative have this footer. 
+
+Lines 87-91: This is when clicking on the site map is displays the first element of the narrative. Showing empty which is an empty div. The reason we don't click to display the first element of the narrative is because the nav bar is at a fixed position and will always take about 48px of the image. So clicking to direct to an empty div right about the first story frame allows for the image to be displayed without any obstrusion from the nav bar.
+
 
 
 
