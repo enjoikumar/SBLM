@@ -301,16 +301,21 @@ figure.show {
 		height: 414px;
 	}
 
+	.title{
+		margin-top: -45px;
+		padding: 10px 10px 10px 10px;
+    font-size: 20px !important;
+	}
+
 	.fold{
 		font-size: 20px;
-		height: 290px;
+		height: 248px;
 		width: 596px;
-		margin-top: -400px;
+		margin-top: -392px;
 		padding-top: 40px;
 	}
 	.fold p{
 		max-width: 70% !important;
-
 	}
 
 	.history1 img{

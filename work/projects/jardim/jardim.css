@@ -314,6 +314,12 @@ figure.show {
 		height: 414px;
 	}
 
+	.title{
+		margin-top: -45px;
+		padding: 10px 10px 10px 10px;
+    font-size: 20px !important;
+	}
+
 	.fold{
 		font-size: 20px;
 		height: 208px;
@@ -356,6 +362,9 @@ figure.show {
 		width: 90%;
 		height: 370px;
 		margin-top: -375px;
+	}
+	.footer{
+		margin-top: 1040px !important;
 	}
 }
 

@@ -345,6 +345,11 @@ figure.show {
 		height: 414px;
 	}
 
+	.title{
+		margin-top: -45px;
+		padding: 10px 10px 10px 10px;
+    font-size: 20px !important;
+	}
 
 	.fold{
 		font-size: 20px;

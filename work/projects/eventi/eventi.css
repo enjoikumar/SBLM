@@ -308,6 +308,13 @@ figure.show {
 	figure img{
 		height: 414px;
 	}
+
+	.title{
+		margin-top: -45px;
+		padding: 10px 10px 10px 10px;
+    font-size: 20px !important;
+	}
+	
 	.title{
 		font-size: 20px !important;
 		margin-top: -64px;

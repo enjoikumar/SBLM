@@ -234,6 +234,13 @@ This class makes the topnav look good on small screens */
   }
 }
 
+@media only screen and (max-width: 736px) {
+  .topnav {
+    width: 736px;
+    height: 50px;
+  }
+}
+
 @media only screen and (max-width: 667px) {
   ul.topnav li:not(:first-child) {
     display: none;

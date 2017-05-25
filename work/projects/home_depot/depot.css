@@ -385,6 +385,12 @@ strong {
 		height: 414px;
 	}
 
+	.title{
+		margin-top: -45px;
+		padding: 10px 10px 10px 10px;
+    font-size: 20px !important;
+	}
+
 	.fold{
 		font-size: 20px;
 		height: 168px !important;
@@ -404,7 +410,8 @@ strong {
 		width: 696px !important;
 		padding-top: 0px;
 		padding-left: 0px;
-		margin-left: 20px;
+		margin-top: 0px;
+		margin-right: 25px;
 		text-align: center;
 	}
 
@@ -445,6 +452,9 @@ strong {
 		width: 95%;
 		height: 365px;
 		margin-top: -370px;
+	}
+	.footer{
+		margin-top: 768px !important;
 	}
 }
 
