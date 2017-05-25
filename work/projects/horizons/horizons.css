@@ -175,10 +175,20 @@ figure.show {
 }
 
 @media only screen and (max-width: 568px){
+		figure{
+		height: 320px;
+	}
+	figure img{
+		height: 320px;
+	}
 	.fold{
-		margin-top: -324px;
+		margin-top: -310px;
 		width: 468px;
 		height: 224px;
+	}
+	.title{
+		font-size: 20px !important;
+		margin-top: -44px;
 	}
 }
 

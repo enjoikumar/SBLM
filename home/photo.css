@@ -148,6 +148,21 @@ a{
   }
 }
 
+@media only screen and (width: 568px){
+  h2{
+    top: 0px;
+    right: -85px;
+    padding: 10px 10px 10px 10px;
+    font-size: 20px !important;
+  }
+  #dsny{
+    top: -37px;
+    font-size: 16px !important;
+    padding: 10px 10px 10px 10px;
+  }
+}
+
+
 @media only screen and (width:414px){
   h2{
     top: -07px;
