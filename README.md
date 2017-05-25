@@ -280,6 +280,10 @@ Line 47: Declaring window
 
 ![project](Readme/projecthtml3.jpg)
 
+The next lines of code should not be changed or edited in anyway. The next lines are making sure that the image fits to the screen and that it is responsive. So if the window is resized vertically or horizontally, the image will change accordingly.
+
+![project](Readme/projecthtml4.jpg)
+
 
 
 
