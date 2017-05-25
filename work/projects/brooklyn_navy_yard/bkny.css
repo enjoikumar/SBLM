@@ -370,6 +370,10 @@ figure.show {
 		height: 370px;
 		margin-top: -375px;
 	}
+
+	.footer{
+		margin-top: 177px !important;
+	}
 }
 
 @media only screen and (max-width: 667px) {
