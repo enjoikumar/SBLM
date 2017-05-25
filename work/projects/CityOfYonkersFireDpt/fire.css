@@ -134,10 +134,12 @@ figure.show {
 }
 
 @media only screen and (max-width: 736px) {
+
 	.fold{
 		font-size: 20px;
 		height: 260px;
 		width: 596px;
+		width: 1000px;
 		margin-top: -418px;
 	}
 }

@@ -154,6 +154,9 @@ figure.show {
 	figure img{
 		height: 414px;
 	}
+	.history1{
+		display: none;
+	}
 }
 
 @media only screen and (max-width: 667px) {
