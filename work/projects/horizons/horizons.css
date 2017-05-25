@@ -162,7 +162,7 @@ figure.show {
 
 @media only screen and (max-width: 667px) {
 	.fold{
-		margin-top: -379px;
+		margin-top: -360px;
 		width: 568px;
 		height: 280px;
 		padding-left: 20px;
@@ -170,7 +170,7 @@ figure.show {
 	}
 	.title{
 		font-size: 20px !important;
-		margin-top: -64px;
+		margin-top: -44px;
 	}
 }
 

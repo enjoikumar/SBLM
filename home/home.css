@@ -157,6 +157,9 @@ body{
   margin-left: 00px;
 }
 
+.overlay-content a{
+  color: #ee3b2c !important;
+}
 
 /* Change background color of links on hover */
 .topnav a:hover {

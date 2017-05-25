@@ -74,6 +74,17 @@ a{
 }
 
 
+.carousel-indicators li{
+  border: black !important;
+  background-color: black !important;
+  border-radius: 50% !important;
+}
+
+.carousel-indicators .active{
+  background-color: #ee3b2c !important;
+}
+
+
 
 @media all and (transform-3d), (-webkit-transform-3d) {
   .carousel-fade .carousel-inner > .item.next,
@@ -113,6 +124,20 @@ a{
   h2{
     top: 0px;
     right: -110px;
+    padding: 10px 10px 10px 10px;
+    font-size: 20px !important;
+  }
+  #dsny{
+    top: -37px;
+    font-size: 16px !important;
+    padding: 10px 10px 10px 10px;
+  }
+}
+
+@media only screen and (width: 667px){
+  h2{
+    top: 0px;
+    right: -100px;
     padding: 10px 10px 10px 10px;
     font-size: 20px !important;
   }
@@ -208,7 +233,6 @@ a{
     height: 15px !important;
     width: 15px !important;
     border-radius: 50% !important;
-
   }
 
   .carousel-indicators .active{

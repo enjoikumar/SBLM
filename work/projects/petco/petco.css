@@ -173,6 +173,10 @@ figure.show {
 		padding: 10px 10px 10px 10px;
     font-size: 20px !important;
 	}
+
+	.history1{
+		display: none;
+	}
 }
 
 @media only screen and (max-width: 667px) {

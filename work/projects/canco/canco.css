@@ -402,10 +402,10 @@ figure.show {
 	}
 
 	.fold{
-		margin-top: -310px;
+		margin-top: -358px;
 		font-size: 17px !important;
 		width: 568px;
-		height: 187px;
+		height: 234px;
 		padding-left: 20px;
 		padding-top: 20px;
 	}
@@ -416,7 +416,7 @@ figure.show {
 	
 	.title{
 		font-size: 20px !important;
-		margin-top: -64px;
+		margin-top: -44px;
 	}
 	
 	.history1 img{
