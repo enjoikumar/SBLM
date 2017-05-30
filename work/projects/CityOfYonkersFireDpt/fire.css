@@ -179,10 +179,15 @@ figure.show {
 		height: 320px;
 	}
 	.fold{
+		font-size: 15px;
 		margin-top: -288px;
 		width: 468px;
 		height: 224px;
 	}
+	.fold p{
+		max-width: 80% !important;
+	}
+
 	.title{
 		font-size: 20px !important;
 		margin-top: -45px;

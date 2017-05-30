@@ -588,10 +588,15 @@ strong {
 		text-align: center;
 		margin-top: 40px;
 	}
+
 	.press{
 		width: 92%;
 		height: 285px;
 		margin-top: -290px;
+	}
+
+	.footer{
+		margin-top: 692px !important; 
 	}
 }
 

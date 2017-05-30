@@ -429,11 +429,12 @@ figure.show {
 		font-size: 15px;
 		margin-top: -308px;
 		width: 468px;
-		height: 320px;
+		height: 185px;
 		font-size: 16px !important;
 	}
 	.fold p{
 		font-size: 15px !important;
+		max-width: 80% !important;
 	}
 	.title{
 		font-size: 20px !important;
