@@ -65,7 +65,7 @@ $(document).ready(function(){
     }, 500);
   });
 
-  $up = $('.footer')
+  $up = $('.top')
   $up.click(function() {
   $('html, body').animate({
       scrollTop: $(".slideshow").offset().top
