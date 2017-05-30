@@ -5,6 +5,9 @@ body {
   background-color: black;
 }
 
+.topnav{
+  height: 55px;
+}
 .topnav a {
   display: inline-block;
   color: white;
@@ -16,12 +19,15 @@ body {
   transition: .5s;
   font-size: 20px;
 }
+.sblm{
+  width: 70px;
+}
 
 #work{
-  margin-left: 60px;
+  margin-left: 50px;
 }
 #contact{
-  margin-left: 60px;
+  margin-left: 50px;
 }
 
 
@@ -46,7 +52,7 @@ body {
 }
 
 .filter {
-  padding-top: 41px;
+  padding-top: 46px;
   background-color: #212121 !important;
   overflow: hidden;
   margin-top: -10px;

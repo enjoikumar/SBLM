@@ -12,7 +12,7 @@ body{
   color: white !important;
   background-color: #ee3b2c;
   padding-bottom: 20px !important;
-  /*padding-left: 10px !important;*/
+
 }
 .sblm:hover{
   background-color: #ee3b2c !important;
@@ -92,12 +92,11 @@ body{
 
 
 
-#contact{
-  margin-left: 25px;
-}
-
 #work{
-  margin-left: 30px;
+  margin-left: 45px;
+}
+#contact{
+  margin-left: 28px;
 }
 
 .sblm{

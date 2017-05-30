@@ -1,6 +1,5 @@
 
 body {
-  /*background-image: url(/Users/kamalkumar/Desktop/SBLM/CSS/ASSETS/1.jpg);*/
   background-size: cover;
   background-color: black;
   font-family: 'Roboto', sans-serif;
@@ -10,6 +9,9 @@ body {
           animation: fadein 2000ms linear both;
 }
 
+.topnav{
+  height: 55px;
+}
 .topnav a {
   display: inline-block;
   color: white;
@@ -21,8 +23,17 @@ body {
   transition: .5s;
   font-size: 20px;
 }
-#contact{
+
+/*#contact{
   margin-left: 40px !important;
+}
+*/
+
+#work{
+  margin-left: 40px;
+}
+#contact{
+  margin-left: 35px;
 }
 
 @-webkit-keyframes fadein {
