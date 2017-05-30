@@ -575,10 +575,10 @@ figure.show {
 	}
 
 	.fold{
-		margin-top: -165px;
+		margin-top: -212px;
 		font-size: 10px !important;
 		width: 275px !important;
-		height: 71px !important;
+		height: 88px !important;
 	}
 	.fold p{
 		font-size: 11px !important;
@@ -591,7 +591,7 @@ figure.show {
 	.history1 span{
 		width: 320px;
 		font-size: 16px;
-		margin-right: 5px;
+		margin-right: 25px;
 		margin-top: 20px;
 	}
 

@@ -297,7 +297,7 @@ figure.show {
 
 	.fold{
 		margin-top: -195px;
-		font-size: 10px;
+		font-size: 10px !important;
 		width: 275px !important;
 		height: 111px !important;
 	}

@@ -44,7 +44,6 @@ body{
   padding: 30px;
   text-decoration: none !important;
   font-size: 36px;
-  color: red;
   display: block; /* Display block instead of inline */
   transition: 0.3s; /* Transition effects on hover (color) */
 }
@@ -156,9 +155,6 @@ body{
   margin-left: 00px;
 }
 
-.overlay-content a{
-  color: #ee3b2c !important;
-}
 
 /* Change background color of links on hover */
 .topnav a:hover {
@@ -378,6 +374,9 @@ This class makes the topnav look good on small screens */
   }
   .topnav {
     width: 375px;
+  }
+  .icon{
+    margin-top: 5px;
   }
 }
 

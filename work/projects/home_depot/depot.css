@@ -712,7 +712,7 @@ strong {
 	}
 	.history2 span{
 		padding-left: 0px;
-		margin-left: 27px;
+		margin-right: 25px;
 	}
 
 	.history3 img{
@@ -729,6 +729,10 @@ strong {
 
 	.history6 img{
 		height: 400px;
+	}
+
+	.footer{
+		margin-top: 497px !important;
 	}
 }
 

@@ -560,6 +560,9 @@ figure.show {
 		width: 320px;
 		margin-left: 35px;
 	}
+	.footer{
+		margin-top: 985px !important;
+	}
 }
 
 

@@ -607,6 +607,10 @@ figure.show {
 		margin-top: 20px;
 		margin-right: 20px;
 	}
+
+	.footer{
+		margin-top: 252px !important;
+	}
 }
 
 
