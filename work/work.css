@@ -243,6 +243,9 @@ a {
   .text{
     font-size: 28px;
   }
+  .icon{
+    margin-top: 10px;
+  }
 }
 
 
