@@ -480,7 +480,7 @@ figure.show {
 		font-size: 12px !important;
 		margin-top: -211px;
 		width: 314px !important;
-		height: 133px !important;
+		height: 107px !important;
 	}
 	.fold p{
 		font-size: 13px !important;
@@ -535,6 +535,10 @@ figure.show {
 	}
 	.press{
 		display: none;
+	}
+
+	.footer{
+		margin-top: 840px !important;
 	}
 }
 

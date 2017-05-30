@@ -551,6 +551,10 @@ figure.show {
 	.press{
 		display: none;
 	}
+
+	.footer{
+		margin-top: 230px !important;
+	}
 }
 
 @media only screen and (max-width: 375px) {

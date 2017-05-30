@@ -676,6 +676,10 @@ strong {
 	.press{
 		display: none;
 	}
+
+	.footer{
+		margin-top: 597px !important;
+	}
 }
 
 @media screen and (max-width: 375px){

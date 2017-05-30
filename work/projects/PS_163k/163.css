@@ -512,6 +512,7 @@ figure.show {
 		margin-left: 0px;
 	}
 	.history1 span{
+		font-size: 1em;
 		width: 375px;
 		margin-right: 20px;
 	}
@@ -520,6 +521,7 @@ figure.show {
 		margin-right: 0px;
 	}
 	.history2 span{
+		font-size: 1em;
 		width: 375px;
 		margin-left: 35px;
 	}
@@ -527,7 +529,7 @@ figure.show {
 		display: none;
 	}
 	.footer{
-		display: none;
+		margin-top: 920px !important;
 	}
 }
 
