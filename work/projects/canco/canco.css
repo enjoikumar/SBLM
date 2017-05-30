@@ -332,6 +332,10 @@ figure.show {
 		height: 955px;
 		margin-top: -985px;
 	}
+
+	.footer{
+		margin-top: 880px !important;
+	}
 }
 
 @media only screen and (max-width: 736px) {
