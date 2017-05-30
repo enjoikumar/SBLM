@@ -557,6 +557,7 @@ figure.show {
 	.fold p{
 		max-width: 80% !important;
 		font-size: 10px !important;
+		margin-left: 20px !important;
 	}
 
 	.title{

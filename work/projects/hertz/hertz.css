@@ -316,7 +316,6 @@ figure.show {
 		height: 300px;
 	}
 	.fold{
-		display: none;
 		margin-top: -165px;
 		font-size: 10px !important;
 		width: 220px !important;

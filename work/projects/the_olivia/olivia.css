@@ -587,10 +587,11 @@ figure.show {
 		margin-top: -185px;
 		font-size: 9px !important;
 		width: 220px !important;
-		height: 120px !important;
+		height: 60px !important;
 	}
 	.fold p{
 		font-size: 10px !important;
+		margin-top: -12px;
 	}
 
 	.history span{

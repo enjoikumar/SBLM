@@ -237,6 +237,12 @@ figure.show {
 	figure img{
 		height: 300px;
 	}
+	.fold{
+		margin-top: -186px;
+	}
+	.fold p{
+		max-width: 50% !important;
+	}
 }
 
 

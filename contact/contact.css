@@ -222,7 +222,10 @@ a:visited {
 
 @media only screen and (max-width: 320px) {
   .office{
-    margin-left: 45px;
+    margin-left: 15px;
+  }
+  .inq{
+    margin-left: 5px;
   }
 }
 

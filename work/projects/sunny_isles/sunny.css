@@ -567,6 +567,9 @@ figure.show {
 	figure img{
 		height: 300px;
 	}
+	.title{
+		margin-top: -68px;
+	}
 
 	.fold{
 		margin-top: -164px;

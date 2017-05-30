@@ -231,6 +231,14 @@ figure.show {
 	figure img{
 		height: 300px;
 	}
+
+	.fold{
+		margin-top: -164px;
+	}
+
+	.title{
+		margin-top: -44px;
+	}
 }
 
 
