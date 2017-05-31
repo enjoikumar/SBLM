@@ -380,6 +380,18 @@ strong {
 	}
 }
 
+@media screen and (width: 1366px){
+	.fold{
+		margin-top: -687px;
+		height: 483px;
+		width: 1225px;
+	}
+
+	.history5 span{
+		margin-top: -150px
+	}
+}
+
 @media screen and (max-width: 736px) {
 	figure{
 		height: 414px;
