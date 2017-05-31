@@ -333,6 +333,15 @@ figure.show {
 	.fold p{
 		font-size: 10px !important;
 	}
+	.footer{
+		font-size: 15px !important; 
+	}
+	.footer .line{
+		margin-left: 60px !important;
+	}
+	.footer a{
+		margin-left: 25px !important;
+	}
 }
 
 

@@ -332,6 +332,16 @@ figure.show {
 	.fold p{
 		font-size: 10px !important;
 	}
+	.footer{
+		font-size: 15px !important; 
+	}
+	.footer .line{
+		margin-left: 60px !important;
+		display: none;
+	}
+	.footer a{
+		margin-left: 55px !important;
+	}
 }
 
 .footer{

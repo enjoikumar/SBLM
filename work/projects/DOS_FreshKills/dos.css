@@ -344,6 +344,16 @@ figure.show {
 		margin-top: -41px;
 		font-size: 18px !important;
 	}
+
+	.footer{
+		font-size: 15px !important; 
+	}
+	.footer .line{
+		margin-left: 60px !important;
+	}
+	.footer a{
+		margin-left: 25px !important;
+	}
 }
 
 .footer{

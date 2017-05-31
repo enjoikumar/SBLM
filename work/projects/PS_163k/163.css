@@ -606,7 +606,15 @@ figure.show {
 	}
 
 	.footer{
-		margin-top: 1000px !important;
+		margin-top: 1020px !important;
+		font-size: 15px !important;
+	}
+	.footer .line{
+		margin-left: 60px !important;
+		display: none;
+	}
+	.footer a{
+		margin-left: 55px !important;
 	}
 }
 

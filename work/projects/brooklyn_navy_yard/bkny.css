@@ -682,12 +682,13 @@ figure.show {
 
 	.footer{
 		margin-top: 280px !important;
-	}
-		.footer a{
-		margin-left: 50px !important;
+		font-size: 15px !important; 
 	}
 	.footer .line{
-		margin-left: 100px !important;
+		margin-left: 60px !important;
+	}
+	.footer a{
+		margin-left: 25px !important;
 	}
 }
 

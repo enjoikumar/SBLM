@@ -655,6 +655,17 @@ figure.show {
 		width: 290px;
 		font-size: 15px;
 	}
+	.footer{
+		font-size: 15px !important; 
+	}
+	.footer .line{
+		margin-left: 60px !important;
+		display: none;
+	}
+	.footer a{
+		margin-left: 60px !important;
+	}
+	
 }
 
 
