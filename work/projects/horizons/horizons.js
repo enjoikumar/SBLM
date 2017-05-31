@@ -24,6 +24,13 @@ $(document).ready(function(){
 
   $window.on('scroll resize', check_if_in_view);
   $window.trigger('scroll');  
+
+  $up = $('.top')
+  $up.click(function() {
+  $('html, body').animate({
+      scrollTop: $(".slideshow").offset().top
+  }, 400);
+  });
 })
 
   // var raq = function(){

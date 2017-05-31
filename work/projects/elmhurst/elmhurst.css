@@ -569,6 +569,13 @@ figure.show {
 	.press{
 		display: none;
 	}
+
+	.footer a{
+		margin-left: 20px !important;
+	}
+	.footer .line{
+		margin-left: 100px !important;
+	}
 }
 
 @media only screen and (max-width: 375px) {
@@ -598,6 +605,9 @@ figure.show {
 	.history3 span{
 		margin-right: 19.5px;
 		width: 320px;
+	}
+	.footer .line{
+		margin-left: 70px !important;
 	}
 }
 

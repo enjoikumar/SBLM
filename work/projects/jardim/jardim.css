@@ -540,6 +540,12 @@ figure.show {
 	.footer{
 		margin-top: 840px !important;
 	}
+	.footer a{
+		margin-left: 45px !important;
+	}
+	.footer .line{
+		margin-left: 100px !important;
+	}
 }
 
 @media only screen and (max-width: 375px) {
@@ -596,6 +602,9 @@ figure.show {
 	.history5 img{
 		height: 400px;
 		margin-top: 20px;
+	}
+	.footer .line{
+		margin-left: 70px !important;
 	}
 }
 

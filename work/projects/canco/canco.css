@@ -568,6 +568,12 @@ figure.show {
 	.footer{
 		margin-top: 440px !important;
 	}
+	.footer a{
+		margin-left: 45px !important;
+	}
+	.footer .line{
+		margin-left: 100px !important;
+	}
 }
 
 @media only screen and (max-width: 375px) {
@@ -616,6 +622,9 @@ figure.show {
 		width: 100%;
 		height: 400px;
 		margin-top: 40px;
+	}
+	.footer .line{
+		margin-left: 70px !important;
 	}
 }
 

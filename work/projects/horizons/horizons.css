@@ -158,6 +158,9 @@ figure.show {
 	.fold p{
 		max-width: 80% !important;
 	}
+	.footer{
+		margin-top: 100px !important;
+	}
 }
 
 @media only screen and (max-width: 667px) {
@@ -216,6 +219,15 @@ figure.show {
 	.fold p{
 		max-width: 60% !important;
 	}
+	.footer{
+		margin-top: 180px !important;
+	}
+	.footer a{
+		margin-left: 10px !important;
+	}
+	.footer .line{
+		margin-left: 100px !important;
+	}
 }
 
 @media only screen and (max-width: 375px) {
@@ -227,6 +239,9 @@ figure.show {
 	}
 	.fold{
 		margin-top: -214px;
+	}
+	.footer .line{
+		margin-left: 70px !important;
 	}
 }
 
@@ -244,6 +259,31 @@ figure.show {
 		max-width: 50% !important;
 	}
 }
+
+.footer{
+	position: relative;
+	color: white;
+	font-size: 17px;
+	background-color: black;
+	width: 100%;
+	height: 40px;
+	cursor: pointer;
+	margin-top: -66px;
+}
+.footer p{
+	display: inline-block;
+	margin-top: 11px;
+	margin-left: 20px;
+}
+.footer .line{
+	margin-left: 35px;
+}
+.footer a{
+	text-decoration: none;
+	color: white;
+	margin-left: 40px;
+}
+
 
 
 

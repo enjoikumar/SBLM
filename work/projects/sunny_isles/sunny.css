@@ -513,6 +513,15 @@ figure.show {
 	.press{
 		display: none;
 	}
+	.footer{
+		margin-top: -5px !important;
+	}
+	.footer a{
+		margin-left: 20px !important;
+	}
+	.footer .line{
+		margin-left: 100px !important;
+	}
 }
 
 
@@ -556,6 +565,10 @@ figure.show {
 
 	.history4 img{
 		height: 300px;
+	}
+
+	.footer .line{
+		margin-left: 70px !important;
 	}
 }
 

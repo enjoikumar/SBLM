@@ -277,6 +277,16 @@ figure.show {
 		background-color: black;
 		opacity: .8;
 	}
+
+	.footer{
+		margin-top: 80px !important;
+	}
+	.footer a{
+		margin-left: 20px !important;
+	}
+	.footer .line{
+		margin-left: 100px !important;
+	}
 }
 
 
@@ -296,6 +306,9 @@ figure.show {
 	}
 	.fold p{
 		font-size: 11px !important
+	}
+	.footer .line{
+		margin-left: 70px !important;
 	}
 }
 
@@ -320,6 +333,32 @@ figure.show {
 		font-size: 10px !important;
 	}
 }
+
+.footer{
+	position: relative;
+	color: white;
+	font-size: 17px;
+	background-color: black;
+	width: 100%;
+	height: 40px;
+	cursor: pointer;
+	margin-top: -4px;
+	z-index: 4;
+}
+.footer p{
+	display: inline-block;
+	margin-top: 11px;
+	margin-left: 20px;
+}
+.footer .line{
+	margin-left: 35px;
+}
+.footer a{
+	text-decoration: none;
+	color: white;
+	margin-left: 40px;
+}
+
 
 
 

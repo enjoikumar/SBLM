@@ -528,6 +528,9 @@ strong {
 		height: 335px;
 		margin-top: -340px;
 	}
+	.footer{
+		margin-top: 668px !important;
+	}
 }
 
 @media only screen and (max-width: 568px) {
@@ -683,6 +686,13 @@ strong {
 	.footer{
 		margin-top: 597px !important;
 	}
+
+	.footer a{
+		margin-left: 50px !important;
+	}
+	.footer .line{
+		margin-left: 100px !important;
+	}
 }
 
 @media screen and (max-width: 375px){
@@ -736,6 +746,9 @@ strong {
 
 	.footer{
 		margin-top: 497px !important;
+	}
+	.footer .line{
+		margin-left: 70px !important;
 	}
 }
 

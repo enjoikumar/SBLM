@@ -501,6 +501,13 @@ figure.show {
 	.press{
 		display: none;
 	}
+
+	.footer a{
+		margin-left: 45px !important;
+	}
+	.footer .line{
+		margin-left: 100px !important;
+	}
 }
 
 
@@ -535,6 +542,9 @@ figure.show {
 	.history2 span{
 		width: 320px;
 		margin-left: 25px !important;
+	}
+	.footer .line{
+		margin-left: 70px !important;
 	}
 }
 
