@@ -160,6 +160,12 @@ figure.show {
 	}
 }
 
+@media only screen and (width: 1024px){
+	.history1 span{
+		margin-left: 669px;
+	}
+}
+
 @media only screen and (max-width: 736px) {
 	figure{
 		height: 414px;

@@ -309,6 +309,38 @@ figure.show {
 	}
 }
 
+@media only screen and (width: 1024px){
+	.fold{
+		margin-top: -516px;
+		width: 884px;
+		height: 312px;
+	}
+	.fold p{
+		max-width: 80% !important;
+	}
+
+	.history1 img{
+		width: 500px;
+		height: 700px;
+	}
+	.history1 span{
+		width: 300px;
+		margin-top: 200px;
+		margin-right: 100px;
+	}
+	.history2 img{
+		width: 700px;
+		height: 300px;
+	}
+	.history2 span{
+		width: 80%;
+		margin-top: 100px;
+	}
+	.history3 img{
+		height: 600px;
+	}
+}
+
 @media only screen and (max-width: 736px) {
 	figure{
 		height: 414px;

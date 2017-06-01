@@ -140,6 +140,18 @@ figure.show {
 	}
 }
 
+@media only screen and (width: 1024px){
+	.fold{
+		margin-top: -516px;
+	}
+	.fold p{
+		margin-top: -40px;
+	}
+	.title{
+		margin-top: -74px;
+	}
+}
+
 @media only screen and (max-width: 736px) {
 	figure{
 		height: 414px;
