@@ -345,6 +345,42 @@ figure.show {
 	}
 }
 
+@media only screen and (width: 1080px){
+	.fold{
+		margin-top: -564px;
+		width: 940px;
+		height: 360px;
+	}
+	.history1 img{
+		width: 600px;
+		height: 400px;
+	}
+	.history1 span{
+		width: 300px;
+		margin-top: 100px;
+		margin-right: 40px;
+	}
+	.history2 img{ 
+		width: 500px;
+		height: 600px;
+	}
+	.history2 span{
+		width: 300px;
+		margin-top: 300px;
+	}
+	.history3 img{
+		width: 500px;
+		height: 600px;
+	}
+	.history3 span{
+		width: 300px;
+		margin-top: 400px;
+	}
+	.history4 img{
+		height: 600px;
+	}
+}
+
 @media only screen and (width: 1024px){
 	.fold{
 		margin-top: -536px;

@@ -345,6 +345,30 @@ figure.show {
 		width: 1226px;
 	}
 }
+@media only screen and (width: 1080px){
+	.fold{
+		margin-top: -564px;
+		width: 940px;
+		height: 340px;
+	}
+
+	.history1 img{
+		width: 500px;
+		height: 700px;
+	}
+	.history1 span{
+		width: 300px;
+		margin-top: 200px;
+	}
+	.history2 img{
+		width: 500px;
+		height: 700px;
+	}
+	.history2 span{
+		width: 300px;
+		margin-top: 350px;
+	}
+}
 
 @media only screen and (width: 1024px){
 	.fold{

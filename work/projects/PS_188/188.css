@@ -183,6 +183,17 @@ figure.show {
 	}
 }
 
+@media only screen and (width: 1080px){
+	.fold{
+		margin-top: -565px;
+		width: 940px;
+		height: 360px;
+	}
+	.fold p{
+		max-width: 70% !important;
+	}
+}
+
 @media only screen and (width: 1024px){
 	.fold{
 		margin-top: -538px;

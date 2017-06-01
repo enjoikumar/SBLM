@@ -160,6 +160,12 @@ figure.show {
 	}
 }
 
+@media only screen and (width: 1080px){
+	.history1 span{
+		margin-left: 725px;
+	}
+}
+
 @media only screen and (width: 1024px){
 	.history1 span{
 		margin-left: 669px;

@@ -301,7 +301,72 @@ figure.show {
 	}
 }
 
-@media only  screen and (max-width: 736px) {
+@media only screen and (width: 1080px){
+	.fold{
+		margin-top: -564px;
+		width: 940px;
+		height: 340px;
+	}
+	.fold p{
+		max-width: 70% !important;
+	}
+	.history1 img{
+		width: 600px;
+		height: 500px;
+	}
+	.history1 span{
+		width: 300px;
+		margin-right: 50px;
+		margin-top: 100px;
+	}
+	.history2 img{
+		width: 500px;
+		height: 700px;
+	}
+	.history2 span{
+		width: 300px;
+		margin-top: 300px;
+		margin-left: 100px;
+	}
+	.history4 img{
+		height: 900px;
+	}
+}
+
+@media only screen and (width: 1024px){
+	.fold{
+		margin-top: -536px;
+		width: 884px;
+		height: 312px;
+	}
+	.fold p{
+		max-width: 80% !important;
+	}
+
+	.history1 img{
+		width: 600px;
+		height: 500px;
+	}
+	.history1 span{
+		width: 300px;
+		margin-right: 50px;
+		margin-top: 100px;
+	}
+	.history2 img{
+		width: 500px;
+		height: 700px;
+	}
+	.history2 span{
+		width: 300px;
+		margin-top: 300px;
+		margin-left: 100px;
+	}
+	.history4 img{
+		height: 900px;
+	}
+}
+
+@media only screen and (max-width: 736px) {
 	figure{
 		height: 414px;
 	}

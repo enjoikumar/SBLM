@@ -147,6 +147,12 @@ figure.show {
 	}
 }
 
+@media only screen and (width: 1080px){
+	.history1{
+		margin-left: 740px;
+	}
+}
+
 @media only screen and (width: 1024px){
 	.history1{
 		margin-left: 684px;

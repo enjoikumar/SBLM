@@ -126,11 +126,18 @@ a{
   }
 }
 
+@media screen and (width: 1080px){
+  h2{
+    right: -216px;
+  }
+}
+
 @media only screen and (width: 1024px) {
   h2{
     right: -205px;
   }
 }
+
 
 @media only screen and (width: 736px) {
   h2{
