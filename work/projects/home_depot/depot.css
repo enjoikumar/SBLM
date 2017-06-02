@@ -228,7 +228,7 @@ strong {
 	cursor: url("../../assets/down.png"), wait;
 }
 
-@media screen and (width: 2560px){
+@media only screen and (width: 2560px){
 	figure{
 		height: 1366px;
 	}
@@ -298,7 +298,7 @@ strong {
 	}
 }
 
-@media screen and (width: 1920px){
+@media only screen and (width: 1920px){
 	figure{
 		height: 960px;
 	}
@@ -380,7 +380,22 @@ strong {
 	}
 }
 
-@media screen and (width: 1366px){
+@media only screen and (width: 1440px){
+	.fold{
+		margin-top: -725px;
+		width: 1300px;
+		height: 520px;
+	}
+
+	.history5 img{
+		margin-top: 400px;
+	}
+	.history5 span{
+		margin-top: -400px;
+	}
+}
+
+@media only screen and (width: 1366px){
 	.fold{
 		margin-top: -687px;
 		height: 483px;
@@ -392,7 +407,7 @@ strong {
 	}
 }
 
-@media screen and (width: 1080px){
+@media only screen and (width: 1080px){
 	.fold{
 		margin-top: -544px;
 		width: 940px;
@@ -476,7 +491,7 @@ strong {
 	}
 }
 
-@media screen and (max-width: 736px) {
+@media only screen and (max-width: 736px) {
 	figure{
 		height: 414px;
 	}
@@ -557,7 +572,7 @@ strong {
 	}
 }
 
-@media screen and (max-width: 667px) {
+@media only screen and (max-width: 667px) {
 	figure{
 		height: 375px;
 	}
@@ -702,7 +717,7 @@ strong {
 	}
 }
 
-@media screen and (max-width: 414px) {
+@media only screen and (max-width: 414px) {
 	figure, figure img{
 		height: 375px;
 	}
@@ -791,7 +806,7 @@ strong {
 	}
 }
 
-@media screen and (max-width: 375px){
+@media only screen and (max-width: 375px){
 	figure{
 		height: 350px;
 	}
@@ -848,7 +863,7 @@ strong {
 	}
 }
 
-@media screen and (max-width: 320px){
+@media only screen and (max-width: 320px){
 	figure{
 		height: 300px;
 	}

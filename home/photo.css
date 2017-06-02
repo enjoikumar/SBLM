@@ -120,6 +120,12 @@ a{
   }
 }
 
+@media only screen and (width: 1440px){
+  h2{
+    right: -288px;
+  }
+}
+
 @media only screen and (width: 1366px){
   h2{
     right: -273px;

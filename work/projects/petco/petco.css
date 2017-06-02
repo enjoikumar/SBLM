@@ -106,7 +106,7 @@ figure.show {
 	width: 345px;
 	position: absolute;
 	margin-top: -430px;
-	margin-left: 925px;
+	right: 0;
 	background-color: black;
 	padding: 10px 0px 10px 10px;
 }
@@ -160,17 +160,6 @@ figure.show {
 	}
 }
 
-@media only screen and (width: 1080px){
-	.history1 span{
-		margin-left: 725px;
-	}
-}
-
-@media only screen and (width: 1024px){
-	.history1 span{
-		margin-left: 669px;
-	}
-}
 
 @media only screen and (max-width: 736px) {
 	figure{

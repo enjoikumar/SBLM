@@ -301,6 +301,14 @@ figure.show {
 	}
 }
 
+@media only screen and (width: 1440px){
+	.fold{
+		margin-top: -725px;
+		width: 1300px;
+		height: 521px;
+	}
+}
+
 @media only screen and (width: 1366px){
 	.fold{
 		margin-top: -687px;

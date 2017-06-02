@@ -99,7 +99,7 @@ figure.show {
 	width: 300px;
 	position: absolute;
 	margin-top: -490px;
-	margin-left: 940px;
+	right: 0;
 	background-color: black;
 	padding: 20px 20px 20px 20px;
 }
@@ -116,7 +116,6 @@ figure.show {
 		font-size: 30px;
 		width: 800px;
 		margin-top: -790px;
-		margin-left: 1700px;
 	}
 }
 
@@ -141,23 +140,11 @@ figure.show {
 		width: 500px;
 		position: absolute;
 		margin-top: -690px;
-		margin-left: 1380px;
 		background-color: black;
 		padding: 20px 20px 20px 20px;
 	}
 }
 
-@media only screen and (width: 1080px){
-	.history1{
-		margin-left: 740px;
-	}
-}
-
-@media only screen and (width: 1024px){
-	.history1{
-		margin-left: 684px;
-	}
-}
 
 @media only screen and (max-width: 736px) {
 	figure{
