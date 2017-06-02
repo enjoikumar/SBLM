@@ -393,6 +393,69 @@ figure.show {
 	}
 }
 
+@media only screen and (width: 800px){
+	figure{
+		height: 414px;
+	}
+	figure img{
+		height: 414px;
+	}
+
+	.title{
+		margin-top: -44px;
+		padding: 10px 10px 10px 10px;
+    font-size: 20px !important;
+	}
+
+	.fold{
+		font-size: 20px;
+		height: 240px;
+		width: 660px;
+		margin-top: -404px;
+	}
+	.fold p{
+		max-width: 70% !important;
+	}
+
+
+	.history1 img{
+		width: 700px;
+		margin-left: 30px;
+	}
+
+	.history2 img{
+		width: 700px;
+		margin-top: 20px;
+		margin-left: 50px;
+	}
+	.history2 span{
+		width: 696px;
+		margin-left: 20px;
+	}
+
+	.history4 img{
+		width: 100%;
+		margin-top: 20px;
+	}
+	.history5 img{
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	.other{
+		margin-top: 1080px;
+	}
+
+	.press{
+		width: 90%;
+		height: 370px;
+		margin-top: -375px;
+	}
+	.footer{
+		margin-top: 1040px !important;
+	}
+}
+
 @media only screen and (max-width: 736px) {
 	figure{
 		height: 414px;

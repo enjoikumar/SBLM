@@ -410,6 +410,66 @@ figure.show {
 	}
 }
 
+
+@media only screen and (width: 800px){
+	figure{
+		height: 414px;
+	}
+	figure img{
+		height: 414px;
+	}
+
+	.title{
+		margin-top: -44px;
+		padding: 10px 10px 10px 10px;
+    font-size: 20px !important;
+	}
+
+	.fold{
+		font-size: 20px !important;
+		height: 280px;
+		width: 660px;
+		margin-top: -424px;
+		padding-top: 40px;
+	}
+	.fold p{
+		max-width: 70% !important;
+		margin-top: -20px;
+	}
+
+	.history1 img{
+		width: 700px;
+		height: 900px;
+		margin-left: 50px;
+	}
+	.history1 span{
+		width: 700px;
+		margin-top: 40px;
+		margin-right: 50px;
+	}
+
+	.history2 img{
+		width: 700px;
+		height: 900px;
+		margin-right: 50px;
+	}
+	.history2 span{
+		width: 700px;
+		margin-top: 40px;
+		margin-left: 50px;
+	}
+	.history3 img,
+	.history4 img{
+		width: 100%;
+	}
+
+	.press{
+		width: 90%;
+		height: 365px;
+		margin-top: -390px;
+	}
+}
+
 @media only screen and (max-width: 736px) {
 	figure{
 		height: 414px;

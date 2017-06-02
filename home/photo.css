@@ -144,6 +144,17 @@ a{
   }
 }
 
+@media only screen and (width: 800px){
+  h2{
+    top: -16px;
+    right: -160px;
+    font-size: 24px !important;
+  }
+  #dsny{
+    top: -72px;
+  }
+}
+
 
 @media only screen and (width: 736px) {
   h2{

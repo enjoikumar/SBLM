@@ -216,6 +216,32 @@ figure.show {
 	}
 }
 
+@media only screen and (width: 800px){
+	figure{
+		height: 414px;
+	}
+	figure img{
+		height: 414px;
+	}
+
+	.title{
+		margin-top: -44px;
+		padding: 10px 10px 10px 10px;
+    font-size: 20px !important;
+	}
+
+	.fold{
+		font-size: 20px;
+		height: 278px;
+		width: 660px;
+		margin-top: -425px;
+	}
+	.fold p{
+		max-width: 70% !important;
+		margin-top: -50px !important;
+	}
+}
+
 @media only screen and (max-width: 736px) {
 	figure{
 		height: 414px;
