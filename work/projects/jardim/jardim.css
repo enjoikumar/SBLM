@@ -456,6 +456,36 @@ figure.show {
 	}
 }
 
+@media only screen and (width: 768px){
+	.fold{
+		margin-top: -388px;
+		width: 628px;
+		height: 225px;
+	}
+	.fold p{
+		max-width: 80% !important;
+	}
+	.history1 img{
+		width: 700px;
+		margin-left: 14px;
+	}
+	.history2 img{
+		width: 700px;
+		margin-left: 34px;
+	}
+	.history4 img{
+		width: 700px;
+		margin-left: 34px;
+	}
+	.history5 img{
+		width: 700px;
+		margin-right: 34px;
+	}
+	.footer{
+		margin-top: 1000px !important;
+	}
+}
+
 @media only screen and (max-width: 736px) {
 	figure{
 		height: 414px;

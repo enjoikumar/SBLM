@@ -258,6 +258,18 @@ figure.show {
 	}
 }
 
+@media only screen and (width: 768px){
+	.fold{
+		margin-top: -389px;
+		width: 630px;
+		height: 200px;
+	}
+	.fold p{
+		margin-top: -40px;
+		max-width: 80% !important;
+	}
+}
+
 @media only screen and (max-width: 736px) {
 	figure{
 		height: 414px;
