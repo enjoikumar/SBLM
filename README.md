@@ -297,7 +297,7 @@ Lines 87-91: This is when clicking on the site map is displays the first element
 
 
 
-
+https://stackoverflow.com/questions/14813142/internet-explorer-10-howto-apply-grayscale-filter
 
 
 
