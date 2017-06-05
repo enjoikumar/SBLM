@@ -1,6 +1,9 @@
 body{
   background-color: black;
 }
+#about{
+  margin-left: 40px;
+}
 .para{
   position: absolute;
   color: white;
