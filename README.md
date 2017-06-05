@@ -294,15 +294,3 @@ Lines 80-85: This one is for the footer, when clicked on the footer, page will b
 
 Lines 87-91: This is when clicking on the site map is displays the first element of the narrative. Showing empty which is an empty div. The reason we don't click to display the first element of the narrative is because the nav bar is at a fixed position and will always take about 48px of the image. So clicking to direct to an empty div right about the first story frame allows for the image to be displayed without any obstrusion from the nav bar.
 
-
-
-
-https://stackoverflow.com/questions/14813142/internet-explorer-10-howto-apply-grayscale-filter
-
-
-
-
-
-
-
-
