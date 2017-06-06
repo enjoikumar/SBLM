@@ -52,3 +52,47 @@ ul{
   margin-left: 40px;
   padding-bottom: 40px;
 }
+
+@media only screen and (width: 414px){
+  .para{
+    width: 80%;
+  }
+  .list{
+    margin-top: 600px;
+  }
+}
+@media only screen and (width: 375px){
+  .para{
+    width: 80%;
+  }
+  .list{
+    margin-top: 600px;
+  }
+}
+@media only screen and (width: 320px){
+  .para{
+    width: 80%; 
+  }
+  .list{
+    margin-top: 700px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
