@@ -16,7 +16,7 @@ body{
 .list{
   position: absolute;
   color: white;
-  margin-top: 280px;
+  margin-top: 240px;
   margin-left: -10px;
   font-size: 28px;
   text-decoration: none;
@@ -44,7 +44,7 @@ ul{
 .para2{
   color: white;
   position: absolute;
-  margin-top: 650px;
+  margin-top: 580px;
   width: 45%;
   font-size: 20px;
   margin-left: 40px;
