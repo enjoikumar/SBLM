@@ -101,8 +101,8 @@ body {
   /*-webkit-filter: grayscale(100%);*/
 }
 
-.boxInner img :hover{
-  /*opacity: .75 !important;*/
+.boxInner :hover{
+  opacity: .75 !important;
 }
 
 .text:hover{
@@ -111,12 +111,15 @@ body {
 
 
 .notgray:hover{
-  opacity: .5 !important;
+  opacity: .75 !important;
 }
 .notgray{
   /*filter: grayscale(0%) !important;*/
   opacity: 1 !important;
 }
+
+
+
 
 .middle {
   transition: 0s ease;
