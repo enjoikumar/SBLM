@@ -90,7 +90,6 @@ body{
 }
 
 
-
 #work{
   margin-left: 45px;
 }
@@ -169,6 +168,7 @@ body{
   overflow: hidden;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
+  text-decoration: none;
 }
 
 /* Hide the list item that contains the link that 

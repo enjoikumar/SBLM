@@ -7,7 +7,7 @@ body{
 .para{
   position: absolute;
   color: white;
-  width: 45%;
+  width: 60%;
   font-size: 20px;
   margin-left: 40px;
   margin-top: 100px;
@@ -16,7 +16,8 @@ body{
 .list{
   position: absolute;
   color: white;
-  margin-top: 240px;
+  /*margin-top: 240px;*/
+  margin-top: 320px;
   margin-left: -10px;
   font-size: 28px;
   text-decoration: none;
@@ -30,7 +31,7 @@ body{
   padding-bottom: 20px;
   text-decoration: none;
   transition: .5s;
-  font-size: 20px;
+  font-size: 28px;
 }
 ul{
   list-style: none;
@@ -42,6 +43,7 @@ ul{
 }
 
 .para2{
+  display: none;
   color: white;
   position: absolute;
   margin-top: 580px;
