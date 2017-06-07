@@ -41,6 +41,12 @@ ul{
   background-color: rgb(238, 60, 44);
 }
 
+@media only screen and (width: 2560px){
+  .para{
+    width: 35%;
+  }
+}
+
 @media only screen and (width: 1920px){
   .para{
     width: 35%;
