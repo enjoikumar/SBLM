@@ -208,6 +208,15 @@ This class makes the topnav look good on small screens */
   .fold p{
     font-size: 30px;
   }
+   #contact{
+    margin-left: 90px;
+  }
+  #work{
+    margin-left: 90px;
+  }
+  #about{
+    margin-left: 90px;
+  }
 }
 
 @media screen and (max-width:680px) {
