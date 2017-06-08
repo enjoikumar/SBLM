@@ -76,10 +76,10 @@ figure.show {
 	text-align: center;
 }
 .next:hover{
-	cursor: url("../../assets/right.png"), wait;
+	cursor: url("../../assets/right.png"), url("../../assets/right.cur"), e-resize;
 }
 .prev:hover{
-	cursor: url("../../assets/left.png"), wait;
+	cursor: url("../../assets/left.png"), url("../../assets/left.cur"), w-resize;
 }
 
 
@@ -99,7 +99,7 @@ figure.show {
 	position: absolute;
 }
 .down:hover{
-	cursor: url("../../assets/down.png"), wait;
+	cursor: url("../../assets/down.png"), url("../../assets/down.cur"), s-resize;
 }
 
 

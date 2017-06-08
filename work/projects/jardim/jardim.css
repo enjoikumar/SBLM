@@ -70,10 +70,10 @@ figure.show {
 	text-align: center;
 }
 .next:hover{
-	cursor: url("../../assets/right.png"), wait;
+	cursor: url("../../assets/right.png"), url("../../assets/right.cur"), e-resize;
 }
 .prev:hover{
-	cursor: url("../../assets/left.png"), wait;
+	cursor: url("../../assets/left.png"), url("../../assets/left.cur"), w-resize;
 }
 
 .prev{
@@ -164,7 +164,7 @@ figure.show {
 	position: absolute;
 }
 .down:hover{
-	cursor: url("../../assets/down.png"), wait;
+	cursor: url("../../assets/down.png"), url("../../assets/down.cur"), s-resize;
 }
 
 .other{
@@ -174,7 +174,6 @@ figure.show {
 	padding-top: 40px;
 	padding-left: 40px;
 	margin-top: 520px;
-
 }
 
 .project-history{
@@ -193,7 +192,7 @@ figure.show {
 	width: 93%;
 	margin-top: -645px;
 	z-index: 10;
-	cursor: url("../../assets/down.png"), wait;
+	cursor: url("../../assets/down.png"), url("../../assets/down.cur"), s-resize;
 }
 
 @media only screen and (width: 2560px){
