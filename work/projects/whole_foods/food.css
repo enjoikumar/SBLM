@@ -67,10 +67,10 @@ figure.show {
 	text-align: center;
 }
 .next:hover{
-	cursor: url("../../assets/right.png"), url("../../assets/right.cur"), e-resize;
+	cursor: url("../../assets/right.png"), e-resize;
 }
 .prev:hover{
-	cursor: url("../../assets/left.png"),url("../../assets/left.cur"), w-resize;
+	cursor: url("../../assets/left.png"), w-resize;
 }
 
 /*position styling for prev and also making the edges smooth*/

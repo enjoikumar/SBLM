@@ -87,7 +87,7 @@ figure.show {
 
 
 .slideshow:hover{
-	cursor: url("../../assets/down.png"), url("../../assets/down.cur"), s-resize;
+	cursor: url("../../assets/down.png"), s-resize;
 }
 
 .history1 img{
