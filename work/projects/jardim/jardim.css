@@ -196,6 +196,13 @@ figure.show {
 	cursor: url("../../assets/down.png"), s-resize;
 }
 
+.history img:hover{
+	cursor: url('../../assets/down.png'), auto;
+}
+.history4 img, .history5 img{
+	cursor: auto !important;
+}
+
 @media only screen and (width: 2560px){
 	figure{
 		height: 1366px;

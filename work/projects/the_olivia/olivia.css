@@ -109,6 +109,9 @@ figure.show {
 .history1{
 	padding-top: 40px;
 }
+.history1 img{
+	cursor: url("../../assets/down.png"), auto;
+}
 .history1 span{
 	float: right;
 	width: 400px;
@@ -120,6 +123,7 @@ figure.show {
 .history2 img{
 	float: right;
 	margin-top: 80px;
+	cursor: url("../../assets/down.png"), auto;
 }
 .history2 span{
 	float: left;

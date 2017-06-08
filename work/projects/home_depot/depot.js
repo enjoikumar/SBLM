@@ -92,4 +92,26 @@ $(document).ready(function(){
       scrollTop: $(".empty").offset().top
     }, 800);
   })
+
+  $('.history2 img').click(function(){
+    $('html, body').animate({
+      scrollTop: $('.history3 img').offset().top
+    }, 800)
+  })
+
+  $('.history3 img').click(function(){
+    $('html, body').animate({
+      scrollTop: $('.history5 img').offset().top
+    }, 800)
+  })
+
+  $('.history5 img').click(function(){
+    $('html, body').animate({
+      scrollTop: $('.history6 img').offset().top
+    }, 800)
+  })
+
 })
+
+
+

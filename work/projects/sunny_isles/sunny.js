@@ -110,7 +110,21 @@ $(document).ready(function(){
       scrollTop: $(".empty").offset().top
     }, 800);
   })
+
+  $('.history1 img').click(function(){
+    $('html, body').animate({
+      scrollTop: $('.history2 img').offset().top
+    }, 800)
+  })
+
+  $('.history2 img').click(function(){
+    $('html, body').animate({
+      scrollTop: $('.history4 img').offset().top
+    }, 800)
+  })
+
 })
 
 
-// 
+
+

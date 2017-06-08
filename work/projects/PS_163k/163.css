@@ -117,6 +117,7 @@ figure.show {
 
 .history1 img {
 	margin-top: 20px;
+	cursor: url("../../assets/down.png"), auto;
 }
 .history1 span{
 	float: right;

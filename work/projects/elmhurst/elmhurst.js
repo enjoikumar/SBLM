@@ -89,6 +89,30 @@ $(document).ready(function(){
         scrollTop: $(".empty").offset().top
     }, 800);
   })
+
+  $('.history1 img').click(function(){
+    $('hmtl, body').animate({
+      scrollTop: $('.history2 img').offset().top
+    }, 800)
+  })
+
+  $('.history2 img').click(function(){
+    $('html, body').animate({
+      scrollTop: $('.history3 img').offset().top
+    }, 800)
+  })
+
+  $('.history3 img').click(function(){
+    $('html, body').animate({
+      scrollTop: $('.history4 img').offset().top
+    }, 800)
+  })
+
+  $('.history4 img').click(function(){
+    $('html, body').animate({
+      scrollTop: $('.footer').offset().top
+    }, 800)
+  })
 })
 
 
