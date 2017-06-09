@@ -12,7 +12,7 @@ body{
 	margin-left: 40px;
 }
 #contact{
-  margin-left: 35px !important;
+  margin-left: 28px !important;
 }
 
 
@@ -252,6 +252,9 @@ figure.show {
 
 	#contact{
     margin-left: 60px !important;
+  }
+  #about{
+  	margin-left: 90px !important;
   }
   #work{
     margin-left: 60px !important;
