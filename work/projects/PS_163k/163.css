@@ -6,10 +6,13 @@ body{
 }
 
 #work{
-  margin-left: 60px;
+  margin-left: 45px;
+}
+#about{
+	margin-left: 40px;
 }
 #contact{
-  margin-left: 60px;
+  margin-left: 35px !important;
 }
 
 
