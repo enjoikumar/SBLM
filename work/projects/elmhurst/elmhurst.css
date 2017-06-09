@@ -330,6 +330,9 @@ figure.show {
 		margin-top: 400px;
 	}
 
+	.history4{
+		margin-top: 550px;
+	}
 	.history4 img{
 		height: 1100px;
 	}
@@ -339,6 +342,9 @@ figure.show {
 		height: 955px;
 		margin-top: -980px;
 	}
+	div.footer{
+		margin-top: 3350px !important;
+	}
 }
 
 @media only screen and (width: 1440px){
@@ -347,6 +353,9 @@ figure.show {
 		width: 1300px;
 		height: 540px;
 	}
+	div.footer{
+		margin-top: 2514px !important;
+	}
 }
 
 @media only screen and (width: 1366px) {
@@ -354,6 +363,9 @@ figure.show {
 		margin-top: -707px;
 		height: 503px;
 		width: 1225px;
+	}
+	div.footer{
+		margin-top: 2472px !important;
 	}
 }
 
@@ -390,6 +402,9 @@ figure.show {
 	}
 	.history4 img{
 		height: 600px;
+	}
+	div.footer{
+		margin-top: 2300px !important;
 	}
 }
 
@@ -430,6 +445,9 @@ figure.show {
 	}
 	.history4 img{
 		height: 600px;
+	}
+	div.footer{
+		margin-top: 2300px !important;
 	}
 }
 
@@ -490,7 +508,7 @@ figure.show {
 	}
 
 	.history4 img{
-		margin-top: 40px;
+		margin-top: 1900px;
 		height: 400px;
 	}
 
@@ -498,6 +516,9 @@ figure.show {
 		width: 90%;
 		height: 365px;
 		margin-top: -390px;
+	}
+	div.footer{
+		margin-top: 2300px !important;
 	}
 }
 
@@ -538,6 +559,12 @@ figure.show {
 		width: 700px;
 		margin-right: 34px;
 		margin-top: 20px;
+	}
+	.history4 img{
+		margin-top: 1900px;
+	}
+	div.footer{
+		margin-top: 2334px !important;
 	}
 }
 
@@ -596,7 +623,7 @@ figure.show {
 	}
 
 	.history4 img{
-		margin-top: 40px;
+		margin-top: 1950px;
 		height: 400px;
 	}
 
@@ -604,6 +631,10 @@ figure.show {
 		width: 90%;
 		height: 365px;
 		margin-top: -390px;
+	}
+
+	div.footer{
+		margin-top: 2350px !important;
 	}
 }
 
@@ -768,7 +799,7 @@ figure.show {
 	.history4 img{
 		width: 100%;
 		height: 300px;
-		margin-top: 20px;
+		margin-top: 2000px;
 	}
 	.press{
 		display: none;
@@ -779,6 +810,9 @@ figure.show {
 	}
 	.footer .line{
 		margin-left: 100px !important;
+	}
+	div.footer{
+		margin-top: 2300px !important;
 	}
 }
 
@@ -810,8 +844,14 @@ figure.show {
 		margin-right: 19.5px;
 		width: 320px;
 	}
+	.history4{
+		margin-top: 40px; 
+	}
 	.footer .line{
 		margin-left: 70px !important;
+	}
+	div.footer{
+		margin-top: 2340px !important;
 	}
 }
 
@@ -859,6 +899,9 @@ figure.show {
 		width: 290px;
 		font-size: 15px;
 	}
+	.history4{
+		margin-top: -170px;
+	}
 	.footer{
 		font-size: 15px !important; 
 	}
@@ -869,7 +912,9 @@ figure.show {
 	.footer a{
 		margin-left: 60px !important;
 	}
-	
+	div.footer{
+		margin-top: 2300px !important;
+	}
 }
 
 
