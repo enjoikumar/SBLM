@@ -102,17 +102,38 @@ $(document).ready(function(){
     }, 800)
   })
 
-  $('.history3 img').click(function(){
-    $('html, body').animate({
-      scrollTop: $('.history4 img').offset().top
-    }, 800)
-  })
+  // $('.history3 img').click(function(){
+  //   $('html, body').animate({
+  //     scrollTop: $('.slideshow1').offset().top
+  //   }, 800)
+  // })
 
-  $('.history4 img').click(function(){
-    $('html, body').animate({
-      scrollTop: $('.footer').offset().top
-    }, 800)
-  })
+  // $('.history4 img').click(function(){
+  //   $('html, body').animate({
+  //     scrollTop: $('.footer').offset().top
+  //   }, 800)
+  // })
+
+  //Declaring variables
+  var $current, $next, $slides = $(".slideshow1 .slide1");
+
+  // basically making the slideshow
+  function doSlideShow () {
+    $current = $slides.filter(".slide1.current1"); 
+    $next = $current.next(".slide1");
+    if ($next.length < 1) {
+      $next = $slides.first();
+    }
+    $slides.removeClass("previous1");
+    $current.addClass("previous1").removeClass("current1");
+    $next.addClass("current1");
+    window.setTimeout(doSlideShow, 3000);
+    // $('ul li').removeClass('active');
+    // $('ul li').addClass('show');
+    // $('ul li:eq(' + index + ')').addClass('active');
+    // index = index < maxindex - 1 ? index + 0 : 0;
+  }
+    window.setTimeout(doSlideShow, 3000);
 })
 
 
