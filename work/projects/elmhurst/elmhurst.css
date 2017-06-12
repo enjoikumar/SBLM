@@ -258,6 +258,7 @@ figure.show {
 
 	.history4 img{
 		height: 1400px;
+		margin-top: 2700px;
 	}
 	
 	.press{
@@ -266,6 +267,9 @@ figure.show {
 		width: 95%;
 		margin-top: -1255px;
 		z-index: 10;
+	}
+	div.footer{
+		margin-top: 4100px !important;
 	}
 }
 
