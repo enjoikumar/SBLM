@@ -102,11 +102,11 @@ $(document).ready(function(){
     }, 800)
   })
 
-  // $('.history3 img').click(function(){
-  //   $('html, body').animate({
-  //     scrollTop: $('.slideshow1').offset().top
-  //   }, 800)
-  // })
+  $('.history3 img').click(function(){
+    $('html, body').animate({
+      scrollTop: $('.history4').offset().top
+    }, 800)
+  })
 
   // $('.history4 img').click(function(){
   //   $('html, body').animate({

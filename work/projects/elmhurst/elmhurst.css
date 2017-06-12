@@ -145,6 +145,7 @@ figure.show {
 .history3 img{
 	float: left;
 	margin-top: 380px;
+	cursor: url("../../assets/down.png"), s-resize;
 }
 .history3 span{
 	width: 400px;
