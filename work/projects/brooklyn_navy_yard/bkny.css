@@ -5,12 +5,6 @@ body{
 	font-family: 'Roboto', sans-serif;
 }
 
-#work{
-  margin-left: 60px;
-}
-#contact{
-  margin-left: 60px;
-}
 
 /*makes the images stack upon one another*/
 .slideshow{
@@ -263,13 +257,6 @@ figure.show {
 	figure img{
 		height: 960px;
 	}
-	
-	#contact{
-    margin-left: 60px !important;
-  }
-  #work{
-    margin-left: 60px !important;
-  }
 
 	.fold{
 		margin-top: -965px;

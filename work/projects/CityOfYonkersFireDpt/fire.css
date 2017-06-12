@@ -6,14 +6,6 @@ body{
 	background-color: black;
 }
 
-#work{
-  margin-left: 60px;
-}
-#contact{
-  margin-left: 60px;
-}
-
-
 /*makes the images stack upon one another*/
 .slideshow{
 	position: relative;
@@ -118,14 +110,7 @@ figure.show {
 	figure img{
 		height: 960px;
 	}
-
-	#contact{
-    margin-left: 60px !important;
-  }
-  #work{
-    margin-left: 60px !important;
-  }
-  
+	
 	.fold{
 		margin-top: -984px;
 		width: 92.7%;

@@ -5,17 +5,6 @@ body{
 	font-family: 'Roboto', sans-serif;
 }
 
-#work{
-  margin-left: 45px;
-}
-#about{
-	margin-left: 40px;
-}
-#contact{
-  margin-left: 28px !important;
-}
-
-
 .slideshow{
 	position: relative;
 	display: block;
@@ -249,17 +238,6 @@ figure.show {
 	figure img{
 		height: 960px;
 	}
-
-	#contact{
-    margin-left: 60px !important;
-  }
-  #about{
-  	margin-left: 90px !important;
-  }
-  #work{
-    margin-left: 60px !important;
-  }
-
 	.fold{
 		margin-top: -984px;
 		width: 92.7%;

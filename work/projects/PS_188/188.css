@@ -6,13 +6,6 @@ body{
 	background-color: black;
 }
 
-#work{
-  margin-left: 60px;
-}
-#contact{
-  margin-left: 60px;
-}
-
 .slideshow{
 	position: relative;
 	display: block;
@@ -168,12 +161,6 @@ figure.show {
 		height: 945px;
 	}
 
-	#contact{
-    margin-left: 60px !important;
-  }
-  #work{
-    margin-left: 60px !important;
-  }
 }
 
 @media only screen and (width: 1440px){

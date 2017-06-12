@@ -6,14 +6,6 @@ body{
 	background-color: black;
 }
 
-#work{
-  margin-left: 60px;
-}
-#contact{
-  margin-left: 60px;
-}
-
-
 .slideshow{
 	position: relative;
 	display: block;
@@ -170,13 +162,6 @@ figure.show {
 	figure img{
 		height: 960px;
 	}
-
-	#contact{
-    margin-left: 60px !important;
-  }
-  #work{
-    margin-left: 60px !important;
-  }
   
 	.fold{
 		margin-top: -964px;
