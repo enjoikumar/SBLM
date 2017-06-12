@@ -9,7 +9,7 @@ body {
           animation: fadein 2000ms linear both;
 }
 
-.topnav{
+/*.topnav{
   height: 55px;
 }
 .topnav a {
@@ -37,7 +37,7 @@ body {
 }
 #contact{
   margin-left: 35px;
-}
+}*/
 
 @-webkit-keyframes fadein {
   0% {
@@ -65,7 +65,6 @@ body {
 
 .topnav{
   position: relative;
-  margin-top: -5px;
 }
 
 

@@ -85,13 +85,15 @@ body{
   padding: 14px 7px;
   padding-top: 20px;
   padding-bottom: 0px;
+  padding-left: 40px !important;
+  padding-right: 40px !important;
   text-decoration: none;
   transition: .5s;
   font-size: 20px;
 }
 
 
-#work{
+/*#work{
   margin-left: 45px;
 }
 #about{
@@ -99,7 +101,7 @@ body{
 }
 #contact{
   margin-left: 28px;
-}
+}*/
 
 .sblm{
   margin-left: 0px;
