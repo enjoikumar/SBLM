@@ -279,41 +279,44 @@ a {
   .module{
     display: none;
   }
-  .wrap{
-    padding-top: 52px;
-  }
   .project{
-    padding-top: 60px;
     margin-left: 50px;
   }
-
+  .sblm{
+    width: 74px;
+  }
   .filter{
-    display: none;
+    padding-bottom: 9px !important;
+  }
+  .filter a{
+    font-size: 17px !important;
   }
 }
 
 @media only screen and (max-width: 375px) {
-  .wrap{
-    padding-top: 51px;
-  }
   .project{
-    padding-top: 60px;
     margin-left: 40px;
   }
   .icon{
     margin-top: 5px;
   }
+  .filter{
+    padding-bottom: 8px !important;
+  }
+  .filter a{
+    font-size: 14.75px !important;
+  }
 }
 
 @media only screen and (max-width: 320px) {
-  .wrap{
-    padding-top: 51px;
-  }
   .project {
     margin-left: 25px;
   }
-  #education {
-    margin-left: 8px;
+  .filter{
+    padding-bottom: 5px !important;
+  }
+  .filter a{
+    font-size: 11.68px !important;
   }
 }
 
