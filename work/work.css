@@ -212,7 +212,7 @@ a {
   }
   #retail, #mixed,
   #civic, #health{
-    margin-left: 51px;
+    margin-left: 53px;
   }
 }
 
@@ -280,7 +280,6 @@ a {
   .boxInner{
     width: 100%;
   }
-
   .module{
     display: none;
   }
@@ -303,10 +302,11 @@ a {
     margin-left: 40px;
   }
   .icon{
-    margin-top: 5px;
+    margin-top: 10px;
   }
   .filter{
     padding-bottom: 8px !important;
+    height: 38px;
   }
   .filter a{
     font-size: 14.75px !important;
