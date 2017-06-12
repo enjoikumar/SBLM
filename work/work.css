@@ -207,6 +207,9 @@ a {
   .filter{
     height: 50px;
   }
+  #education{
+    margin-left: 45px;
+  }
   #retail, #mixed,
   #civic, #health{
     margin-left: 51px;
