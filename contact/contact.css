@@ -129,12 +129,12 @@ a:visited {
 }
 
 @media screen and (width: 2560px){
- #contact{
+/* #contact{
   margin-left: 104px !important;
  }
  #work{
   margin-left: 125px !important;
- }
+ }*/
 }
 
 @media only screen and (width: 1920px){

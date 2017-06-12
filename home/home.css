@@ -197,7 +197,7 @@ link to open and close the topnav (li.icon) */
 
 @media screen and (width: 2560px){
   .topnav .link{
-    margin-left: 150px !important;
+    /*margin-left: 150px !important;*/
   }
 }
 
