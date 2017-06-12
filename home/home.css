@@ -206,12 +206,12 @@ when the user clicks on the icon.
 This class makes the topnav look good on small screens */
 @media screen and (width: 1920px){
   .topnav .link{
-    margin-left: 74px;
+    /*margin-left: 74px;*/
   }
   .fold p{
     font-size: 30px;
   }
-   #contact{
+/*   #contact{
     margin-left: 90px;
   }
   #work{
@@ -219,7 +219,7 @@ This class makes the topnav look good on small screens */
   }
   #about{
     margin-left: 90px;
-  }
+  }*/
 }
 
 @media screen and (max-width:680px) {
