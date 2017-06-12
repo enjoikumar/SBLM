@@ -199,6 +199,12 @@ link to open and close the topnav (li.icon) */
   .topnav .link{
     /*margin-left: 150px !important;*/
   }
+
+  .topnav a{
+    padding-left: 70px !important;
+    padding-right: 70px !important;
+  }
+
 }
 
 /* The "responsive" class is added to the topnav with JavaScript 
