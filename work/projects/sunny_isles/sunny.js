@@ -119,7 +119,7 @@ $(document).ready(function(){
 
   $('.history2 img').click(function(){
     $('html, body').animate({
-      scrollTop: $('.history4 img').offset().top
+      scrollTop: $('.footer').offset().top
     }, 800)
   })
 

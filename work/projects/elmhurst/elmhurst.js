@@ -104,15 +104,9 @@ $(document).ready(function(){
 
   $('.history3 img').click(function(){
     $('html, body').animate({
-      scrollTop: $('.history4 img').offset().top
-    }, 800)
+      scrollTop: $('.footer').offset().top
+    }, 1600)
   })
-
-  // $('.history4 img').click(function(){
-  //   $('html, body').animate({
-  //     scrollTop: $('.footer').offset().top
-  //   }, 800)
-  // })
 })
 
 

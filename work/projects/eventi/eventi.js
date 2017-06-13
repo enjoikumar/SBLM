@@ -98,7 +98,7 @@ $(document).ready(function(){
 
   $('.history2 img').click(function(){
     $('html, body').animate({
-      scrollTop: $('.history3 img').offset().top
+      scrollTop: $('.footer').offset().top
     }, 800)
   })
 })

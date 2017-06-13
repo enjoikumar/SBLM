@@ -301,6 +301,9 @@ figure.show {
 		height: 960px;
 		margin-top: -965px;
 	}
+	.footer{
+		margin-top: 800px !important;
+	}
 }
 
 @media only screen and (width: 1440px){
