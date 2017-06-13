@@ -323,11 +323,9 @@ figure.show {
 		margin-top: 400px;
 	}
 
-	.history4{
-		margin-top: 550px;
-	}
 	.history4 img{
-		height: 1100px;
+		height: 1100px !important;
+		margin-top: 2350px;
 	}
 
 	.press{
@@ -336,7 +334,7 @@ figure.show {
 		margin-top: -980px;
 	}
 	div.footer{
-		margin-top: 3350px !important;
+		margin-top: 3450px !important;
 	}
 }
 
@@ -346,8 +344,11 @@ figure.show {
 		width: 1300px;
 		height: 540px;
 	}
+	.history4 img{
+		height: 1000px;
+	}
 	div.footer{
-		margin-top: 2514px !important;
+		margin-top: 2400px !important;
 	}
 }
 
@@ -358,7 +359,7 @@ figure.show {
 		width: 1225px;
 	}
 	div.footer{
-		margin-top: 2472px !important;
+		margin-top: 2400px !important;
 	}
 }
 
@@ -394,7 +395,7 @@ figure.show {
 		margin-top: 400px;
 	}
 	.history4 img{
-		height: 600px;
+		height: 600px !important;
 	}
 	div.footer{
 		margin-top: 2300px !important;
@@ -437,10 +438,10 @@ figure.show {
 		margin-top: 400px;
 	}
 	.history4 img{
-		height: 600px;
+		height: 500px !important;
 	}
 	div.footer{
-		margin-top: 2300px !important;
+		margin-top: 2200px !important;
 	}
 }
 
@@ -501,8 +502,8 @@ figure.show {
 	}
 
 	.history4 img{
-		margin-top: 1900px;
-		height: 400px;
+		margin-top: 1950px;
+		height: 400px !important;
 	}
 
 	.press{
@@ -511,7 +512,7 @@ figure.show {
 		margin-top: -390px;
 	}
 	div.footer{
-		margin-top: 2300px !important;
+		margin-top: 2350px !important;
 	}
 }
 
@@ -554,7 +555,8 @@ figure.show {
 		margin-top: 20px;
 	}
 	.history4 img{
-		margin-top: 1900px;
+		margin-top: 1940px;
+		height: 400px !important;
 	}
 	div.footer{
 		margin-top: 2334px !important;
@@ -616,8 +618,8 @@ figure.show {
 	}
 
 	.history4 img{
-		margin-top: 1950px;
-		height: 400px;
+		margin-top: 2000px;
+		height: 400px !important;
 	}
 
 	.press{
@@ -627,7 +629,7 @@ figure.show {
 	}
 
 	div.footer{
-		margin-top: 2350px !important;
+		margin-top: 2400px !important;
 	}
 }
 
@@ -676,7 +678,7 @@ figure.show {
 	}
 
 	.history4 img{
-		height: 400px;
+		height: 400px !important;
 	}
 
 	.press{
@@ -726,12 +728,19 @@ figure.show {
 		width: 500px;
 		margin-right: 34px;
 	}
+	.history4 img{
+		margin-top: 2020px;
+	}
 
 	.press{
 		width: 92%;
 		height: 285px;
 		margin-top: -310px;
 	}
+	div.footer{
+		margin-top: 2420px !important;
+	}
+
 }
 
 @media only screen and (max-width: 414px) {
@@ -791,8 +800,8 @@ figure.show {
 	}
 	.history4 img{
 		width: 100%;
-		height: 300px;
-		margin-top: 2000px;
+		height: 300px !important;
+		margin-top: 2050px;
 	}
 	.press{
 		display: none;
@@ -805,7 +814,7 @@ figure.show {
 		margin-left: 100px !important;
 	}
 	div.footer{
-		margin-top: 2300px !important;
+		margin-top: 2350px !important;
 	}
 }
 
@@ -837,14 +846,16 @@ figure.show {
 		margin-right: 19.5px;
 		width: 320px;
 	}
-	.history4{
-		margin-top: 40px; 
+
+	.history4 img{
+		margin-top: 2120px;
+		height: 300px !important;
 	}
 	.footer .line{
 		margin-left: 70px !important;
 	}
 	div.footer{
-		margin-top: 2340px !important;
+		margin-top: 2420px !important;
 	}
 }
 
@@ -892,8 +903,8 @@ figure.show {
 		width: 290px;
 		font-size: 15px;
 	}
-	.history4{
-		margin-top: -170px;
+	.history4 img{
+		margin-top: 1900px;
 	}
 	.footer{
 		font-size: 15px !important; 
@@ -906,7 +917,7 @@ figure.show {
 		margin-left: 60px !important;
 	}
 	div.footer{
-		margin-top: 2300px !important;
+		margin-top: 2200px !important;
 	}
 }
 
@@ -1020,7 +1031,7 @@ figure.show {
 	width: 100%;
 	height: 40px;
 	cursor: pointer;
-	margin-top: 2425px !important;
+	margin-top: 2400px !important;
 	z-index: 3;
 }
 .footer p{
@@ -1038,55 +1049,77 @@ figure.show {
 }
 
 
-
-
-.slideshow1, .slideshow1 .slide1 {
-  position: absolute;
-  left: 0;
-  width: 100%;
+.history4{
+	position: relative;
+	margin-top: -80px;
+}
+.history4 img{
+	width: 100%;
+	height: 700px;
+	position: absolute;
+	left: 0;
+	z-index: 3;
+	-webkit-animation: slideshow 12s linear 0s infinite;
+  -moz-animation: slideshow 12s linear 0s infinite;
+  -ms-animation: slideshow 12s linear 0s infinite;
+  -o-animation: slideshow 12s linear 0s infinite;
+  animation: slideshow 12s linear 0s infinite;
+}
+.history4 img:nth-child(2){
+	z-index: 2;
+  -webkit-animation: slideshow 12s linear 4s infinite;
+  -moz-animation: slideshow 12s linear 4s infinite;
+  -ms-animation: slideshow 12s linear 4s infinite;
+  -o-animation: slideshow 12s linear 4s infinite;
+  animation: slideshow 12s linear 4s infinite;
+}
+.history4 img:nth-child(3){
+	 z-index: 1;
+  -webkit-animation: slideshow 12s linear 8s infinite;
+  -moz-animation: slideshow 12s linear 8s infinite;
+  -ms-animation: slideshow 12s linear 8s infinite;
+  -o-animation: slideshow 12s linear 8s infinite;
+  animation: slideshow 12s linear 8s infinite;
 }
 
-/*opacity is smoother and that the images fit the width*/
-.slideshow1 .slide1 {
-  background-position: center;
-  background-size: cover;
-  opacity: 0;
+@-webkit-keyframes slideshow {
+   25% { opacity: 1;}
+   33.33% { opacity: 0;} 
+   91.66% { opacity: 0;}
+   100% { opacity: 1;}
+}
+@-moz-keyframes slideshow {
+   25% { opacity: 1;}
+   33.33% { opacity: 0;} 
+   91.66% { opacity: 0;}
+   100% { opacity: 1;}
+}
+@-ms-keyframes slideshow {
+   25% { opacity: 1;}
+   33.33% { opacity: 0;} 
+   91.66% { opacity: 0;}
+   100% { opacity: 1;}
+}
+@-o-keyframes slideshow {
+   25% { opacity: 1;}
+   33.33% { opacity: 0;} 
+   91.66% { opacity: 0;}
+   100% { opacity: 1;}
+}
+@keyframes slideshow {
+   25% { opacity: 1;}
+   33.33% { opacity: 0;} 
+   91.66% { opacity: 0;}
+   100% { opacity: 1;}
 }
 
-/*makes sure the image before is stacked and cant be seen*/
-.slideshow1 .slide1.previous1 {
-  z-index: 1;
-  opacity: 1;
-}
 
-/*stacked as wekk but is put in the forefront*/
-.slideshow1 .slide1.current1 {
-  z-index: 2;
-  -webkit-animation: fadein 4000ms linear both;
-          animation: fadein 4000ms linear both;
-}
 
-/*transition affects*/
-@-webkit-keyframes fadein {
-  0% {
-    opacity: 0;
-  }
-  30% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 
-@keyframes fadein {
-  0% {
-    opacity: 0;
-  }
-  30% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-  }
-}
+
+
+
+
+
+
+
