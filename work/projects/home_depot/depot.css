@@ -122,6 +122,9 @@ strong {
 	opacity: .75;
 	height: 441px;
 }
+.fold p{
+	margin-top: 20px;
+}
 
 
 .history1 img {

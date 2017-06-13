@@ -102,6 +102,10 @@ figure.show {
 	padding-top: 100px;
 	opacity: .75;
 }
+.fold p{
+	margin-top: 40px;
+	max-width: 50% !important;
+}
 
 .history {
 	padding-top: 40px;

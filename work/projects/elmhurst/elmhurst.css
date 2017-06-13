@@ -114,6 +114,9 @@ figure.show {
 	padding-top: 100px;
 	opacity: .75;
 }
+.fold p{
+	max-width: 50% !important;
+}
 
 
 /*project history stuff*/

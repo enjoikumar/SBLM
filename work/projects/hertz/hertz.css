@@ -110,6 +110,10 @@ figure.show {
 	padding-top: 100px;
 	opacity: .75;
 }
+.fold p{
+	margin-top: 20px;
+	max-width: 50% !important;
+}
 
 /*project history stuff*/
 .history{

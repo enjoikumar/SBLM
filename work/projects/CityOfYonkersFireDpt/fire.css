@@ -48,6 +48,10 @@ figure.show {
 	padding: 80px 80px 80px 60px;
 	opacity: .75;
 }
+.fold p{
+	margin-top: 40px;
+	max-width: 50% !important;
+}
 
 .title{
 	font-size: 28px !important;

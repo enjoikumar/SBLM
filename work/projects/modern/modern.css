@@ -118,6 +118,10 @@ figure.show {
 	padding: 80px 80px 80px 60px;
 	opacity: .75;
 }
+.fold p{
+	margin-top: 20px;
+	max-width: 50% !important;
+}
 
 @media only screen and (width: 2560px){
 	figure{
