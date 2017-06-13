@@ -260,8 +260,8 @@ figure.show {
 	}
 
 	.history4 img{
-		height: 1400px;
-		margin-top: 2700px;
+		height: 1400px !important;
+		margin-top: 2800px;
 	}
 	
 	.press{
@@ -272,7 +272,7 @@ figure.show {
 		z-index: 10;
 	}
 	div.footer{
-		margin-top: 4100px !important;
+		margin-top: 4200px !important;
 	}
 }
 
