@@ -92,7 +92,6 @@ $(document).ready(function(){
       scrollTop: $('.history4 img').offset().top
     }, 800)
   })
-
 })
 
 
