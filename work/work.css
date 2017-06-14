@@ -376,6 +376,20 @@ a {
 table{
   color: white;
   display: none;
+  margin-left: 50px;
+  border-collapse: collapse;
+}
+
+.tableTitle th:nth-child(2){
+}
+
+.tableTitle th{
+  padding-bottom: 20px;
+  text-align: center;
+}
+.tableTitle td:nth-child(2),
+.tableTitle td:nth-child(3){
+  padding-left: 40px;
 }
 
 .tile{
@@ -384,5 +398,21 @@ table{
 .tile:hover{
   background-color: #ee3b2c;
 }
+td{
+  height: 30px;
+  border-bottom: 1px solid white;
+}
+.tile td:nth-child(2),
+.tile td:nth-child(3){
+  padding-left: 40px;
+}
+
+table{
+  display: block;
+}
+.wrap{
+  display: none;
+}
+
 
 
