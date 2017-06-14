@@ -32,12 +32,16 @@ body{
   transition: 0.5s; 
 }
 
+
 /* Position the content inside the overlay */
 .overlay-content {
   position: relative;
   top: 15%; 
   width: 100%; 
   text-align: center;
+}
+.overlay a:visited{
+  text-decoration: none;
 }
 
 /* The navigation links inside the overlay */

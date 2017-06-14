@@ -236,7 +236,14 @@ $(document).ready(function(){
 
   $press.trigger('click')
 
-  // $('table').css('display', 'none');
-  // $('.wrap').css('display','none');
+  $('#thumbnail').click(function(){
+    $('table').css('display', 'block');
+    $('.wrap').css('display', 'none');
+  })
+
+  $('#view').click(function(){
+    $('table').css('display', 'none');
+    $('.wrap').css('display', 'block');
+  })
   
 });

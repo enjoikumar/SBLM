@@ -39,7 +39,7 @@ body {
   padding: 10px;
   display:inline-block;
   color: white;
-  background-color: #212121;
+  background-color:  ;
   text-decoration:none;
   transition:all 0.5s;
   font-size: 12.4px;
@@ -358,9 +358,31 @@ a {
   }
 }
 
-table{
+.filter #view{
+  float: right;
+  margin-right: 40px;
+}
+.filter #list{
+  float: right;
+}
+.filter #list:hover{
+  background-color: #212121;
   color: white;
 }
+.filter #thumbnail{
+  float: right;
+}
 
+table{
+  color: white;
+  display: none;
+}
+
+.tile{
+  text-align: left;
+}
+.tile:hover{
+  background-color: #ee3b2c;
+}
 
 
