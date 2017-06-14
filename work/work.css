@@ -267,11 +267,27 @@ a {
 }
 
 @media only screen and (max-width: 667px) {
+  .icon{
+    margin-top: 10px;
+  }
   #all{
     margin-left: 255px;
   }
   .text{
     font-size: 24px;
+  }
+  .box{
+    height: 222.25px;
+    width: 222.25px;
+  }
+  .boxInner{
+    height: 222.25px;
+    width: 222.25px;
+  }
+  div.box.first{
+    height: 222.25px;
+    width: 222.25px;
+    padding-bottom: 0%;
   }
 }
 
@@ -290,9 +306,9 @@ a {
 
 /*mobile responsiveness*/
 @media only screen and (max-width: 414px) {
-  .boxInner{
+/*  .boxInner{
     width: 100%;
-  }
+  }*/
   .module{
     display: none;
   }
@@ -307,6 +323,19 @@ a {
   }
   .filter a{
     font-size: 17px !important;
+  }
+  .box{
+    height: 207px;
+    width: 207px;
+  }
+  .boxInner{
+    height: 207px;
+    width: 207px;
+  }
+  div.box.first{
+    height: 207px;
+    width: 207px;
+    padding-bottom: 0%;
   }
 }
 
@@ -323,6 +352,19 @@ a {
   }
   .filter a{
     font-size: 14.75px !important;
+  }
+  .box{
+    height: 187.5px;
+    width: 187.5px;
+  }
+  .boxInner{
+    height: 187.5px;
+    width: 187.5px;
+  }
+  div.box.first{
+    height: 187.5px;
+    width: 187.5px;
+    padding-bottom: 0%;
   }
 }
 
@@ -421,11 +463,9 @@ td{
 }
 
 table{
-  display: none;
-}
-.wrap{
   /*display: none;*/
 }
+
 
 #view, #thumbnail, #list{
   display: none;
