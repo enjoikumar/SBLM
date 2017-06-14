@@ -245,5 +245,4 @@ $(document).ready(function(){
     $('table').css('display', 'none');
     $('.wrap').css('display', 'block');
   })
-  
 });
