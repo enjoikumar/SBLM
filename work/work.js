@@ -236,7 +236,7 @@ $(document).ready(function(){
 
   $press.trigger('click')
 
-  $('table').css('display', 'none');
+  // $('table').css('display', 'none');
   // $('.wrap').css('display','none');
   
 });
