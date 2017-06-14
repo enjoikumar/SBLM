@@ -251,6 +251,19 @@ a {
   .text{
     font-size: 28px;
   }
+  .box{
+    height: 184px;
+    width: 184px;
+  }
+  .boxInner{
+    height: 184px;
+    width: 184px;
+  }
+  div.box.first{
+    height: 184px;
+    width: 184px;
+    padding-bottom: 0%;
+  }
 }
 
 @media only screen and (max-width: 667px) {
@@ -408,9 +421,13 @@ td{
 }
 
 table{
-  display: block;
+  display: none;
 }
 .wrap{
+  /*display: none;*/
+}
+
+#view, #thumbnail, #list{
   display: none;
 }
 
