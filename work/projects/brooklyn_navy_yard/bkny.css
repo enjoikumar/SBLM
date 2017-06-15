@@ -206,7 +206,6 @@ figure.show {
 	}
 	.fold p{
 		max-width: 50% !important;
-		font-size: 29px !important;
 	}
 
 	.history1 img{
@@ -266,6 +265,7 @@ figure.show {
 		margin-top: -965px;
 		width: 92.7%;
 		height: 800px;
+		font-size: 30px;
 	}
 
 	.history1 img{
@@ -1010,7 +1010,7 @@ figure.show {
 .footer{
 	color: white;
 	font-size: 17px;
-	background-color: black;
+	background-color: #ee3b2c;
 	width: 100%;
 	height: 40px;
 	cursor: pointer;

@@ -161,7 +161,6 @@ figure.show {
 		font-size: 30px;
 	}
 	.fold p{
-		font-size: 29px !important;
 		max-width: 50% !important;
 	}
 }
@@ -178,6 +177,7 @@ figure.show {
 		margin-top: -965px;
 		width: 92.7%;
 		height: 785px;
+		font-size: 30px;
 	}
 }
 
@@ -423,7 +423,7 @@ figure.show {
 	position: relative;
 	color: white;
 	font-size: 17px;
-	background-color: black;
+	background-color: #ee3b2c;
 	width: 100%;
 	height: 40px;
 	cursor: pointer;
