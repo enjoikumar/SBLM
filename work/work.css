@@ -218,7 +218,7 @@ a {
 
 @media only screen and (width: 1920px) {
   .filter a{
-    /*font-size: 15px;*/
+    font-size: 15px;
   }
   .filter{
     height: 43px;
