@@ -442,9 +442,11 @@ a {
 .filter #view{
   float: right;
   margin-right: 40px;
+  display: none;
 }
 .filter #list{
   float: right;
+  display: none;
 }
 .filter #list:hover{
   background-color: #212121;
@@ -452,9 +454,15 @@ a {
 }
 .filter #thumbnail{
   float: right;
+  display: none;
+}
+.filter #filterby:hover{
+  background-color: #212121;
+  color: white;
 }
 
 table{
+  padding-top: 50px;
   color: white;
   display: none;
   margin-left: 50px;
@@ -491,11 +499,16 @@ td{
 table{
   /*display: none;*/
 }
+.wrap{
+  /*display: none;*/
+}
 
 
 #view, #thumbnail, #list{
-  display: none;
+  /*display: none;*/
 }
+
+
 
 
 
