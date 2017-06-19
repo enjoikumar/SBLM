@@ -183,6 +183,8 @@ figure.show {
 	z-index: 10;
 	cursor: url("../../assets/down.png"), s-resize;
 }
+.history img{
+}
 
 .history img:hover{
 	cursor: url("../../assets/down.png"), auto;
