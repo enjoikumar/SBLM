@@ -138,10 +138,10 @@ figure.show {
 }
 
 .down{
-	width: 33%;
+	width: 20%;
 	height: 100%;
 	top: 0;
-	margin-left: 35%;
+	margin-left: 40%;
 	z-index: 5;
 	position: absolute;
 }

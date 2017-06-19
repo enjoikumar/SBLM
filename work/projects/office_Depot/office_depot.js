@@ -3,12 +3,6 @@
 
 $(document).ready(function(){
 
-  $(".carousel").flickity({
-    "wrapAround": true, 
-    "pageDots": false, 
-    "autoPlay": true
-  });
-
 	(function(){
 
 	var counter = 0, 

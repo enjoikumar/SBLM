@@ -147,10 +147,10 @@ figure.show {
 }
 
 .down{
-	width: 33%;
+	width: 20%;
 	height: 100%;
 	top: 0;
-	margin-left: 35%;
+	margin-left: 40%;
 	z-index: 5;
 	position: absolute;
 }
@@ -538,10 +538,13 @@ figure.show {
 	.fold{
 		margin-top: -358px;
 		width: 568px;
-		height: 240px;
+		height: 235px;
 		padding-left: 20px;
 		padding-top: 20px;
 		font-size: 17px !important;
+	}
+	.fold p{
+		margin-top: 25px;
 	}
 
 	.history1 img{
@@ -661,6 +664,7 @@ figure.show {
 	}
 	.fold p{
 		max-width: 90% !important;
+		margin-top: 5px;
 	}
 
 	.title{
@@ -730,6 +734,7 @@ figure.show {
 		height: 92px !important;
 		font-size: 10px !important;
 	}
+
 
 	.history span{
 		width: 320px;

@@ -86,10 +86,10 @@ figure.show {
 
 
 .down{
-	width: 33%;
+	width: 20%;
 	height: 100%;
 	top: 0;
-	margin-left: 35%;
+	margin-left: 40%;
 	z-index: 5;
 	position: absolute;
 }
@@ -178,6 +178,7 @@ figure.show {
 	.fold{
 		margin-top: -688px;
 		width: 1226px;
+		height: 525px;
 	}
 }
 
@@ -225,6 +226,7 @@ figure.show {
 	}
 	.fold p {
 		max-width: 70% !important;
+		margin-top: -30px;
 	}
 }
 
@@ -236,6 +238,7 @@ figure.show {
 	}
 	.fold p{
 		max-width: 80% !important;
+		margin-top: -40px;
 	}
 }
 
@@ -261,6 +264,7 @@ figure.show {
 	}
 	.fold p {
 		max-width: 70% !important;
+		margin-top: -40px;
 	}
 }
 
@@ -276,14 +280,14 @@ figure.show {
 	.fold{
 		margin-top: -339px;
 		width: 567px;
-		height: 300px;
+		height: 235px;
 		padding-left: 20px;
 		padding-top: 20px;
 		font-size: 17px !important;
 	}
 	.fold p{
 		font-size: 18px !important;
-		margin-top: 40px !important;
+		margin-top: 15px !important;
 	}
 	.title{
 		font-size: 20px !important;
@@ -303,7 +307,7 @@ figure.show {
 	.fold{
 		margin-top: -289px;
 		width: 468px;
-		height: 300px;
+		height: 200px;
 		font-size: 14px !important;
 	}
 	.fold p{
@@ -346,6 +350,9 @@ figure.show {
 	}
 	.footer .line{
 		margin-left: 100px !important;
+	}
+	.footer{
+		margin-top: 150px !important;
 	}
 }
 
@@ -393,6 +400,7 @@ figure.show {
 	}
 	.footer{
 		font-size: 15px !important; 
+		margin-top: 65px !important;
 	}
 	.footer .line{
 		margin-left: 60px !important;

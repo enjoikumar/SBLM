@@ -154,15 +154,15 @@ figure.show {
 
 
 .down{
-	width: 33%;
+	width: 20%;
 	height: 100%;
 	top: 0;
-	margin-left: 35%;
+	margin-left: 40%;
 	z-index: 5;
 	position: absolute;
 }
 .down:hover{
-	cursor: url("../../assets/down.png"), url("../../assets/down.cur"), s-resize;
+	cursor: url("../../assets/down.png"), s-resize;
 }
 
 .other{
@@ -415,6 +415,7 @@ figure.show {
 	}
 	.fold p{
 		max-width: 70% !important;
+		margin-top: -20px;
 	}
 
 
@@ -464,6 +465,7 @@ figure.show {
 	}
 	.fold p{
 		max-width: 80% !important;
+		margin-top: -30px;
 	}
 	.history1 img{
 		width: 700px;
@@ -508,6 +510,7 @@ figure.show {
 	}
 	.fold p{
 		max-width: 70% !important;
+		margin-top: -30px;
 	}
 
 
@@ -563,6 +566,9 @@ figure.show {
 		padding-left: 20px;
 		padding-top: 20px;
 		font-size: 18px !important;
+	}
+	.fold p{
+		margin-top: 30px !important;
 	}
 
 	.history1 img{
@@ -664,6 +670,7 @@ figure.show {
 	}
 	.fold p{
 		font-size: 13px !important;
+		margin-top: -10px !important;
 	}
 
 	.title{
@@ -796,11 +803,14 @@ figure.show {
 	.fold{
 		display: block;
 		margin-top: -164px;
-		font-size: 9px !important;
+		font-size: 10px !important;
 		width: 220px !important;
 		height: 60px !important;
 	}
-
+	.fold p{
+		max-width: 100% !important;
+		font-size: 10px !important;
+	}
 
 	.history img{
 		width: 100%;

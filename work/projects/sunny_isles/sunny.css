@@ -156,10 +156,10 @@ figure.show {
 }
 
 .down{
-	width: 33%;
+	width: 20%;
 	height: 100%;
 	top: 0;
-	margin-left: 35%;
+	margin-left: 40%;
 	z-index: 5;
 	position: absolute;
 }
@@ -417,6 +417,7 @@ figure.show {
 	}
 	.fold p{
 		max-width: 80% !important;
+		margin-top: -20px;
 	}
 	.history1 span{
 		width: 700px;

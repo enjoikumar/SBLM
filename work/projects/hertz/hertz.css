@@ -128,10 +128,10 @@ figure.show {
 }
 
 .down{
-	width: 33%;
+	width: 20%;
 	height: 100%;
 	top: 0;
-	margin-left: 35%;
+	margin-left: 40%;
 	z-index: 5;
 	position: absolute;
 }
@@ -195,8 +195,11 @@ figure.show {
 @media only screen and (width: 1366px){
 	.fold{
 		margin-top: -688px;
-		height: 961px;
+		height: 510px;
 		width: 1225px;
+	}
+	.footer{
+		margin-top: -5px !important;
 	}
 }
 
@@ -204,10 +207,13 @@ figure.show {
 	.fold{
 		margin-top: -545px;
 		width: 940px;
-		height: 320px;
+		height: 360px;
 	}
 	.fold p{
 		max-width: 70% !important;
+	}
+	.footer{
+		margin-top: -6px !important;
 	}
 }
 
@@ -215,11 +221,14 @@ figure.show {
 	.fold{
 		margin-top: -517px;
 		width: 885px;
-		height: 293px;
+		height: 335px;
 	}
 
 	.fold p{
 		max-width: 80% !important;
+	}
+	.footer{
+		margin-top: -6px !important;
 	}
 }
 
@@ -232,7 +241,7 @@ figure.show {
 	}
 
 	.title{
-		margin-top: -45px;
+		margin-top: -44px;
 		padding: 10px 10px 10px 10px;
     font-size: 20px !important;
 	}
@@ -241,11 +250,14 @@ figure.show {
 		font-size: 20px;
 		height: 190px;
 		width: 660px;
-		margin-top: -410px;
+		margin-top: -405px;
 	}
 	.fold p{
 		max-width: 70% !important;
 		margin-top: -50px !important;
+	}
+	.footer{
+		margin-top: -30px !important;
 	}
 }
 
@@ -282,8 +294,11 @@ figure.show {
 		margin-top: -375px;
 	}
 	.fold p{
-		max-width: 70% !important;
+		max-width: 100% !important;
 		margin-top: -50px !important;
+	}
+	.footer{
+		margin-top: -4px !important;
 	}
 }
 
@@ -300,6 +315,7 @@ figure.show {
 		height: 240px;
 		padding-left: 20px;
 		padding-top: 20px;
+		font-size: 18px;
 	}
 	.fold p{
 		margin-top: 20px !important;
@@ -331,6 +347,9 @@ figure.show {
 
 	.fold p{
 		font-size: 14px !important;
+	}
+	.footer{
+		margin-top: -5px !important; 
 	}
 }
 
@@ -364,7 +383,7 @@ figure.show {
 	}
 
 	.footer{
-		margin-top: 100px !important;
+		margin-top: 109px !important;
 	}
 	.footer a{
 		margin-left: 50px !important;
@@ -393,6 +412,9 @@ figure.show {
 	.footer .line{
 		margin-left: 70px !important;
 	}
+	.footer{
+		margin-top: 85px !important;
+	}
 }
 
 @media only screen and (max-width: 320px) {
@@ -410,6 +432,7 @@ figure.show {
 	}
 	.footer{
 		font-size: 15px !important; 
+		margin-top: 63px !important;
 	}
 	.footer .line{
 		margin-left: 60px !important;
