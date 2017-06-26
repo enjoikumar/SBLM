@@ -202,7 +202,7 @@ a {
     width: 508.6px;
   }
   .filter a{
-    font-size: 20px;
+    font-size: 16px;
   }
   .filter{
     height: 50px;
@@ -228,6 +228,9 @@ a {
   #retail, #mixed,
   #civic, #health{
     margin-left: 43px !important;
+  }
+  .boxInner{
+    border: solid 2px black !important;
   }
 
 /*  #contact{
