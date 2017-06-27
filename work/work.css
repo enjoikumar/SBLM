@@ -235,8 +235,15 @@ a {
     margin-left: 43px !important;
   }
   .boxInner{
-    border: solid 2px black !important;
+    border: solid 2.5px white !important;
   }
+/*  .box{
+    height: 250px;
+    padding-bottom: 0%;
+  }
+  .boxInner{
+    height: 250px;
+  }*/
 
 /*  #contact{
     margin-left: 90px;

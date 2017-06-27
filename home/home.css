@@ -63,7 +63,7 @@ a.sblm{
 }
 
 .burger{
-  color:white;
+  color:black;
   margin-right: 20px;
   margin-top: 20px;
   font-size: 28px;
@@ -191,6 +191,7 @@ a.sblm{
 should open and close the topnav on small screens */
 .topnav .icon {
   display: none;
+  color: black !important;
 }
 
 /* When the screen is less than 680 pixels wide, hide all list items, 
