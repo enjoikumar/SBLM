@@ -20,20 +20,6 @@ body {
   font-size: 20px;
   /*background-color: white;*/
 }
-/*.sblm{
-  width: 70px;
-}
-
-#work{
-  margin-left: 50px;
-}
-#about{
-  margin-left: 60px;
-}
-#contact{
-  margin-left: 50px;
-}
-*/
 
 /*filter*/
 .filter a {
@@ -48,11 +34,24 @@ body {
   margin-left: 40px;
   margin-right: -40px;
   margin-top: 8px !important;
+  overflow: hidden;
 }
 
 .filter a:hover {
   background-color: white;
   color: black;
+}
+#retail{
+  margin-left: 36px;
+}
+#mixed{
+  margin-left: 36px;
+}
+#civic{
+  margin-left: 36px;
+}
+#health{
+  margin-left: 36px;
 }
 
 .filter {

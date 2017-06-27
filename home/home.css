@@ -55,6 +55,7 @@ a.sblm{
   font-size: 36px;
   display: block; /* Display block instead of inline */
   transition: 0.3s; /* Transition effects on hover (color) */
+  color: black !important;
 }
 
 /* When you mouse over the navigation links, change their color */
