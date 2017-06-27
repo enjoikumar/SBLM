@@ -20,16 +20,16 @@ $(document).ready(function(){
 
   var $edu = function(){
     $education.click(function(){
-      $('#education').css("background-color", "white");
-      $("#education").css("color", "#212121");
-      $("#retail").css("background-color", "#212121");
-      $("#retail").css("color", "white");
-      $("#mixed").css("background-color", "#212121");
-      $("#mixed").css("color", "white");
-      $("#health").css("background-color", "#212121");
-      $("#health").css("color", "white");
-      $("#civic").css("background-color", "#212121");
-      $("#civic").css("color", "white");
+      $('#education').css("background-color", "#333");
+      $("#education").css("color", "#e4e4e4");
+      $("#retail").css("background-color", "#e4e4e4");
+      $("#retail").css("color", "#333");
+      $("#mixed").css("background-color", "#e4e4e4");
+      $("#mixed").css("color", "#333");
+      $("#health").css("background-color", "#e4e4e4");
+      $("#health").css("color", "#333");
+      $("#civic").css("background-color", "#e4e4e4");
+      $("#civic").css("color", "#333");
 
       $('.education').addClass('notgray')
       $('.retail').removeClass('notgray')
@@ -42,16 +42,16 @@ $(document).ready(function(){
 
   var $ret = function(){
     $retail.click(function(){
-      $("#education").css("background-color", "#212121");
-      $("#education").css("color", "white");
-      $("#retail").css("background-color", "white");
-      $("#retail").css("color", "#212121");
-      $("#mixed").css("background-color", "#212121");
-      $("#mixed").css("color", "white");
-      $("#health").css("background-color", "#212121");
-      $("#health").css("color", "white");
-      $("#civic").css("background-color", "#212121");
-      $("#civic").css("color", "white");
+      $("#education").css("background-color", "#e4e4e4");
+      $("#education").css("color", "#333");
+      $("#retail").css("background-color", "#333");
+      $("#retail").css("color", "#e4e4e4");
+      $("#mixed").css("background-color", "#e4e4e4");
+      $("#mixed").css("color", "#333");
+      $("#health").css("background-color", "#e4e4e4");
+      $("#health").css("color", "#333");
+      $("#civic").css("background-color", "#e4e4e4");
+      $("#civic").css("color", "#333");
       $('.retail').addClass('color')
 
       $('.education').removeClass('notgray')
@@ -65,16 +65,16 @@ $(document).ready(function(){
 
   var $mix = function(){
     $mixed.click(function(){
-      $("#education").css("background-color", "#212121");
-      $("#education").css("color", "white");
-      $("#retail").css("background-color", "#212121");
-      $("#retail").css("color", "white");
-      $("#mixed").css("background-color", "white");
-      $("#mixed").css("color", "#212121");
-      $("#health").css("background-color", "#212121");
-      $("#health").css("color", "white");
-      $("#civic").css("background-color", "#212121");
-      $("#civic").css("color", "white");
+      $("#education").css("background-color", "#e4e4e4");
+      $("#education").css("color", "#333");
+      $("#retail").css("background-color", "#e4e4e4");
+      $("#retail").css("color", "#333");
+      $("#mixed").css("background-color", "#333");
+      $("#mixed").css("color", "#e4e4e4");
+      $("#health").css("background-color", "#e4e4e4");
+      $("#health").css("color", "#333");
+      $("#civic").css("background-color", "#e4e4e4");
+      $("#civic").css("color", "#333");
       $('.mixed').addClass('color')
 
       $('.education').removeClass('notgray')
@@ -88,16 +88,16 @@ $(document).ready(function(){
 
   var $hea = function(){
     $health.click(function(){
-      $("#education").css("background-color", "#212121");
-      $("#education").css("color", "white");
-      $("#retail").css("background-color", "#212121");
-      $("#retail").css("color", "white");
-      $("#mixed").css("background-color", "#212121");
-      $("#mixed").css("color", "white");
-      $("#health").css("background-color", "white");
-      $("#health").css("color", "#212121");
-      $("#civic").css("background-color", "#212121");
-      $("#civic").css("color", "white");
+      $("#education").css("background-color", "#e4e4e4");
+      $("#education").css("color", "#333");
+      $("#retail").css("background-color", "#e4e4e4");
+      $("#retail").css("color", "#333");
+      $("#mixed").css("background-color", "#e4e4e4");
+      $("#mixed").css("color", "#333");
+      $("#health").css("background-color", "#333");
+      $("#health").css("color", "#e4e4e4");
+      $("#civic").css("background-color", "#e4e4e4");
+      $("#civic").css("color", "#333");
       $('.health').addClass('color');
 
       $('.education').removeClass('notgray')
@@ -111,16 +111,16 @@ $(document).ready(function(){
 
   var $civ = function(){
     $civic.click(function(){
-      $("#education").css("background-color", "#212121");
-      $("#education").css("color", "white");
-      $("#retail").css("background-color", "#212121");
-      $("#retail").css("color", "white");
-      $("#mixed").css("background-color", "#212121");
-      $("#mixed").css("color", "white");
-      $("#health").css("background-color", "#212121");
-      $("#health").css("color", "white");
-      $("#civic").css("background-color", "white");
-      $("#civic").css("color", "#212121");
+      $("#education").css("background-color", "#e4e4e4");
+      $("#education").css("color", "#333");
+      $("#retail").css("background-color", "#e4e4e4");
+      $("#retail").css("color", "#333");
+      $("#mixed").css("background-color", "#e4e4e4");
+      $("#mixed").css("color", "#333");
+      $("#health").css("background-color", "#e4e4e4");
+      $("#health").css("color", "#333");
+      $("#civic").css("background-color", "#333");
+      $("#civic").css("color", "#e4e4e4");
       $('.civic').addClass('color')
 
       $('.education').removeClass('notgray')
