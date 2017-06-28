@@ -231,28 +231,11 @@ a {
   }
   #retail, #mixed,
   #civic, #health{
-    margin-left: 43px !important;
+    margin-left: 36px !important;
   }
   .boxInner{
     border: solid 2.5px white !important;
   }
-/*  .box{
-    height: 250px;
-    padding-bottom: 0%;
-  }
-  .boxInner{
-    height: 250px;
-  }*/
-
-/*  #contact{
-    margin-left: 90px;
-  }
-  #work{
-    margin-left: 90px;
-  }
-  #about{
-    margin-left: 90px;
-  }*/
 }
 
 @media only screen and (max-width: 736px) {
