@@ -209,14 +209,14 @@ a {
     font-size: 16px;
   }
   .filter{
-    height: 50px;
+    height: 48px;
   }
   #education{
     margin-left: 45px;
   }
   #retail, #mixed,
   #civic, #health{
-    margin-left: 53px;
+    margin-left: 37px;
   }
 }
 
