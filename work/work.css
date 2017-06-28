@@ -236,6 +236,13 @@ a {
   .boxInner{
     border: solid 2.5px white !important;
   }
+  table{
+    font-size: 30px;
+  }
+  .tile td:nth-child(2),
+  .tile td:nth-child(3){
+    padding-left: 200px !important;
+  }
 }
 
 @media only screen and (max-width: 736px) {
@@ -260,6 +267,26 @@ a {
     height: 184px;
     width: 184px;
     padding-bottom: 0%;
+  }
+
+  table{
+    margin-left: 20px !important;
+    width: 95% !important;
+  }
+
+  .tableTitle th:nth-child(2){
+    padding-left: 160px !important;
+  }
+
+  .tile td:nth-child(2),
+  .tile td:nth-child(3){
+    padding-left: 160px !important
+  }
+  .tile td:nth-child(3){
+    text-align: right;
+  }
+  .tile td{
+    padding-top: 0px;
   }
 }
 
@@ -286,6 +313,10 @@ a {
     width: 222.25px;
     padding-bottom: 0%;
   }
+
+  .tile td:nth-child(2){
+    padding-left: 160px !important;
+  }
 }
 
 @media only screen and (max-width: 568px){
@@ -310,6 +341,25 @@ a {
     height: 189.3px;
     width: 189.3px;
     padding-bottom: 0%;
+  }
+  table{
+    margin-left: 5px !important;
+    width: 95% !important;
+  }
+
+  .tableTitle th:nth-child(2){
+    padding-left: 100px !important;
+  }
+
+  .tile td:nth-child(2){
+    padding-left: 100px !important
+  }
+  .tile td:nth-child(3){
+    text-align: right;
+    padding-left: 20px !important;
+  }
+  .tile td{
+    padding-top: 0px;
   }
 }
 
@@ -347,6 +397,11 @@ a {
     width: 207px;
     padding-bottom: 0%;
   }
+
+  #view, #thumbnail, #list, table, #filterby{
+    display: none;
+  }
+
 }
 
 @media only screen and (max-width: 375px) {
@@ -436,14 +491,16 @@ a {
   }
 }
 
+
+
 .filter #view{
   float: right;
   margin-right: 40px;
-  display: none;
+  color: black;
 }
 .filter #list{
   float: right;
-  display: none;
+  color: black;
 }
 .filter #list:hover{
   background-color: #212121;
@@ -451,7 +508,7 @@ a {
 }
 .filter #thumbnail{
   float: right;
-  display: none;
+  color: black;
 }
 .filter #filterby:hover{
   background-color: #212121;
@@ -459,50 +516,63 @@ a {
 }
 
 table{
-  padding-top: 50px;
+  padding-top: 20px;
   color: white;
-  display: none;
-  margin-left: 50px;
+  margin-left: 140px;
   border-collapse: collapse;
 }
-
-.tableTitle th:nth-child(2){
+.tableTitle{
+  color: black;
+  margin-top: 100px !important;
 }
+
 
 .tableTitle th{
-  padding-bottom: 20px;
-  text-align: center;
+  padding-top: 40px;
+  text-align: left;
 }
+.tableTitle th:nth-child(2),
+.tableTitle th:nth-child(3){
+  padding-left: 200px;
+}
+
 .tableTitle td:nth-child(2),
 .tableTitle td:nth-child(3){
-  padding-left: 40px;
+  padding-left: 60px;
 }
 
 .tile{
   text-align: left;
 }
 .tile:hover{
-  background-color: #ee3b2c;
+  /*background-color: #ee3b2c;*/
+  color: white !important;
 }
 td{
   height: 30px;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #333;
+  color: black;
 }
 .tile td:nth-child(2),
 .tile td:nth-child(3){
-  padding-left: 40px;
+  padding-left: 200px;
+}
+.tile td{
+  padding-top: 40px;
 }
 
 table{
-  display: none;
+  /*display: none;*/
 }
+
 .wrap{
   /*display: none;*/
 }
 
 
-#view, #thumbnail, #list{
-  display: none;
+
+#view, #thumbnail, #list, table, #filterby{
+  /*display: none;*/
 }
 
 
