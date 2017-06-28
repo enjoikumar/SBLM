@@ -218,6 +218,24 @@ a {
   #civic, #health{
     margin-left: 37px;
   }
+  table{
+    font-size: 30px;
+  }
+
+  .tableTitle th:nth-child(2){
+    padding-left: 160px !important;
+  }
+  .tableTitle th:nth-child(2),
+  .tableTitle th:nth-child(3){
+    padding-left: 650px !important
+  }
+  .tile td:nth-child(2),
+  .tile td:nth-child(3){
+    padding-left: 650px !important
+  }
+  .tile td:nth-child(3){
+    text-align: right !important;
+  }
 }
 
 @media only screen and (width: 1920px) {
