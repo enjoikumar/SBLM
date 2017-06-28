@@ -16,7 +16,8 @@ $(document).ready(function(){
 
   var $edu = function(){
     $education.click(function(){
-      $('#education').css("background-color", "#333");
+      // $('#education').css("background-color", "#333");
+      $('#education').css("background-color", "#aaa");
       $("#education").css("color", "#e4e4e4");
       $("#retail").css("background-color", "#e4e4e4");
       $("#retail").css("color", "#333");

@@ -399,7 +399,7 @@ a {
   }
 
   #view, #thumbnail, #list, table, #filterby{
-    display: none;
+    /*display: none;*/
   }
 
 }
@@ -562,7 +562,7 @@ td{
 }
 
 table{
-  /*display: none;*/
+  display: none;
 }
 
 .wrap{
