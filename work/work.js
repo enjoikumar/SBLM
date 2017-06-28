@@ -245,4 +245,8 @@ $(document).ready(function(){
     $('table').css('display', 'none');
     $('.wrap').css('display', 'block');
   })
+
+  if($(window).width() >= 1920){
+    //function goes here
+  }
 });
