@@ -255,11 +255,20 @@ a {
     border: solid 2.5px white !important;
   }
   table{
-    font-size: 30px;
+    font-size: 20px;
+  }
+  .tableTitle th:nth-child(2){
+    padding-left: 420px !important;
+  }
+  .tableTitle th:nth-child(3){
+    padding-left: 420px !important;
   }
   .tile td:nth-child(2),
   .tile td:nth-child(3){
-    padding-left: 200px !important;
+    padding-left: 420px !important;
+  }
+  .tile td{
+    padding-top: 20px !important;
   }
 }
 
@@ -576,15 +585,15 @@ td{
   padding-left: 200px;
 }
 .tile td{
-  padding-top: 40px;
+  padding-top: 15px;
 }
 
 table{
-  display: none;
+  /*display: none;*/
 }
 
 .wrap{
-  /*display: none;*/
+  display: none;
 }
 
 
