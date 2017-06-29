@@ -61,6 +61,10 @@ a.sblm{
 /* When you mouse over the navigation links, change their color */
 .overlay a:hover, .overlay a:focus {
   color: #333;
+  -webkit-transition: color 2s ease-out;
+  -moz-transition: color 2s ease-out;
+  -o-transition: color 2s ease-out;
+  transition: color 2s ease-out;
 }
 
 .burger{
@@ -178,14 +182,19 @@ a.sblm{
 .topnav a:hover {
   background-color: #555;
   padding-bottom: 20px;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  /*-webkit-transform: perspective(1px) translateZ(0) ease-out;*/
+  /*transform: perspective(1px) translateZ(0);*/
+  /*box-shadow: 0 0 1px transparent;*/
   overflow: hidden;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
+  /*-webkit-transition-duration: 0.3s;*/
+  /*transition-duration: 0.3s;*/
   text-decoration: none;
   color: white !important;
+
+  -webkit-transition: background-color 1s ease-out;
+  -moz-transition: background-color 1s ease-out;
+  -o-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
 }
 
 /* Hide the list item that contains the link that 

@@ -20,8 +20,8 @@ $(document).ready(function(){
 
   var $edu = function(){
     $education.click(function(){
-      $('#education').css("background-color", "#333");
-      $("#education").css("color", "#e4e4e4");
+      $('#education').css("background-color", "white");
+      $("#education").css("color", "#333");
       $("#retail").css("background-color", "#e4e4e4");
       $("#retail").css("color", "#333");
       $("#mixed").css("background-color", "#e4e4e4");
@@ -44,8 +44,8 @@ $(document).ready(function(){
     $retail.click(function(){
       $("#education").css("background-color", "#e4e4e4");
       $("#education").css("color", "#333");
-      $("#retail").css("background-color", "#333");
-      $("#retail").css("color", "#e4e4e4");
+      $("#retail").css("background-color", "white");
+      $("#retail").css("color", "#333");
       $("#mixed").css("background-color", "#e4e4e4");
       $("#mixed").css("color", "#333");
       $("#health").css("background-color", "#e4e4e4");
@@ -69,8 +69,8 @@ $(document).ready(function(){
       $("#education").css("color", "#333");
       $("#retail").css("background-color", "#e4e4e4");
       $("#retail").css("color", "#333");
-      $("#mixed").css("background-color", "#333");
-      $("#mixed").css("color", "#e4e4e4");
+      $("#mixed").css("background-color", "white");
+      $("#mixed").css("color", "#333");
       $("#health").css("background-color", "#e4e4e4");
       $("#health").css("color", "#333");
       $("#civic").css("background-color", "#e4e4e4");
@@ -94,8 +94,8 @@ $(document).ready(function(){
       $("#retail").css("color", "#333");
       $("#mixed").css("background-color", "#e4e4e4");
       $("#mixed").css("color", "#333");
-      $("#health").css("background-color", "#333");
-      $("#health").css("color", "#e4e4e4");
+      $("#health").css("background-color", "white");
+      $("#health").css("color", "#333");
       $("#civic").css("background-color", "#e4e4e4");
       $("#civic").css("color", "#333");
       $('.health').addClass('color');
@@ -119,8 +119,8 @@ $(document).ready(function(){
       $("#mixed").css("color", "#333");
       $("#health").css("background-color", "#e4e4e4");
       $("#health").css("color", "#333");
-      $("#civic").css("background-color", "#333");
-      $("#civic").css("color", "#e4e4e4");
+      $("#civic").css("background-color", "white");
+      $("#civic").css("color", "#333");
       $('.civic').addClass('color')
 
       $('.education').removeClass('notgray')
@@ -249,4 +249,6 @@ $(document).ready(function(){
   if($(window).width() >= 1920){
     //function goes here
   }
+
+  
 });

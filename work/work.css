@@ -589,11 +589,11 @@ td{
 }
 
 table{
-  /*display: none;*/
+  display: none;
 }
 
 .wrap{
-  display: none;
+  /*display: none;*/
 }
 
 
