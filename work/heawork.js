@@ -206,8 +206,8 @@ $(document).ready(function(){
     $('.wrap').css('display', 'block');
   })
 
-  if($(window).width() >= 1920){
-
+  if($(window).width() >= 1280){
+    $('.br').find('br').remove();
   }
 
 });

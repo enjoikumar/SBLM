@@ -247,7 +247,7 @@ $(document).ready(function(){
   })
 
   if($(window).width() >= 1920){
-    //function goes here
+    $('.br').find('br').remove();
   }
 
   
