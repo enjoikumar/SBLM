@@ -18,10 +18,9 @@ body {
   text-decoration: none;
   transition: .5s;
   font-size: 20px;
-  /*background-color: white;*/
 }
 
-/*filter*/
+
 .filter a {
   padding: 10px;
   display:inline-block;
@@ -100,7 +99,6 @@ body {
   height: 100%;
   transition: 1s ease;
   backface-visibility: hidden;
-  /*-webkit-filter: grayscale(100%);*/
 }
 
 .boxInner :hover{
@@ -111,16 +109,13 @@ body {
   opacity: 1 !important;
 }
 
-
 .notgray:hover{
-  opacity: 1 !important;
+  opacity: .1 !important;
 }
 
 .notgray{
-  /*filter: grayscale(0%) !important;*/
   opacity: 1 !important;
 }
-
 
 
 
@@ -134,12 +129,6 @@ body {
   -ms-transform: translate(-50%, -50%)
 }
 
-/*.boxInner:hover img {
-  opacity: 0.175;
-}*/
-/*.boxInner:hover {
-  background-color: black;
-}*/
 
 .boxInner:hover .middle {
   color:black;
@@ -525,21 +514,25 @@ a {
   margin-right: 40px;
   color: black;
 }
+.filter #view:hover{
+  background-color: white;
+  color: #333;
+}
 .filter #list{
   float: right;
   color: black;
 }
 .filter #list:hover{
-  background-color: #212121;
-  color: white;
+  background-color: white;
+  color: #333;
 }
 .filter #thumbnail{
   float: right;
   color: black;
 }
 .filter #filterby:hover{
-  background-color: #212121;
-  color: white;
+  background-color: white;
+  color: #333;
 }
 
 table{
