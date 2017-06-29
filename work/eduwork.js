@@ -16,7 +16,6 @@ $(document).ready(function(){
 
   var $edu = function(){
     $education.click(function(){
-      // $('#education').css("background-color", "#333");
       $('#education').css("background-color", "white");
       $("#education").css("color", "#333");
       $("#retail").css("background-color", "#e4e4e4");
@@ -194,4 +193,26 @@ $(document).ready(function(){
       $('.wrap').prepend($('.civ'))
     }
   })
+
+
+  $('#thumbnail').click(function(){
+    $('table').css('display', 'block');
+    $('.wrap').css('display', 'none');
+  })
+
+  $('#view').click(function(){
+    $('table').css('display', 'none');
+    $('.wrap').css('display', 'block');
+  })
+
+  if($(window).width() >= 1920){
+    
+  }
+
 });
+
+
+
+
+
+

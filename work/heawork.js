@@ -194,4 +194,25 @@ $(document).ready(function(){
       $('.wrap').prepend($('.civ'))
     }
   })
+
+
+  $('#thumbnail').click(function(){
+    $('table').css('display', 'block');
+    $('.wrap').css('display', 'none');
+  })
+
+  $('#view').click(function(){
+    $('table').css('display', 'none');
+    $('.wrap').css('display', 'block');
+  })
+
+  if($(window).width() >= 1920){
+
+  }
+
 });
+
+
+
+
+
