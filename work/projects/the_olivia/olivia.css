@@ -87,18 +87,19 @@ figure.show {
 .fold{
 	position: absolute;
 	font-size: 20px;
-	margin-top: -665px;
+	margin-top: -664px;
 	width: 89.1%;
-	height: 440px;
-	color:white;
-	background-color: black;
+	height: 441px;
+	color: black;
+	background-color: white;
 	padding: 80px 80px 80px 60px;
 	padding-top: 120px;
 	opacity: .75;
+	padding-left: 130px;
 }
 .fold p{
 	margin-top: -20px;
-	max-width: 50% !important;
+	max-width: 51% !important;
 }
 
 

@@ -115,10 +115,11 @@ strong {
 	font-size: 20px;
 	margin-top: -644px;
 	width: 89.1%;
-	color:white;
-	background-color: black;
+	color: black;
+	background-color: white;
 	padding: 80px 80px 80px 60px;
 	padding-top: 120px;
+	padding-left: 130px;
 	opacity: .75;
 	height: 441px;
 }

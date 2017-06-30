@@ -108,10 +108,11 @@ figure.show {
 	margin-top: -664px;
 	width: 89.1%;
 	height: 460px;
-	color:white;
-	background-color: black;
+	color:black;
+	background-color: white;
 	padding: 80px 80px 80px 60px;
 	padding-top: 100px;
+	padding-left: 130px;
 	opacity: .75;
 }
 .fold p{
@@ -287,7 +288,7 @@ figure.show {
 		margin-top: -984px;
 		width: 92.7%;
 		height: 780px;
-		font-size: 30px !important
+		font-size: 30px !important;
 	}
 
 	.history span{

@@ -1,7 +1,7 @@
 
 body {
   background-size: cover;
-  background-color: black;
+  background-color: white;
   font-family: 'Roboto', sans-serif;
 }
 .office, .inq{
@@ -84,7 +84,7 @@ body {
 }
 strong{
   /*color: #f20;*/
-  color: white;
+  color: #333;
 }
 
 /*giving spaces to each of the offices*/

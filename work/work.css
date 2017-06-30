@@ -231,6 +231,8 @@ a {
   .filter a{
     font-size: 15px;
     padding: 9px;
+    width: 95px !important;
+    text-align: center;
   }
   .filter{
     height: 43px;

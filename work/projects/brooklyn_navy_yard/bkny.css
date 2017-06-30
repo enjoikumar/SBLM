@@ -95,10 +95,11 @@ figure.show {
 	margin-top: -646px;
 	width: 89.1%;
 	height: 482px;
-	color:white;
-	background-color: black;
+	color:black;
+	background-color: white;
 	padding: 80px 80px 80px 60px;
 	opacity: .75;
+	padding-left: 130px;
 }
 .fold p{
 	margin-top: 20px;
@@ -266,7 +267,7 @@ figure.show {
 	.fold{
 		margin-top: -965px;
 		width: 92.7%;
-		height: 800px;
+		height: 801px;
 		font-size: 30px;
 	}
 
