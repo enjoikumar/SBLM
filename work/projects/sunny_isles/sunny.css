@@ -192,9 +192,10 @@ figure.show {
 
 	.fold{
 		margin-top: -1277px;
-		width: 94.5%;
+		width: 94.5%;	
 		height: 1113px;
 		font-size: 30px;
+		padding-left: 190px;
 	}
 	.fold p{
 		max-width: 50% !important;
