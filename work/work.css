@@ -80,6 +80,7 @@ body {
   position: relative;
   width: 20%;
   /*padding-bottom: 50% !important;*/
+  padding-bottom: 16% !important;
 }
 
 .boxInner {
