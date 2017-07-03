@@ -357,17 +357,24 @@ a {
     font-size: 24px;
   }
   .box{
-    height: 222.25px;
-    width: 222.25px;
+    width: 222.25px !important;
+    height: 130px !important;
+    padding-bottom: .5% !important;
   }
   .boxInner{
-    height: 222.25px;
-    width: 222.25px;
+    width: 222.25px !important;
+    height: 130px !important;
+    padding-bottom: .5% !important;
+  }
+  .boxInner img{
+    width: 222.25px !important;
+    height: 130px !important;
+    padding-bottom: .5% !important;
   }
   div.box.first{
-    height: 222.25px;
-    width: 222.25px;
-    padding-bottom: 0%;
+    width: 222.25px !important;
+    height: 130px !important;
+    padding-bottom: .5% !important;
   }
 
   .tile td:nth-child(2){
