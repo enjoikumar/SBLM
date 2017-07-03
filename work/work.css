@@ -209,9 +209,7 @@ a {
 
   .boxInner img{
     height: 300px;
-
-    padding-bottom: .1% !important;
-
+    padding-bottom: .1% !important; 
   }
 
   .filter a{
@@ -309,17 +307,22 @@ a {
   .box{
     width: 184px !important;
     height: 130px !important;
-    padding-bottom: 0% !important;
+    padding-bottom: .5% !important;
+  }
+  .boxInner{
+    width: 184px !important;
+    height: 130px !important;
+    padding-bottom: .5% !important;
   }
   .boxInner img{
     width: 184px !important;
     height: 130px !important;
-    padding-bottom: 0% !important;
+    padding-bottom: .5% !important;
   }
   div.box.first{
-    height: 184px;
-    width: 130px;
-    padding-bottom: 0%;
+    width: 184px !important;
+    height: 130px !important;
+    padding-bottom: .5% !important;
   }
 
   table{
