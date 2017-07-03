@@ -107,9 +107,7 @@ body {
   padding-top: 0px !important;
   padding-bottom: 0px !important;
 }
-.text{
-  display: none;
-}
+
 
 .boxInner :hover{
   opacity: 1 !important;
@@ -256,6 +254,9 @@ a {
   .boxInner{
     border: solid 2.5px white !important;
   }
+  .box{
+    padding-bottom: 10.75% !important;
+  }
   table{
     font-size: 20px;
   }
@@ -274,7 +275,7 @@ a {
   }
 }
 
-@media only screen and (max-width: 736px) {
+@media only screen and (width: 736px) {
   .filter{
     height: 39px;
   }
@@ -283,18 +284,29 @@ a {
   }
   .text{
     font-size: 22px;
+    display: none;
   }
-  .box{
+/*  .box{
     height: 184px;
     width: 184px;
   }
   .boxInner{
     height: 184px;
     width: 184px;
+  }*/
+  .box{
+    width: 184px !important;
+    height: 130px !important;
+    padding-bottom: 0% !important;
+  }
+  .boxInner img{
+    width: 184px !important;
+    height: 130px !important;
+    padding-bottom: 0% !important;
   }
   div.box.first{
     height: 184px;
-    width: 184px;
+    width: 130px;
     padding-bottom: 0%;
   }
 
