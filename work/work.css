@@ -393,17 +393,24 @@ a {
     margin-top: 10px;
   }
   .box{
-    height: 189.3px;
-    width: 189.3px;
+    width: 189.3px !important;
+    height: 140px !important;
+    padding-bottom: .5% !important;
   }
   .boxInner{
-    height: 189.3px;
-    width: 189.3px;
+    width: 189.3px !important;
+    height: 140px !important;
+    padding-bottom: .5% !important;
+  }
+  .boxInner img{
+    width: 189.3px !important;
+    height: 140px !important;
+    padding-bottom: .5% !important;
   }
   div.box.first{
-    height: 189.3px;
-    width: 189.3px;
-    padding-bottom: 0%;
+    width: 189.3px !important;
+    height: 140px !important;
+    padding-bottom: .5% !important;
   }
   table{
     margin-left: 5px !important;
@@ -448,17 +455,24 @@ a {
     font-size: 17px !important;
   }
   .box{
-    height: 207px;
-    width: 207px;
+    width: 207px !important;
+    height: 150px !important;
+    padding-bottom: .5% !important;
   }
   .boxInner{
-    height: 207px;
-    width: 207px;
+    width: 207px !important;
+    height: 150px !important;
+    padding-bottom: .5% !important;
+  }
+  .boxInner img{
+    width: 207px !important;
+    height: 150px !important;
+    padding-bottom: .5% !important;
   }
   div.box.first{
-    height: 207px;
-    width: 207px;
-    padding-bottom: 0%;
+    width: 207px !important;
+    height: 150px !important;
+    padding-bottom: .5% !important;
   }
 
   #view, #thumbnail, #list, table, #filterby{
@@ -482,17 +496,24 @@ a {
     font-size: 14.75px !important;
   }
   .box{
-    height: 187.5px;
-    width: 187.5px;
+    width: 187.5px !important;
+    height: 150px !important;
+    padding-bottom: .5% !important;
   }
   .boxInner{
-    height: 187.5px;
-    width: 187.5px;
+    width: 187.5px !important;
+    height: 150px !important;
+    padding-bottom: .5% !important;
+  }
+  .boxInner img{
+    width: 187.5px !important;
+    height: 150px !important;
+    padding-bottom: .5% !important;
   }
   div.box.first{
-    height: 187.5px;
-    width: 187.5px;
-    padding-bottom: 0%;
+    width: 187.5px !important;
+    height: 150px !important;
+    padding-bottom: .5% !important;
   }
 }
 
@@ -507,17 +528,24 @@ a {
     font-size: 11.68px !important;
   }
   .box{
-    height: 160px;
-    width: 160px;
+    width: 160px !important;
+    height: 130px !important;
+    padding-bottom: .5% !important;
   }
   .boxInner{
-    height: 160px;
-    width: 160px;
+    width: 160px !important;
+    height: 130px !important;
+    padding-bottom: .5% !important;
+  }
+  .boxInner img{
+    width: 160px !important;
+    height: 130px !important;
+    padding-bottom: .5% !important;
   }
   div.box.first{
-    height: 160px;
-    width: 160px;
-    padding-bottom: 0%;
+    width: 160px !important;
+    height: 130px !important;
+    padding-bottom: .5% !important;
   }
 }
 
