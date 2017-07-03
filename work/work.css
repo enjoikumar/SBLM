@@ -198,10 +198,22 @@ a {
   }
   .box{
     width: 508.6px;
+    height: 300px;
+    padding-bottom: .1% !important;
   }
   .boxInner{
     width: 508.6px;
+    height: 300px;
+    padding-bottom: .1% !important;
   }
+
+  .boxInner img{
+    height: 300px;
+
+    padding-bottom: .1% !important;
+
+  }
+
   .filter a{
     font-size: 16px;
   }
