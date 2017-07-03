@@ -9,6 +9,9 @@ body{
 .fold p{
   max-width: 33%;
 }
+.fold{
+  opacity: 1 !important;
+}
 
 a.sblm{
   color: white !important;

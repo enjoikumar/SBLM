@@ -109,7 +109,6 @@ strong {
 	padding-top: 40px;
 }
 
-
 .fold{
 	position: absolute;
 	font-size: 20px;
@@ -120,7 +119,7 @@ strong {
 	padding: 80px 80px 80px 60px;
 	padding-top: 120px;
 	padding-left: 130px;
-	opacity: .75;
+	opacity: 1;
 	height: 441px;
 }
 .fold p{
