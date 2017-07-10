@@ -113,8 +113,11 @@ body {
   opacity: 1 !important;
 }
 
-.text:hover{
+/*.text:hover{
   opacity: 1 !important;
+}*/
+div.text:hover{
+  color: red !important;
 }
 
 .notgray:hover{
@@ -124,6 +127,9 @@ body {
 .notgray{
   opacity: 1 !important;
 }
+
+.ghost{opacity: 1 !important}
+
 
 
 

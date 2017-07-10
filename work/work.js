@@ -250,5 +250,4 @@ $(document).ready(function(){
     $('.br').find('br').remove();
   }
 
-  
 });
