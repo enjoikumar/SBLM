@@ -40,18 +40,12 @@ body {
   background-color: white;
   color: black;
 }
-#retail{
+
+#retail, #mixed,
+#civic, #health{
   margin-left: 36px;
 }
-#mixed{
-  margin-left: 36px;
-}
-#civic{
-  margin-left: 36px;
-}
-#health{
-  margin-left: 36px;
-}
+
 
 .filter {
   padding-top: 46px;
@@ -62,7 +56,6 @@ body {
   margin-left: -45px;
   height: 43px
 }
-
 
 
 /*project styling*/
@@ -113,9 +106,6 @@ body {
   opacity: 1 !important;
 }
 
-/*.text:hover{
-  opacity: 1 !important;
-}*/
 div.text:hover{
   color: red !important;
 }
@@ -127,8 +117,6 @@ div.text:hover{
 .notgray{
   opacity: 1 !important;
 }
-
-.ghost{opacity: 1 !important}
 
 
 .middle {
@@ -201,12 +189,12 @@ a {
     margin-left: 2100px;
   }
   
-  .box{
+  .box, .boxInner, .boxInner img{
     width: 508.6px;
     height: 300px;
     padding-bottom: .1% !important;
   }
-  .boxInner{
+  /*.boxInner{
     width: 508.6px;
     height: 300px;
     padding-bottom: .1% !important;
@@ -214,7 +202,7 @@ a {
   .boxInner img{
     height: 300px;
     padding-bottom: .1% !important; 
-  }
+  }*/
 
   .filter a{
     font-size: 16px;
@@ -300,27 +288,12 @@ a {
     font-size: 22px;
     display: none;
   }
-  .box{
+  .box, .boxInner, .boxInner img, div.box.first{
     width: 184px !important;
     height: 130px !important;
     padding-bottom: .5% !important;
   }
-  .boxInner{
-    width: 184px !important;
-    height: 130px !important;
-    padding-bottom: .5% !important;
-  }
-  .boxInner img{
-    width: 184px !important;
-    height: 130px !important;
-    padding-bottom: .5% !important;
-  }
-  div.box.first{
-    width: 184px !important;
-    height: 130px !important;
-    padding-bottom: .5% !important;
-  }
-
+  
   table{
     margin-left: 20px !important;
     width: 95% !important;
@@ -352,22 +325,7 @@ a {
   .text{
     font-size: 24px;
   }
-  .box{
-    width: 222.25px !important;
-    height: 130px !important;
-    padding-bottom: .5% !important;
-  }
-  .boxInner{
-    width: 222.25px !important;
-    height: 130px !important;
-    padding-bottom: .5% !important;
-  }
-  .boxInner img{
-    width: 222.25px !important;
-    height: 130px !important;
-    padding-bottom: .5% !important;
-  }
-  div.box.first{
+  .box, .boxInner, .boxInner img, div.box.first{
     width: 222.25px !important;
     height: 130px !important;
     padding-bottom: .5% !important;
@@ -388,29 +346,10 @@ a {
   .icon{
     margin-top: 10px;
   }
-  .box{
+  .box, .boxInner, .boxInner img, div.box.first{
     width: 189.3px !important;
     height: 140px !important;
     padding-bottom: .5% !important;
-  }
-  .boxInner{
-    width: 189.3px !important;
-    height: 140px !important;
-    padding-bottom: .5% !important;
-  }
-  .boxInner img{
-    width: 189.3px !important;
-    height: 140px !important;
-    padding-bottom: .5% !important;
-  }
-  div.box.first{
-    width: 189.3px !important;
-    height: 140px !important;
-    padding-bottom: .5% !important;
-  }
-  table{
-    margin-left: 5px !important;
-    width: 95% !important;
   }
 
   .tableTitle th:nth-child(2){
@@ -443,36 +382,16 @@ a {
     width: 74px;
   }
   .filter{
-    padding-bottom: 9px !important;
+    padding-bottom: 5px !important;
   }
   .filter a{
     font-size: 17px !important;
   }
-  .box{
+  .box, .boxInner, .boxInner img, div.box.first{
     width: 207px !important;
     height: 150px !important;
     padding-bottom: .5% !important;
   }
-  .boxInner{
-    width: 207px !important;
-    height: 150px !important;
-    padding-bottom: .5% !important;
-  }
-  .boxInner img{
-    width: 207px !important;
-    height: 150px !important;
-    padding-bottom: .5% !important;
-  }
-  div.box.first{
-    width: 207px !important;
-    height: 150px !important;
-    padding-bottom: .5% !important;
-  }
-
-  #view, #thumbnail, #list, table, #filterby{
-    /*display: none;*/
-  }
-
 }
 
 @media only screen and (max-width: 375px) {
@@ -490,22 +409,7 @@ a {
     font-size: 14.75px !important;
   }
 
-  .box{
-    width: 187.5px !important;
-    height: 150px !important;
-    padding-bottom: .5% !important;
-  }
-  .boxInner{
-    width: 187.5px !important;
-    height: 150px !important;
-    padding-bottom: .5% !important;
-  }
-  .boxInner img{
-    width: 187.5px !important;
-    height: 150px !important;
-    padding-bottom: .5% !important;
-  }
-  div.box.first{
+  .box, .boxInner, .boxInner img, div.box.first{
     width: 187.5px !important;
     height: 150px !important;
     padding-bottom: .5% !important;
@@ -517,28 +421,13 @@ a {
     margin-left: 25px;
   }
   .filter{
-    padding-bottom: 5px !important;
+    padding-bottom: 4px !important;
   }
   .filter a{
     font-size: 11.68px !important;
   }
 
-  .box{
-    width: 160px !important;
-    height: 130px !important;
-    padding-bottom: .5% !important;
-  }
-  .boxInner{
-    width: 160px !important;
-    height: 130px !important;
-    padding-bottom: .5% !important;
-  }
-  .boxInner img{
-    width: 160px !important;
-    height: 130px !important;
-    padding-bottom: .5% !important;
-  }
-  div.box.first{
+  .box .boxInner, .boxInner img, div.box.first{
     width: 160px !important;
     height: 130px !important;
     padding-bottom: .5% !important;
@@ -659,15 +548,7 @@ table{
   display: none;
 }
 
-.wrap{
-  /*display: none;*/
-}
 
-
-
-#view, #thumbnail, #list, table, #filterby{
-  /*display: none;*/
-}
 
 
 

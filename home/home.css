@@ -22,9 +22,12 @@ a.sblm{
   background-color: black;
   padding-bottom: 20px !important;
 }
+
 .sblm:hover{
   background-color: #ee3b2c !important;
 }
+
+
 /* The Overlay (background) */
 .overlay {
   height: 0;
@@ -51,6 +54,7 @@ a.sblm{
   text-decoration: none;
 }
 
+
 /* The navigation links inside the overlay */
 .overlay a {
   padding: 30px;
@@ -60,6 +64,7 @@ a.sblm{
   transition: 0.3s; /* Transition effects on hover (color) */
   color: black !important;
 }
+
 
 /* When you mouse over the navigation links, change their color */
 .overlay a:hover, .overlay a:focus {
@@ -94,13 +99,13 @@ a.sblm{
   -webkit-animation: slidein 4000ms linear both;
           animation: slidein 4000ms linear both;
 }
+
 .link{
   color: #333 !important;
 }
 
 .topnav a {
   display: inline-block;
-/*  color: #333 !important;*/
   text-align: center;
   padding: 14px 7px;
   padding-top: 20px;
@@ -113,20 +118,12 @@ a.sblm{
 }
 
 
-/*#work{
-  margin-left: 45px;
-}
-#about{
-  margin-left: 40px;
-}
-#contact{
-  margin-left: 28px;
-}*/
-
 .sblm{
   margin-left: 0px;
   color: white !important;
 }
+
+
 /*transition*/
 @-webkit-keyframes slidein {
   0% {
@@ -163,6 +160,7 @@ a.sblm{
   float: left;
 }
 
+
 /* Style the links inside the list items */
 .topnav a {
   display: inline-block;
@@ -175,6 +173,7 @@ a.sblm{
   font-size: 20px;
 }
 
+
 /*moving them x amount of pixels to the right*/
 .topnav .link{
   margin-left: 00px;
@@ -185,20 +184,15 @@ a.sblm{
 .topnav a:hover {
   background-color: #555;
   padding-bottom: 20px;
-  /*-webkit-transform: perspective(1px) translateZ(0) ease-out;*/
-  /*transform: perspective(1px) translateZ(0);*/
-  /*box-shadow: 0 0 1px transparent;*/
   overflow: hidden;
-  /*-webkit-transition-duration: 0.3s;*/
-  /*transition-duration: 0.3s;*/
   text-decoration: none;
   color: white !important;
-
   -webkit-transition: background-color 1s ease-out;
   -moz-transition: background-color 1s ease-out;
   -o-transition: background-color 1s ease-out;
   transition: background-color 1s ease-out;
 }
+
 
 /* Hide the list item that contains the link that 
 should open and close the topnav on small screens */
@@ -206,6 +200,7 @@ should open and close the topnav on small screens */
   display: none;
   color: black !important;
 }
+
 
 /* When the screen is less than 680 pixels wide, hide all list items, 
 except for the first one ("Home"). Show the list item that contains the 
@@ -223,10 +218,6 @@ link to open and close the topnav (li.icon) */
 }
 
 @media screen and (width: 2560px){
-  .topnav .link{
-    /*margin-left: 150px !important;*/
-  }
-
   .topnav a{
     padding-left: 70px !important;
     padding-right: 70px !important;
@@ -238,25 +229,13 @@ link to open and close the topnav (li.icon) */
 when the user clicks on the icon. 
 This class makes the topnav look good on small screens */
 @media screen and (width: 1920px){
-  .topnav .link{
-    /*margin-left: 74px;*/
-  }
   .fold p{
     font-size: 30px;
   }
-/*   #contact{
-    margin-left: 90px;
-  }
-  #work{
-    margin-left: 90px;
-  }
-  #about{
-    margin-left: 90px;
-  }*/
 }
 
-@media screen and (max-width:680px) {
 
+@media screen and (max-width:680px) {
   ul.topnav.responsive {
     position: relative;
   }
@@ -280,12 +259,14 @@ This class makes the topnav look good on small screens */
   }
 }
 
+
 @media only screen and (max-width: 736px) {
   .topnav {
     width: 736px;
     height: 50px;
   }
 }
+
 
 @media only screen and (max-width: 667px) {
   ul.topnav li:not(:first-child) {
@@ -311,6 +292,8 @@ This class makes the topnav look good on small screens */
     display: inline;
     text-align: center;
   }
+
+
   /*After responsive can change the text color, size, etc*/
   ul.topnav.responsive li a {
     display: block;
@@ -320,6 +303,7 @@ This class makes the topnav look good on small screens */
     width: 667px;
   }
 }
+
 
 @media only screen and (max-width: 568px) {
   ul.topnav li:not(:first-child) {
@@ -355,6 +339,7 @@ This class makes the topnav look good on small screens */
   }
 }
 
+
 @media screen and (max-width: 414px){
 
   ul.topnav li:not(:first-child) {
@@ -380,6 +365,8 @@ This class makes the topnav look good on small screens */
     display: inline;
     text-align: center;
   }
+
+
   /*After responsive can change the text color, size, etc*/
   ul.topnav.responsive li a {
     display: block;
@@ -390,6 +377,7 @@ This class makes the topnav look good on small screens */
     color: red;
   }
 }
+
 
 @media screen and (max-width: 375px){
   ul.topnav li:not(:first-child) {
@@ -415,6 +403,8 @@ This class makes the topnav look good on small screens */
     display: inline;
     text-align: center;
   }
+
+
   /*After responsive can change the text color, size, etc*/
   ul.topnav.responsive li a {
     display: block;
@@ -465,6 +455,7 @@ This class makes the topnav look good on small screens */
     width: 320px;
   }
 }
+
 
 .title{
   display: none

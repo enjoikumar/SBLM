@@ -4,40 +4,12 @@ body {
   background-color: white;
   font-family: 'Roboto', sans-serif;
 }
+
 .office, .inq{
   -webkit-animation: fadein 2000ms linear both;
           animation: fadein 2000ms linear both;
 }
 
-/*.topnav{
-  height: 55px;
-}
-.topnav a {
-  display: inline-block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  padding-top: 20px;
-  padding-bottom: 0px;
-  text-decoration: none;
-  transition: .5s;
-  font-size: 20px;
-}
-
-#contact{
-  margin-left: 40px !important;
-}
-
-
-#work{
-  margin-left: 40px;
-}
-#about{
-  margin-left: 40px;
-}
-#contact{
-  margin-left: 35px;
-}*/
 
 @-webkit-keyframes fadein {
   0% {
@@ -75,41 +47,19 @@ body {
 .office {
   margin-top: 100px;
   overflow: hidden;
-  /*position: relative;*/
   padding-left: 40px;
-  /*display: inline-block;*/
-  /*display: flex;*/
   font-size: 20px;
   color: #9E9E9E;
 }
+
 strong{
-  /*color: #f20;*/
   color: #333;
 }
 
 /*giving spaces to each of the offices*/
-.nyc {
+.nyc, .island, .miami, .dallas, .ire{
   width: 225px;
   padding-bottom: 40px;
-}
-
-.island {
-  width: 225px;
-  padding-bottom: 40px;
-}
-
-.miami {
-  width: 225px;
-  padding-bottom: 40px;
-}
-
-.dallas {
-  width: 225px;
-  padding-bottom: 40px;
-}
-
-.ire {
-  width: 225px;
 }
 
 .inq {
@@ -123,7 +73,6 @@ strong{
 
 /*styling for email link*/
 a {
-  /*text-decoration: none;*/
   color: #9E9E9E;
 }
 
@@ -131,26 +80,6 @@ a:visited {
   text-decoration: none;
 }
 
-@media screen and (width: 2560px){
-/* #contact{
-  margin-left: 104px !important;
- }
- #work{
-  margin-left: 125px !important;
- }*/
-}
-
-@media only screen and (width: 1920px){
-/*   #contact{
-    margin-left: 90px;
-  }
-  #work{
-    margin-left: 90px;
-  }
-  #about{
-    margin-left: 90px;
-  }*/
-}
 
 
 @media only screen and (max-width: 736px) {
@@ -161,28 +90,9 @@ a:visited {
     margin-left: 10px;
     margin-right: 10px;
   }
-  .nyc {
+  .nyc, .island, .dallas, .miami, .ire{
     width: 150px;
     padding-right: 20px;
-  }
-
-  .island {
-    width: 150px;
-    padding-right: 20px;
-  }
-
-  .miami {
-    width: 150px;
-    padding-right: 20px;
-  }
-
-  .dallas {
-    width: 150px;
-    padding-right: 20px;
-  }
-
-  .ire {
-    width: 150px;
   }
 
   .inq{
@@ -201,30 +111,12 @@ a:visited {
     overflow: none;
     position: relative;
     display: block;
-    color: white;
-    /*width: 400px !important;*/
     margin-top: 40px;
     margin-left: 89.5px;
   }
 
-  .nyc {
+  .nyc, .island, .miami, .dallas, .ire{
     padding-bottom: 40px;
-  }
-
-  .island {
-    padding-bottom: 40px;
-  }
-
-  .miami {
-    padding-bottom: 40px;
-  }
-
-  .dallas {
-    padding-bottom: 40px;
-  }
-
-  .ire {
-    padding-bottom: 20px;
   }
   .inq{
     padding-bottom: 40px;
