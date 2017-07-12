@@ -20,25 +20,27 @@ $(document).ready(function(){
   //used the $education and then ('#education') for separation and make it easier to read
   //created it into a variable so..it can be pushed for later
 
-  var $all= function(){
-    $("#education").css("background-color", "#e4e4e4");
-    $("#education").css("color", "#333");
-    $("#retail").css("background-color", "#e4e4e4");
-    $("#retail").css("color", "#333");
-    $("#mixed").css("background-color", "#e4e4e4");
-    $("#mixed").css("color", "#333");
-    $("#health").css("background-color", "#e4e4e4");
-    $("#health").css("color", "#333");
-    $("#civic").css("background-color", "#e4e4e4");
-    $("#civic").css("color", "#333");
+  var $allColor= function(){
+    $all.click(function(){
+      $("#education").css("background-color", "#e4e4e4");
+      $("#education").css("color", "#333");
+      $("#retail").css("background-color", "#e4e4e4");
+      $("#retail").css("color", "#333");
+      $("#mixed").css("background-color", "#e4e4e4");
+      $("#mixed").css("color", "#333");
+      $("#health").css("background-color", "#e4e4e4");
+      $("#health").css("color", "#333");
+      $("#civic").css("background-color", "#e4e4e4");
+      $("#civic").css("color", "#333");
 
-    $('.education').addClass('notgray')
-    $('.retail').addClass('notgray')
-    $('.mixed').addClass('notgray')
-    $('.health').addClass('notgray')
-    $('.civic').addClass('notgray')
+      $('.education').addClass('notgray')
+      $('.retail').addClass('notgray')
+      $('.mixed').addClass('notgray')
+      $('.health').addClass('notgray')
+      $('.civic').addClass('notgray')
+    });
   }
-  $all()
+  $allColor()
 
   var $edu = function(){
     $education.click(function(){
@@ -171,6 +173,7 @@ $(document).ready(function(){
 
 
   //it is then triggered thus a random studio getting highlighted
+
   // $click.trigger('click')
 
   $('.education').addClass('notgray')
@@ -245,6 +248,7 @@ $(document).ready(function(){
   })
 
 
+
   //same this as the click function
   //but it randomly pushes a studio to the first line
 
@@ -279,3 +283,8 @@ $(document).ready(function(){
   }
 
 });
+
+
+
+
+
