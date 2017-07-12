@@ -221,7 +221,8 @@ a {
   }
 
   table{
-    font-size: 30px;
+    font-size: 20px;
+    font-family: 'Arimo', sans-serif;
   }
 
   .tableTitle th:nth-child(2){
