@@ -486,7 +486,7 @@ a {
   color: black;
 }
 .filter #list:hover{
-  background-color: white;
+  background-color: #e4e4e4;
   color: #333;
 }
 .filter #thumbnail{

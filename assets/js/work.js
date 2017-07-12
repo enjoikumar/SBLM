@@ -12,11 +12,33 @@ $(document).ready(function(){
 
   $civic = $("#civic");
 
+  $all =$('#all');
+
 
   // each click function changes the grayscale of the item to none
   // making it in color while the others remain in black and white
   //used the $education and then ('#education') for separation and make it easier to read
   //created it into a variable so..it can be pushed for later
+
+  var $all= function(){
+    $("#education").css("background-color", "#e4e4e4");
+    $("#education").css("color", "#333");
+    $("#retail").css("background-color", "#e4e4e4");
+    $("#retail").css("color", "#333");
+    $("#mixed").css("background-color", "#e4e4e4");
+    $("#mixed").css("color", "#333");
+    $("#health").css("background-color", "#e4e4e4");
+    $("#health").css("color", "#333");
+    $("#civic").css("background-color", "#e4e4e4");
+    $("#civic").css("color", "#333");
+
+    $('.education').addClass('notgray')
+    $('.retail').addClass('notgray')
+    $('.mixed').addClass('notgray')
+    $('.health').addClass('notgray')
+    $('.civic').addClass('notgray')
+  }
+  $all()
 
   var $edu = function(){
     $education.click(function(){
@@ -32,10 +54,10 @@ $(document).ready(function(){
       $("#civic").css("color", "#333");
 
       $('.education').addClass('notgray')
-      // $('.retail').removeClass('notgray')
-      // $('.mixed').removeClass('notgray')
-      // $('.health').removeClass('notgray')
-      // $('.civic').removeClass('notgray')
+      $('.retail').removeClass('notgray')
+      $('.mixed').removeClass('notgray')
+      $('.health').removeClass('notgray')
+      $('.civic').removeClass('notgray')
     });
   }
   $edu()
@@ -54,11 +76,11 @@ $(document).ready(function(){
       $("#civic").css("color", "#333");
       $('.retail').addClass('color')
 
-      // $('.education').removeClass('notgray')
+      $('.education').removeClass('notgray')
       $('.retail').addClass('notgray')
-      // $('.mixed').removeClass('notgray')
-      // $('.health').removeClass('notgray')
-      // $('.civic').removeClass('notgray')
+      $('.mixed').removeClass('notgray')
+      $('.health').removeClass('notgray')
+      $('.civic').removeClass('notgray')
     });
   }
   $ret()
@@ -77,11 +99,11 @@ $(document).ready(function(){
       $("#civic").css("color", "#333");
       $('.mixed').addClass('color')
 
-      // $('.education').removeClass('notgray')
-      // $('.retail').removeClass('notgray')
+      $('.education').removeClass('notgray')
+      $('.retail').removeClass('notgray')
       $('.mixed').addClass('notgray')
-      // $('.health').removeClass('notgray')
-      // $('.civic').removeClass('notgray')
+      $('.health').removeClass('notgray')
+      $('.civic').removeClass('notgray')
     });
   }
   $mix()
@@ -100,11 +122,11 @@ $(document).ready(function(){
       $("#civic").css("color", "#333");
       $('.health').addClass('color');
 
-      // $('.education').removeClass('notgray')
-      // $('.retail').removeClass('notgray')
-      // $('.mixed').removeClass('notgray')
+      $('.education').removeClass('notgray')
+      $('.retail').removeClass('notgray')
+      $('.mixed').removeClass('notgray')
       $('.health').addClass('notgray')
-      // $('.civic').removeClass('notgray')
+      $('.civic').removeClass('notgray')
     });
   }
   $hea()
@@ -123,10 +145,10 @@ $(document).ready(function(){
       $("#civic").css("color", "#333");
       $('.civic').addClass('color')
 
-      // $('.education').removeClass('notgray')
-      // $('.retail').removeClass('notgray')
-      // $('.mixed').removeClass('notgray')
-      // $('.health').removeClass('notgray')
+      $('.education').removeClass('notgray')
+      $('.retail').removeClass('notgray')
+      $('.mixed').removeClass('notgray')
+      $('.health').removeClass('notgray')
       $('.civic').addClass('notgray')
     });
   }
@@ -149,7 +171,7 @@ $(document).ready(function(){
 
 
   //it is then triggered thus a random studio getting highlighted
-  $click.trigger('click')
+  // $click.trigger('click')
 
   $('.education').addClass('notgray')
   $('.retail').addClass('notgray')
@@ -225,17 +247,21 @@ $(document).ready(function(){
   //same this as the click function
   //but it randomly pushes a studio to the first line
 
-  var buttons = [
-    $education,
-    $retail,
-    $mixed,
-    $health,
-    $civic
-  ]
+  // var buttons = [
+  //   $education,
+  //   $retail,
+  //   $mixed,
+  //   $health,
+  //   $civic
+  // ]
 
-  var $press = buttons[Math.floor(Math.random()*buttons.length)]; 
+  // var $press = buttons[Math.floor(Math.random()*buttons.length)]; 
 
-  $press.trigger('click')
+  // $press.trigger('click')
+
+
+
+
 
   $('#thumbnail').click(function(){
     $('table').css('display', 'block');
