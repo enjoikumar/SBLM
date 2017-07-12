@@ -1,19 +1,42 @@
 
 $(document).ready(function(){
 
-  $education = $("[id = education]");
+  $education = $("#education");
 
-  $retail = $("[id = retail]");
+  $retail = $("#retail");
 
-  $mixed = $("[id = mixed]");
+  $mixed = $("#mixed");
 
-  $health = $("[id = health]");
+  $health = $("#health");
 
-  $civic = $("[id = civic]");
+  $civic = $("#civic");
+
+  $all = $('#all');
+  
 
 
   // each click function changes the grayscale of the item to none
   // making it in color while the others remain in black and white
+
+  var $all= function(){
+    $("#education").css("background-color", "#e4e4e4");
+    $("#education").css("color", "#333");
+    $("#retail").css("background-color", "#e4e4e4");
+    $("#retail").css("color", "#333");
+    $("#mixed").css("background-color", "#e4e4e4");
+    $("#mixed").css("color", "#333");
+    $("#health").css("background-color", "#e4e4e4");
+    $("#health").css("color", "#333");
+    $("#civic").css("background-color", "#e4e4e4");
+    $("#civic").css("color", "#333");
+
+    $('.education').addClass('notgray')
+    $('.retail').addClass('notgray')
+    $('.mixed').addClass('notgray')
+    $('.health').addClass('notgray')
+    $('.civic').addClass('notgray')
+  }
+  $all()
 
     var $edu = function(){
     $education.click(function(){

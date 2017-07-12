@@ -12,7 +12,7 @@ $(document).ready(function(){
 
   $civic = $("#civic");
 
-  $all =$('#all');
+  $all = $('#all');
 
 
   // each click function changes the grayscale of the item to none
@@ -243,6 +243,7 @@ $(document).ready(function(){
       $('.wrap').prepend($('.civ'))
     }
   })
+
 
   //same this as the click function
   //but it randomly pushes a studio to the first line

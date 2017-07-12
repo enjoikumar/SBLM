@@ -7,6 +7,7 @@ body {
 
 .topnav{
   height: 55px;
+  border-bottom: solid 1px #e4e4e4;
 }
 .topnav a {
   display: inline-block;
@@ -20,12 +21,11 @@ body {
   font-size: 20px;
 }
 
-
 .filter a {
   padding: 10px;
   display:inline-block;
   color: #333;
-  background-color: #e4e4e4;
+  background-color: #f5f5f5;
   text-decoration:none;
   transition:all 0.5s;
   font-size: 12.4px;
@@ -38,18 +38,37 @@ body {
 
 .filter a:hover {
   background-color: white;
-  color: black;
+  color: black !important;
 }
 
-#retail, #mixed,
+#all:hover, #education:hover,
+#retail:hover, #mixed:hover,
+#civic:hover, #health:hover{
+  background-color: white !important;
+}
+
+
+
+#education, #retail, #mixed,
 #civic, #health{
   margin-left: 36px;
 }
 
 
+
+#all, #education,
+#retail, #mixed,
+#civic, #health{
+  width: 60px;
+  text-align: center;
+  background-color: #f5f5f5 !important;
+}
+
+
+
 .filter {
   padding-top: 46px;
-  background-color: #e4e4e4 !important;
+  background-color: #f5f5f5 !important;
   overflow: hidden;
   margin-top: -10px;
   border-top: solid 1px #ccc;
@@ -205,7 +224,7 @@ a {
   }*/
 
   .filter a{
-    font-size: 16px;
+    font-size: 14px;
   }
   .filter{
     height: 48px;
