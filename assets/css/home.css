@@ -1,7 +1,7 @@
 /* Remove margins and padding from the list, and add a black background color */
 body{
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
   overflow-x: hidden;
   font-weight: 900;
 }
@@ -87,7 +87,8 @@ a.sblm{
 
 /*nav styling*/
 .topnav {
-  /*color: #333;*/
+  font-family: 'Arimo', sans-serif;
+  color: #333;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -120,34 +121,9 @@ a.sblm{
 
 .sblm{
   margin-left: 0px;
-  color: white !important;
+  color: #333 !important;
 }
 
-
-/*transition*/
-/*@-webkit-keyframes slidein {
-  0% {
-    opacity: 0;
-  }
-  30% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes fadein {
-  0% {
-    opacity: 0;
-  }
-  30% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-  }
-}*/
 
 .topnav{
   padding-bottom: 0px;
@@ -182,11 +158,11 @@ a.sblm{
 
 /* Change background color of links on hover */
 .topnav a:hover {
-  background-color: #555;
+  background-color: #e4e4e4;
+  color: #333;
   padding-bottom: 20px;
   overflow: hidden;
   text-decoration: none;
-  color: white !important;
   -webkit-transition: background-color 1s ease-out;
   -moz-transition: background-color 1s ease-out;
   -o-transition: background-color 1s ease-out;
