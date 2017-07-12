@@ -145,7 +145,8 @@ div.text:hover{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%)
+  -ms-transform: translate(-50%, -50%);
+  font-family: 'Quicksand', sans-serif !important;
 }
 
 
@@ -204,9 +205,6 @@ a {
 
 
 @media only screen and (width: 2560px){
-  #all{
-    margin-left: 2100px;
-  }
   .wrap{
     margin-top: 265px;
   }
@@ -218,20 +216,10 @@ a {
     height: 250px;
     padding-bottom: .1% !important;
   }
+  .text{
+    font-size: 32px !important;
+  }
 
-  .filter a{
-    font-size: 14px;
-  }
-  .filter{
-    height: 48px;
-  }
-  #education{
-    margin-left: 45px;
-  }
-  #retail, #mixed,
-  #civic, #health{
-    margin-left: 37px;
-  }
   table{
     font-size: 30px;
   }
