@@ -224,6 +224,12 @@ a {
   table{
     font-size: 20px;
     font-family: 'Arimo', sans-serif;
+    margin-left: 200px !important;
+  }
+
+  .tile td:nth-child(3){
+    width: 100px !important;
+    padding-right: 25px !important;
   }
 
   .tableTitle th:nth-child(2){
@@ -239,6 +245,10 @@ a {
   }
   .tile td:nth-child(3){
     text-align: right !important;
+  }
+
+  .tableTitle th:nth-child(3){
+    padding-left: 750px !important;
   }
 }
 
@@ -524,6 +534,7 @@ table{
 
 .tableTitle th{
   padding-top: 40px;
+  padding-bottom: 40px;
   text-align: left;
 }
 .tableTitle th:nth-child(2),
@@ -540,7 +551,7 @@ table{
   text-align: left;
 }
 .tile:hover{
-  /*background-color: #ee3b2c;*/
+  background-color: #e4e4e4;
   color: white !important;
 }
 td{
