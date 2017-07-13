@@ -65,10 +65,10 @@ figure.show {
 	text-align: center;
 }
 .next:hover{
-	cursor: url("../../assets/right.png"), e-resize;
+	cursor: url("../../images/icons/right.png"), e-resize;
 }
 .prev:hover{
-	cursor: url("../../assets/left.png"), w-resize;
+	cursor: url("../../images/icons/left.png"), w-resize;
 }
 
 .prev{
@@ -98,7 +98,7 @@ figure.show {
 	position: absolute;
 }
 .down:hover{
-	cursor: url("../../assets/down.png"), s-resize;
+	cursor: url("../../images/icons/down.png"), s-resize;
 }
 
 .fold{
@@ -112,6 +112,7 @@ figure.show {
 	padding: 80px 80px 80px 60px;
 	opacity: .75;
 	padding-left: 130px;
+	font-family: 'Arimo', sans-serif;
 }
 .fold p{
 	margin-top: 40px;
@@ -142,10 +143,10 @@ figure.show {
 
 @media only screen and (width: 2560px){
 	figure{
-		height: 1366px;
+		height: 1491px;
 	}
 	figure img{
-		height: 1366px;
+		height: 1491px;
 	}
 
 	.fold{
@@ -157,6 +158,9 @@ figure.show {
 	}
 	.fold p{
 		max-width: 50% !important;
+	}
+	.title{
+		margin-top: -198px;
 	}
 }
 

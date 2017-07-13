@@ -98,6 +98,7 @@ figure.show {
 	padding: 80px 80px 80px 60px;
 	opacity: .75;
 	padding-left: 130px;
+	font-family: 'Arimo', sans-serif;
 }
 .fold p{
 	margin-top: 20px;
@@ -211,7 +212,7 @@ figure.show {
 	.fold{
 		margin-top: -1277px;
 		width: 94.5%;
-		height: 1112px;
+		height: 1113px;
 		font-size: 30px;
 		padding-left: 190px;
 	}

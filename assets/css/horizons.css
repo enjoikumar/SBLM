@@ -48,6 +48,7 @@ figure.show {
 	padding: 80px 80px 80px 60px;
 	opacity: .75;
 	padding-left: 130px;
+	font-family: 'Arimo', sans-serif;
 }
 .fold p{
 	max-width: 60% !important; 
@@ -90,10 +91,10 @@ figure.show {
 
 @media only screen and (width: 2560px){
 	figure{
-		height: 1366px;
+		height: 1491px;
 	}
 	figure img{
-		height: 1366px;
+		height: 1491px;
 	}
 	.fold{
 		width: 94.5%;
@@ -105,6 +106,9 @@ figure.show {
 	.fold p{
 		max-width: 50% !important;
 		font-size: 29px !important;
+	}
+	.title{
+		margin-top: -198px !important;
 	}
 }
 

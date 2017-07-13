@@ -114,6 +114,7 @@ figure.show {
 	padding-top: 100px;
 	padding-left: 130px;
 	opacity: .75;
+	font-family: 'Arimo', sans-serif;
 }
 .fold p{
 	max-width: 50% !important;

@@ -121,6 +121,7 @@ strong {
 	padding-left: 130px;
 	opacity: 1;
 	height: 441px;
+	font-family: 'Arimo', sans-serif;
 }
 .fold p{
 	margin-top: 20px;
@@ -234,16 +235,19 @@ strong {
 
 @media only screen and (width: 2560px){
 	figure{
-		height: 1366px;
+		height: 1491px;
 	}
 	figure img{
-		height: 1366px;
+		height: 1491px;
+	}
+	.title{
+		margin-top: -198px !important
 	}
 
 	.fold{
 		margin-top: -1276px;
 		width: 94.5%;
-		height: 1071px;
+		height: 1072px;
 		font-size: 30px;
 		padding-left: 190px;
 	}
