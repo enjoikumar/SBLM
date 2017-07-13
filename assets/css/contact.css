@@ -2,7 +2,7 @@
 body {
   background-size: cover;
   background-color: white;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Arimo', sans-serif;
 }
 
 .office, .inq{
@@ -45,29 +45,22 @@ body {
 
 /*styling for offices*/
 .office {
-  margin-top: 100px;
+  margin-top: 265px;
   overflow: hidden;
   padding-left: 140px;
-  font-size: 20px;
+  font-size: 19px;
   color: #9E9E9E;
 }
 
 strong{
   color: #333;
+  font-size: 25px;
 }
 
 /*giving spaces to each of the offices*/
 .nyc, .island, .miami, .dallas, .ire{
   width: 250px;
   padding-bottom: 40px;
-}
-
-.inq {
-  overflow: hidden;
-  position: relative;
-  padding-left: 40px;
-  color: white;
-  margin-top: 40px;
 }
 
 
@@ -94,10 +87,6 @@ a:visited {
     width: 150px;
     padding-right: 20px;
   }
-
-  .inq{
-    padding-left: 10px;
-  }
 }
 
 @media only screen and (max-width: 568px) {
@@ -118,9 +107,6 @@ a:visited {
   .nyc, .island, .miami, .dallas, .ire{
     padding-bottom: 40px;
   }
-  .inq{
-    padding-bottom: 40px;
-  }
 }
 
 @media only screen and (max-width: 375px) {
@@ -132,9 +118,6 @@ a:visited {
 @media only screen and (max-width: 320px) {
   .office{
     margin-left: 15px;
-  }
-  .inq{
-    margin-left: 5px;
   }
 }
 
