@@ -222,6 +222,7 @@ a {
   }
 
   table{
+    padding-top: 125px !important;
     font-size: 20px;
     font-family: 'Arimo', sans-serif;
     margin-left: 200px !important;
