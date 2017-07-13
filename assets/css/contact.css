@@ -47,7 +47,7 @@ body {
 .office {
   margin-top: 100px;
   overflow: hidden;
-  padding-left: 40px;
+  padding-left: 140px;
   font-size: 20px;
   color: #9E9E9E;
 }
@@ -58,7 +58,7 @@ strong{
 
 /*giving spaces to each of the offices*/
 .nyc, .island, .miami, .dallas, .ire{
-  width: 225px;
+  width: 250px;
   padding-bottom: 40px;
 }
 
