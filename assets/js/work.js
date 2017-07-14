@@ -222,7 +222,7 @@ $(document).ready(function(){
       $('.wrap').prepend($('.edu'))
     }
     if ($('.edutr').length){
-      $('.tileFilter').prepend($('.edutr'))
+      $('.tableTitle').after($('.edutr'))
     }
   })
 
@@ -230,8 +230,8 @@ $(document).ready(function(){
     if ($('.ret').length){
       $('.wrap').prepend($('.ret'))
     }
-    if ($('rettr').length){
-      $('.tileFilter').prepend($('.rettr'))
+    if ($('.rettr').length){
+      $('.tableTitle').after($('.rettr'))
     }
   })
 
@@ -240,7 +240,7 @@ $(document).ready(function(){
       $('.wrap').prepend($('.mix'))
     }
     if ($('.mixtr').length){
-      $('.tileFilter').prepend($('.mixtr'))
+      $('.tableTitle').after($('.mixtr'))
     }
   })
 
@@ -249,7 +249,7 @@ $(document).ready(function(){
       $('.wrap').prepend($('.hea'))
     }
     if ($('.heatr').length){
-      $('.tileFilter').prepend($('.heatr'))
+      $('.tableTitle').after($('.heatr'))
     }
   })
 
@@ -258,10 +258,9 @@ $(document).ready(function(){
       $('.wrap').prepend($('.civ'))
     }
     if ($('.civtr').length){
-      $('.tileFilter').prepend($('.civtr'))
+      $('.tableTitle').after($('.civtr'))
     }
   })
-
 
 
   //same this as the click function
