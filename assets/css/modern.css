@@ -142,6 +142,9 @@ figure.show {
 	.fold p{
 		max-width: 50% !important;
 	}
+	.title{
+		margin-top: -198px;
+	}
 }
 
 @media only screen and (width: 1920px) {

@@ -87,7 +87,8 @@ a.sblm{
 
 /*nav styling*/
 .topnav {
-  font-family: 'Arimo', sans-serif;
+  /*font-family: 'Arimo', sans-serif;*/
+  font: normal 20px Arimo;
   color: #333;
   list-style-type: none;
   margin: 0;
