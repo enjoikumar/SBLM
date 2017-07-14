@@ -221,11 +221,17 @@ $(document).ready(function(){
       if ($('.edu').length){
       $('.wrap').prepend($('.edu'))
     }
+    if ($('.edutr').length){
+      $('.tileFilter').prepend($('.edutr'))
+    }
   })
 
   $retail.click(function(){
     if ($('.ret').length){
       $('.wrap').prepend($('.ret'))
+    }
+    if ($('rettr').length){
+      $('.tileFilter').prepend($('.rettr'))
     }
   })
 
@@ -233,17 +239,26 @@ $(document).ready(function(){
     if ($('.mix').length){
       $('.wrap').prepend($('.mix'))
     }
+    if ($('.mixtr').length){
+      $('.tileFilter').prepend($('.mixtr'))
+    }
   })
 
   $health.click(function(){
     if ($('.hea').length){
       $('.wrap').prepend($('.hea'))
     }
+    if ($('.heatr').length){
+      $('.tileFilter').prepend($('.heatr'))
+    }
   })
 
   $civic.click(function(){
     if ($('.civ').length){
       $('.wrap').prepend($('.civ'))
+    }
+    if ($('.civtr').length){
+      $('.tileFilter').prepend($('.civtr'))
     }
   })
 
