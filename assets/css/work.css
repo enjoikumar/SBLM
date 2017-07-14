@@ -204,6 +204,10 @@ a {
   }
 }
 
+.topnav #work{
+  background-color: #e4e4e4;
+  height: 50px;
+}
 
 @media only screen and (width: 2560px){
   .wrap{
