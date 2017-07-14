@@ -6,7 +6,7 @@ body {
 }
 
 .topnav{
-  height: 55px;
+  height: 60px;
   border-bottom: solid 1px #e4e4e4;
 }
 .topnav a {
@@ -19,6 +19,7 @@ body {
   text-decoration: none;
   transition: .5s;
   font-size: 20px;
+  font: normal 20px Arimo;
 }
 
 .filter a {
@@ -59,7 +60,7 @@ body {
 #all, #education,
 #retail, #mixed,
 #civic, #health{
-  width: 60px;
+  width: 67px;
   text-align: center;
   background-color: #f5f5f5 !important;
 }
@@ -210,6 +211,9 @@ a {
 }
 
 @media only screen and (width: 2560px){
+  .filter a{
+    font-size: 14px;
+  }
   .wrap{
     margin-top: 265px;
   }
@@ -494,7 +498,7 @@ a {
 
 .filter #view{
   float: right;
-  margin-right: 0px;
+  margin-right: 30px;
   color: black;
   width: 60px;
   text-align: center;
