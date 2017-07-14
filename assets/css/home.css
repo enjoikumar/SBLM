@@ -200,6 +200,9 @@ link to open and close the topnav (li.icon) */
     padding-right: 70px !important;
   }
 
+  .fold{
+    font: normal Arimo 48px/77px !important;
+  }
 }
 
 /* The "responsive" class is added to the topnav with JavaScript 

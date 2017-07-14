@@ -151,10 +151,10 @@ figure.show {
 
 @media only screen and (width: 2560px){
 	figure{
-		height: 1366px;
+		height: 1492px;
 	}
 	figure img{
-		height: 1366px;
+		height: 1492px;
 	}
 	.fold{
 		width: 94.5%;
@@ -165,6 +165,9 @@ figure.show {
 	}
 	.fold p{
 		max-width: 50% !important;
+	}
+	.title{
+		margin-top: -198px;
 	}
 }
 
