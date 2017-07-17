@@ -534,6 +534,7 @@ table{
   color: white;
   margin-left: 140px;
   border-collapse: collapse;
+  font: normal;
 }
 .tableTitle{
   color: black;
