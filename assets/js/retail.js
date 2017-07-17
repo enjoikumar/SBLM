@@ -20,16 +20,11 @@ $(document).ready(function(){
 
   var $allColor= function(){
     $all.click(function(){
-      $("#education").css("background-color", "#e4e4e4");
-      $("#education").css("color", "#333");
-      $("#retail").css("background-color", "#e4e4e4");
-      $("#retail").css("color", "#333");
-      $("#mixed").css("background-color", "#e4e4e4");
-      $("#mixed").css("color", "#333");
-      $("#health").css("background-color", "#e4e4e4");
-      $("#health").css("color", "#333");
-      $("#civic").css("background-color", "#e4e4e4");
-      $("#civic").css("color", "#333");
+      $education.css('background-color', '#f5f5f5')
+      $retail.css('background-color', '#f5f5f5')
+      $mixed.css('background-color', '#f5f5f5')
+      $health.css('background-color', '#f5f5f5')
+      $civic.css('background-color', '#f5f5f5')
 
       $('.education').addClass('notgray')
       $('.retail').addClass('notgray')
@@ -40,18 +35,14 @@ $(document).ready(function(){
   }
   $allColor()
 
-    var $edu = function(){
+  var $edu = function(){
     $education.click(function(){
-      $('#education').css("background-color", "white");
-      $("#education").css("color", "#333");
-      $("#retail").css("background-color", "#e4e4e4");
-      $("#retail").css("color", "#333");
-      $("#mixed").css("background-color", "#e4e4e4");
-      $("#mixed").css("color", "#333");
-      $("#health").css("background-color", "#e4e4e4");
-      $("#health").css("color", "#333");
-      $("#civic").css("background-color", "#e4e4e4");
-      $("#civic").css("color", "#333");
+
+      $education.css('background-color', 'white')
+      $retail.css('background-color', '#f5f5f5')
+      $mixed.css('background-color', '#f5f5f5')
+      $health.css('background-color', '#f5f5f5')
+      $civic.css('background-color', '#f5f5f5')
 
       $('.education').addClass('notgray')
       $('.retail').removeClass('notgray')
@@ -64,17 +55,12 @@ $(document).ready(function(){
 
   var $ret = function(){
     $retail.click(function(){
-      $("#education").css("background-color", "#e4e4e4");
-      $("#education").css("color", "#333");
-      $("#retail").css("background-color", "white");
-      $("#retail").css("color", "#333");
-      $("#mixed").css("background-color", "#e4e4e4");
-      $("#mixed").css("color", "#333");
-      $("#health").css("background-color", "#e4e4e4");
-      $("#health").css("color", "#333");
-      $("#civic").css("background-color", "#e4e4e4");
-      $("#civic").css("color", "#333");
-      $('.retail').addClass('color')
+
+      $education.css('background-color', '#f5f5f5')
+      $retail.css('background-color', 'white')
+      $mixed.css('background-color', '#f5f5f5')
+      $health.css('background-color', '#f5f5f5')
+      $civic.css('background-color', '#f5f5f5')
 
       $('.education').removeClass('notgray')
       $('.retail').addClass('notgray')
@@ -87,17 +73,12 @@ $(document).ready(function(){
 
   var $mix = function(){
     $mixed.click(function(){
-      $("#education").css("background-color", "#e4e4e4");
-      $("#education").css("color", "#333");
-      $("#retail").css("background-color", "#e4e4e4");
-      $("#retail").css("color", "#333");
-      $("#mixed").css("background-color", "white");
-      $("#mixed").css("color", "#333");
-      $("#health").css("background-color", "#e4e4e4");
-      $("#health").css("color", "#333");
-      $("#civic").css("background-color", "#e4e4e4");
-      $("#civic").css("color", "#333");
-      $('.mixed').addClass('color')
+
+      $education.css('background-color', '#f5f5f5')
+      $retail.css('background-color', '#f5f5f5')
+      $mixed.css('background-color', 'white')
+      $health.css('background-color', '#f5f5f5')
+      $civic.css('background-color', '#f5f5f5')
 
       $('.education').removeClass('notgray')
       $('.retail').removeClass('notgray')
@@ -110,17 +91,11 @@ $(document).ready(function(){
 
   var $hea = function(){
     $health.click(function(){
-      $("#education").css("background-color", "#e4e4e4");
-      $("#education").css("color", "#333");
-      $("#retail").css("background-color", "#e4e4e4");
-      $("#retail").css("color", "#333");
-      $("#mixed").css("background-color", "#e4e4e4");
-      $("#mixed").css("color", "#333");
-      $("#health").css("background-color", "white");
-      $("#health").css("color", "#333");
-      $("#civic").css("background-color", "#e4e4e4");
-      $("#civic").css("color", "#333");
-      $('.health').addClass('color');
+      $education.css('background-color', '#f5f5f5')
+      $retail.css('background-color', '#f5f5f5')
+      $mixed.css('background-color', '#f5f5f5')
+      $health.css('background-color', 'white')
+      $civic.css('background-color', '#f5f5f5')
 
       $('.education').removeClass('notgray')
       $('.retail').removeClass('notgray')
@@ -133,17 +108,12 @@ $(document).ready(function(){
 
   var $civ = function(){
     $civic.click(function(){
-      $("#education").css("background-color", "#e4e4e4");
-      $("#education").css("color", "#333");
-      $("#retail").css("background-color", "#e4e4e4");
-      $("#retail").css("color", "#333");
-      $("#mixed").css("background-color", "#e4e4e4");
-      $("#mixed").css("color", "#333");
-      $("#health").css("background-color", "#e4e4e4");
-      $("#health").css("color", "#333");
-      $("#civic").css("background-color", "white");
-      $("#civic").css("color", "#333");
-      $('.civic').addClass('color')
+
+      $education.css('background-color', '#f5f5f5')
+      $retail.css('background-color', '#f5f5f5')
+      $mixed.css('background-color', '#f5f5f5')
+      $health.css('background-color', '#f5f5f5')
+      $civic.css('background-color', 'white')
 
       $('.education').removeClass('notgray')
       $('.retail').removeClass('notgray')

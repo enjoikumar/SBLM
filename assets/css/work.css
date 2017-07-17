@@ -126,7 +126,7 @@ body {
 
 
 .boxInner :hover{
-  /*opacity: 1 !important;*/
+  opacity: .75 !important;
   filter: grayscale(0%) !important;
 }
 
@@ -167,7 +167,8 @@ a {
   color: #333;
 }
 
-.text { 
+.text {
+  font-weight: normal;
   white-space: nowrap;
   font-size: 32px;
   -webkit-animation: fadein 3000ms linear both;
