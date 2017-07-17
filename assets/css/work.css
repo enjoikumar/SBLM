@@ -45,7 +45,7 @@ body {
 #all:hover, #education:hover,
 #retail:hover, #mixed:hover,
 #civic:hover, #health:hover{
-  background-color: white !important;
+  background-color: white ;
 }
 
 
@@ -62,14 +62,13 @@ body {
 #civic, #health{
   width: 67px;
   text-align: center;
-  background-color: #f5f5f5 !important;
+  background-color: #f5f5f5;
 }
-
 
 
 .filter {
   padding-top: 46px;
-  background-color: #f5f5f5 !important;
+  background-color: #f5f5f5;
   overflow: hidden;
   margin-top: -10px;
   border-top: solid 1px #ccc;
@@ -587,7 +586,6 @@ td{
 table{
   display: none;
 }
-
 
 
 
