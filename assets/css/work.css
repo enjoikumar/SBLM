@@ -558,6 +558,7 @@ table{
 
 .tile{
   text-align: left;
+  background-color: #f5f5f5;
 }
 .tile:hover{
   background-color: #e4e4e4;
@@ -578,11 +579,6 @@ td{
 
 table{
   display: none;
-}
-
-
-.filterColor{
-  background-color: #f5f5f5
 }
 
 

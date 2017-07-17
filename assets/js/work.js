@@ -223,11 +223,8 @@ $(document).ready(function(){
     }
     if ($('.edutr').length){
       $('.tableTitle').after($('.edutr'))
-      $('.edutr').removeClass('.filterColor')
-      $('.rettr').addClass('.filterColor')
-      $('.mixtr').addClass('.filterColor')
-      $('.heatr').addClass('.filterColor')
-      $('.civtr').addClass('.filterColor')
+
+      $('.edutr').css('background-color', 'white')
     }
   })
 
@@ -237,11 +234,8 @@ $(document).ready(function(){
     }
     if ($('.rettr').length){
       $('.tableTitle').after($('.rettr'))
-      $('.edutr').addClass('.filterColor')
-      $('.rettr').removeClass('.filterColor')
-      $('.mixtr').addClass('.filterColor')
-      $('.heatr').addClass('.filterColor')
-      $('.civtr').addClass('.filterColor')
+
+      $('.rettr').css('background-color', 'white')
     }
   })
 
@@ -251,11 +245,8 @@ $(document).ready(function(){
     }
     if ($('.mixtr').length){
       $('.tableTitle').after($('.mixtr'))
-      $('.edutr').addClass('.filterColor')
-      $('.rettr').addClass('.filterColor')
-      $('.mixtr').removeClass('.filterColor')
-      $('.heatr').addClass('.filterColor')
-      $('.civtr').addClass('.filterColor')
+
+      $('.mixtr').css('background-color', 'white')
     }
   })
 
@@ -265,11 +256,8 @@ $(document).ready(function(){
     }
     if ($('.heatr').length){
       $('.tableTitle').after($('.heatr'))
-      $('.edutr').addClass('.filterColor')
-      $('.rettr').addClass('.filterColor')
-      $('.mixtr').addClass('.filterColor')
-      $('.heatr').removeClass('.filterColor')
-      $('.civtr').addClass('.filterColor')
+
+      $('.heatr').removeClass('background-color', 'white')
     }
   })
 
@@ -279,11 +267,8 @@ $(document).ready(function(){
     }
     if ($('.civtr').length){
       $('.tableTitle').after($('.civtr'))
-      $('.edutr').addClass('.filterColor')
-      $('.rettr').addClass('.filterColor')
-      $('.mixtr').addClass('.filterColor')
-      $('.heatr').addClass('.filterColor')
-      $('.civtr').removeClass('.filterColor')
+
+      $('.civtr').css('background-color', 'white')
     }
   })
 
