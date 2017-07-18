@@ -13,6 +13,7 @@ body{
 	overflow: hidden;
 }
 
+
 /*makes the slideshow width fit the screen and height, also the transition speed 
 and how opaque the image can be*/
 figure{
@@ -20,14 +21,16 @@ figure{
 	opacity: 0;
 	transition: .5s opacity;
 	width: 100%;
-	height: 627px;
+	height: 628px;
 }
+
 
 /*image is the same height and width of slideshow aka no whitespace*/
 figure img {
 	width: 100%;
-	height: 627px;
+	height: 628px;
 }
+
 
 /*first image when shown has a little flash 
 to inidicate its the first one*/
@@ -36,6 +39,65 @@ figure.show {
 	position: static;
 	transition: .5s opacity;
 }
+
+
+/*styling the toggles to go next or right*/
+.next, .prev {
+	color: #000;
+	position: absolute;
+	background: rgba(0, 0, 0, 0.6);
+	top: 0%;
+	z-index: 1;
+	font-size: 2em;
+	margin-top: -.75em;
+	opacity: 0;
+	user-select: none;
+	height: 100%;
+	width: 50%;
+}
+
+
+/*when hovering, the cursor changes along with the opaquness*/
+.next:hover, .prev:hover {
+	opacity: 0;
+}
+
+
+/*position styling for next and also making the edges smooth*/
+.next{
+	right: 0;
+	padding: 10px 5px 15px 10px;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	text-align: center;
+}
+.next:hover{
+	cursor: url("../../images/icons/right.png"), e-resize;
+}
+.prev:hover{
+	cursor: url("../../images/icons/left.png"), w-resize;
+}
+
+
+/*position styling for prev and also making the edges smooth*/
+.prev{
+	left: 0;
+	padding: 10px 10px 15px 5px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+.title{
+	font-size: 28px !important;
+	position: absolute;
+	z-index: 2;
+  padding: 20px 20px 20px 20px;
+	margin-top: -73px;
+	color: white;
+	background-color: black;
+	opacity: .8;
+}
+
 
 .fold{
 	position: absolute;
@@ -91,11 +153,11 @@ figure.show {
 }
 
 @media only screen and (width: 2560px){
-	figure{
-		height: 1491px;
+	figure, figure img{
+		height: 1366px;
 	}
-	figure img{
-		height: 1491px;
+	.title{
+		margin-top: -75px;
 	}
 	.fold{
 		width: 94.5%;
@@ -108,19 +170,15 @@ figure.show {
 		max-width: 50% !important;
 		font-size: 29px !important;
 	}
-	.title{
-		margin-top: -198px !important;
-	}
 }
 
 @media only screen and (width: 1920px) {
-	figure{
-		height: 960px;
+	figure, figure img{
+		height: 1085px !important;
+	}	
+	.title{
+		margin-top: -198px !important;
 	}
-	figure img{
-		height: 960px;
-	}
-	
 	.fold{
 		margin-top: -964px;
 		width: 92.7%;

@@ -126,7 +126,7 @@ body {
 
 
 .boxInner :hover{
-  opacity: 1 !important;
+  opacity: .25 !important;
   filter: grayscale(0%) !important;
 }
 

@@ -42,12 +42,6 @@ $(document).ready(function(){
 			$myNav.css('height','0%');
 		}
 	})
-
-  //if the window resizes, the image will still have the height
-  $(window).on('resize', function (){
-    $wHeight = $(window).height();
-    $item.height($wHeight);
-  });
 })
 
 

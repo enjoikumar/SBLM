@@ -212,9 +212,6 @@ This class makes the topnav look good on small screens */
   .fold p{
     font-size: 30px;
   }
-  .title{
-    margin-top: -75px;
-  }
 }
 
 
