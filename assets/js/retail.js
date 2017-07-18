@@ -25,7 +25,8 @@ $(document).ready(function(){
       $mixed.css('background-color', '#f5f5f5')
       $health.css('background-color', '#f5f5f5')
       $civic.css('background-color', '#f5f5f5')
-
+      $all.css('background-color', 'white')
+      
       $('.education').addClass('notgray')
       $('.retail').addClass('notgray')
       $('.mixed').addClass('notgray')
@@ -43,7 +44,8 @@ $(document).ready(function(){
       $mixed.css('background-color', '#f5f5f5')
       $health.css('background-color', '#f5f5f5')
       $civic.css('background-color', '#f5f5f5')
-
+      $all.css('background-color', 'white')
+      
       $('.education').addClass('notgray')
       $('.retail').removeClass('notgray')
       $('.mixed').removeClass('notgray')
@@ -61,7 +63,8 @@ $(document).ready(function(){
       $mixed.css('background-color', '#f5f5f5')
       $health.css('background-color', '#f5f5f5')
       $civic.css('background-color', '#f5f5f5')
-
+      $all.css('background-color', 'white')
+      
       $('.education').removeClass('notgray')
       $('.retail').addClass('notgray')
       $('.mixed').removeClass('notgray')
@@ -79,7 +82,8 @@ $(document).ready(function(){
       $mixed.css('background-color', 'white')
       $health.css('background-color', '#f5f5f5')
       $civic.css('background-color', '#f5f5f5')
-
+      $all.css('background-color', 'white')
+      
       $('.education').removeClass('notgray')
       $('.retail').removeClass('notgray')
       $('.mixed').addClass('notgray')
@@ -96,7 +100,8 @@ $(document).ready(function(){
       $mixed.css('background-color', '#f5f5f5')
       $health.css('background-color', 'white')
       $civic.css('background-color', '#f5f5f5')
-
+      $all.css('background-color', 'white')
+      
       $('.education').removeClass('notgray')
       $('.retail').removeClass('notgray')
       $('.mixed').removeClass('notgray')
@@ -114,7 +119,8 @@ $(document).ready(function(){
       $mixed.css('background-color', '#f5f5f5')
       $health.css('background-color', '#f5f5f5')
       $civic.css('background-color', 'white')
-
+      $all.css('background-color', 'white')
+      
       $('.education').removeClass('notgray')
       $('.retail').removeClass('notgray')
       $('.mixed').removeClass('notgray')
@@ -235,17 +241,25 @@ $(document).ready(function(){
   })
 
 
+  $('#view').css('background-color', 'white')
+
   $('#thumbnail').click(function(){
     $('table').css('display', 'block');
     $('.wrap').css('display', 'none');
+
+    $('#thumbnail').css('background-color', 'white')
+    $('#view').css('background-color', '#f5f5f5')
   })
 
   $('#view').click(function(){
     $('table').css('display', 'none');
     $('.wrap').css('display', 'block');
+
+    $('#thumbnail').css('background-color', '#f5f5f5')
+    $('#view').css('background-color', 'white')
   })
 
-  if($(window).width() >= 1280){
+  if($(window).width() >= 1920){
     $('.br').find('br').remove();
   }
 
