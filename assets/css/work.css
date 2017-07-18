@@ -112,7 +112,7 @@ body {
 
 .boxInner img { 
   -webkit-filter: grayscale(100%);
-  opacity: 1;
+  opacity: .5;
   filter: grayscale() = grayscale( [100] | [100]);
   /*opacity: .25;*/
   width: 100%;
@@ -126,7 +126,7 @@ body {
 
 
 .boxInner :hover{
-  opacity: .75 !important;
+  opacity: .25 !important;
   filter: grayscale(0%) !important;
 }
 
@@ -142,6 +142,7 @@ div.text:hover{
 .notgray{
   /*opacity: 1 !important;*/
   filter: grayscale(0%) !important;
+  opacity: 1 !important;
 }
 
 
@@ -541,6 +542,7 @@ table{
   margin-left: 140px;
   border-collapse: collapse;
   font: normal;
+  font-weight: normal;
 }
 .tableTitle{
   color: black;
