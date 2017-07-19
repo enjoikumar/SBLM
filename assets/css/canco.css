@@ -116,6 +116,10 @@ body{
 }
 
 @media only screen and (width: 2560px){
+	.title{
+		margin-top: -73px !important;
+	}
+
 	.fold{
 		width: 94.5%;
 		height: 1073px;

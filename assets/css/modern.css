@@ -127,10 +127,10 @@ figure.show {
 
 @media only screen and (width: 2560px){
 	figure{
-		height: 1366px;
+		height: 1492px;
 	}
 	figure img{
-		height: 1366px;
+		height: 1492px;
 	}
 	.fold{
 		font-size: 30px;

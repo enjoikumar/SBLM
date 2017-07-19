@@ -154,10 +154,10 @@ figure.show {
 
 @media only screen and (width: 2560px){
 	figure, figure img{
-		height: 1366px;
+		height: 1492px;
 	}
 	.title{
-		margin-top: -75px;
+		margin-top: -198px;
 	}
 	.fold{
 		width: 94.5%;
