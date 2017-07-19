@@ -542,7 +542,8 @@ table{
   margin-left: 140px;
   border-collapse: collapse;
   font: normal;
-  font-weight: normal;
+  font-family: 'Arimo', sans-serif;
+  font-weight: normal !important;
 }
 .tableTitle{
   color: black;
