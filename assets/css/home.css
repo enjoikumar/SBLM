@@ -201,7 +201,7 @@ link to open and close the topnav (li.icon) */
   }
 
   .fold{
-    font: normal Arimo 48px/77px !important;
+    font-weight: normal !important;
   }
 }
 

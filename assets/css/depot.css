@@ -122,6 +122,7 @@ strong {
 	opacity: 1;
 	height: 441px;
 	font-family: 'Arimo', sans-serif;
+	font-weight: normal !important;
 }
 .fold p{
 	margin-top: 20px;
@@ -247,7 +248,7 @@ strong {
 	.fold{
 		margin-top: -1276px;
 		width: 94.5%;
-		height: 1072px;
+		height: 1072px; 
 		font-size: 30px;
 		padding-left: 190px;
 	}
