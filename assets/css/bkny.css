@@ -25,6 +25,8 @@ body{
 	opacity: .75;
 	padding-left: 130px;		
 	font-family: 'Arimo', sans-serif;
+	font-size: normal;
+	line-height: 32px;
 }
 .fold p{
 	margin-top: 20px;
@@ -135,6 +137,7 @@ body{
 	}
 	.history1 span{
 		font-size: 30px;
+		line-height: 48px !important;
 		width: 800px;
 		margin-right: 300px;
 		margin-top: 350px;
@@ -147,6 +150,7 @@ body{
 	}
 	.history2 span{
 		font-size: 30px;
+		line-height: 48px !important;
 		width: 800px;
 		margin-top: 500px;
 	}
@@ -158,6 +162,7 @@ body{
 	}
 	.history3 span{
 		font-size: 30px;
+		line-height: 48px !important;
 		width: 800px;
 		margin-right: 350px;
 		margin-top: -600px;

@@ -115,6 +115,7 @@ figure.show {
 	padding-left: 130px;
 	opacity: .75;
 	font-family: 'Arimo', sans-serif;
+	font: normal;
 }
 .fold p{
 	max-width: 50% !important;
@@ -226,6 +227,8 @@ figure.show {
 	}
 	.fold p{
 		max-width: 50% !important;
+		font-size: 29px !important;
+		font-weight: 48px !important;
 	}
 
 	.history1 img{
@@ -233,7 +236,8 @@ figure.show {
 		height: 1000px;
 	}
 	.history1 span{
-		font-size: 30px;
+		font-size: 28px;
+		line-height: 45px;
 		width: 800px;
 		margin-right: 250px;
 		margin-top: 250px;
@@ -244,7 +248,8 @@ figure.show {
 		height: 1200px;
 	}
 	.history2 span{
-		font-size: 30px;
+		font-size: 28px;
+		line-height: 45px;
 		width: 800px;
 		margin-top: 450px;
 		margin-left: 250px;
@@ -256,7 +261,8 @@ figure.show {
 		margin-top: 800px;
 	}
 	.history3 span{
-		font-size: 30px;
+		font-size: 28px;
+		line-height: 45px;
 		width: 800px;
 		margin-right: 250px;
 		margin-top: 700px;

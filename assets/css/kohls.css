@@ -110,6 +110,7 @@ figure.show {
 	opacity: .75;
 	padding-left: 130px;
 	font-family: 'Arimo', sans-serif;
+	font: normal;
 }
 .fold p{
 	margin-top: 40px;
@@ -160,10 +161,13 @@ figure.show {
 		margin-top: -1297px;
 		width: 94.5%;
 		height: 1115px;
-		font-size: 30px;
+		font-size: 30px !important;
 		padding-left: 190px;
+		font-family: 'Arimo', sans-serif;
 	}
 	.fold p{
+		font-size: 29px !important;
+		line-height: 48px;
 		max-width: 50% !important;
 	}
 }

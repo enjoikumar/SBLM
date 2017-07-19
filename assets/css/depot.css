@@ -252,6 +252,8 @@ strong {
 		padding-left: 190px;
 	}
 	.fold p{
+		font-size: 29px !important;
+		line-height: 48px !important;
 		max-width: 50% !important;
 	}
 
@@ -261,7 +263,8 @@ strong {
 	}
 	.history2 span{
 		width: 800px;
-		font-size: 30px;
+		font-size: 29px;
+		line-height: 45px;
 		margin-right: 200px;
 		margin-top: 300px;
 	}
@@ -274,7 +277,8 @@ strong {
 		width: 800px !important;
 		margin-top: 600px;
 		margin-left: 200px;
-		font-size: 30px;
+		font-size: 29px;
+		line-height: 45px;
 	}
 
 	.history5 img{
@@ -284,7 +288,8 @@ strong {
 	}
 	.history5 span{
 		width: 800px;
-		font-size: 30px;
+		font-size: 29px;
+		line-height: 45px;	
 		margin-right: 160px;
 		margin-top: -600px;
 	}

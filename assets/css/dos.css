@@ -113,6 +113,7 @@ figure.show {
 	opacity: .75;
 	padding-left: 130px;
 	font-family: 'Arimo', sans-serif;
+	font: normal;
 }
 .fold p{
 	margin-top: 40px;
@@ -155,9 +156,12 @@ figure.show {
 		height: 1113px;
 		font-size: 30px;
 		padding-left: 190px;
+		font-size: 30px !important;
 	}
 	.fold p{
 		max-width: 50% !important;
+		font-size: 29px !important;
+		line-height: 48px !important;
 	}
 	.title{
 		margin-top: -198px;
