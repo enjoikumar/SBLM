@@ -101,7 +101,7 @@ figure.show {
 	padding-left: 130px;
 	opacity: .75;
 	font-family: 'Arimo', sans-serif;
-	font: normal;
+	font: lighter !important;
 }
 
 .history9 img{
