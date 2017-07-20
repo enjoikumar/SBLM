@@ -310,7 +310,7 @@ a {
 
 @media only screen and (width: 736px) {
   .filter{
-    height: 39px;
+    height: 41px;
   }
   #all, #education,
   #retail, #mixed,
@@ -340,6 +340,7 @@ a {
   }
   
   table{
+    padding-top: 0px !important;
     margin-left: 20px !important;
     width: 95% !important;
   }
@@ -364,9 +365,28 @@ a {
   .icon{
     margin-top: 10px;
   }
-  #all{
-    margin-left: 255px;
+  .filter{
+    height: 41px;
   }
+  #all, #education,
+  #retail, #mixed,
+  #civic, #health{
+    width: 50px;
+    font-size: 11px;
+  }
+  #view, #list,
+  #thumbnail{
+    width: 50px;
+    font-size: 11px;
+  }
+  #view{
+    margin-right: 0px !important;
+  }
+
+  .wrap{
+    margin-top: 0px;
+  }
+
   .text{
     font-size: 24px;
   }
@@ -376,8 +396,25 @@ a {
     padding-bottom: .5% !important;
   }
 
-  .tile td:nth-child(2){
+   table{
+    padding-top: 0px !important;
+    margin-left: 03px !important;
+    width: 95% !important;
+  }
+
+  .tableTitle th:nth-child(2){
     padding-left: 160px !important;
+  }
+
+  .tile td:nth-child(2),
+  .tile td:nth-child(3){
+    padding-left: 160px !important
+  }
+  .tile td:nth-child(3){
+    text-align: right;
+  }
+  .tile td{
+    padding-top: 0px;
   }
 }
 

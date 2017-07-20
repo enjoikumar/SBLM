@@ -160,10 +160,10 @@ figure.show {
 
 @media only screen and (max-width: 667px) {
 	figure{
-		height: 414px;
+		height: 375px;
 	}
 	figure img{
-		height: 414px;
+		height: 375px;
 	}
 }
 

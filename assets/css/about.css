@@ -133,7 +133,12 @@ ul{
 
 @media only screen and (width: 667px){
   .list{
-    margin-top: 480px;
+    margin-top: 0px !important;
+  }
+  .para{
+    margin-top: 100px;
+    padding-left: 0px;
+    margin-left: 60px;
   }
 }
 

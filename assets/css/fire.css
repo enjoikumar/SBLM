@@ -293,15 +293,15 @@ figure.show {
 
 @media only screen and (max-width: 667px) {
 	.fold{
-		margin-top: -379px;
+		margin-top: -424px;
 		width: 568px;
-		height: 280px;
+		height: 325px;
 		padding-left: 20px;
 		padding-top: 20px;
 	}
 	.title{
 		font-size: 20px !important;
-		margin-top: -85px;
+		margin-top: -255px;
 	}
 }
 
