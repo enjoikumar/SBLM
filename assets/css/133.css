@@ -190,7 +190,8 @@ figure.show {
 	}
 
 	.fold{
-		font-size: 48px !important;
+		/*font-size: 48px !important;*/
+		font-size: 28px !important;
 		margin-top: -1297px;
 		width: 94.5%;
 		height: 1074px;
