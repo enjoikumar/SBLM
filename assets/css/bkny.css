@@ -434,14 +434,16 @@ body{
 
 @media only screen and (max-width: 736px) {
 	.fold{
-		font-size: 20px;
+		font-size: 20px !important;
 		height: 210px;
 		width: 595px;
-		margin-top: -373px;
+		margin-top: -373px !important;
+		line-height: 20px;
 	}
 	.fold p{
 		max-width: 70% !important;
-		margin-top: -50px;
+		margin-top: -50px !important;
+		line-height: 20px;
 	}
 
 	.history1 img{

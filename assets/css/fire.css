@@ -265,13 +265,13 @@ figure.show {
 
 @media only screen and (max-width: 736px) {
 	figure{
-		height: 414px;
+		height: 585px;
 	}
 	figure img{
 		height: 414px;
 	}
 	.title{
-		margin-top: -45px;
+		margin-top: -220px;
 		padding: 10px 10px 10px 10px;
     font-size: 20px !important;
 	}
@@ -279,7 +279,7 @@ figure.show {
 	.fold{
 		font-size: 20px;
 		height: 260px;
-		width: 596px;
+		width: 526px;
 		margin-top: -418px;
 	}
 	.fold p{

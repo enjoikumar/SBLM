@@ -299,14 +299,14 @@ figure.show {
 		font-size: 20px;
 		height: 208px;
 		width: 596px;
-		margin-top: -392px;
+		margin-top: -267px;
 	}
 	.fold p{
 		max-width: 100% !important;
 		margin-top: -50px !important;
 	}
 	.footer{
-		margin-top: -25px !important;
+		margin-top: 75px !important;
 	}
 }
 

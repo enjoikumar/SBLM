@@ -312,12 +312,26 @@ a {
   .filter{
     height: 39px;
   }
-  #all{
-    margin-left: 320px;
+  #all, #education,
+  #retail, #mixed,
+  #civic, #health{
+  width: 50px;
+  font-size: 11px;
+  }
+  #view, #list,
+  #thumbnail{
+    width: 50px;
+    font-size: 11px;
+  }
+  #view{
+    margin-right: 0px !important;
   }
   .text{
     font-size: 22px;
     display: none;
+  }
+  .wrap{
+    margin-top: 0px;
   }
   .box, .boxInner, .boxInner img, div.box.first{
     width: 184px !important;

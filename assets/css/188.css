@@ -283,13 +283,16 @@ figure.show {
 
 	.fold{
 		font-size: 20px;
-		height: 183px;
-		width: 596px;
-		margin-top: -393px;
+		height: 210px;
+		width: 526px;
+		margin-top: -268px;
 	}
 	.fold p{
 		max-width: 70% !important;
 		margin-top: -70px !important;
+	}
+	.footer{
+		margin-top: 120px !important;
 	}
 }
 
