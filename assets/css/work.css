@@ -571,8 +571,9 @@ table{
   background-color: #f5f5f5;
 }
 .tile:hover{
-  background-color: #e4e4e4;
+  background-color: #e4e4e4 !important;
   color: white !important;
+  cursor: pointer;
 }
 td{
   height: 30px;
