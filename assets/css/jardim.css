@@ -756,8 +756,11 @@ figure.show {
 	.fold{
 		margin-top: -193px;
 		width: 275px !important;
-		height: 89px !important;
+		height: 109px !important;
 		font-size: 10px !important;
+	}
+	.fold p{
+		max-width: 95% !important;
 	}
 
 	.history img{

@@ -371,6 +371,9 @@ figure.show {
 	figure img{
 		height: 350px;
 	}
+	.fold{
+		margin-top: -140px !important;
+	}
 	.footer a{
 		margin-left: 50px !important;
 	}
@@ -378,7 +381,7 @@ figure.show {
 		margin-left: 70px !important;
 	}
 	.footer{
-		margin-top: 85px !important;
+		margin-top: 185px !important;
 	}
 }
 
