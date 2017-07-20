@@ -342,12 +342,12 @@ figure.show {
 	.title{
 		font-size: 20px !important;
 	  padding: 10px 20px 10px 10px;
-		margin-top: -121px;
+		margin-top: -122px;
 	}
 
 	.fold{
 		font-size: 15px;
-		height: 200px;
+		height: 240px;
 	}
 	.fold p{
 		max-width: 60% !important;
@@ -360,7 +360,7 @@ figure.show {
 		margin-left: 100px !important;
 	}
 	.footer{
-		margin-top: 110px !important;
+		margin-top: 150px !important;
 	}
 }
 

@@ -488,9 +488,11 @@ a {
   }
   .filter{
     padding-bottom: 5px !important;
+    /*display: none;*/
   }
   .filter a{
     font-size: 17px !important;
+    display: none;
   }
   .box, .boxInner, .boxInner img, div.box.first{
     width: 207px !important;

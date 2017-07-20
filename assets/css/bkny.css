@@ -586,14 +586,16 @@ body{
 
 @media only screen and (max-width: 414px) {
 	.fold{
-		font-size: 11px !important;
-		margin-top: -213px;
+		font-size: 9px !important;
+		margin-top: -211px !important;
 		width: 314px !important;
 		height: 110px !important;
 	}
 	.fold p{
-		font-size: 13px;
+		font-size: 10px;
 		max-width: 90% !important;
+		line-height: 15px !important;
+		margin-top: -20px !important;
 	}
 
 	.history img{

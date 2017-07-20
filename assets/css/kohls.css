@@ -361,9 +361,9 @@ figure.show {
 
 	.fold{
 		font-size: 12px !important;
-		margin-top: -231px;
+		margin-top: -106px;
 		width: 314px !important;
-		height: 153px !important;
+		height: 203px !important;
 	}
 	.fold p{
 		max-width: 90% !important;
@@ -387,7 +387,7 @@ figure.show {
 		margin-left: 100px !important;
 	}
 	.footer{
-		margin-top: 90px !important;
+		margin-top: 200px !important;
 	}
 }
 
