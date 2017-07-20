@@ -419,8 +419,22 @@ a {
 }
 
 @media only screen and (max-width: 568px){
-  #all{
-    margin-left: 160px;
+  .filter{
+    height: 39px;
+  }
+  #all, #education,
+  #retail, #mixed,
+  #civic, #health{
+    width: 45px;
+    font-size: 10px;
+  }
+  #view, #list,
+  #thumbnail{
+    width: 45px;
+    font-size: 11px;
+  }
+  #view{
+    margin-right: 0px !important;
   }
   .text{
     font-size: 20px;
@@ -434,16 +448,25 @@ a {
     padding-bottom: .5% !important;
   }
 
-  .tableTitle th:nth-child(2){
-    padding-left: 100px !important;
+  table{
+    padding-top: 0px !important;
+    margin-left: 03px !important;
+    width: 95% !important;
   }
 
-  .tile td:nth-child(2){
-    padding-left: 100px !important
+  .tableTitle th:nth-child(2){
+    padding-left: 130px !important;
+  }
+  .tableTitle th:nth-child(3){
+    padding-left: 130px !important;
+  }
+
+  .tile td:nth-child(2),
+  .tile td:nth-child(3){
+    padding-left: 130px !important
   }
   .tile td:nth-child(3){
     text-align: right;
-    padding-left: 20px !important;
   }
   .tile td{
     padding-top: 0px;

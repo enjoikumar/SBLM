@@ -314,7 +314,7 @@ figure.show {
 	}
 	.fold{
 		font-size: 15px;
-		margin-top: -288px;
+		margin-top: -164px;
 		width: 468px;
 		height: 200px;
 	}
@@ -325,6 +325,9 @@ figure.show {
 	.title{
 		font-size: 20px !important;
 		margin-top: -45px;
+	}
+	.footer{
+		margin-top: 100px !important;
 	}
 }
 
