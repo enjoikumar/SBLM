@@ -39,11 +39,11 @@ body{
   position: absolute;
   color: #333;
   width: 60%;
-  font-size: 32px;
+  font-size: 25px;
   margin-left: 40px;
   margin-top: 300px;
   padding-left: 160px;
-  line-height: 51px;
+  line-height: 40px;
 }
 
 .list{
@@ -87,12 +87,14 @@ ul{
 @media only screen and (width: 2560px){
   .para{
     width: 35%;
+    font-size: 32px !important;
   }
 }
 
 @media only screen and (width: 1920px){
   .para{
     width: 35%;
+    font-size: 32px !important;
   }
   .list{
     margin-top: 350px;

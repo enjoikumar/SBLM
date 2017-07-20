@@ -21,14 +21,14 @@ figure{
 	opacity: 0;
 	transition: .5s opacity;
 	width: 100%;
-	height: 628px;
+	height: 751px;
 }
 
 
 /*image is the same height and width of slideshow aka no whitespace*/
 figure img {
 	width: 100%;
-	height: 628px;
+	height: 751px;
 }
 
 
@@ -87,18 +87,6 @@ figure.show {
 	border-bottom-right-radius: 3px;
 }
 
-.title{
-	font-size: 28px !important;
-	position: absolute;
-	z-index: 2;
-  padding: 20px 20px 20px 20px;
-	margin-top: -73px;
-	color: white;
-	background-color: black;
-	opacity: .8;
-}
-
-
 .fold{
 	position: absolute;
 	font-size: 20px;
@@ -122,7 +110,7 @@ figure.show {
 	position: absolute;
 	z-index: 2;
   padding: 20px 40px 20px 20px;
-	margin-top: -73px;
+	margin-top: -198px;
 	color: white;
 	background-color: black;
 	opacity: .8;
