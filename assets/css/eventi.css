@@ -267,6 +267,14 @@ figure.show {
 		height: 960px;
 	}
 	
+	.fold{
+		font-size: 25px !important;
+	}
+	.fold p{
+		font-size: 28px !important;
+		line-height: 45px;
+	}
+
 	.project-history{
 		font-size: 1.5em;
 	}
@@ -283,6 +291,7 @@ figure.show {
 	}
 	.history1 span{
 		font-size: 30px;
+		line-height: 48px;
 		width: 600px;
 		margin-right: 250px;
 	}
@@ -293,6 +302,7 @@ figure.show {
 	}
 	.history2 span{
 		font-size: 30px;
+		line-height: 48px;
 		width: 600px;
 		margin-left: 40px;
 		margin-top: 300px;

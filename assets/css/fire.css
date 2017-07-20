@@ -184,6 +184,11 @@ figure.show {
 		margin-top: -964px;
 		width: 92.7%;
 		height: 800px;
+		font-size: 25px !important;
+	}
+	.fold p{
+		font-size: 28px !important;
+		line-height: 45px;
 	}
 }
 

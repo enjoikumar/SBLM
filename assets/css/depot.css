@@ -314,20 +314,27 @@ strong {
 
 @media only screen and (width: 1920px){
 	figure{
-		height: 960px;
+		height: 1085px;
 	}
 	figure img{
-		height: 960px;
+		height: 1085px;
+	}
+	.title{
+		margin-top: -198px;
 	}
 	.fold{
 		margin-top: -964px;
 		width: 92.7% !important;
 		height: 760px !important;
-		font-size: 30px;
+		font-size: 25px !important;
+	}
+	.fold p{
+		font-size: 28px !important;
+		line-height: 45px;
 	}
 
 	.history span{
-		font-size: 30px;
+		/*font-size: 30px;*/
 		width: 600px;
 	}
 
@@ -343,6 +350,8 @@ strong {
 		width: 600px;
 		margin-right: 160px;
 		margin-top: 225px;
+		font-size: 30px;
+		line-height: 48px;
 	}
 
 	.history3 img{
@@ -353,6 +362,8 @@ strong {
 		width: 600px !important;
 		margin-left: 200px;
 		margin-top: 400px;
+		font-size: 30px;
+		line-height: 48px;
 	}
 
 	.history4 img{
@@ -368,6 +379,7 @@ strong {
 	.history5 span{
 		width: 600px;
 		font-size: 30px;
+		line-height: 48px;
 		margin-right: 160px;
 		margin-top: -600px;
 	}

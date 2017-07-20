@@ -120,6 +120,7 @@ figure.show {
 .fold p{
 	margin-top: 40px;
 	max-width: 50% !important;
+	font-family: 'Arimo', sans-serif;
 }
 
 
@@ -163,16 +164,23 @@ figure.show {
 
 @media only screen and (width: 1920px) {
 	figure{
-		height: 960px
+		height: 1085px
 	}
 	figure img{
-		height: 960px;
+		height: 1085px;
+	}
+	.title{
+		margin-top: -198px;
 	}
 	.fold{
 		margin-top: -985px;
 		width: 92.7%;
 		height: 815px;
-		font-size: 30px;
+		font-size: 25px;
+	}
+	.fold p{
+		font-size: 28px !important;
+		line-height: 45px;
 	}
 
 }

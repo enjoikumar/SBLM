@@ -152,16 +152,20 @@ figure.show {
 
 @media only screen and (width: 1920px) {
 	figure{
-		height: 960px;
+		height: 1085px;
 	}
 	figure img{
-		height: 960px;
+		height: 1085px;
 	}
 	.fold{
 		margin-top: -964px;
 		width: 92.7%;
 		height: 800px;
-		font-size: 30px;
+		font-size: 25px !important; 
+	}
+	.fold p{
+		font-size: 28px !important;
+		line-height: 45px;
 	}
 }
 

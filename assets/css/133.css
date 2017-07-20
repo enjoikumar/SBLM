@@ -252,13 +252,19 @@ figure.show {
 		margin-top: -984px;
 		width: 92.7% !important;
 		height: 760px !important;
+		font-size: 25px !important;
+	}
+	.fold p{
+		font-size: 28px !important;
+		line-height: 45px;
 	}
 	.history1 img{
 		width: 1000px;
 		height: 900px;
 	}
 	.history1 span{
-		font-size: 1.5em;
+		font-size: 30px;
+		line-height: 48px;
 		width: 600px;
 		margin-right: 100px;
 		margin-top: 350px;
@@ -269,7 +275,8 @@ figure.show {
 		height: 700px;
 	}
 	.history2 span{
-		font-size: 1.5em;
+		font-size: 30px;
+		line-height: 48px;
 		width: 600px;
 		margin-top: 400px;
 		margin-left: 100px;

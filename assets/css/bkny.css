@@ -185,7 +185,10 @@ body{
 		margin-top: -965px;
 		width: 92.7%;
 		height: 801px;
-		font-size: 30px;
+		font-size: 25px;
+	}
+	.fold p{
+		line-height: 45px;
 	}
 
 	.history1 img{
@@ -194,6 +197,7 @@ body{
 	}
 	.history1 span{
 		font-size: 30px;
+		line-height: 48px;
 		width: 600px;
 		margin-right: 125px;
 		margin-top: 200px;
@@ -206,6 +210,7 @@ body{
 	}
 	.history2 span{
 		font-size: 30px;
+		line-height: 48px;
 		width: 600px;
 		margin-top: 400px;
 	}
@@ -217,6 +222,7 @@ body{
 	}
 	.history3 span{
 		font-size: 30px;
+		line-height: 48px;
 		width: 600px;
 		margin-right: 250px;
 		margin-top: 450px;
