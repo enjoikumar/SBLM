@@ -40,6 +40,7 @@ body{
   color: #333;
   width: 60%;
   font-size: 25px;
+  line-height: 40px;
   margin-left: 40px;
   margin-top: 300px;
   padding-left: 160px;
@@ -88,6 +89,7 @@ ul{
   .para{
     width: 35%;
     font-size: 32px !important;
+    line-height: 51px;
   }
 }
 
@@ -95,6 +97,7 @@ ul{
   .para{
     width: 35%;
     font-size: 32px !important;
+    line-height: 51px;
   }
   .list{
     margin-top: 350px;
@@ -158,6 +161,8 @@ ul{
     margin-top: 0px !important;
   }
   .para{
+    font-size: 20px !important;
+    line-height: 32px !important;
     margin-top: 100px;
     padding-left: 0px;
     margin-left: 60px;
