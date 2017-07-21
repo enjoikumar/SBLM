@@ -394,7 +394,7 @@ figure.show {
 	}
 
 	.fold{
-		margin-top: -164px;
+		margin-top: -39px !important;
 	}
 
 	.title{
@@ -403,7 +403,7 @@ figure.show {
 
 	.footer{
 		font-size: 15px !important; 
-		margin-top: 150px !important;
+		margin-top: 275px !important;
 	}
 	.footer .line{
 		margin-left: 60px !important;

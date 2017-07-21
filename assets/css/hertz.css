@@ -444,14 +444,14 @@ figure.show {
 		height: 300px;
 	}
 	.fold{
-		margin-top: -165px;
+		margin-top: -40px;
 		font-size: 10px !important;
 		width: 220px !important;
-		height: 200px !important;
+		height: 150px !important;
 	}
 	.footer{
 		font-size: 15px !important; 
-		margin-top: 63px !important;
+		margin-top: 195px !important;
 	}
 	.footer .line{
 		margin-left: 60px !important;

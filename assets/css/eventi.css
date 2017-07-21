@@ -756,7 +756,7 @@ figure.show {
 
 	.title{
 		font-size: 15px !important;
-		margin-top: -38px;
+		margin-top: -38px !important;
 	}
 
 	.history1 img{
@@ -783,7 +783,7 @@ figure.show {
 		font-size: 15px !important; 
 	}
 	.footer .line{
-		margin-left: 60px !important;
+		margin-left: 20px !important;
 	}
 	.footer a{
 		margin-left: 25px !important;

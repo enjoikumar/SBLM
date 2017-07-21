@@ -49,7 +49,8 @@ body {
   overflow: hidden;
   padding-left: 200px;
   font-size: 19px;
-  color: #000;
+  /*color: #000;*/
+  color: #191919;
   font-weight: normal;
 }
 
@@ -57,7 +58,7 @@ strong{
   color: black;
   font-size: 20px;
   font-family: 'Arimo', sans-serif !important;
-  font-weight: normal;
+  font-weight: bold !important;
 }
 
 /*giving spaces to each of the offices*/

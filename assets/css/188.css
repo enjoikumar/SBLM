@@ -415,15 +415,15 @@ figure.show {
 	}
 
 	.fold{
-		margin-top: -185px;
+		margin-top: -60px !important;
 		font-size: 10px !important;
 		width: 220px !important;
-		height: 300px !important;
+		height: 200px !important;
 		font-size: 9px !important;
 	}
 	.footer{
 		font-size: 15px !important;
-		margin-top: 45px !important; 
+		margin-top: 200px !important; 
 	}
 	.footer .line{
 		margin-left: 60px !important;

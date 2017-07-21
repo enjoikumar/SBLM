@@ -400,7 +400,7 @@ figure.show {
 		height: 300px;
 	}
 	.fold{
-		margin-top: -164px;
+		margin-top: -39px;
 		font-size: 9px !important;
 		width: 220px !important;
 		height: 200px !important;
@@ -410,6 +410,7 @@ figure.show {
 	}
 	.footer{
 		font-size: 15px !important; 
+		margin-top: 220px !important;
 	}
 	.footer .line{
 		margin-left: 60px !important;

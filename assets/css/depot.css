@@ -1018,9 +1018,9 @@ strong {
 	}
 
 	.fold{
-		margin-top: -164px;
+		margin-top: -99px;
 		font-size: 9px !important;
-		width: 00px !important;
+		width: 300px !important;
 		height: 60px !important; 
 	}
 	.fold p{
@@ -1033,10 +1033,12 @@ strong {
 
 	.history1{
 		width: 320px;
+		padding-top: 60px;
 	}
 	.history1 img{
 		width: 320px;
 		height: 320px;
+		opacity: .0001;
 	}
 	.history1 span{
 		width: 200px !important;
