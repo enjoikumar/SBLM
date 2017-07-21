@@ -2,21 +2,21 @@
 $(document).ready(function(){
 
 	(function(){
+    
+    var counter = 0, 
+    $items = document.querySelectorAll('.slideshow figure'),
 
-	var counter = 0, 
-  $items = document.querySelectorAll('.slideshow figure'),
+    numItems = $items.length; 
 
-  numItems = $items.length; 
+  	var showCurrent = function(){
 
-	var showCurrent = function(){
-
-  var itemToShow = Math.abs(counter%numItems);  
+    var itemToShow = Math.abs(counter%numItems);  
   
-  [].forEach.call( $items, function(el){
-  	el.classList.remove('show');
-  });
+    [].forEach.call( $items, function(el){
+  	 el.classList.remove('show');
+    });
   
-  $items[itemToShow].classList.add('show');
+    $items[itemToShow].classList.add('show');
 	};
 
 	document.querySelector('.next').addEventListener('click', function() {
