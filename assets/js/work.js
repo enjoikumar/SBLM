@@ -14,7 +14,7 @@ $(document).ready(function(){
 
   $all = $('#all');
 
-  $all.css('background-color', 'white')
+  $all.css('background-color', 'white');
 
   // each click function changes the grayscale of the item to none
   // making it in color while the others remain in black and white
@@ -159,9 +159,7 @@ $(document).ready(function(){
   $('.health').addClass('notgray')
   $('.civic').addClass('notgray')
 
-
-
-
+  
   //RANDOMIZE THE DIVS
   //=============================
   var shuffle = function(){
