@@ -645,6 +645,7 @@ table{
 .tile{
   text-align: left;
   background-color: #f5f5f5;
+  background-color: white;
 }
 .tile:hover{
   background-color: #e4e4e4 !important;

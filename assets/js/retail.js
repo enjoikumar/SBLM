@@ -44,7 +44,8 @@ $(document).ready(function(){
       $mixed.css('background-color', '#f5f5f5')
       $health.css('background-color', '#f5f5f5')
       $civic.css('background-color', '#f5f5f5')
-      $all.css('background-color', 'white')
+      $all.css('background-color', '#f5f5f5')
+      
       
       $('.education').addClass('notgray')
       $('.retail').removeClass('notgray')
@@ -63,7 +64,8 @@ $(document).ready(function(){
       $mixed.css('background-color', '#f5f5f5')
       $health.css('background-color', '#f5f5f5')
       $civic.css('background-color', '#f5f5f5')
-      $all.css('background-color', 'white')
+      $all.css('background-color', '#f5f5f5')
+      
       
       $('.education').removeClass('notgray')
       $('.retail').addClass('notgray')
@@ -82,7 +84,8 @@ $(document).ready(function(){
       $mixed.css('background-color', 'white')
       $health.css('background-color', '#f5f5f5')
       $civic.css('background-color', '#f5f5f5')
-      $all.css('background-color', 'white')
+      $all.css('background-color', '#f5f5f5')
+      
       
       $('.education').removeClass('notgray')
       $('.retail').removeClass('notgray')
@@ -100,7 +103,8 @@ $(document).ready(function(){
       $mixed.css('background-color', '#f5f5f5')
       $health.css('background-color', 'white')
       $civic.css('background-color', '#f5f5f5')
-      $all.css('background-color', 'white')
+      $all.css('background-color', '#f5f5f5')
+      
       
       $('.education').removeClass('notgray')
       $('.retail').removeClass('notgray')
@@ -119,7 +123,8 @@ $(document).ready(function(){
       $mixed.css('background-color', '#f5f5f5')
       $health.css('background-color', '#f5f5f5')
       $civic.css('background-color', 'white')
-      $all.css('background-color', 'white')
+      $all.css('background-color', '#f5f5f5')
+      
       
       $('.education').removeClass('notgray')
       $('.retail').removeClass('notgray')
