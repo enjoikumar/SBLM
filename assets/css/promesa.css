@@ -197,9 +197,12 @@ figure.show {
 
 @media only screen and (width: 1366px){
 	.fold{
-		margin-top: -688px;
+		margin-top: -644px;
 		height: 524px;
 		width: 1226px;
+	}
+	.footer{
+		margin-top: 525px !important;
 	}
 }
 
