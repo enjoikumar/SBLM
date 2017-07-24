@@ -194,6 +194,9 @@ figure.show {
 		font-size: 28px !important;
 		line-height: 45px;
 	}
+	.footer{
+		margin-top: 240px !important;
+	}
 }
 
 @media only screen and (width: 1440px){

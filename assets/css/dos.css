@@ -190,6 +190,9 @@ figure.show {
 	.title{
 		margin-top: -198px;
 	}
+	.footer{
+		margin-top: 800px !important;
+	}
 }
 
 @media only screen and (width: 1440px){
