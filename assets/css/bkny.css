@@ -115,7 +115,7 @@ body{
 		padding-top: 265px;
 		height: 1193px;
 		width: 94.5%;
-		margin-top: -1356px;
+		margin-top: -656px;
 		/*font-size: 20px;*/
 		font-size: 28px !important;	
 		padding-left: 190px;
@@ -124,6 +124,7 @@ body{
 		max-width: 50% !important;
 		font-size: 29px !important;
 		line-height: 48px !important;
+		margin-top: -200px !important;
 	}
 	.history1{
 		overflow: hidden;

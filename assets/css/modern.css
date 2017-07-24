@@ -1,4 +1,4 @@
-*{
+	*{
 	margin: 0;
 }
 body{
@@ -136,7 +136,7 @@ figure.show {
 	}
 	.fold{
 		font-size: 30px;
-		margin-top: -1277px;
+		margin-top: -645px;
 		width: 94.5%;
 		height: 1150px;
 		padding-left: 190px;
@@ -148,6 +148,9 @@ figure.show {
 	}
 	.title{
 		margin-top: -198px;
+	}
+	.footer{
+		margin-top: 1150px !important;
 	}
 }
 

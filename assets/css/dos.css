@@ -152,7 +152,7 @@ figure.show {
 	}
 
 	.fold{
-		margin-top: -1277px;
+		margin-top: -644px;
 		width: 94.5%;
 		height: 1113px;
 		font-size: 30px;
@@ -166,6 +166,9 @@ figure.show {
 	}
 	.title{
 		margin-top: -198px;
+	}
+	.footer{
+		margin-top: 1110px !important;
 	}
 }
 
