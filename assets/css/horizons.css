@@ -84,9 +84,10 @@ figure.show {
 	cursor: url("../../images/icons/down.png"), s-resize;
 }
 
-.history1 img{
+.history1{
 	width: 100%;
 	height: 66%;
+	margin-top: 519px !important;
 }
 
 @media only screen and (width: 2560px){

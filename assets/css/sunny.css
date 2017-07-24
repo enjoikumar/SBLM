@@ -84,12 +84,11 @@ figure.show {
 	opacity: .8;
 }
 
-.history8 img{
-	margin-top: 0px;
-}
-.history8 img{
+
+.history8{
 	width: 100%;
 	height: 66%;
+	margin-top: 650px !important;
 }
 
 

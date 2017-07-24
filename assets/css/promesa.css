@@ -90,9 +90,10 @@ figure.show {
 }
 
 
-.history1 img{
+.history1{
 	width: 100%;
 	height: 66%;
+	margin-top: 520px !important;
 }
 
 .down{

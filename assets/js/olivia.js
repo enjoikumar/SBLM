@@ -60,7 +60,7 @@ $(document).ready(function(){
 
   $down.click(function() {
     $('html, body').animate({
-        scrollTop: $(".history5").offset().top
+        scrollTop: $(".fold").offset().top
     }, 500);
   });
 

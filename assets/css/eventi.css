@@ -158,9 +158,10 @@ figure.show {
 }
 
 
-.history4 img{
+.history4{
 	width: 100%;
 	height: 66%;
+	margin-top: 750px !important;
 }
 
 .down{

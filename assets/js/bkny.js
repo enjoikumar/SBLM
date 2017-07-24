@@ -73,7 +73,7 @@ $(document).ready(function(){
 
   $down.click(function() {
     $('html, body').animate({
-        scrollTop: $(".history4").offset().top
+        scrollTop: $(".fold").offset().top
     }, 500);
   });
 
