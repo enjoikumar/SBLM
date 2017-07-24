@@ -228,14 +228,17 @@ figure.show {
 
 @media only screen and (width: 1024px){
 	.fold{
-		margin-top: -516px;
-		height: 320px;
+		margin-top: -644px;
+		height: 420px;
 	}
 	.fold p{
 		margin-top: -40px;
 	}
 	.title{
-		margin-top: -74px;
+		margin-top: -198px;
+	}
+	.footer{
+		margin-top: -64px !important;
 	}
 }
 

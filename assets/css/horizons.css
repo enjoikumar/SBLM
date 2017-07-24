@@ -180,12 +180,15 @@ figure.show {
 
 @media only screen and (width: 1024px){
 	.fold{
-		margin-top: -538px;
+		margin-top: -666px;
 		width: 888px;
-		height: 345px;
+		height: 490px !important;
 	}
 	.fold p{
 		max-width: 80% !important;
+	}
+	.footer{
+		margin-top: -34px !important;
 	}
 }
 
