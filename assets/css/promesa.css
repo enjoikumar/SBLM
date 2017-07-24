@@ -183,12 +183,15 @@ figure.show {
 
 @media only screen and (width: 1440px){
 	.fold{
-		margin-top: -724px;
+		margin-top: -644px;
 		width: 1300px;
 		height: 560px;
 	}
 	.fold p{
 		max-width: 50% !important;
+	}
+	.footer{
+		margin-top: 600px !important;
 	}
 }
 
