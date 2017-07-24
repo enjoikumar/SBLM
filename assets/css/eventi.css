@@ -342,6 +342,7 @@ figure.show {
 	}
 	.fold p{
 		max-width: 70% !important;
+		margin-top: -150px !important;
 	}
 	.history1 img{
 		width: 500px;

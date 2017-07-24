@@ -230,7 +230,7 @@ figure.show {
 
 @media only screen and (width: 1080px){
 	.fold{
-		margin-top: -545px;
+		margin-top: -644px;
 		width: 940px;
 		height: 360px;
 	}
@@ -238,7 +238,7 @@ figure.show {
 		max-width: 70% !important;
 	}
 	.footer{
-		margin-top: -6px !important;
+		margin-top: -100px !important;
 	}
 }
 
