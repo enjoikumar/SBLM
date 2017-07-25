@@ -769,7 +769,7 @@ figure.show {
 
 	.fold{
 		font-size: 11px !important;
-		margin-top: -231px;
+		margin-top: -664px;
 		width: 314px !important;
 		height: 107px !important;
 	}
@@ -781,6 +781,10 @@ figure.show {
 		font-size: 20px !important;
 	  padding: 10px 20px 10px 10px;
 		margin-top: -44px;
+	}
+
+	.history1{
+		margin-top: -500px !important; 
 	}
 
 	.history1 img{

@@ -669,7 +669,7 @@ figure.show {
 
 	.fold{
 		font-size: 11px !important;
-		margin-top: -231px !important;
+		margin-top: -646px !important;
 		width: 314px !important;
 		height: 107px !important;
 	}
@@ -689,6 +689,9 @@ figure.show {
 		font-size: 1em;
 	}
 
+	.history1{
+		margin-top: -500px !important;
+	}
 	.history1 img{
 		height: 300px;
 		margin-left: 0px;

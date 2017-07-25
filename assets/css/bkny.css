@@ -589,7 +589,7 @@ body{
 @media only screen and (max-width: 414px) {
 	.fold{
 		font-size: 9px !important;
-		margin-top: -211px !important;
+		margin-top: -644px !important;
 		width: 314px !important;
 		height: 110px !important;
 	}
@@ -598,6 +598,9 @@ body{
 		max-width: 90% !important;
 		line-height: 15px !important;
 		margin-top: -20px !important;
+	}
+	.history1{
+		margin-top: -400px !important;
 	}
 
 	.history img{
