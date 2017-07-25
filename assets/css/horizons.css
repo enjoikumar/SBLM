@@ -294,13 +294,16 @@ figure.show {
 	}
 	.fold{
 		font-size: 15px;
-		margin-top: -185px;
+		margin-top: -541px;
 		width: 468px;
-		height: 244px;
+		height: 444px;
 	}
 	.title{
 		font-size: 20px !important;
 		margin-top: -44px;
+	}
+	.footer{
+		margin-top: 00px !important;
 	}
 }
 

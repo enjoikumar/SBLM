@@ -361,10 +361,13 @@ figure.show {
 	}
 
 	.fold{
-		margin-top: -183px;
+		margin-top: -540px;
 		width: 468px;
-		height: 198px;
+		height: 398px;
 		font-size: 14px !important;
+	}
+	.footer{
+		margin-top: -100px !important;
 	}
 }
 
