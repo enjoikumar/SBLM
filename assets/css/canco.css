@@ -374,7 +374,7 @@ body{
 
 @media only screen and (width: 768px){
 	.fold{
-		margin-top: -408px;
+		margin-top: -508px;
 		width: 628px;
 		height: 185px;
 	}
@@ -408,7 +408,7 @@ body{
 		font-size: 20px !important;
 		height: 248px;
 		width: 596px;
-		margin-top: -392px;
+		margin-top: -584px;
 		padding-top: 40px;
 	}
 	.fold p{

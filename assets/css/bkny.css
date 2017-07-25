@@ -387,7 +387,7 @@ body{
 
 @media only screen and (width: 768px){
 	.fold{
-		margin-top: -388px;
+		margin-top: -0px;
 		width: 628px;
 		height: 225px;
 	}
@@ -396,6 +396,9 @@ body{
 		max-width: 70% !important;
 	}
 
+	.history1{
+		margin-top: 500px !important;
+	}
 	.history1 img{
 		width: 700px;
 		margin-left: 34px;
@@ -436,7 +439,7 @@ body{
 		font-size: 20px !important;
 		height: 210px;
 		width: 595px;
-		margin-top: -373px !important;
+		margin-top: -644px !important;
 		line-height: 20px;
 	}
 	.fold p{

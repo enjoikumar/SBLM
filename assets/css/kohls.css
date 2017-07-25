@@ -283,9 +283,9 @@ figure.show {
 
 @media only screen and (width: 768px){
 	.fold{
-		margin-top: -408px;
+		margin-top: -664px;
 		width: 630px;
-		height: 210px;
+		height: 510px;
 	}
 	.fold p{
 		margin-top: -40px;

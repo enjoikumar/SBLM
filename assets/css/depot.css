@@ -595,7 +595,7 @@ strong {
 
 @media only screen and (width: 768px){
 	.fold{
-		margin-top: -388px;
+		margin-top: -644px !important;
 		width: 628px;
 		height: 184px;
 	}
@@ -654,7 +654,7 @@ strong {
 		font-size: 20px;
 		height: 168px !important;
 		width: 596px;
-		margin-top: -247px;
+		margin-top: -404px;
 	}
 	.fold p{
 		max-width: 70% !important;

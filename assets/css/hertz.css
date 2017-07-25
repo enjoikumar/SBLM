@@ -288,9 +288,9 @@ figure.show {
 
 @media only screen and (width: 768px){
 	.fold{
-		margin-top: -389px;
+		margin-top: -644px;
 		width: 630px;
-		height: 200px;
+		height: 440px;
 	}
 	.fold p{
 		margin-top: -40px;
@@ -314,9 +314,9 @@ figure.show {
 
 	.fold{
 		font-size: 20px;
-		height: 190px;
+		height: 390px;
 		width: 527px;
-		margin-top: -248px;
+		margin-top: -520px;
 	}
 	.fold p{
 		max-width: 100% !important;

@@ -272,9 +272,9 @@ figure.show {
 
 @media only screen and (width: 768px){
 	.fold{
-		margin-top: -388px;
+		margin-top: -644px;
 		width: 630px;
-		height: 200px;
+		height: 450px;
 	}
 	.fold p{
 		margin-top: -40px;
@@ -290,23 +290,23 @@ figure.show {
 		height: 414px;
 	}
 	.title{
-		margin-top: -220px;
+		margin-top: -215px;
 		padding: 10px 10px 10px 10px;
     font-size: 20px !important;
 	}
 
 	.fold{
 		font-size: 20px;
-		height: 260px;
+		height: 560px;
 		width: 526px;
-		margin-top: -418px;
+		margin-top: -686px;
 	}
 	.fold p{
 		max-width: 100% !important;
 		margin-top: 10px;
 	}
 	.footer{
-		margin-top: -10px !important;
+		margin-top: -5px !important;
 	}
 }
 
