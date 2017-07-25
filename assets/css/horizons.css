@@ -265,9 +265,9 @@ figure.show {
 
 @media only screen and (max-width: 667px) {
 	.fold{
-		margin-top: -235px;
+		margin-top: -580px;
 		width: 568px;
-		height: 300px;
+		height: 500px;
 		padding-left: 20px;
 		padding-top: 20px;
 		font-size: 18px;
@@ -278,10 +278,10 @@ figure.show {
 
 	.title{
 		font-size: 20px !important;
-		margin-top: -44px;
+		margin-top: -83px;
 	}
 	.footer{
-		margin-top: 160px !important;
+		margin-top: 00px !important;
 	}
 }
 

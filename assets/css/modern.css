@@ -293,7 +293,7 @@ figure.show {
 		height: 375px;
 	}
 	.fold{
-		margin-top: -213px;
+		margin-top: -520px;
 		width: 568px;
 		height: 200px;
 		padding-left: 20px;
@@ -308,7 +308,7 @@ figure.show {
 		margin-top: -44px;
 	}
 	.footer{
-		margin-top: 90px !important;
+		margin-top: -220px !important;
 	}
 }
 
