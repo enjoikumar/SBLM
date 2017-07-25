@@ -1,5 +1,4 @@
 $(document).ready(function(){
-
   $down = $('.down')
 
   $down.click(function() {

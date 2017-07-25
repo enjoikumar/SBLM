@@ -273,9 +273,9 @@ figure.show {
 
 	.fold{
 		font-size: 20px;
-		height: 190px;
+		height: 320px;
 		width: 660px;
-		margin-top: -405px;
+		margin-top: -520px;
 	}
 	.fold p{
 		max-width: 70% !important;

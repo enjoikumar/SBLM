@@ -31,7 +31,7 @@ $(document).ready(function(){
 	}
 
 	var $myNav = $('#myNav');
-
+				// $('html').empty()
 	var count = 0;
 
 	$('.burger').click(function(){

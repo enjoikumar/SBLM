@@ -250,16 +250,16 @@ figure.show {
 		height: 414px;
 	}
 	.title{
-		margin-top: -45px;
+		margin-top: -44px;
 		padding: 10px 10px 10px 10px;
     font-size: 20px !important;
 	}
 
 	.fold{
 		font-size: 20px;
-		height: 240px;
+		height: 380px;
 		width: 660px;
-		margin-top: -404px;
+		margin-top: -520px;
 	}
 	.fold p{
 		max-width: 70% !important;
