@@ -1,5 +1,11 @@
 $(document).ready(function(){
 
+  $('.boxInner').hover(function(){
+    $('.boxInner').css('opacity', '.25 !important')
+    $('.boxInner').css('filter', 'grayscale(0%) !important')
+  }, function(){
+    
+  })
 
   //naming the filter bar to call for functions later
   $education = $("#education");

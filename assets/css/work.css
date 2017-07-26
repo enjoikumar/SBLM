@@ -130,10 +130,6 @@ body {
   filter: grayscale(0%) !important;
 }
 
-div.text:hover{
-  color: red !important;
-}
-
 .notgray:hover{
   /*opacity: .1 !important;*/
   filter: grayscale(0%) !important;
