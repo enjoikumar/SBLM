@@ -216,6 +216,7 @@ a {
 @media only screen and (width: 2560px){
   .filter a{
     font-size: 14px;
+    font-weight: 900 !important;
   }
   .wrap{
     margin-top: 265px;
