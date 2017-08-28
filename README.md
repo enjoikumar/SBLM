@@ -293,19 +293,3 @@ Lines 74-78: When the use clicks on the down div, it will scroll to the element 
 Lines 80-85: This one is for the footer, when clicked on the footer, page will bring you right up and to the slideshow. All projects with a narrative have this footer. 
 
 Lines 87-91: This is when clicking on the site map is displays the first element of the narrative. Showing empty which is an empty div. The reason we don't click to display the first element of the narrative is because the nav bar is at a fixed position and will always take about 48px of the image. So clicking to direct to an empty div right about the first story frame allows for the image to be displayed without any obstrusion from the nav bar.
-
-Exclucity
-1326 Rue Notre-Dame O 
-Montreal
-
-Influence U
-1476 Saint Catherine St W 
-Montreal
-
-Off The Hook Boutique
-421 rue Saint-Vincent 
-Montreal
-
-Off The Hook Boutique
-1021 Ste Catherine Ouest 
-Montreal
