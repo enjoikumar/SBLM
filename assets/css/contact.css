@@ -1,1 +1,155 @@
-body{background-size: cover; background-color: white; font-family: 'Arimo', sans-serif;}.office, .inq{-webkit-animation: fadein 2000ms linear both; animation: fadein 2000ms linear both;}@-webkit-keyframes fadein{0%{opacity: 0;}30%{opacity: .5;}100%{opacity: 1;}}@keyframes fadein{0%{opacity: 0;}30%{opacity: .5;}100%{opacity: 1;}}.topnav{position: relative;}.overlay a:visited{text-decoration: none;}/*styling for offices*/.office{margin-top: 220px; overflow: hidden; padding-left: 200px; font-size: 19px; /*color: #000;*/ color: #191919; font-weight: normal;}strong{color: black; font-size: 20px; font-family: 'Arimo', sans-serif !important; font-weight: bold !important;}/*giving spaces to each of the offices*/.nyc, .island, .miami, .dallas, .ire{width: 250px; padding-bottom: 40px;}/*styling for email link*/a{color: #000;}a:visited{text-decoration: none;}.topnav #contact{background-color: #e4e4e4; height: 50px;}.overlay{font-family: 'Roboto', sans-serif !important;}@media only screen and (max-width: 736px){.office{font-size: 18px; padding-left: 60px; margin-top: 40px; margin-left: 10px; margin-right: 10px;}.nyc, .island, .dallas, .miami, .ire{width: 150px; padding-right: 20px;}}@media only screen and (max-width: 568px){.icon{margin-top: 5px;}}@media only screen and (max-width: 414px){.office{overflow: none; position: relative; display: block; margin-top: 40px; margin-left: 0px !important;}.nyc, .island, .miami, .dallas, .ire{padding-bottom: 40px;}}@media only screen and (max-width: 375px){.office{margin-left: 00px;}}@media only screen and (max-width: 320px){.office{margin-left: 0px;}}
+body {
+    background-size: cover;
+    background-color: white;
+    font-family: 'Arimo', sans-serif;
+}
+
+.office,
+.inq {
+    -webkit-animation: fadein 2000ms linear both;
+    animation: fadein 2000ms linear both;
+}
+
+.inq {
+  overflow: hidden;
+  position: relative;
+  padding-left: 40px;
+  margin-top: 40px;
+}
+
+@-webkit-keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    30% {
+        opacity: .5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    30% {
+        opacity: .5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.topnav {
+    position: relative;
+}
+
+.overlay a:visited {
+    text-decoration: none;
+}
+
+
+/*styling for offices*/
+
+.office {
+    margin-top: 220px;
+    overflow: hidden;
+    padding-left: 200px;
+    font-size: 19px;
+    /*color: #000;*/
+    color: #191919;
+    font-weight: normal;
+}
+
+strong {
+    color: black;
+    font-size: 20px;
+    font-family: 'Arimo', sans-serif !important;
+    font-weight: bold !important;
+}
+
+
+/*giving spaces to each of the offices*/
+
+.nyc,
+.island,
+.miami,
+.dallas,
+.ire {
+    width: 250px;
+    padding-bottom: 40px;
+}
+
+
+/*styling for email link*/
+
+a {
+    color: #000;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.topnav #contact {
+    background-color: #e4e4e4;
+    height: 50px;
+}
+
+.overlay {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+@media only screen and (max-width: 736px) {
+    .office {
+        font-size: 18px;
+        padding-left: 60px;
+        margin-top: 40px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .nyc,
+    .island,
+    .dallas,
+    .miami,
+    .ire {
+        width: 150px;
+        padding-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 568px) {
+    .icon {
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .office {
+        overflow: none;
+        position: relative;
+        display: block;
+        margin-top: 40px;
+        margin-left: 0px !important;
+    }
+    .nyc,
+    .island,
+    .miami,
+    .dallas,
+    .ire {
+        padding-bottom: 40px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .office {
+        margin-left: 00px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .office {
+        margin-left: 0px;
+    }
+}
