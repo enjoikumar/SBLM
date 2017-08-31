@@ -38,8 +38,10 @@ $(document).ready(function(){
 		count ++;
 		if(count%2){
 			$myNav.css('height','100%');
+			$('.carousel-indicators').css('display', 'none');
 		} else{
 			$myNav.css('height','0%');
+			$('.carousel-indicators').css('display', 'block');
 		}
 	})
 })
