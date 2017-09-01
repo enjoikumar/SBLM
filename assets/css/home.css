@@ -17,6 +17,7 @@ body {
 	vertical-align: top;
 	float: right;
 	padding-left: 60px !important;
+    margin-top: 3px !important;
 }
 .topnav .fa:hover{
 	background-color: white !important;
