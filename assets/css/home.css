@@ -5,8 +5,32 @@ body {
     /*font-family: 'Roboto', sans-serif;*/
     overflow-x: hidden;
     font-weight: lighter !important;
+    -webkit-font-smoothing: antialiased;
 }
 
+.fa {
+	background-color: #e4e4e4;
+	height: 100%;
+	font-size: 16px !important;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: top;
+	float: right;
+	padding-left: 60px !important;
+}
+.topnav .fa:hover{
+	background-color: white !important;
+    color: #e4e4e4 !important;
+}
+.topnav .fa-facebook,
+.topnav .fa-twitter,
+.topnav .fa-instagram,
+.topnav .fa-linkedin{
+    width: 5px;
+    background-color: white;
+    color: black !important;
+    margin-left: -40px !important;
+}
 .fold p {
     max-width: 33%;
 }
