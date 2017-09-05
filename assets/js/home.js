@@ -44,6 +44,11 @@ $(document).ready(function(){
 			$('.carousel-indicators').css('display', 'block');
 		}
 	})
+
+	// if($(window).width() >= 414){
+ //    $('.overlay').css('display', 'none');
+ //    $('.burger').css('display', 'none');
+ //  }
 })
 
 

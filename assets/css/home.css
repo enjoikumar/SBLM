@@ -271,12 +271,18 @@ a.sblm {
         display: block;
         text-align: left;
     }
+    .topnav .fa {
+      display: none !important;
+    }
 }
 
 @media only screen and (max-width: 736px) {
     .topnav {
         width: 736px;
         height: 50px;
+    }
+    .topnav .fa {
+      display: none !important;
     }
 }
 
@@ -309,6 +315,9 @@ a.sblm {
     .topnav {
         width: 667px;
     }
+    .topnav .fa {
+      display: none !important;
+    }
 }
 
 @media only screen and (max-width: 568px) {
@@ -339,6 +348,9 @@ a.sblm {
     }
     .topnav {
         width: 568px;
+    }
+    .topnav .fa {
+      display: none !important;
     }
 }
 
@@ -378,8 +390,7 @@ a.sblm {
     .topnav .fa {
       display: none !important;
     }
-    a.fa.fa-facebook{
-    }
+    
     a.fa.fa-linkedin, a.fa.fa-twitter,
     a.fa.fa-facebook, a.fa.fa-instagram{
       background-color: white !important;
@@ -420,6 +431,13 @@ a.sblm {
     .icon {
         margin-top: 5px;
     }
+    a.fa.fa-linkedin, a.fa.fa-twitter,
+    a.fa.fa-facebook, a.fa.fa-instagram{
+      background-color: white !important;
+      width: 10px !important;
+      float: left !important;
+      margin-left: -5px !important;
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -450,6 +468,14 @@ a.sblm {
     }
     .topnav {
         width: 320px;
+    }
+
+    a.fa.fa-linkedin, a.fa.fa-twitter,
+    a.fa.fa-facebook, a.fa.fa-instagram{
+      background-color: white !important;
+      width: 60px !important;
+      float: left !important;
+      margin-left: 0px !important;
     }
 }
 
