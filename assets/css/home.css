@@ -343,6 +343,9 @@ a.sblm {
 }
 
 @media screen and (max-width: 414px) {
+  .link{
+    display: none !important;
+  }
     ul.topnav li:not(: first-child) {
         display: none;
     }
@@ -371,6 +374,17 @@ a.sblm {
     .topnav {
         width: 414px;
         color: red;
+    }
+    .topnav .fa {
+      display: none !important;
+    }
+    a.fa.fa-facebook{
+    }
+    a.fa.fa-linkedin, a.fa.fa-twitter,
+    a.fa.fa-facebook, a.fa.fa-instagram{
+      background-color: white !important;
+      width: 10px !important;
+      float: left !important;
     }
 }
 
