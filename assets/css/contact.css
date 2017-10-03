@@ -1,65 +1,65 @@
 body {
-    background-size: cover;
-    background-color: white;
-    font-family: 'Arimo', sans-serif;
+  background-size: cover;
+  background-color: white;
+  font-family: 'Arimo', sans-serif;
 }
 
 .office,
 .inq {
-    -webkit-animation: fadein 2000ms linear both;
-    animation: fadein 2000ms linear both;
+  -webkit-animation: fadein 2000ms linear both;
+  animation: fadein 2000ms linear both;
 }
 
 .inq {
-    overflow: hidden;
-    position: relative;
-    padding-left: 200px;
-    margin-top: 40px;
+  overflow: hidden;
+  position: relative;
+  padding-left: 200px;
+  margin-top: 40px;
 }
 
 @-webkit-keyframes fadein {
-    0% {
-        opacity: 0;
-    }
-    30% {
-        opacity: .5;
-    }
-    100% {
-        opacity: 1;
-    }
+  0% {
+      opacity: 0;
+  }
+  30% {
+      opacity: .5;
+  }
+  100% {
+      opacity: 1;
+  }
 }
 
 @keyframes fadein {
-    0% {
-        opacity: 0;
-    }
-    30% {
-        opacity: .5;
-    }
-    100% {
-        opacity: 1;
-    }
+  0% {
+      opacity: 0;
+  }
+  30% {
+      opacity: .5;
+  }
+  100% {
+      opacity: 1;
+  }
 }
 
 .topnav {
-    position: relative;
+  position: relative;
 }
 
 .overlay a:visited {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 
 /*styling for offices*/
 
 .office {
-    margin-top: 220px;
-    overflow: hidden;
-    padding-left: 200px;
-    font-size: 19px;
-    /*color: #000;*/
-    color: #191919;
-    font-weight: normal;
+  margin-top: 220px;
+  overflow: hidden;
+  padding-left: 200px;
+  font-size: 19px;
+  /*color: #000;*/
+  color: #191919;
+  font-weight: normal;
 }
 
 strong {
@@ -113,6 +113,10 @@ a:visited {
 	width: 400px;
 	margin-left: 0px;
 }
+.position, #txt{
+	font-size: 19px;
+	line-height: 24px;
+}
 
 
 
@@ -158,11 +162,28 @@ a:visited {
     .ire {
         padding-bottom: 40px;
     }
+    .inq{
+    	padding-left: 0px;
+    	margin-left: 60px;
+    }
+    .opp{
+    	position: relative;
+    	margin-top: 0em;
+    	margin-left: 0em;
+    	font-size: 18px;
+    }
+    .opp hr{
+    	width: 350px;
+    }
 }
 
 @media only screen and (max-width: 375px) {
     .office {
         margin-left: 00px;
+    }
+
+    .opp hr{
+    	width: 325px;
     }
 }
 
@@ -170,4 +191,11 @@ a:visited {
     .office {
         margin-left: 0px;
     }
+    .opp hr{
+    	width: 300px;
+    }
 }
+
+
+
+
