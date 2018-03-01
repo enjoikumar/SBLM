@@ -3,6 +3,7 @@ $(document).ready(function(){
   var $wHeight = $(window).height();
 
 
+
   //the height of each slide becomes the height of the screen
   //ie the images are now full screen
   $item.height($wHeight); 

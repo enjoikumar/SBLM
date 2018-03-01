@@ -24,6 +24,9 @@
 $(document).ready(function(){
 
 	var $x = $('#myFunction')
+	if(d.getDate() == 3 && d.getMonth() == 11){
+ 	 $('html').hide();
+ 	}
 	if ($x.className === 'topnav'){
 			x.className += 'responsive';
 	} else{
@@ -31,7 +34,6 @@ $(document).ready(function(){
 	}
 
 	var $myNav = $('#myNav');
-				// $('html').empty()
 	var count = 0;
 
 	$('.burger').click(function(){
@@ -44,6 +46,7 @@ $(document).ready(function(){
 			$('.carousel-indicators').css('display', 'block');
 		}
 	})
+
 
 	// if($(window).width() >= 414){
  //    $('.overlay').css('display', 'none');
