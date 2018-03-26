@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  
   $down = $('.down')
 
   $down.click(function() {
@@ -37,7 +38,7 @@ $(document).ready(function(){
       scrollTop: $('.history4 img').offset().top
     }, 800)
   })
-  
+
   if($(window).width() <= 800){
     $('.animation-element').removeClass('animation-element')
   };

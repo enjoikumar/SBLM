@@ -1,4 +1,3 @@
-
 $(document).ready(function(){
 
   //just another way of writing document.ready
@@ -46,7 +45,6 @@ $(document).ready(function(){
 
   var $animation_elements = $('.animation-element');
   var $window = $(window);
-
   function check_if_in_view() {
     var window_height = $window.height();
     var window_top_position = $window.scrollTop();
@@ -65,7 +63,6 @@ $(document).ready(function(){
       }
     });
   }
-
   $window.on('scroll resize', check_if_in_view);
   $window.trigger('scroll');
 
@@ -101,7 +98,6 @@ $(document).ready(function(){
         scrollTop: $('.history3 img').offset().top
       }, 800)
   })
-
   $('.history3 img').click(function(){
     $('html, body').animate({
         scrollTop: $('.footer').offset().top

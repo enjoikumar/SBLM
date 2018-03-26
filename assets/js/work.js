@@ -1,6 +1,5 @@
 $(document).ready(function(){
 
-
   //naming the filter bar to call for functions later
   $education = $("#education");
 
@@ -15,12 +14,10 @@ $(document).ready(function(){
   $all = $('#all');
 
   $all.css('background-color', 'white');
-
   // each click function changes the grayscale of the item to none
   // making it in color while the others remain in black and white
   //used the $education and then ('#education') for separation and make it easier to read
   //created it into a variable so..it can be pushed for later
-
   var $allColor= function(){
     $all.click(function(){
       $education.css('background-color', '#f5f5f5')

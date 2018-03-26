@@ -1,4 +1,3 @@
-
 $(document).ready(function(){
 
   $education = $("#education");
@@ -13,10 +12,8 @@ $(document).ready(function(){
 
   $all = $('#all');
   
-
   // each click function changes the grayscale of the item to none
   // making it in color while the others remain in black and #333
-
   var $allColor= function(){
     $all.click(function(){
       $education.css('background-color', '#f5f5f5')
@@ -34,7 +31,6 @@ $(document).ready(function(){
     });
   }
   $allColor()
-
   var $edu = function(){
     $education.click(function(){
 
@@ -72,7 +68,6 @@ $(document).ready(function(){
     });
   }
   $ret()
-
   var $mix = function(){
     $mixed.click(function(){
 

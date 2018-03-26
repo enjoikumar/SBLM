@@ -1,5 +1,4 @@
 $(document).ready(function(){
-
   //just another way of writing document.ready
   //but for some reason, need to have both
   //could be a conflict of libraries
@@ -24,7 +23,6 @@ $(document).ready(function(){
   [].forEach.call( $items, function(el){
     el.classList.remove('show');
   });
-  
   // add .show to the one item that's supposed to have it
   $items[itemToShow].classList.add('show');
   };
@@ -65,7 +63,6 @@ $(document).ready(function(){
       }
     });
   }
-
   $window.on('scroll resize', check_if_in_view);
   $window.trigger('scroll');
 
@@ -89,7 +86,6 @@ $(document).ready(function(){
         scrollTop: $(".empty").offset().top
     }, 800);
   })
-
   $('.history1 img').click(function(){
     $('html, body').animate({
       scrollTop: $('.history2 img').offset().top

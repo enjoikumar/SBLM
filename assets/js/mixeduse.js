@@ -1,4 +1,3 @@
-
 $(document).ready(function(){
 
   $education = $("#education");
@@ -12,7 +11,6 @@ $(document).ready(function(){
   $civic = $("#civic");
 
   $all = $('#all');
-  
 
   // each click function changes the grayscale of the item to none
   // making it in color while the others remain in black and white

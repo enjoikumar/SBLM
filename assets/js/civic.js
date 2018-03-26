@@ -12,8 +12,6 @@ $(document).ready(function(){
 
   $all = $('#all');
   
-
-
   // each click function changes the grayscale of the item to none
   // making it in color while the others remain in black and white
 
@@ -267,7 +265,6 @@ $(document).ready(function(){
   }
 
   $civic.trigger('click')
-
 });
 
 

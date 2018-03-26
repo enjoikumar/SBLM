@@ -1,5 +1,4 @@
 $(document).ready(function(){
-
   // //Declaring variables
   // var $current, $next, $slides = $(".slideshow2 .slide");
 

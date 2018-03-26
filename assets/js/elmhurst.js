@@ -1,5 +1,4 @@
 $(document).ready(function(){
-
   //just another way of writing document.ready
   //but for some reason, need to have both
   //could be a conflict of libraries

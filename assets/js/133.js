@@ -1,6 +1,4 @@
-
 $(document).ready(function(){
-
   (function(){
 
   var counter = 0, 
@@ -56,7 +54,6 @@ $(document).ready(function(){
   $window.on('scroll resize', check_if_in_view);
   $window.trigger('scroll');  
 
-
   $down = $('.down')
 
   $down.click(function() {
@@ -89,7 +86,6 @@ $(document).ready(function(){
       scrollTop: $('.footer').offset().top
     }, 800)
   })
-
   if($(window).width() <= 800){
     $('.animation-element').removeClass('animation-element')
   };
