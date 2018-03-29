@@ -4,7 +4,6 @@ body {
   margin: 0;
   /*font-family: 'Roboto', sans-serif;*/
   overflow-x: hidden;
-  overflow-y: hidden; 
   font-weight: lighter !important;
   -webkit-font-smoothing: antialiased;
 }
@@ -559,7 +558,6 @@ a.sblm {
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   background-color: white;
-  /*margin-top: 12px;*/
   padding-top: 12px;
 }
 
