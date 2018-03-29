@@ -86,6 +86,10 @@ a {
     background-color: #ee3b2c !important;
 }
 
+.carousel-inner{
+    margin-top: -23px;
+}
+
 @media all and (transform-3d),
 (-webkit-transform-3d) {
     .carousel-fade .carousel-inner > .item.next,
