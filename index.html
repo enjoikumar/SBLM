@@ -10,7 +10,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
   <meta content="no" name="apple-mobile-web-app-capable" />
-  <link rel="stylesheet" type="text/css" href="assets/css/home.css?1.1">
+  <!-- <link rel="stylesheet" type="text/css" href="assets/css/home.css?1.1"> -->
+  <link rel="stylesheet" type="text/css" href="styles.css">
   <link rel="stylesheet" type="text/css" href="assets/css/photo.css?1.1">
   <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
@@ -28,13 +29,10 @@
 
 <body>
   
-  <ul class="topnav" id="myTopnav">
+  <!-- <ul class="topnav" id="myTopnav">
     <li><a class="sblm" href="" style="text-decoration: none;">SBLM</a></li>
     <li><a class="link" id="work" href="work/" style="text-decoration: none;">Work</a></li>
     <li><a class="link" id="about" href="about/">About</a></li>
-
-    <!-- <li><a class="link " id="locations" href="" style="text-decoration: none;">Locations</a></li> -->
-
     <li><a class="link" id="contact" href="contact/" style="text-decoration: none;">Contact</a></li>
     <a href="https://facebook.com/sblmarchitects/" target="blank" class="fa fa-facebook"></a>
     <a href="https://twitter.com/sblmarchitects" target="blank" class="fa fa-twitter"></a>
@@ -60,7 +58,25 @@
       <a href="locations/mia/">Miami</a>
       <a href="locations/dal/">Dallas</a>
     </div>
+  </div> -->
+
+  <div class="navbar">
+    <a class="sblm" href="#home">SBLM</a>
+    <a class="link " href="#news">Work</a>
+    <a class="link" href="#news">About</a>
+
+    <div class="dropdown link">
+      <button class="dropbtn">Locations</button>
+      <div class="dropdown-content">
+        <a class="sec" href="#">New York</a>
+        <a class="sec" href="#">Long Island</a>
+        <a class="sec" href="#">Miami</a>
+        <a class="sec" href="#">Dallas</a>
+      </div> 
+    </div>
+    <a class="link" href="">Contact</a> 
   </div>
+  <div class="empt"></div>
 
   <div id="mycarousel" class="carousel slide carousel-fade" data-ride="carousel">
     <ol class="carousel-indicators">

@@ -527,7 +527,8 @@ a.sblm {
 
 
 .dropdown{
-	position: absolute;
+	position: fixed;
+  top: 0;
 	z-index: 9;
 	margin-top: 0px;
 	margin-left: 560px;
