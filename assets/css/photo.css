@@ -47,6 +47,14 @@ a {
     color: white !important;
 }
 
+.carousel-indicators{
+  margin-left: -30% !important;
+}
+.carousel-caption{
+  bottom: 0 !important;
+  position: fixed !important;
+}
+
 .carousel-control {
     display: none;
 }
