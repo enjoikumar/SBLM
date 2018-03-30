@@ -65,8 +65,6 @@ body{
 
 
 
-
-
 .dropbtn {
   color: black;
   border: none;
@@ -119,3 +117,82 @@ body{
 .dropdown:hover .dropbtn {
   /*background-color: #3e8e41;*/
 }
+
+.burger, .overlay{display: none;}
+
+@media only screen and (width: 414px){
+  .link{
+    display: none;
+  }
+  .burger{
+    display: block;
+    color: black;
+    float: right;
+    margin-right: -130% !important;
+    margin-top: -5% !important;
+    font-size: 36px;
+    z-index: 11;
+  }
+
+  .overlay{
+    /*display: block;*/
+    background-color: black;
+    opacity: .8;
+    width: 414px;
+    height: 736px;
+    z-index: 10;
+    position: absolute;
+    font-size: 44px;
+    animation-name: slidein;
+    animation-duration: .5s;
+  }
+  .overlay a{
+    width: 100%;
+    display: inline-block;
+  }
+  .overlay #x{
+    float: right;
+    margin-top: 3% !important;
+    margin-right: 5% !important;
+    cursor: pointer;
+    color: white;
+  }
+  .overlay #link{
+    margin-left: 28% !important;
+    padding-bottom: 15px;
+    color: white !important;
+    cursor: pointer;
+  }
+  .overlay ul{
+    list-style: none;
+    font-size: 28px;
+    margin-left: 20% !important;
+  }
+  .overlay li{
+    cursor: pointer;
+  }
+}
+
+
+.out{
+  animation-name: slideout;
+  animation-duration: 1s;
+}
+@keyframes slidein{
+   0% {left:-200px;}
+  100%{left:0px;}
+}
+@keyframes slideout{
+   0% {left:0px;}
+  100%{left:-200px;}
+}
+
+
+
+
+
+
+
+
+
+

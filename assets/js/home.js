@@ -49,6 +49,18 @@ function clicker(){
  //  }
 // })
 
+$(document).ready(function(){
+
+  $('.burger').click(function(){
+    $('.overlay').css('display', 'block');
+    $('.burger').css('display', 'none');
+  })  
+  $('#x').click(function(){
+    $('.overlay').css('display', 'none');
+    $('.burger').css('display', 'block');
+
+  })  
+})
 
 
 
