@@ -1,6 +1,6 @@
 body {
   background-color: white;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif !important;
 }
 
 @-webkit-keyframes fadein {
@@ -27,6 +27,19 @@ body {
   }
 }
 
+
+.navbar .link{
+  /*font-family: 'Roboto', sans-serif !important;*/
+}
+.empt{
+  margin-top: -3px !important;
+}
+div.dropdown.link{
+  height: 24px !important;
+}
+
+
+
 .para,
 .list {
   -webkit-animation: fadein 2000ms linear both;
@@ -43,7 +56,7 @@ body {
   font-size: 25px;
   line-height: 40px;
   margin-left: 40px;
-  margin-top: 300px;
+  margin-top: 300px !important;
   padding-left: 160px;
   line-height: 40px;
 }
@@ -99,7 +112,7 @@ p.dr{
 
 .leadership{
 	position: absolute;
-	margin-top: 45%;
+	margin-top: 45% !important;
 }
  img{
 	width: 40%;
@@ -107,34 +120,34 @@ p.dr{
  #name{
 	position: absolute;
 	font-size: 28px;
-	margin-top: -40%;
-	margin-left: 45%;
+	margin-top: -40% !important;
+	margin-left: 45% !important;
 }
  #title{
 	position: absolute;
 	font-size: 20px;
-	margin-top: -37%;
-	margin-left: 45%;
+	margin-top: -37% !important;
+	margin-left: 45% !important;
 	color: gray;
 }
  #quote{
 	position: absolute;
-	margin-top: -32%;
-	margin-left: 45%;
+	margin-top: -32% !important;
+	margin-left: 45% !important;
 	width: 50%;
 }
  #line{
 	position: absolute;
 	background-color: red !important;
-	margin-top: -24%;
-	margin-left: 45%;
+	margin-top: -24% !important;
+	margin-left: 45% !important;
 	width: 50%;
 	height: 1px;
 }
  #bio{
 	position: absolute;
-	margin-top: -20%;
-	margin-left: 45%;
+	margin-top: -20% !important;
+	margin-left: 45% !important;
 	width: 50%;
 }
  #words{
@@ -147,32 +160,32 @@ p.dr{
 	padding-right: 25px;
 }
 .gf #line{
-  margin-top: -22%;
+  margin-top: -22% !important;
 }
 .ml #line{
-  margin-top: -21.5%;
+  margin-top: -21.5% !important;
 }
 .jh #line{
-  margin-top: -20%;
+  margin-top: -20% !important;
 }
 .jh #bio{
-  margin-top: -15%;
+  margin-top: -15% !important;
 }
 .jc #line{
-  margin-top: -22%;
+  margin-top: -22% !important;
 }
 .jc #bio{
-  margin-top: -18%;
+  margin-top: -18% !important;
 }
 .eb #line{
-  margin-top: -21%;
+  margin-top: -21% !important;
 }
 .eb #bio{
-  margin-top: -17%;
+  margin-top: -17% !important;
 }
 .dn, .gf, .jk,
 .ml, .jh, .jc, .eb{
-	margin-top: 5%;
+	margin-top: 5% !important;
 }
 
 
