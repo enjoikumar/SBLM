@@ -120,7 +120,45 @@ body{
 
 .burger, .overlay{display: none;}
 
-@media only screen and (width: 414px){
+
+@media only screen and (max-width: 736px){
+  .navbar .link{
+    padding: 10px 25px 12px 25px !important;
+  }
+
+  .navbar .sblm{
+    padding: 20px 45px 12px 45px !important;
+  }
+
+  .dropdown-content {
+    min-width: 147px;
+    margin-left: -24px !important;
+  }
+}
+
+@media only screen and (width: 568px){
+  .navbar a{
+    font-size: 16px;
+  }
+  .dropbtn{
+    font-size: 16px;
+    padding: 8px 0px 8px 0px !important;
+  }
+  .dropdown-content a{
+    font-size: 16px;
+  }
+
+  .empt{
+    height: 39px;
+  }
+
+  .dropdown-content {
+    min-width: 117px;
+    margin-left: -24px !important;
+  }
+}
+
+@media only screen and (max-width: 414px){
   .link{
     display: none;
   }
@@ -172,6 +210,40 @@ body{
     cursor: pointer;
   }
 }
+
+@media only screen and (width: 375px){
+  .burger{
+    margin-right: -110% !important;
+  }
+  .overlay #x{
+    margin-right: 12% !important;
+  }
+}
+
+@media only screen and (width: 320px){
+  .burger{
+    margin-right: -80% !important;
+  }
+  .overlay #x{
+    margin-right: 28% !important;
+  }
+
+  .overlay{
+    font-size: 36px;
+  }
+  .overlay #link{
+    margin-left: 20%;
+  }
+  .overlay li{
+    font-size: 24px;
+  }
+  .mur{
+    font-size: 23px !important;
+  }
+}
+
+
+
 
 
 .out{
