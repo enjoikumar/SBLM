@@ -129,7 +129,7 @@ div.dropdown.link{
 
 .boxInner img {
     -webkit-filter: grayscale(100%);
-    opacity: .7 !important;
+    /*opacity: .7 !important;*/
     filter: grayscale()=grayscale( [100] | [100]);
     /*opacity: .25;*/
     width: 100%;
@@ -147,7 +147,7 @@ div.dropdown.link{
 }
 
 .notgray:hover {
-    /*opacity: .1 !important;*/
+    opacity: .1 !important;
     filter: grayscale(0%) !important;
 }
 
@@ -181,9 +181,10 @@ a {
 .text {
     font-weight: normal !important;
     white-space: nowrap !important;
+    color: black;
     font-size: 32px !important;
-    -webkit-animation: fadein 1000ms linear both !important;
-    animation: fadein 1000ms linear both !important;
+    -webkit-animation: fadein 500ms linear both !important;
+    animation: fadein 500ms linear both !important;
     z-index: 5 !important;
 }
 
