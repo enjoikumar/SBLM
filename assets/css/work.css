@@ -1,19 +1,24 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
-    background-color: white;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: white;
 }
 
-.dropdown{
+/*.dropdown{
 	margin-top: 0px;
     top: 0;
     position: fixed;
+}*/
+div.dropdown.link{
+  height: 24px !important;
+  font-weight: normal !important;
 }
 
+
 .topnav {
-    height: 55px;
-    border-bottom: solid 1px #e4e4e4;
+  height: 55px;
+  border-bottom: solid 1px #e4e4e4;
 }
 
 .topnav a {
@@ -81,7 +86,7 @@ body {
     padding-top: 46px;
     background-color: #f5f5f5;
     overflow: hidden;
-    margin-top: -10px;
+    margin-top: -10px !important;
     border-top: solid 1px #ccc;
     margin-left: -45px;
     height: 43px
@@ -91,13 +96,13 @@ body {
 /*project styling*/
 
 .wrap {
-    overflow: hidden;
-    max-width: 100%;
-    margin-top: 265px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 0px !important;
-    padding-bottom: 0px !important;
+  overflow: hidden;
+  max-width: 100%;
+  margin-top: 265px !important;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
 }
 
 .box {
@@ -124,7 +129,7 @@ body {
 
 .boxInner img {
     -webkit-filter: grayscale(100%);
-    opacity: .5;
+    opacity: .7 !important;
     filter: grayscale()=grayscale( [100] | [100]);
     /*opacity: .25;*/
     width: 100%;
@@ -137,7 +142,7 @@ body {
 }
 
 .boxInner:hover {
-    opacity: .25 !important;
+    opacity: .5 !important;
     filter: grayscale(0%) !important;
 }
 
@@ -174,11 +179,12 @@ a {
 }
 
 .text {
-    font-weight: normal;
-    white-space: nowrap;
-    font-size: 32px;
-    -webkit-animation: fadein 3000ms linear both;
-    animation: fadein 3000ms linear both;
+    font-weight: normal !important;
+    white-space: nowrap !important;
+    font-size: 32px !important;
+    -webkit-animation: fadein 1000ms linear both !important;
+    animation: fadein 1000ms linear both !important;
+    z-index: 5 !important;
 }
 
 @-webkit-keyframes fadein {
