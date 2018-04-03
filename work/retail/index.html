@@ -19,25 +19,40 @@
 </head>
 
 <body>
-    <ul class="topnav" id="myTopnav">
-        <li><a class="sblm" href="../../">SBLM</a></li>
-        <li><a class="link" id="work" href="">Work</a></li>
-        <li><a class="link" id="about" href="../../about/">About</a></li>
-        <li><a class="link" id="contact" href="../../contact/">Contact</a></li>
-        <a href="https://facebook.com/sblmarchitects/" target="blank" class="fa fa-facebook"></a>
-        <a href="https://twitter.com/sblmarchitects" target="blank" class="fa fa-twitter"></a>
-        <a href="https://instagram.com/sblmarchitects" target="blank" class="fa fa-instagram"></a>
-        <a href="https://linkedin.com/company/1510331/" target="blank" class="fa fa-linkedin"></a>
-        <li class="icon"> <span class="burger">&#9776;</span> </li>
-    </ul>
-    <div id="myNav" class="overlay">
-        <div class="overlay-content"> <a href="">Work</a> <a href="../../about/">About</a> <a href="../../contact/">Contact</a>
-            <a href="https://facebook.com/sblmarchitects/" target="blank" class="fa fa-facebook"></a>
-            <a href="https://twitter.com/sblmarchitects" target="blank" class="fa fa-twitter"></a>
-            <a href="https://instagram.com/sblmarchitects" target="blank" class="fa fa-instagram"></a>
-            <a href="https://linkedin.com/company/1510331/" target="blank" class="fa fa-linkedin"></a>
-        </div>
+  <div class="navbar">
+    <a class="sblm" href="../../../">SBLM</a>
+    <a class="link " href="">Work</a>
+    <a class="link" href="../../about">About</a>
+
+    <div class="dropdown link">
+      <button class="dropbtn">Locations</button>
+      <div class="dropdown-content">
+        <a class="sec" href="../../locations/ny">New York</a>
+        <a class="sec" href="../../locations/li">Long Island</a>
+        <a class="sec" href="../../locations/mia">Miami</a>
+        <a class="sec" href="../../locatins/dal">Dallas</a>
+      </div> 
     </div>
+    <a class="link" href="../../contact">Contact</a>
+    <span class="burger">&#9776;</span>
+  </div>
+  <div class="empt"></div>
+
+  <div class="overlay">
+    <div id="x">x</div>
+    <a id="link" href="work">Work</a>
+    <a id="link" href="about">About</a>
+    <div id="link">Locations</div>
+      <ul>
+        <li><a href="../locations/ny">New York</a></li>
+        <li><a href="../locations/li">Long Island</a></li>
+        <li><a href="../locations/mi">Miami</a></li>
+        <li><a href="../locations/dal">Dallas</a></li>
+      </ul>
+    <a id="link" href="../../contact">Contact</a>
+  </div>
+
+
     <div class="filter"> <a id="all">All</a> <a class="edufil" id="education">Education</a> <a id="retail">Retail</a> <a id="mixed">Mixed Use</a> <a id="civic">Civic</a> <a id="health">Healthcare</a> <a id="view">Thumbnail</a> <a id="thumbnail">List</a> <a id="list">View As:</a> </div>
     <div class="wrap">
         <a href="../projects/brooklyn-navy-yard/" alt="Brooklyn Navy Yard Sands Building">
