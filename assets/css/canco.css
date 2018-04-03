@@ -1,1 +1,692 @@
-*{margin:0}body{font-family:'Roboto',sans-serif}.history span{font-size:1.25em}.history6{width:100%;height:66%;padding-bottom:20px;margin-top:670px}.expand{position:relative;font-size:30px;float:right;cursor:pointer;color:white;z-index:3;margin-top:-575px;margin-right:40px}.fold{position:absolute;font-size:20px!important;margin-top:-664px;width:89.1%;height:441px;color:black;background-color:white;padding:80px 80px 80px 60px;padding-top:120px;padding-left:130px;opacity:.75;font-family:'Arimo',sans-serif}.fold p{margin-top:-20px;max-width:50%!important}.history1{padding-top:40px}.history1 span{font-size:20px;width:400px;float:right;margin-right:120px;margin-top:300px}.history2 img{float:right;margin-top:80px}.history2 span{font-size:20px;float:left;width:400px;margin-left:120px;margin-top:400px}.history3 img{margin-top:80px}.history4 img{float:right;margin-top:80px}.down{width:20%;height:100%;top:0;margin-left:40%;z-index:5;position:absolute}.down:hover{cursor:url(../../images/icons/down.png),s-resize}.project-history{padding-top:20px;padding-left:40px;font-size:1.75em}.empty{height:50px}.press{position:absolute;height:640px;width:93%;margin-top:-645px;z-index:10;cursor:url(../../images/icons/down.png),s-resize}.history img:hover{cursor:url(../../images/icons/down.png),auto}@media only screen and (width:2560px){.title{margin-top:-73px!important}.fold{width:94.5%;height:1073px;margin-top:-667px;font-size:20px;padding-left:190px;font-family:'Arimo',sans-serif}.fold p{max-width:50%!important;font-size:29px!important;line-height:48px!important}.history1 img{width:1000px;height:1200px}.history1 span{width:800px;margin-right:300px;margin-top:500px;font-size:30px;line-height:48px!important}.history2 img{width:1000px;height:1200px;margin-top:200px}.history2 span{width:800px;margin-left:300px;margin-top:600px;font-size:30px;line-height:48px!important}.history3 img{width:1400px;height:1000px;margin-top:800px}.history4 img{width:1400px;height:1000px;margin-top:100px}.history6{height:600px}.press{position:absolute;height:1225px;width:95%;margin-top:-1255px;z-index:10}.footer{margin-top:1120px!important}}@media only screen and (width:1920px){.project-history{font-size:1.5em}.history{font-size:1.5em}.fold{margin-top:-666px;width:92.7%;height:760px;font-size:25px!important}.fold p{font-size:28px!important;line-height:45px!important}.history1 img{width:800px;height:1000px}.history1 span{font-size:30px;line-height:48px;width:600px;margin-right:200px;margin-top:400px}.history2 img{width:800px;height:1000px;margin-top:100px}.history2 span{font-size:30px;line-height:48px;width:600px;margin-left:250px;margin-top:400px}.history3 img{width:1200px;height:800px;margin-top:100px}.history4 img{width:1200px;height:800px}.press{width:95%;height:955px;margin-top:-985px}.footer{margin-top:880px!important}}@media only screen and (width:1440px){.fold{margin-top:-644px;width:1300px;height:520px}.fold p{max-width:50%!important}}@media only screen and (width:1366px){.fold{margin-top:-644px;height:483px;width:1226px}}@media only screen and (width:1080px){.fold{margin-top:-564px;width:940px;height:340px}.history1 img{width:500px;height:700px}.history1 span{width:300px;margin-top:200px}.history2 img{width:500px;height:700px}.history2 span{width:300px;margin-top:350px}}@media only screen and (width:1024px){.fold{margin-top:-564px;width:884px;height:313px}.fold p{margin-top:-50px;max-width:80%!important}.history1 img{width:500px;height:700px}.history1 span{width:300px;margin-top:200px}.history2 img{width:500px;height:700px}.history2 span{width:300px;margin-top:350px}}@media only screen and (width:800px){.fold{font-size:20px!important;height:280px;width:660px;margin-top:-584px;padding-top:40px}.fold p{max-width:70%!important;margin-top:20px}.history1 img{width:700px;height:900px;margin-left:50px}.history1 span{width:700px;margin-top:40px;margin-right:50px}.history2 img{width:700px;height:900px;margin-right:50px}.history2 span{width:700px;margin-top:40px;margin-left:50px}.history3 img,.history4 img{width:100%}.press{width:90%;height:365px;margin-top:-390px}}@media only screen and (width:768px){.fold{margin-top:-508px;width:628px;height:185px}.fold p{margin-top:-70px;max-width:80%!important}.history1 img{width:700px;margin-left:34px}.history1 span{width:700px;margin-right:34px;margin-top:20px}.history2 img{width:700px;margin-right:34px}.history2 span{width:700px;margin-left:34px;margin-top:20px}}@media only screen and (max-width:736px){.fold{font-size:20px!important;height:248px;width:596px;margin-top:-584px;padding-top:40px}.fold p{max-width:70%!important;margin-top:-20px}.history1 img{width:696px;height:900px;margin-left:20px}.history1 span{width:696px;margin-top:40px;margin-right:0}.history2 img{width:696px;height:900px;margin-right:20px}.history2 span{width:696px;margin-top:40px;margin-left:20px}.history3 img,.history4 img{width:100%}.press{width:90%;height:365px;margin-top:-390px}}@media only screen and (max-width:667px){.fold{margin-top:-584px;font-size:17px!important;width:568px;height:234px;padding-left:20px;padding-top:20px}.fold p{margin-top:20px}.history1 img{width:600px;height:900px;margin-left:34px}.history1 span{width:600px;margin-top:40px;margin-right:20px}.history2 img{width:600px;height:900px;margin-right:24px}.history2 span{width:600px;margin-top:40px;margin-left:34px}.history3 img,.history4 img{width:100%}.press{width:89%;height:335px;margin-top:-360px}}@media only screen and (max-width:568px){.fold{margin-top:-664px;font-size:14px!important;width:468px;height:185px}.history1 img{width:500px;height:900px;margin-left:34px}.history1 span{width:500px;margin-top:40px;margin-right:20px}.history2 img{width:500px;height:900px;margin-right:30px}.history2 span{width:500px;margin-top:40px;margin-left:34px}.history3 img,.history4 img{width:100%}.press{width:92%;height:285px;margin-top:-310px}}@media only screen and (max-width:414px){.fold{font-size:12px!important;margin-top:-604px;width:314px!important;height:108px!important}.fold p{max-width:90%!important;margin-top:-5px}.title{font-size:20px!important;padding:10px 20px 10px 10px;margin-top:-44px}.history1{margin-top:-400px!important}.history1 img{width:100%;margin-left:0}.history1 span{width:375px;font-size:1em;margin-right:0;margin-top:20px}.history2 img{width:100%;height:600px;margin-right:0}.history2 span{width:375px;margin-left:30px;margin-top:20px}.history3 img,.history4 img{width:100%;height:400px;margin-top:40px}.press{display:none}.footer{margin-top:440px!important}.footer a{margin-left:45px!important}.footer .line{margin-left:60px!important}}@media only screen and (max-width:375px){.fold{margin-top:-604px;font-size:10px!important;width:275px!important;height:88px!important}.history1 img{width:100%;margin-left:0}.history1 span{width:320px;font-size:16px;margin-right:25px;margin-top:20px}.history2 img{width:100%;height:600px;margin-right:0}.history2 span{width:320px;font-size:16px;margin-left:40px;margin-top:20px}.history3 img,.history4 img{width:100%;height:400px;margin-top:40px}.footer .line{margin-left:30px!important}}@media only screen and (max-width:320px){.fold{margin-top:-604px;font-size:9px!important;width:220px!important;height:60px!important}.history1 img{width:100%;height:500px;margin-left:0;padding-top:40px}.history1 span{width:290px;font-size:16px;margin-right:10px;margin-top:20px}.history2 img{width:100%;height:500px;margin-right:0}.history2 span{width:290px;font-size:16px;margin-left:20px;margin-top:20px}.history3 img,.history4 img{width:100%;height:400px;margin-top:40px}.footer{font-size:15px!important}.footer .line{margin-left:20px!important}.footer a{margin-left:25px!important}}.footer{position:absolute;overflow:hidden;color:white;font-size:17px;background-color:black;width:100%;height:40px;cursor:pointer;margin-top:580px;z-index:3}.footer p{display:inline-block;margin-top:11px;margin-left:20px}.footer .line{margin-left:35px}.footer a{text-decoration:none;color:white;margin-left:40px}
+* {
+    margin: 0
+}
+
+body {
+    font-family: 'Roboto', sans-serif
+}
+
+div.dropdown.link{
+	height: 24px !important;
+}
+.empt{
+	margin-top: -3px !important; 
+}
+
+.history span {
+    font-size: 1.25em !important;
+}
+
+.history6 {
+    width: 100%;
+    height: 66%;
+    padding-bottom: 20px !important;
+    margin-top: 670px !important;
+}
+
+.expand {
+    position: relative;
+    font-size: 30px;
+    float: right;
+    cursor: pointer;
+    color: white;
+    z-index: 3;
+    margin-top: -575px !important;
+    margin-right: 40px !important;
+}
+
+.fold {
+    position: absolute;
+    font-size: 20px!important;
+    margin-top: -664px !important;
+    width: 89.1% !important;
+    height: 441px !important;
+    color: black;
+    background-color: white;
+    padding: 80px 80px 80px 60px;
+    padding-top: 120px !important;
+    padding-left: 130px !important;
+    opacity: .75;
+    font-family: 'Arimo', sans-serif
+}
+
+.fold p {
+    margin-top: -20px !important;
+    max-width: 50%!important;
+}
+
+.history1 {
+    padding-top: 40px !important;
+}
+
+.history1 span {
+    font-size: 20px;
+    width: 400px;
+    float: right;
+    margin-right: 120px !important;
+    margin-top: 300px !important;
+}
+
+.history2 img {
+    float: right;
+    margin-top: 80px !important;
+}
+
+.history2 span {
+    font-size: 20px;
+    float: left;
+    width: 400px;
+    margin-left: 120px !important;
+    margin-top: 400px !important;
+}
+
+.history3 img {
+    margin-top: 80px !important;
+}
+
+.history4 img {
+    float: right;
+    margin-top: 80px !important;
+}
+
+.down {
+    width: 20%;
+    height: 100%;
+    top: 0;
+    margin-left: 40%;
+    z-index: 5;
+    position: absolute
+}
+
+.down:hover {
+    cursor: url(../../images/icons/down.png), s-resize
+}
+
+.project-history {
+    padding-top: 20px !important;
+    padding-left: 40px !important;
+    font-size: 1.75em;
+}
+
+.empty {
+    height: 50px
+}
+
+.press {
+    position: absolute;
+    height: 640px;
+    width: 93%;
+    margin-top: -645px;
+    z-index: 10;
+    cursor: url(../../images/icons/down.png), s-resize
+}
+
+.history img:hover {
+    cursor: url(../../images/icons/down.png), auto
+}
+
+@media only screen and (width:2560px) {
+    .title {
+        margin-top: -73px!important
+    }
+    .fold {
+        width: 94.5%;
+        height: 1073px;
+        margin-top: -667px;
+        font-size: 20px;
+        padding-left: 190px;
+        font-family: 'Arimo', sans-serif
+    }
+    .fold p {
+        max-width: 50%!important;
+        font-size: 29px!important;
+        line-height: 48px!important
+    }
+    .history1 img {
+        width: 1000px;
+        height: 1200px
+    }
+    .history1 span {
+        width: 800px;
+        margin-right: 300px;
+        margin-top: 500px;
+        font-size: 30px;
+        line-height: 48px!important
+    }
+    .history2 img {
+        width: 1000px;
+        height: 1200px;
+        margin-top: 200px
+    }
+    .history2 span {
+        width: 800px;
+        margin-left: 300px;
+        margin-top: 600px;
+        font-size: 30px;
+        line-height: 48px!important
+    }
+    .history3 img {
+        width: 1400px;
+        height: 1000px;
+        margin-top: 800px
+    }
+    .history4 img {
+        width: 1400px;
+        height: 1000px;
+        margin-top: 100px
+    }
+    .history6 {
+        height: 600px
+    }
+    .press {
+        position: absolute;
+        height: 1225px;
+        width: 95%;
+        margin-top: -1255px;
+        z-index: 10
+    }
+    .footer {
+        margin-top: 1120px!important
+    }
+}
+
+@media only screen and (width:1920px) {
+    .project-history {
+        font-size: 1.5em
+    }
+    .history {
+        font-size: 1.5em
+    }
+    .fold {
+        margin-top: -666px;
+        width: 92.7%;
+        height: 760px;
+        font-size: 25px!important
+    }
+    .fold p {
+        font-size: 28px!important;
+        line-height: 45px!important
+    }
+    .history1 img {
+        width: 800px;
+        height: 1000px
+    }
+    .history1 span {
+        font-size: 30px;
+        line-height: 48px;
+        width: 600px;
+        margin-right: 200px;
+        margin-top: 400px
+    }
+    .history2 img {
+        width: 800px;
+        height: 1000px;
+        margin-top: 100px
+    }
+    .history2 span {
+        font-size: 30px;
+        line-height: 48px;
+        width: 600px;
+        margin-left: 250px;
+        margin-top: 400px
+    }
+    .history3 img {
+        width: 1200px;
+        height: 800px;
+        margin-top: 100px
+    }
+    .history4 img {
+        width: 1200px;
+        height: 800px
+    }
+    .press {
+        width: 95%;
+        height: 955px;
+        margin-top: -985px
+    }
+    .footer {
+        margin-top: 880px!important
+    }
+}
+
+@media only screen and (width:1440px) {
+    .fold {
+        margin-top: -644px;
+        width: 1300px;
+        height: 520px
+    }
+    .fold p {
+        max-width: 50%!important
+    }
+}
+
+@media only screen and (width:1366px) {
+    .fold {
+        margin-top: -644px;
+        height: 483px;
+        width: 1226px
+    }
+}
+
+@media only screen and (width:1080px) {
+    .fold {
+        margin-top: -564px;
+        width: 940px;
+        height: 340px
+    }
+    .history1 img {
+        width: 500px;
+        height: 700px
+    }
+    .history1 span {
+        width: 300px;
+        margin-top: 200px
+    }
+    .history2 img {
+        width: 500px;
+        height: 700px
+    }
+    .history2 span {
+        width: 300px;
+        margin-top: 350px
+    }
+}
+
+@media only screen and (width:1024px) {
+    .fold {
+        margin-top: -564px;
+        width: 884px;
+        height: 313px
+    }
+    .fold p {
+        margin-top: -50px;
+        max-width: 80%!important
+    }
+    .history1 img {
+        width: 500px;
+        height: 700px
+    }
+    .history1 span {
+        width: 300px;
+        margin-top: 200px
+    }
+    .history2 img {
+        width: 500px;
+        height: 700px
+    }
+    .history2 span {
+        width: 300px;
+        margin-top: 350px
+    }
+}
+
+@media only screen and (width:800px) {
+    .fold {
+        font-size: 20px!important;
+        height: 280px;
+        width: 660px;
+        margin-top: -584px;
+        padding-top: 40px
+    }
+    .fold p {
+        max-width: 70%!important;
+        margin-top: 20px
+    }
+    .history1 img {
+        width: 700px;
+        height: 900px;
+        margin-left: 50px
+    }
+    .history1 span {
+        width: 700px;
+        margin-top: 40px;
+        margin-right: 50px
+    }
+    .history2 img {
+        width: 700px;
+        height: 900px;
+        margin-right: 50px
+    }
+    .history2 span {
+        width: 700px;
+        margin-top: 40px;
+        margin-left: 50px
+    }
+    .history3 img,
+    .history4 img {
+        width: 100%
+    }
+    .press {
+        width: 90%;
+        height: 365px;
+        margin-top: -390px
+    }
+}
+
+@media only screen and (width:768px) {
+    .fold {
+        margin-top: -508px;
+        width: 628px;
+        height: 185px
+    }
+    .fold p {
+        margin-top: -70px;
+        max-width: 80%!important
+    }
+    .history1 img {
+        width: 700px;
+        margin-left: 34px
+    }
+    .history1 span {
+        width: 700px;
+        margin-right: 34px;
+        margin-top: 20px
+    }
+    .history2 img {
+        width: 700px;
+        margin-right: 34px
+    }
+    .history2 span {
+        width: 700px;
+        margin-left: 34px;
+        margin-top: 20px
+    }
+}
+
+@media only screen and (max-width:736px) {
+    .fold {
+        font-size: 20px!important;
+        height: 248px;
+        width: 596px;
+        margin-top: -584px;
+        padding-top: 40px
+    }
+    .fold p {
+        max-width: 70%!important;
+        margin-top: -20px
+    }
+    .history1 img {
+        width: 696px;
+        height: 900px;
+        margin-left: 20px
+    }
+    .history1 span {
+        width: 696px;
+        margin-top: 40px;
+        margin-right: 0
+    }
+    .history2 img {
+        width: 696px;
+        height: 900px;
+        margin-right: 20px
+    }
+    .history2 span {
+        width: 696px;
+        margin-top: 40px;
+        margin-left: 20px
+    }
+    .history3 img,
+    .history4 img {
+        width: 100%
+    }
+    .press {
+        width: 90%;
+        height: 365px;
+        margin-top: -390px
+    }
+}
+
+@media only screen and (max-width:667px) {
+    .fold {
+        margin-top: -584px;
+        font-size: 17px!important;
+        width: 568px;
+        height: 234px;
+        padding-left: 20px;
+        padding-top: 20px
+    }
+    .fold p {
+        margin-top: 20px
+    }
+    .history1 img {
+        width: 600px;
+        height: 900px;
+        margin-left: 34px
+    }
+    .history1 span {
+        width: 600px;
+        margin-top: 40px;
+        margin-right: 20px
+    }
+    .history2 img {
+        width: 600px;
+        height: 900px;
+        margin-right: 24px
+    }
+    .history2 span {
+        width: 600px;
+        margin-top: 40px;
+        margin-left: 34px
+    }
+    .history3 img,
+    .history4 img {
+        width: 100%
+    }
+    .press {
+        width: 89%;
+        height: 335px;
+        margin-top: -360px
+    }
+}
+
+@media only screen and (max-width:568px) {
+    .fold {
+        margin-top: -664px;
+        font-size: 14px!important;
+        width: 468px;
+        height: 185px
+    }
+    .history1 img {
+        width: 500px;
+        height: 900px;
+        margin-left: 34px
+    }
+    .history1 span {
+        width: 500px;
+        margin-top: 40px;
+        margin-right: 20px
+    }
+    .history2 img {
+        width: 500px;
+        height: 900px;
+        margin-right: 30px
+    }
+    .history2 span {
+        width: 500px;
+        margin-top: 40px;
+        margin-left: 34px
+    }
+    .history3 img,
+    .history4 img {
+        width: 100%
+    }
+    .press {
+        width: 92%;
+        height: 285px;
+        margin-top: -310px
+    }
+}
+
+@media only screen and (max-width:414px) {
+    .fold {
+        font-size: 12px!important;
+        margin-top: -604px;
+        width: 314px!important;
+        height: 108px!important
+    }
+    .fold p {
+        max-width: 90%!important;
+        margin-top: -5px
+    }
+    .title {
+        font-size: 20px!important;
+        padding: 10px 20px 10px 10px;
+        margin-top: -44px
+    }
+    .history1 {
+        margin-top: -400px!important
+    }
+    .history1 img {
+        width: 100%;
+        margin-left: 0
+    }
+    .history1 span {
+        width: 375px;
+        font-size: 1em;
+        margin-right: 0;
+        margin-top: 20px
+    }
+    .history2 img {
+        width: 100%;
+        height: 600px;
+        margin-right: 0
+    }
+    .history2 span {
+        width: 375px;
+        margin-left: 30px;
+        margin-top: 20px
+    }
+    .history3 img,
+    .history4 img {
+        width: 100%;
+        height: 400px;
+        margin-top: 40px
+    }
+    .press {
+        display: none
+    }
+    .footer {
+        margin-top: 440px!important
+    }
+    .footer a {
+        margin-left: 45px!important
+    }
+    .footer .line {
+        margin-left: 60px!important
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .fold {
+        margin-top: -604px;
+        font-size: 10px!important;
+        width: 275px!important;
+        height: 88px!important
+    }
+    .history1 img {
+        width: 100%;
+        margin-left: 0
+    }
+    .history1 span {
+        width: 320px;
+        font-size: 16px;
+        margin-right: 25px;
+        margin-top: 20px
+    }
+    .history2 img {
+        width: 100%;
+        height: 600px;
+        margin-right: 0
+    }
+    .history2 span {
+        width: 320px;
+        font-size: 16px;
+        margin-left: 40px;
+        margin-top: 20px
+    }
+    .history3 img,
+    .history4 img {
+        width: 100%;
+        height: 400px;
+        margin-top: 40px
+    }
+    .footer .line {
+        margin-left: 30px!important
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .fold {
+        margin-top: -604px;
+        font-size: 9px!important;
+        width: 220px!important;
+        height: 60px!important
+    }
+    .history1 img {
+        width: 100%;
+        height: 500px;
+        margin-left: 0;
+        padding-top: 40px
+    }
+    .history1 span {
+        width: 290px;
+        font-size: 16px;
+        margin-right: 10px;
+        margin-top: 20px
+    }
+    .history2 img {
+        width: 100%;
+        height: 500px;
+        margin-right: 0
+    }
+    .history2 span {
+        width: 290px;
+        font-size: 16px;
+        margin-left: 20px;
+        margin-top: 20px
+    }
+    .history3 img,
+    .history4 img {
+        width: 100%;
+        height: 400px;
+        margin-top: 40px
+    }
+    .footer {
+        font-size: 15px!important
+    }
+    .footer .line {
+        margin-left: 20px!important
+    }
+    .footer a {
+        margin-left: 25px!important
+    }
+}
+
+.footer {
+    position: absolute;
+    overflow: hidden;
+    color: white;
+    font-size: 17px;
+    background-color: black;
+    width: 100%;
+    height: 40px !important;
+    cursor: pointer;
+    margin-top: 580px !important;
+    z-index: 3
+}
+
+.footer p {
+    display: inline-block;
+    margin-top: 11px !important;
+    margin-left: 20px !important;
+}
+
+.footer .line {
+    margin-left: 35px !important;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    margin-left: 40px !important;
+}

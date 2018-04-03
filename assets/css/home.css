@@ -55,7 +55,7 @@ body{
   z-index: 8;
   top: 0;
   position: fixed;
-  margin-top: 0px !important;
+  margin-top: 0px;
 }
 
 .dropdown:hover .dropbtn{

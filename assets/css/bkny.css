@@ -6,78 +6,97 @@ body {
     font-family: 'Roboto', sans-serif
 }
 
-.history {
-    padding-top: 40px;
-    font-size: 1.1em
+div.dropdown.link{
+	height: 24px !important;
+}
+.empt{
+	margin-top: -3px !important; 
 }
 
-.fold {
+.history {
+    padding-top: 40px !important;
+    font-size: 1.1em !important;
+}
+
+.title {
+    font-size: 28px !important;
     position: absolute;
-    font-size: 20px;
-    margin-top: -646px;
+    z-index: 2;
+    padding: 20px 40px 20px 20px;
+    margin-top: -73px !important;
+    color: white;
+    background-color: black;
+    opacity: .8;
+}
+
+
+.fold {
+    position: absolute !important;
+    font-size: 20px !important;
+    margin-top: -646px !important;
     width: 89.1%;
-    height: 482px;
+    height: 482px !important;
     color: black;
     background-color: white;
-    padding: 80px 80px 80px 60px;
+    padding: 80px 80px 80px 60px !important;
     opacity: .75;
     padding-left: 130px;
     font-family: 'Arimo', sans-serif;
     font-size: normal;
-    line-height: 32px
+    line-height: 32px;
 }
 
 .fold p {
-    margin-top: 20px;
-    max-width: 50%!important
+    margin-top: 20px !important;
+    max-width: 50% !important
 }
 
 .history1 img {
-    margin-top: 20px
+    margin-top: 20px !important;
 }
 
 .history1 span {
     width: 400px;
     float: right;
-    margin-right: 75px;
-    margin-top: 150px;
-    font-size: 20px
+    margin-right: 75px !important;
+    margin-top: 150px !important;
+    font-size: 20px !important;
 }
 
 .history2 img {
     float: right;
-    margin-top: 100px
+    margin-top: 100px !important;
 }
 
 .history2 span {
     width: 400px;
     font-size: 20px;
     float: left;
-    margin-top: 250px;
-    margin-left: 60px
+    margin-top: 250px !important;
+    margin-left: 60px !important;
 }
 
 .history3 img {
-    margin-top: 100px
+    margin-top: 100px !important;
 }
 
 .history3 span {
     width: 400px;
     font-size: 20px;
     float: right;
-    margin-right: 125px;
-    margin-top: 350px
+    margin-right: 125px !important;
+    margin-top: 350px !important;
 }
 
 .history4 {
     width: 100%;
     height: 66%;
-    margin-top: 650px
+    margin-top: 650px !important;
 }
 
 .project-history {
-    padding-top: 20px;
-    padding-left: 40px;
+    padding-top: 20px !important;
+    padding-left: 40px !important;
     font-size: 1.75em!important
 }
 
@@ -86,14 +105,14 @@ body {
 }
 
 .empty {
-    height: 50px
+    height: 50px !important;
 }
 
 .press {
     position: absolute;
-    height: 640px;
-    width: 93%;
-    margin-top: -645px;
+    height: 640px !important;
+    width: 93% !important;
+    margin-top: -645px !important;
     z-index: 10;
     cursor: url(../../images/icons/down.png), s-resize
 }
@@ -103,7 +122,7 @@ body {
 }
 
 .history3 img {
-    cursor: auto!important
+    cursor: auto!important;
 }
 
 @media only screen and (min-width:2560px) {
@@ -725,23 +744,23 @@ body {
     font-size: 17px;
     background-color: black;
     width: 100%;
-    height: 40px;
+    height: 40px !important;
     cursor: pointer;
-    margin-top: -4px
+    margin-top: -4px !important;
 }
 
 .footer p {
     display: inline-block;
-    margin-top: 11px;
-    margin-left: 20px
+    margin-top: 11px !important;
+    margin-left: 20px !important;
 }
 
 .footer .line {
-    margin-left: 35px
+    margin-left: 35px !important;
 }
 
 .footer a {
     text-decoration: none;
     color: white;
-    margin-left: 40px
+    margin-left: 40px !important;
 }
