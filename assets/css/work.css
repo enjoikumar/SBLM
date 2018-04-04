@@ -303,7 +303,7 @@ a {
     }
 }
 
-@media only screen and (width: 736px) {
+@media only screen and (max-width: 736px) {
     .filter {
         height: 41px;
     }
@@ -360,7 +360,7 @@ a {
     }
 }
 
-@media only screen and (max-width: 667px) {
+@media only screen and (width: 667px) {
     .icon {
         margin-top: 10px;
     }
@@ -419,7 +419,7 @@ a {
     }
 }
 
-@media only screen and (max-width: 568px) {
+@media only screen and (width: 568px) {
     .filter {
         height: 39px;
     }
@@ -509,7 +509,7 @@ a {
     }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (width: 375px) {
     .project {
         margin-left: 40px;
     }
@@ -533,7 +533,7 @@ a {
     }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (width: 320px) {
     .project {
         margin-left: 25px;
     }
@@ -627,7 +627,7 @@ a {
 table {
     padding-top: 80px;
     color: white;
-    margin-left: 140px;
+    margin-left: 140px !important;
     border-collapse: collapse;
     font: normal;
     font-family: 'Arimo', sans-serif;
