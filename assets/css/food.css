@@ -1,1 +1,226 @@
-*{margin: 0;}body{font-family: 'Roboto', sans-serif;}/*makes the images stack upon one another*/.slideshow{position: relative;display: block;overflow: hidden;}/*makes the slideshow width fit the screen and height, also the transition speed and how opaque the image can be*/figure{position: absolute;opacity: 0;transition: .5s opacity;width: 100%;height: 627px;}/*image is the same height and width of slideshow aka no whitespace*/figure img{width: 100%;height: 627px;}/*first image when shown has a little flash to inidicate its the first one*/figure.show{opacity: 1;position: static;transition: .5s opacity;}/*styling the toggles to go next or right*/.next, .prev{color: #000;position: absolute;background: rgba(0, 0, 0, 0.6);top: 0%;z-index: 1;font-size: 2em;margin-top: -.75em;opacity: 0;user-select: none;height: 100%;width: 50%;}/*when hovering, the cursor changes along with the opaquness*/.next:hover, .prev:hover{opacity: 0;}/*position styling for next and also making the edges smooth*/.next{right: 0;padding: 10px 5px 15px 10px;border-top-left-radius: 3px;border-bottom-left-radius: 3px;text-align: center;}.next:hover{cursor: url("../../images/icons/right.png"), e-resize;}.prev:hover{cursor: url("../../images/icons/left.png"), w-resize;}/*position styling for prev and also making the edges smooth*/.prev{left: 0;padding: 10px 10px 15px 5px;border-top-right-radius: 3px;border-bottom-right-radius: 3px;}.title{font-size: 28px !important;position: absolute;z-index: 2; padding: 20px 40px 20px 20px;margin-top: -73px;color: white;background-color: black;opacity: .8;}.history1{font-size: 18px;color: white;width: 300px;position: absolute;margin-top: -490px;right: 0;background-color: black;padding: 20px 20px 20px 20px;}@media only screen and (width: 2560px){figure{height: 1366px;}figure img{height: 1366px;}.history1{font-size: 30px;width: 800px;margin-top: -790px;}}@media only screen and (width: 1920px){figure{height: 960px;}figure img{height: 960px;}.history1{font-size: 24px;color: white;width: 500px;position: absolute;margin-top: -690px;background-color: black;padding: 20px 20px 20px 20px;}}@media only screen and (max-width: 736px){figure{height: 414px;}figure img{height: 414px;}.title{margin-top: -45px;padding: 10px 10px 10px 10px; font-size: 20px !important;}.history1{display: none;}}@media only screen and (max-width: 667px){figure{height: 375px;}figure img{height: 375px;}}@media only screen and (max-width: 568px){figure{height: 320px;}figure img{height: 320px;}}@media only screen and (max-width: 414px){figure{height: 375px;}figure img{height: 375px;}.title{font-size: 20px !important; padding: 10px 20px 10px 10px;margin-top: -44px;}}@media only screen and (max-width: 375px){figure{height: 350px;}figure img{height: 350px;}}@media only screen and (max-width: 320px){figure{height: 300px;}figure img{height: 300px;}}
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+div.dropdown.link{
+	height: 24px !important;
+}
+.empt{
+	margin-top: -3px !important; 
+}
+
+/*makes the images stack upon one another*/
+
+.slideshow {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+
+/*makes the slideshow width fit the screen and height, also the transition speed and how opaque the image can be*/
+
+figure {
+    position: absolute;
+    opacity: 0;
+    transition: .5s opacity;
+    width: 100%;
+    height: 627px;
+}
+
+
+/*image is the same height and width of slideshow aka no whitespace*/
+
+figure img {
+    width: 100%;
+    height: 627px;
+}
+
+
+/*first image when shown has a little flash to inidicate its the first one*/
+
+figure.show {
+    opacity: 1;
+    position: static;
+    transition: .5s opacity;
+}
+
+
+/*styling the toggles to go next or right*/
+
+.next,
+.prev {
+    color: #000;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    top: 0%;
+    z-index: 1;
+    font-size: 2em;
+    margin-top: -.75em;
+    opacity: 0;
+    user-select: none;
+    height: 100%;
+    width: 50%;
+}
+
+
+/*when hovering, the cursor changes along with the opaquness*/
+
+.next:hover,
+.prev:hover {
+    opacity: 0;
+}
+
+
+/*position styling for next and also making the edges smooth*/
+
+.next {
+    right: 0;
+    padding: 10px 5px 15px 10px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    text-align: center;
+}
+
+.next:hover {
+    cursor: url("../../images/icons/right.png"), e-resize;
+}
+
+.prev:hover {
+    cursor: url("../../images/icons/left.png"), w-resize;
+}
+
+
+/*position styling for prev and also making the edges smooth*/
+
+.prev {
+    left: 0;
+    padding: 10px 10px 15px 5px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.title {
+    font-size: 28px !important;
+    position: absolute;
+    z-index: 2;
+    padding: 20px 40px 20px 20px;
+    margin-top: -73px !important;
+    color: white;
+    background-color: black;
+    opacity: .8;
+}
+
+.history1 {
+    font-size: 18px;
+    color: white;
+    width: 300px;
+    position: absolute;
+    margin-top: -490px !important;
+    right: 0;
+    background-color: black;
+    padding: 20px 20px 20px 20px !important;
+}
+
+@media only screen and (width: 2560px) {
+    figure {
+        height: 1366px;
+    }
+    figure img {
+        height: 1366px;
+    }
+    .history1 {
+        font-size: 30px;
+        width: 800px;
+        margin-top: -790px !important;
+    }
+}
+
+@media only screen and (width: 1920px) {
+    figure {
+        height: 960px;
+    }
+    figure img {
+        height: 960px;
+    }
+    .history1 {
+        font-size: 24px;
+        color: white;
+        width: 500px;
+        position: absolute;
+        margin-top: -690px !important;
+        background-color: black;
+        padding: 20px 20px 20px 20px !important;
+    }
+}
+
+@media only screen and (max-width: 736px) {
+    figure {
+        height: 414px;
+    }
+    figure img {
+        height: 414px;
+    }
+    .title {
+        margin-top: -45px !important;
+        padding: 10px 10px 10px 10px !important;
+        font-size: 20px !important;
+    }
+    .history1 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 667px) {
+    figure {
+        height: 375px;
+    }
+    figure img {
+        height: 375px;
+    }
+}
+
+@media only screen and (max-width: 568px) {
+    figure {
+        height: 320px;
+    }
+    figure img {
+        height: 320px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    figure {
+        height: 375px;
+    }
+    figure img {
+        height: 375px;
+    }
+    .title {
+        font-size: 20px !important;
+        padding: 10px 20px 10px 10px !important;
+        margin-top: -44px !important;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    figure {
+        height: 350px;
+    }
+    figure img {
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    figure {
+        height: 300px;
+    }
+    figure img {
+        height: 300px;
+    }
+}

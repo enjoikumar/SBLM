@@ -132,9 +132,9 @@ div.dropdown.link{
     .fold {
         width: 94.5%;
         height: 1073px;
-        margin-top: -667px;
+        margin-top: -667p !important;
         font-size: 20px;
-        padding-left: 190px;
+        padding-left: 190px !important;
         font-family: 'Arimo', sans-serif
     }
     .fold p {
@@ -148,32 +148,32 @@ div.dropdown.link{
     }
     .history1 span {
         width: 800px;
-        margin-right: 300px;
-        margin-top: 500px;
+        margin-right: 300px !important;
+        margin-top: 500px !important;
         font-size: 30px;
         line-height: 48px!important
     }
     .history2 img {
         width: 1000px;
         height: 1200px;
-        margin-top: 200px
+        margin-top: 200px !important;
     }
     .history2 span {
         width: 800px;
-        margin-left: 300px;
-        margin-top: 600px;
+        margin-left: 300px !important;
+        margin-top: 600px !important;
         font-size: 30px;
         line-height: 48px!important
     }
     .history3 img {
         width: 1400px;
         height: 1000px;
-        margin-top: 800px
+        margin-top: 800px !important;
     }
     .history4 img {
         width: 1400px;
         height: 1000px;
-        margin-top: 100px
+        margin-top: 100px !important;
     }
     .history6 {
         height: 600px
@@ -182,7 +182,7 @@ div.dropdown.link{
         position: absolute;
         height: 1225px;
         width: 95%;
-        margin-top: -1255px;
+        margin-top: -1255px !important;
         z-index: 10
     }
     .footer {
@@ -198,10 +198,10 @@ div.dropdown.link{
         font-size: 1.5em
     }
     .fold {
-        margin-top: -666px;
+        margin-top: -666px !important;
         width: 92.7%;
         height: 760px;
-        font-size: 25px!important
+        font-size: 25px !important;
     }
     .fold p {
         font-size: 28px!important;
@@ -215,25 +215,25 @@ div.dropdown.link{
         font-size: 30px;
         line-height: 48px;
         width: 600px;
-        margin-right: 200px;
-        margin-top: 400px
+        margin-right: 200px !important;
+        margin-top: 400px !important;
     }
     .history2 img {
         width: 800px;
         height: 1000px;
-        margin-top: 100px
+        margin-top: 100px !important;
     }
     .history2 span {
         font-size: 30px;
         line-height: 48px;
         width: 600px;
-        margin-left: 250px;
-        margin-top: 400px
+        margin-left: 250px !important;
+        margin-top: 400px !important;
     }
     .history3 img {
         width: 1200px;
         height: 800px;
-        margin-top: 100px
+        margin-top: 100px !important;
     }
     .history4 img {
         width: 1200px;
@@ -242,10 +242,10 @@ div.dropdown.link{
     .press {
         width: 95%;
         height: 955px;
-        margin-top: -985px
+        margin-top: -985px !important;
     }
     .footer {
-        margin-top: 880px!important
+        margin-top: 880px!important;
     }
 }
 
@@ -262,7 +262,7 @@ div.dropdown.link{
 
 @media only screen and (width:1366px) {
     .fold {
-        margin-top: -644px;
+        margin-top: -644px !important;
         height: 483px;
         width: 1226px
     }
@@ -270,7 +270,7 @@ div.dropdown.link{
 
 @media only screen and (width:1080px) {
     .fold {
-        margin-top: -564px;
+        margin-top: -564px !important;
         width: 940px;
         height: 340px
     }
@@ -280,7 +280,7 @@ div.dropdown.link{
     }
     .history1 span {
         width: 300px;
-        margin-top: 200px
+        margin-top: 200px !important;
     }
     .history2 img {
         width: 500px;
@@ -288,18 +288,18 @@ div.dropdown.link{
     }
     .history2 span {
         width: 300px;
-        margin-top: 350px
+        margin-top: 350px !important;
     }
 }
 
 @media only screen and (width:1024px) {
     .fold {
-        margin-top: -564px;
+        margin-top: -564px !important;
         width: 884px;
         height: 313px
     }
     .fold p {
-        margin-top: -50px;
+        margin-top: -50px !important;
         max-width: 80%!important
     }
     .history1 img {
@@ -308,7 +308,7 @@ div.dropdown.link{
     }
     .history1 span {
         width: 300px;
-        margin-top: 200px
+        margin-top: 200px !important;
     }
     .history2 img {
         width: 500px;
@@ -316,7 +316,7 @@ div.dropdown.link{
     }
     .history2 span {
         width: 300px;
-        margin-top: 350px
+        margin-top: 350px !important;
     }
 }
 
@@ -325,32 +325,32 @@ div.dropdown.link{
         font-size: 20px!important;
         height: 280px;
         width: 660px;
-        margin-top: -584px;
-        padding-top: 40px
+        margin-top: -584px !important;
+        padding-top: 40px !important;
     }
     .fold p {
-        max-width: 70%!important;
-        margin-top: 20px
+        max-width: 70% !important;
+        margin-top: 20px !important;
     }
     .history1 img {
         width: 700px;
         height: 900px;
-        margin-left: 50px
+        margin-left: 50px !important;
     }
     .history1 span {
         width: 700px;
-        margin-top: 40px;
-        margin-right: 50px
+        margin-top: 40px !important;
+        margin-right: 50px !important;
     }
     .history2 img {
         width: 700px;
         height: 900px;
-        margin-right: 50px
+        margin-right: 50px !important;
     }
     .history2 span {
         width: 700px;
-        margin-top: 40px;
-        margin-left: 50px
+        margin-top: 40px !important;
+        margin-left: 50px !important;
     }
     .history3 img,
     .history4 img {
@@ -359,71 +359,71 @@ div.dropdown.link{
     .press {
         width: 90%;
         height: 365px;
-        margin-top: -390px
+        margin-top: -390px !important;
     }
 }
 
 @media only screen and (width:768px) {
     .fold {
-        margin-top: -508px;
+        margin-top: -508px !important;
         width: 628px;
         height: 185px
     }
     .fold p {
-        margin-top: -70px;
-        max-width: 80%!important
+        margin-top: -70px !important;
+        max-width: 80% !important
     }
     .history1 img {
         width: 700px;
-        margin-left: 34px
+        margin-left: 34px !important;
     }
     .history1 span {
         width: 700px;
-        margin-right: 34px;
-        margin-top: 20px
+        margin-right: 34px !important;
+        margin-top: 20px !important;
     }
     .history2 img {
         width: 700px;
-        margin-right: 34px
+        margin-right: 34px !important;
     }
     .history2 span {
         width: 700px;
-        margin-left: 34px;
-        margin-top: 20px
+        margin-left: 34px !important;
+        margin-top: 20px !important;
     }
 }
 
 @media only screen and (max-width:736px) {
     .fold {
-        font-size: 20px!important;
+        font-size: 20px !important;
         height: 248px;
         width: 596px;
-        margin-top: -584px;
-        padding-top: 40px
+        margin-top: -584px !important;
+        padding-top: 40px !important;
     }
     .fold p {
-        max-width: 70%!important;
-        margin-top: -20px
+        max-width: 70% !important;
+        margin-top: -20px !important;
     }
     .history1 img {
         width: 696px;
         height: 900px;
-        margin-left: 20px
+        margin-left: 20px !important;
     }
     .history1 span {
         width: 696px;
-        margin-top: 40px;
-        margin-right: 0
+        margin-top: 40px !important;
+        margin-right: 0px !important;
     }
     .history2 img {
         width: 696px;
         height: 900px;
-        margin-right: 20px
+        margin-right: 20px !important;
     }
     .history2 span {
         width: 696px;
-        margin-top: 40px;
-        margin-left: 20px
+        margin-top: 40px !important;
+        margin-left: 20px !important;
     }
     .history3 img,
     .history4 img {
@@ -432,41 +432,41 @@ div.dropdown.link{
     .press {
         width: 90%;
         height: 365px;
-        margin-top: -390px
+        margin-top: -390px !important;
     }
 }
 
 @media only screen and (max-width:667px) {
     .fold {
-        margin-top: -584px;
+        margin-top: -584px !important;
         font-size: 17px!important;
         width: 568px;
         height: 234px;
-        padding-left: 20px;
-        padding-top: 20px
+        padding-left: 20px !important;
+        padding-top: 20px !important;
     }
     .fold p {
-        margin-top: 20px
+        margin-top: 20px !important;
     }
     .history1 img {
         width: 600px;
         height: 900px;
-        margin-left: 34px
+        margin-left: 34px !important;
     }
     .history1 span {
         width: 600px;
-        margin-top: 40px;
-        margin-right: 20px
+        margin-top: 40px !important;
+        margin-right: 20px !important;
     }
     .history2 img {
         width: 600px;
         height: 900px;
-        margin-right: 24px
+        margin-right: 24px !important;
     }
     .history2 span {
         width: 600px;
-        margin-top: 40px;
-        margin-left: 34px
+        margin-top: 40px !important;
+        margin-left: 34px !important;
     }
     .history3 img,
     .history4 img {
@@ -475,36 +475,36 @@ div.dropdown.link{
     .press {
         width: 89%;
         height: 335px;
-        margin-top: -360px
+        margin-top: -360px !importantl
     }
 }
 
 @media only screen and (width:568px) {
     .fold {
-        margin-top: -664px;
-        font-size: 14px!important;
+        margin-top: -664px !important;
+        font-size: 14px !important;
         width: 468px;
         height: 185px
     }
     .history1 img {
         width: 500px;
         height: 900px;
-        margin-left: 34px
+        margin-left: 34px !important;
     }
     .history1 span {
         width: 500px;
-        margin-top: 40px;
-        margin-right: 20px
+        margin-top: 40px !important;
+        margin-right: 20px !important;
     }
     .history2 img {
         width: 500px;
         height: 900px;
-        margin-right: 30px
+        margin-right: 30px !important;
     }
     .history2 span {
         width: 500px;
-        margin-top: 40px;
-        margin-left: 34px
+        margin-top: 40px !important;
+        margin-left: 34px !important;
     }
     .history3 img,
     .history4 img {
@@ -513,7 +513,7 @@ div.dropdown.link{
     .press {
         width: 92%;
         height: 285px;
-        margin-top: -310px
+        margin-top: -310px !important;
     }
 }
 

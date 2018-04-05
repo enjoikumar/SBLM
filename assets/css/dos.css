@@ -416,7 +416,7 @@ figure.show {
     }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (width: 375px) {
     figure {
         height: 350px !important;
     }
@@ -443,7 +443,7 @@ figure.show {
     }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (width: 320px) {
     figure {
         height: 300px !important;
     }
