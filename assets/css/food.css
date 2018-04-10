@@ -57,14 +57,14 @@ figure.show {
     color: #000;
     position: absolute;
     background: rgba(0, 0, 0, 0.6);
-    top: 0%;
+    top: 0% !important;
     z-index: 1;
     font-size: 2em;
-    margin-top: -.75em;
+    margin-top: -.75em !important;
     opacity: 0;
     user-select: none;
-    height: 100%;
-    width: 50%;
+    height: 100% !important;
+    width: 50% !important;
 }
 
 
@@ -80,9 +80,9 @@ figure.show {
 
 .next {
     right: 0;
-    padding: 10px 5px 15px 10px;
-    border-top-left-radius: 3px;
-    border-bottom-left-radius: 3px;
+    padding: 10px 5px 15px 10px !important;
+    border-top-left-radius: 3px !important;
+    border-bottom-left-radius: 3px !important;
     text-align: center;
 }
 
@@ -99,9 +99,9 @@ figure.show {
 
 .prev {
     left: 0;
-    padding: 10px 10px 15px 5px;
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
+    padding: 10px 10px 15px 5px !important;
+    border-top-right-radius: 3px !important;
+    border-bottom-right-radius: 3px !important;
 }
 
 .title {

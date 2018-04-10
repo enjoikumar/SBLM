@@ -72,8 +72,8 @@ figure.show {
     margin-top: -.75em !important;
     opacity: 0;
     user-select: none;
-    height: 100%;
-    width: 50%;
+    height: 100% !important;
+    width: 50% !important;
 }
 
 
@@ -90,9 +90,9 @@ figure.show {
 
 .next {
     right: 0;
-    padding: 10px 5px 15px 10px;
-    border-top-left-radius: 3px;
-    border-bottom-left-radius: 3px;
+    padding: 10px 5px 15px 10px !important;
+    border-top-left-radius: 3px !important;
+    border-bottom-left-radius: 3px !important;
     text-align: center;
 }
 
@@ -108,10 +108,10 @@ figure.show {
 /*position styling for prev and also making the edges smooth*/
 
 .prev {
-    left: 0;
-    padding: 10px 10px 15px 5px;
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
+    left: 0 !important;
+    padding: 10px 10px 15px 5px !important;
+    border-top-right-radius: 3px !important;
+    border-bottom-right-radius: 3px !important;
 }
 
 .title {
@@ -160,10 +160,10 @@ figure.show {
 }
 
 .down {
-    width: 20%;
-    height: 100%;
-    top: 0;
-    margin-left: 40%;
+    width: 20% !important;
+    height: 100% !important;
+    top: 0 !important;
+    margin-left: 40% !important;
     z-index: 5;
     position: absolute;
 }
