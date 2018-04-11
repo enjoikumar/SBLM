@@ -2,9 +2,11 @@
   margin: 0 !important;
 }
 
-body{
-  /*background-color: papayawhip !important;*/
+a{
+  text-decoration: none !important; 
+  color: white;
 }
+
 
 .navbar{
   margin-top: 6px !important;
@@ -193,21 +195,27 @@ body{
     margin-top: 3% !important;
     margin-right: 5% !important;
     cursor: pointer;
-    color: white;
+    color: white !important;
+    text-decoration: none;
   }
   .overlay #link{
     margin-left: 28% !important;
     padding-bottom: 15px;
     color: white !important;
     cursor: pointer;
+    text-decoration: none;
   }
   .overlay ul{
     list-style: none;
     font-size: 28px;
     margin-left: 20% !important;
+    text-decoration: none !important;
+    color: white !important;
   }
   .overlay li{
     cursor: pointer;
+    text-decoration: none !important;
+    color: white !important;
   }
 }
 
