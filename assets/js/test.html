@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  For more information on how to configure your ASP.NET application, please visit
+  http://go.microsoft.com/fwlink/?LinkId=152368
+  -->
+<configuration>
+  <appSettings>
+    <add key="webpages:Version" value="3.0.0.0" />
+    <add key="PreserveLoginUrl" value="true" />
+    <add key="ClientValidationEnabled" value="true" />
+    <add key="UnobtrusiveJavaScriptEnabled" value="true" />
+    <add key="ApplicationWebServiceURL" value="http://SQL1/Vision/VisionServices.asmx" />
+    <add key="Environment" value="production" />
+    <add key="Key" value="106201773402" />
+    <add key="HelpURL" value="https://help.deltek.com/Product" />
+    <add key="UsageTrackingOverride" value="development" /> 
+    <add key="WAADInstance" value="https://login.windows.net/{0}" />
+    <add key="WAADServerClientID" value="ebacb7d2-87e2-41bc-930b-cbf9ee35e690" />
+  </appSettings>
+
+ <rewrite>
+    <rules>
+      <rule name="Add WWW" stopProcessing="true">
+              <match url="^(.*)$" />
+              <conditions>
+                 <add input="{HTTP_HOST}" pattern="^(?!www\.)(.*)$" />
+              </conditions>
+              <action type="Redirect" url="https://www.{C:0}{PATH_INFO}" redirectType="Permanent" />
+      </rule>
+    </rules>
+  </rewrite>
+    
+  <system.web>
+    <identity impersonate="false" />
+        <httpRuntime targetFramework="4.5" />
+    <compilation debug="true" targetFramework="4.5" />
+  
+    <pages>
+      <namespaces>
+        <add namespace="System.Web.Helpers" />
+        <add namespace="System.Web.Mvc" />
+        <add namespace="System.Web.Mvc.Ajax" />
+        <add namespace="System.Web.Mvc.Html" />
+        <add namespace="System.Web.Routing" />
+        <add namespace="System.Web.WebPages" />
+      </namespaces>
+    </pages>
+  </system.web>
+  <system.webServer>
+    <validation validateIntegratedModeConfiguration="false" />
+    <modules runAllManagedModulesForAllRequests="true" />
+        <staticContent>
+  <mimeMap fileExtension=".ejs" mimeType="text/html" />
+<remove fileExtension=".woff" />
+<mimeMap fileExtension=".woff" mimeType="application/font-woff" />
+<remove fileExtension=".woff2" />
+<mimeMap fileExtension=".woff2" mimeType="application/font-woff" />
+<remove fileExtension=".ttf" />
+<mimeMap fileExtension=".ttf" mimeType="application/x-font-opentype" />
+<remove fileExtension=".eot" />
+<mimeMap fileExtension=".eot" mimeType="vnd.ms-fontobject" />
+        </staticContent>
+        <directoryBrowse enabled="false" />
+        <httpRedirect enabled="false" destination="https://vision.sblm.com/iaccess" exactDestination="false" httpResponseStatus="Permanent" />
+  </system.webServer>
+  <runtime>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="System.Web.Mvc" publicKeyToken="31bf3856ad364e35" />
+        <bindingRedirect oldVersion="1.0.0.0-2.0.0.0" newVersion="3.0.0.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+  </runtime>
+</configuration>
