@@ -107,5 +107,7 @@ $(document).ready(function(){
   if($(window).width() <= 800){
     $('.animation-element').removeClass('animation-element')
   };
+
+  html.empty()
 })
 

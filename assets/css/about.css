@@ -1,43 +1,9 @@
 body {
   background-color: white;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: 'Roboto', sans-serif;
+  cursor: default;
+  overflow-x: hidden;
 }
-
-@-webkit-keyframes fadein {
-  0% {
-    opacity: 0;
-  }
-  30% {
-    opacity: .5;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes fadein {
-  0% {
-    opacity: 0;
-  }
-  30% {
-    opacity: .5;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-
-.navbar .link{
-  /*font-family: 'Roboto', sans-serif !important;*/
-}
-.empt{
-  margin-top: -3px !important;
-}
-div.dropdown.link{
-  height: 24px !important;
-}
-
 
 
 .para,
@@ -47,7 +13,6 @@ div.dropdown.link{
 }
 
 
-/*#about{margin-left: 40px;}*/
 
 .para {
   position: absolute;
@@ -56,7 +21,7 @@ div.dropdown.link{
   font-size: 25px;
   line-height: 35px;
   margin-left: 40px;
-  margin-top: 300px !important;
+  margin-top: 300px;
   padding-left: 160px;
 }
 
@@ -101,17 +66,9 @@ ul {
 }
 
 
-p.dr{
-  margin-top: -28.5%;
-  position: absolute;
-  margin-left: 80%;
-}
-
-
-
 .leadership{
 	position: absolute;
-	margin-top: 45% !important;
+	margin-top: 45%;
 }
  img{
 	width: 40%;
@@ -119,34 +76,34 @@ p.dr{
  #name{
 	position: absolute;
 	font-size: 28px;
-	margin-top: -40% !important;
-	margin-left: 45% !important;
+	margin-top: -40%;
+	margin-left: 45%;
 }
  #title{
 	position: absolute;
 	font-size: 20px;
-	margin-top: -37% !important;
-	margin-left: 45% !important;
+	margin-top: -37%;
+	margin-left: 45%;
 	color: gray;
 }
  #quote{
 	position: absolute;
-	margin-top: -32% !important;
-	margin-left: 45% !important;
+	margin-top: -32%;
+	margin-left: 45%;
 	width: 50%;
 }
  #line{
 	position: absolute;
 	background-color: red !important;
-	margin-top: -24% !important;
-	margin-left: 45% !important;
+	margin-top: -24%;
+	margin-left: 45%;
 	width: 50%;
 	height: 1px;
 }
  #bio{
 	position: absolute;
-	margin-top: -20% !important;
-	margin-left: 45% !important;
+	margin-top: -20%;
+	margin-left: 45%;
 	width: 50%;
 }
  #words{
@@ -159,32 +116,134 @@ p.dr{
 	padding-right: 25px;
 }
 .gf #line{
-  margin-top: -22% !important;
+  margin-top: -22%;
 }
 .ml #line{
-  margin-top: -21.5% !important;
+  margin-top: -21.5%;
 }
 .jh #line{
-  margin-top: -20% !important;
+  margin-top: -20%;
 }
 .jh #bio{
-  margin-top: -15% !important;
+  margin-top: -15%;
 }
 .jc #line{
-  margin-top: -22% !important;
+  margin-top: -22%;
 }
 .jc #bio{
-  margin-top: -18% !important;
+  margin-top: -18%;
 }
 .eb #line{
-  margin-top: -21% !important;
+  margin-top: -21%;
 }
 .eb #bio{
-  margin-top: -17% !important;
+  margin-top: -17%;
 }
 .dn, .gf, .jk,
 .ml, .jh, .jc, .eb{
-	margin-top: 5% !important;
+	margin-top: 5%;
+}
+
+.dn #name{
+  margin-top: -47%;
+}
+.dn #title{
+  margin-top: -45%;
+}
+.dn #quote{
+  margin-top: -40%;
+}
+.dn #line{
+  margin-top: -28%;
+}
+.dn #bio{
+  margin-top: -25%;
+}
+
+.gf #name{
+  margin-top: -47%;
+}
+.gf #title{
+  margin-top: -45%;
+}
+.gf #quote{
+  margin-top: -40%;
+}
+.gf #line{
+  margin-top: -28%;
+}
+.gf #bio{
+  margin-top: -25%;
+}
+
+.ml #name{
+  margin-top: -47%;
+}
+.ml #title{
+  margin-top: -45%;
+}
+.ml #quote{
+  margin-top: -40%;
+}
+.ml #line{
+  margin-top: -28%;
+}
+.ml #bio{
+  margin-top: -25%;
+}
+
+.eb #name{
+  margin-top: -47%;
+}
+.eb #title{
+  margin-top: -45%;
+}
+.eb #quote{
+  margin-top: -40%;
+}
+.eb #line{
+  margin-top: -28%;
+}
+.eb #bio{
+  margin-top: -25%;
+}
+
+
+.headline{
+  font-size: 48px;
+  font-weight: 500;
+  margin-left: 40%;
+  margin-top: 10%;
+}
+#line2{
+  background-color: red;
+  width: 60%;
+  height: 1px;
+  margin-left: 20%;
+  margin-top: -3%;
+}
+
+.associates{
+  width: 100%;
+  margin-top: 10%;
+  margin-left: 8%;
+}
+.associates .other{
+  width: 30%;
+  display: inline-block;
+  padding-bottom: 50px;
+}
+.associates img{
+  width: 300px;
+  /*height: 400px;*/
+  height: 450px;
+}
+.associates .name{
+  font-weight: 600;
+}
+.associates .title{
+  margin-top: -3%;
+  color: gray;
 }
 
 
@@ -197,6 +256,7 @@ p.dr{
     font-size: 32px !important;
     line-height: 51px;
   }
+
 }
 
 @media only screen and (width: 1920px) {
@@ -208,11 +268,108 @@ p.dr{
   .list {
     margin-top: 350px;
   }
+
+  .associates{
+    margin-left: 6.5%;
+  }
+  .associates img{
+    width: 500px;
+    height: 600px;
+  }
 }
 
-@media only screen and (width:800px) {
+@media only screen and (max-width:800px) {
+  .para{
+    margin-top: 12%;
+  }
   .list {
     margin-top: 400px;
+  }
+  .jb #line{
+    margin-top: -21%;
+  }
+  .dn{
+    margin-top: 24%;
+  }
+  .dn #line{
+    margin-top: -16.5%;
+  }
+  .dn #bio{
+    margin-top: -15%;
+  }
+  .gf{
+    margin-top: 23%;
+  }
+  .gf #line{
+    margin-top: -13.5%;
+  }
+  .gf #bio{
+    margin-top: -12%;
+  }
+
+   .jk{
+    margin-top: 26%;
+   }
+   .jk #line{
+    margin-top: -23%;
+   }
+
+  .ml{
+    margin-top: 25%;
+  }
+  .ml #line{
+    margin-top: -9%;
+  }
+  .ml #bio{
+    margin-top: -8%;
+  }
+
+  .jh{
+    margin-top: 33%;
+  }
+  .jh #line{
+    margin-top: -11%;
+  }
+  .jh #bio{
+    margin-top: -9%;
+  }
+
+  .jc{
+    margin-top: 17%;
+  } 
+  .jc #line{
+    margin-top: -13%;
+  }
+  .jc #bio{
+    margin-top: -11%;
+  }
+
+  .eb{
+    margin-top: 18%;
+  }
+  .eb #line{
+    margin-top: -14%;
+  }
+  .eb #bio{
+    margin-top: -12%;
+  }
+
+  .ml #title, .gf #title,
+  .dn #title, .eb #title{
+    margin-top: -43%;
+  }
+
+  .headline{
+    font-size: 36px;
+    margin-top: 23%;
+  }
+
+  .associates{
+    margin-top: 25%;
+  }
+  .associates img{
+    width: 200px;
+    height: 300px;
   }
 }
 
@@ -231,6 +388,78 @@ p.dr{
     padding-left: 0px;
     margin-left: 60px;
   }
+
+  .jb #line{
+    margin-top: -18%;
+  }
+  .jb #bio{
+    margin-top: -16%;
+  }
+  .dn{
+    margin-top: 30%;
+  }
+  .dn #line{
+    margin-top: -16%;
+  }
+  .dn #bio{
+    margin-top: -15%;
+  }
+  .gf{
+    margin-top: 23%;
+  }
+  .gf #line{
+    margin-top: -11%;
+  }
+  .gf #bio{
+    margin-top: -10%;
+  }
+
+   .jk{
+    margin-top: 30%;
+   }
+   .jk #line{
+    margin-top: -21%;
+   }
+
+  .ml{
+    margin-top: 30%;
+  }
+  .ml #line{
+    margin-top: -5%;
+  }
+  .ml #bio{
+    margin-top: -4%;
+  }
+
+  .jh{
+    margin-top: 41%;
+  }
+  .jh #line{
+    margin-top: -8%;
+  }
+  .jh #bio{
+    margin-top: -7%;
+  }
+
+  .jc{
+    margin-top: 23%;
+  } 
+  .jc #line{
+    margin-top: -13%;
+  }
+  .jc #bio{
+    margin-top: -11%;
+  }
+
+  .eb{
+    margin-top: 22%;
+  }
+  .eb #line{
+    margin-top: -11%;
+  }
+  .eb #bio{
+    margin-top: -10%;
+  }
 }
 
 @media only screen and (width: 667px) {
@@ -242,6 +471,95 @@ p.dr{
     padding-left: 0px;
     margin-left: 60px;
   }
+  .associates{
+    margin-left: 4%;
+  }
+
+  #title{
+    margin-top: -36%;
+  }
+
+
+  .jb #line{
+    margin-top: -16%;
+  }
+  .jb #bio{
+    margin-top: -14%;
+  }
+
+  .dn{
+    margin-top: 50%;
+  }
+  .dn #line{
+    margin-top: -17%;
+  }
+  .dn #bio{
+    margin-top: -15%;
+  }
+
+  .gf{
+    margin-top: 35%;
+  }
+  .gf #line{
+    margin-top: -12%;
+  }
+  .gf #bio{
+    margin-top: -10%;
+  }
+
+ .jk{
+    margin-top: 35%;
+  }
+ .jk #line{
+    margin-top: -19%;
+  }
+  .jk #bio{
+    margin-top: -17%;
+  }
+
+  .ml{
+    margin-top: 40%;
+  }
+  .ml #line{
+    margin-top: -6%;
+  }
+  .ml #bio{
+    margin-top: -4%;
+  }
+
+  .jh{
+    margin-top: 50%;
+  }
+  .jh #line{
+    margin-top: -2%;
+  }
+  .jh #bio{
+    margin-top: 0%;
+  }
+
+  .jc{
+    margin-top: 34%;
+  } 
+  .jc #line{
+    margin-top: -6%;
+  }
+  .jc #bio{
+    margin-top: -3%;
+  }
+
+  .eb{
+    margin-top: 34%;
+  }
+  .eb #line{
+    margin-top: -13%;
+  }
+  .eb #bio{
+    margin-top: -10%;
+  }
+
+  .headline{
+    margin-top: 40%;
+  }
 }
 
 @media only screen and (width: 568px) {
@@ -252,6 +570,126 @@ p.dr{
     margin-top: 100px;
     padding-left: 0px;
     margin-left: 60px;
+  }
+  .leadership{
+    margin-top: 70%;
+  }
+  .headline{
+    margin-top: 80%;
+    margin-left: 33%;
+  }
+  .associates{
+    margin-top: 30%;
+    margin-left: 35%;
+  }
+  .associates .other{
+    display: inline;
+  }
+  #title{
+    margin-top: -35%;
+  }
+
+  .jb #quote{
+    margin-top: -30%;
+  }
+  .jb #line{
+    margin-top: -5%;
+  }
+  .jb #bio{
+    margin-top: -3%;
+  }
+
+  .dn{
+    margin-top: 85%;
+  }
+  .dn #quote{
+    margin-top: -37.5%;
+  }
+  .dn #line{
+    margin-top: -8%;
+  }
+  .dn #bio{
+    margin-top: -5%;
+  }
+
+  .gf{
+    margin-top: 65%;
+  }
+  .gf #title{
+    margin-top: -36.5%;
+  }
+  .gf #quote{
+    margin-top: -31%;
+  }
+  .gf #line{
+    margin-top: 8.5%;
+  }
+  .gf #bio{
+    margin-top: 12%;
+  }
+
+  .jk{
+    margin-top: 85%;
+  }
+  .jk #quote{
+    margin-top: -30%;
+  }
+  .jk #line{
+    margin-top: -13%
+  }
+  .jk #bio{
+    margin-top: -10%;
+  }
+  .ml{
+    margin-top: 75%;
+  }
+  .ml #quote{
+    margin-top: -38%;
+  }
+  .ml #line{
+    margin-top: 12%;
+  }
+  .ml #bio{
+    margin-top: 15%;
+  }
+  .jh{
+    margin-top: 95%;
+  } 
+  .jh #quote{
+    margin-top: -30%;
+  }
+  .jh #line{
+    margin-top: 11%;
+  }
+  .jh #bio{
+    margin-top: 15%;
+  }
+  .jc{
+    margin-top: 65%;
+  } 
+  .jc #quote{
+    margin-top: -30%;
+  }
+  .jc #line{
+    margin-top: 4%;
+  }
+  .jc #bio{
+    margin-top: 8%;
+  }
+  .eb{
+    margin-top: 60%; 
+  }
+  .eb #title{
+    margin-top: -36%;
+  }
+  .eb #quote{
+    margin-top: -30%;
+  }
+  .eb #line{
+    margin-top: 6.5%;
+  }
+  .eb #bio{
+    margin-top: 9%;
   }
 }
 
@@ -268,7 +706,7 @@ p.dr{
   }
 
   .leadership{
-    margin-top: 190%;
+    margin-top: 90%;
   }
   
   img{
@@ -298,67 +736,154 @@ p.dr{
     margin-left: 5%;
     width: 90%;
   }
+  .jb #line{
+    margin-top: 55%;
+  }
 
   .dn{
-    margin-top: 140%;
+    margin-top: 160%;
+  }
+  .dn #name{
+    margin-top: 0%;
+  } 
+  .dn #title{
+    margin-top: 7%;
+  }
+  .dn #quote{
+    margin-top: 15%;
   }
   .dn #line{
-    margin-top: 57%;
+    margin-top: 48%;
+  }
+  .dn #bio{
+    margin-top: 53%;
   }
 
   .gf{
-    margin-top: 140%;
+    margin-top: 130%;
+  }
+  .gf #name{
+    margin-top: 0%
+  }
+  .gf #title{
+    margin-top: 7%;
   }
   .gf #line{
-    margin-top: 70%;
+    margin-top: 56%;
+  }
+  .gf #quote{
+    margin-top: 14%;
   }
   .gf #bio{
-    margin-top: 77%;
+    margin-top: 63%;
   }
 
+
   .jk{
-    margin-top: 150%;
+    margin-top: 140%;
+  }
+  .jk #name{
+    margin-top: 0%;
+  }
+  .jk #title{
+    margin-top: 7%;
+  }
+  .jk #quote{
+    margin-top: 14%;
+  }
+  .jk #line{
+    margin-top: 36%
+  }
+  .jk #bio{
+    margin-top: 40%;
   }
 
   .ml{
-    margin-top: 150%;
+    margin-top: 130%;
+  }
+  .ml #name{
+    margin-top: 0%;
+  }
+  .ml #title{
+    margin-top: 7%;
+  }
+  .ml #quote{
+    margin-top: 14%;
   }
   .ml #line{
-    margin-top: 80%;
+    margin-top: 66%;
   }
   .ml #bio{
-    margin-top: 90%;
+    margin-top: 73%;
   }
 
   .jh{
-    margin-top: 175%;
+    margin-top: 155%;
+  }
+  .jh #name{
+    margin-top: 0%;
+  }
+  .jh #title{
+    margin-top: 7%;
+  }
+  .jh #quote{
+    margin-top: 14%;
   }
   .jh #line{
-    margin-top: 73%;
+    margin-top: 63%;
   }
   .jh #bio{
-    margin-top: 80%;
+    margin-top: 70%;
   }
 
   .jc{
     margin-top: 130%;
   }
+  .jc #name{
+    margin-top: 0%;
+  }
+  .jc #title{
+    margin-top: 7%;
+  }
+  .jc #quote{
+    margin-top: 14%;
+  }
   .jc #line{
-    margin-top: 65%;
+    margin-top: 54%;
   }
   .jc #bio{
-    margin-top: 75%;
+    margin-top: 60%;
   }
   
   .eb{
-    margin-top: 140%;
+    margin-top: 120%;
+  }
+  .eb #name{
+    margin-top: 0%
+  }
+  .eb #title{
+    margin-top: 7%;
+  }
+  .eb #quote{
+    margin-top: 14%;
   }
   .eb #line{
-    margin-top: 70%;
+    margin-top: 58%;
   }
   .eb #bio{
-    margin-top: 78%;
-    padding-bottom: 40px;
+    margin-top: 66%;
+  }
+
+  .headline{
+    margin-top: 135%;
+    margin-left: 25%;
+  }
+  .associates{
+    margin-top: 20%;
+    margin-left: 25%;
+  }
+  .associates .other{
+    display: inline;
   }
 }
 
@@ -375,62 +900,78 @@ p.dr{
     font-size: 24px;
   }
   .leadership{
-    margin-top: 240%;
+    margin-top: 110%;
   }
 
   .dn{
-    margin-top: 160%;
+    margin-top: 167%;
   }
   .dn #line{
-    margin-top: 68%;
+    margin-top: 57%;
   }
   .dn #bio{
-    margin-top: 78%;
+    margin-top: 63%;
   }
 
   .gf{
-    margin-top: 165%;
+    margin-top: 150%;
   }
   .gf #line{
-    margin-top: 80%;
+    margin-top: 67%;
   }
   .gf #bio{
-    margin-top: 90%;
+    margin-top: 74%;
   }
 
   .jk{
-    margin-top: 175%;
+    margin-top: 163%;
+  }
+  .jk #line{
+    margin-top: 37%;
   }
 
   .ml{
-    margin-top: 170%;
+    margin-top: 150%;
   }
   .ml #line{
-    margin-top: 85%;
+    margin-top: 77%;
+  }
+  .ml #bio{
+    margin-top: 84%;
   }
 
   .jh{
-    margin-top: 195%;
+    margin-top: 187%;
   }
   .jh #line{
-    margin-top: 83%;
+    margin-top: 72.5%;
   }
   .jh #bio{
-    margin-top: 90%;
+    margin-top: 78%;
   }
 
   .jc{
-    margin-top: 150%;
+    margin-top: 140%;
   }
   .jc #line{
-    margin-top: 75%;
+    margin-top: 61%;
   }
   .jc #bio{
-    margin-top: 85%;
+    margin-top: 68%;
   }
 
   .eb{
-    margin-top: 155%;
+    margin-top: 135%;
+  }
+  .eb #line{
+    margin-top: 60%;
+  }
+
+  .headline{
+    margin-left: 22%;
+  }
+  .associates{
+    margin-left: 23%;
   }
 }
 
@@ -444,11 +985,14 @@ p.dr{
   .para {
     margin-top: 100px;
     padding-left: 0px;
-    margin-left: 60px;
+    margin-left: 35px;
   }
 
   .leadership{
-    margin-top: 230%;
+    margin-top: 130%;
+  }
+  .leadership #line{
+    width: 80%;
   }
 
   #name{
@@ -466,73 +1010,114 @@ p.dr{
   }
 
   .dn{
-    margin-top: 210%;
+    margin-top: 230%;
   }
   .dn #line{
-    margin-top: 80%;
+    margin-top: 71%;
   }
   .dn #bio{
-    margin-top: 90%;
+    margin-top: 80%;
   }
 
   .gf{
-    margin-top: 210%;
+    margin-top: 200%;
   } 
   .gf #line{
-    margin-top: 93%;
+    margin-top: 80%;
   }
   .gf #bio{
-    margin-top: 100%;
+    margin-top: 88%;
   }
 
   .jk{
-    margin-top: 225%;
+    margin-top: 215%;
+  }
+  .jk #line{
+    margin-top: 45%;
+  }
+  .jk #bio{
+    margin-top: 53%;
   }
 
 
   .ml{
-    margin-top: 205%;
+    margin-top: 195%;
   }
   .ml #line{
-    margin-top: 110%;
+    margin-top: 99%;
   }
   .ml #bio{
-    margin-top: 120%;
+    margin-top: 107%;
   }
 
   .jh{
-    margin-top: 263%;
+    margin-top: 250%;
   }
   .jh #line{
-    margin-top: 100%;
+    margin-top: 87.5%;
   }
   .jh #bio{
-    margin-top: 110%;
+    margin-top: 94%;
   }
 
   .jc{
-    margin-top: 190%;
+    margin-top: 172%;
   } 
   .jc #line{
-    margin-top: 90%;
+    margin-top: 75%;
   }
   .jc #bio{
-    margin-top: 100%;
+    margin-top: 82%;
   }
 
   .eb{
-    margin-top: 195%;
+    margin-top: 172%;
   }
   .eb #line{
-    margin-top: 95%;
+    margin-top: 82%;
   }
   .eb #bio{
-    margin-top: 105%;
+    margin-top: 90%;
+  }
+
+  .headline{
+    margin-top: 200%;
+    margin-left: 17%;
+  }
+
+  .associates{
+    margin-top: 25%;
+    margin-left: 18%;
+  }
+  .associates .other{
+    padding-bottom: 40px;
   }
 }
 
 
 
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 

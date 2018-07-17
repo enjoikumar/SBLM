@@ -48,7 +48,6 @@ $(document).ready(function(){
     $wHeight = $(window).height();
     $item.height($wHeight);
   });
-
 })
 
 

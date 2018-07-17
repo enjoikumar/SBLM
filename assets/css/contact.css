@@ -1,16 +1,8 @@
 body {
   background-size: cover;
   background-color: white;
-  font-family: 'Arimo', sans-serif !important;
+  font-family: 'Arimo', sans-serif;
 }
-
-.navbar{
-  font-family: 'Roboto', sans-serif !important;
-}
-div.dropdown.link{
-  height: 24px !important;
-}
-
 
 .office,
 .inq {
@@ -21,8 +13,8 @@ div.dropdown.link{
 .inq {
   overflow: hidden;
   position: relative;
-  padding-left: 200px !important;
-  margin-top: 40px !important;
+  padding-left: 200px;
+  margin-top: 40px;
 }
 
 @-webkit-keyframes fadein {
@@ -61,7 +53,7 @@ div.dropdown.link{
 /*styling for offices*/
 
 .office {
-  margin-top: 220px !important;
+  margin-top: 220px;
   overflow: hidden;
   padding-left: 200px;
   font-size: 19px;
@@ -112,8 +104,8 @@ a:visited {
 .opp{
 	position: absolute;
 	overflow: hidden;
-	margin-top: -48.5em !important;
-	margin-left: 40em !important;
+	margin-top: -57.5em;
+	margin-left: 40em;
 	background-color: #EEEEEE;
 	padding: 30px 30px 30px 30px;
 }

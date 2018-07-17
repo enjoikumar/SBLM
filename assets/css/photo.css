@@ -27,8 +27,8 @@ body {
 h2 {
     color: white;
     position: absolute;
-    top: -23px;
-    right: -256px;
+    top: -529px;
+    left: -256px;
     margin-top: 0px;
     padding: 20px 20px 20px 20px;
     font-size: 28px;
@@ -45,14 +45,6 @@ h2:hover {
 a {
     text-decoration: none;
     color: white !important;
-}
-
-.carousel-indicators{
-  margin-left: -30% !important;
-}
-.carousel-caption{
-  bottom: 0 !important;
-  position: fixed !important;
 }
 
 .carousel-control {
@@ -94,10 +86,6 @@ a {
     background-color: #ee3b2c !important;
 }
 
-.carousel-inner{
-    margin-top: -23px;
-}
-
 @media all and (transform-3d),
 (-webkit-transform-3d) {
     .carousel-fade .carousel-inner > .item.next,
@@ -123,37 +111,41 @@ a {
 
 @media only screen and (width: 2560px) {
     h2 {
-        right: -512px;
+        left: -512px;
     }
 }
 
 @media only screen and (width:1920px) {
     h2 {
-        right: -384px;
+        top: -865px;
+        left: -384px;
     }
 }
 
 @media only screen and (width: 1440px) {
     h2 {
-        right: -288px;
+        top: -696px;
+        left: -288px;
     }
 }
 
 @media only screen and (width: 1366px) {
     h2 {
-        right: -273px;
+        top: -677px;
+        left: -273px;
     }
 }
 
 @media screen and (width: 1080px) {
     h2 {
-        right: -216px;
+        top: -563px;
+        left: -216px;
     }
 }
 
 @media only screen and (width: 1024px) {
     h2 {
-        right: -205px;
+        left: -205px;
     }
 }
 
